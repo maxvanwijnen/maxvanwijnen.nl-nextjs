@@ -1,0 +1,27 @@
+.breadcrumb-wrapper {
+   color: var(--color-black-coffee);
+    width: 100%;
+    font-family: 'Raleway', sans-serif;
+    text-transform: uppercase;
+    font-size:var(--nav-font-size);
+
+}
+
+.breadcrumb-wrapper ol {
+    display: flex;
+    list-style: none;
+    padding: 10px;
+    background-color: #fff;
+    border-radius: 5px;
+    text-transform: uppercase;
+
+}
+
+.breadcrumb-wrapper li {
+    margin: 0px 10px;
+}
+
+.breadcrumb-wrapper a {
+    color: #444;
+
+}
