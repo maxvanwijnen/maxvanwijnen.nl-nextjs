@@ -1,4 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Tamma+2&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
 
 :root {
   --color-orange:#FB8B24;
@@ -9,6 +12,11 @@
   --nav-font-size:12px;
   --transparant-white:rgba(255, 255, 255, 0.95);
   --max-width:1270px;
+
+  --font-raleway: 'Raleway', sans-serif;
+  --font-baloo-tamma: 'Baloo Tamma 2', sans-serif;
+  --font-roboto: 'roboto', sans-serif;
+
 }
 
 * {

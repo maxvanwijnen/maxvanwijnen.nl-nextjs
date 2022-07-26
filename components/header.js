@@ -53,7 +53,7 @@ function NavBar() {
                 <FiMenu  /> <span>{menuType.buttonName}</span>
             </a>
             <div className={styles.logoWrapper}>
-                <Image className={styles.logo} src="/../public/img/logo/logo-maxvanwijnen-fotografie-black.png"
+                <Image className={styles.logo} src="/img/logo/logo-maxvanwijnen-fotografie-black.png"
                        width={140}
                        height={35}
                        alt="Maxvanwijnen logo" />
@@ -61,7 +61,7 @@ function NavBar() {
 
             <div className={styles['nav-items']}>
                 <Link href="/"><a onClick={closeMenu}>Home</a></Link>
-                <Link href="/fotoshoot" className={styles.fotoshoot} ><a onClick={closeMenu}> Fotoshoots</a></Link>
+                <Link href="/fotoshoot"><a onClick={closeMenu} className={styles['fotoshoot']} > Fotoshoots</a></Link>
                 <div className={styles['submenu-fotoshoot']}>
                     <Link href="/fotoshoot/kinderen" ><a onClick={closeMenu}>Kinderen</a></Link>
                     <Link href="/fotoshoot/portret"><a  onClick={closeMenu}>Portret</a></Link>
@@ -115,7 +115,7 @@ export default function Header(props) {
 
     console.log('+++++'+props.page)
     return (
-        <header className={`${props.page} ${styles.header}`}>
+        <header className={`${styles[props.page]} ${styles.header}`}>
             <div className={styles['container']}>
                 <NavBar />
                 {/*<Breadcrumbs />*/}

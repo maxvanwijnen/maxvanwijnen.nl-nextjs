@@ -14,8 +14,8 @@ export default function Layout({ children }) {
         <>
             <Header page={pathName} />
             <main>
-                <section><AiFillHome />
-                    <Breadcrumbs containerClassName={breadCrumbStyles['breadcrumb-wrapper']} rootLabel={<AiFillHome />} />
+                <section>
+                    <Breadcrumbs containerClassName={breadCrumbStyles['breadcrumb-wrapper']} rootLabel="" />
                 </section>
                 {children}
             </main>

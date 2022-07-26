@@ -13,11 +13,14 @@
 .header {
     background-image:url("../public/img/header/Kinderfotografie-header.webp");
 }
-.header.home {
+.header.portfolio {
     background-image:url("../public/img/header/familiefotografie_header.webp");
 }
 .header.fotoshootfamilie {
     background-image:url("../public/img/header/familiefotografie_header.webp");
+}
+.header.fotoshootkinderen {
+    background-image:url("../public/img/header/Kinderfotografie-header.webp");
 }
 .header.fotoshoot {
     background-image:url("../public/img/header/Kinderfotografie-header.webp");
@@ -29,9 +32,6 @@
     background-image:url("../public/img/header/portretfotografie.webp");
 }
 
-.header {
-    background-image:url("../public/img/header/zwangerschap-header.webp");
-}
 
 .header .container {
     display: flex;
@@ -63,7 +63,7 @@
     display: inline-block;
 
     color: #2F2F2F;
-    font-family: 'Raleway', sans-serif;
+    font-family: var(--font-raleway);
     text-transform: uppercase;
     font-size:var(--nav-font-size);
 
