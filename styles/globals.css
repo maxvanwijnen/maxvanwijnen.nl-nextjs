@@ -1,6 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Baloo+Tamma+2&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@600&display=swap');
+
 
 
 :root {
@@ -16,6 +18,7 @@
   --font-raleway: 'Raleway', sans-serif;
   --font-baloo-tamma: 'Baloo Tamma 2', sans-serif;
   --font-roboto: 'roboto', sans-serif;
+  --font-nunito: 'Nunito', sans-serif;
 
 }
 
