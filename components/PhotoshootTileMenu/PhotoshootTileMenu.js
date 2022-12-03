@@ -1,7 +1,6 @@
 import React from 'react';
 import PhotoshootTile from "./PhotoshootTile/PhotoshootTile";
 import styles from './photoshoottile-menu.module.css';
-import Image from 'next/Image';
 
 export const PhotoshootTileMenu = () => {
     return (
