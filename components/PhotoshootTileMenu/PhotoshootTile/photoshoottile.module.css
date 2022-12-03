@@ -18,26 +18,26 @@
 
 .title {
     font-family: var(--font-nunito);
-    text-transform: capitalize;
     margin-top:5px;
     color: var(--color-black-coffee);
+
 
 }
 .title .fotoshoot {
     z-index: 1;
-    font-size: 18px;
     font-weight: 600;
     font-size: 16px;
     text-align: center;
     line-height: 18px;
+    text-transform:capitalize;
 
 }
 
 .title .text {
     z-index: 1;
-    font-size: 21px;
+    text-transform: uppercase;
+    font-size: 12px;
     line-height:18px;
-
     text-align: center;
 }
 
@@ -51,30 +51,33 @@
     background-position: center;
     background-size:cover;
     filter:brightness(1);
-    transition: filter 0.2s ease-in;
+    transition: filter 0.5s ease-in;
 }
-.photoshoot-tile .background-image:hover {
-    filter:brightness(0.5);
 
-}
 .hover-text {
-    display: none;
+    opacity: 0;
     z-index: 1;
     text-align: center;
     font-family: var(--font-nunito);
     color: white;
+    text-transform: lowercase;
+    transition: opacity 0.8s ease-in;
 }
-.photoshoot-tile .background-image:hover ~ .hover-text
- {
+.photoshoot-tile:hover .background-image {
+    filter:brightness(0.5);
+}
+.photoshoot-tile:hover .hover-text {
+    opacity: 0.9;
+}
+.photoshoot-tile .background-image:hover ~ .hover-text {
     display: block;
+    z-index: 99;
 }
 .hover-text:hover {
     display: block;
-
 }
 .hover-text:hover ~ .background-image {
     filter:brightness(0.5);
-
 }
 
 .photoshoot-tile.kinderen .background-image {

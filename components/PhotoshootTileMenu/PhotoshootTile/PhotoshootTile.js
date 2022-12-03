@@ -7,13 +7,13 @@ export function PhotoshootTile ({page, img}) {
             <div>
                 <Link href={`/fotoshoot/${page}`} >
                     <a className={`${styles['photoshoot-tile']} ${styles[page]}`}>
-
+                        <div className={styles['hover-text']}>
+                            Naar fotoshoot {page}
+                        </div>
                         <div className={styles['background-image']}>
 
                         </div>
-                        <div className={styles['hover-text']}>
-                            Naar Fotoshoot {page}
-                        </div>
+
                     </a>
                 </Link>
                 <div className={styles['title']}>
