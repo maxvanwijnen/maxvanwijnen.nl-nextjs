@@ -66,9 +66,7 @@
 }
 .photoshoot-tile .background-image:hover ~ .hover-text
  {
-
     display: block;
-
 }
 .hover-text:hover {
     display: block;
