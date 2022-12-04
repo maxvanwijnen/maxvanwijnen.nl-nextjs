@@ -32,7 +32,8 @@
     .txtImg2Column {
         flex-direction: column;
     }
-    .txtImg2Column  .text {
+
+    .txtImg2Column .text {
         flex-basis: fit-content;
     }
 }
