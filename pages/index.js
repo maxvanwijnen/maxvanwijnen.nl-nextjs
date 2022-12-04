@@ -7,7 +7,7 @@ import React from "react";
 import Link from "next/link";
 
 export default function Home() {
-    const testText =  <>Ben jij op zoek naar professionele fotografie in de regio Leiden, Noordwijk of de bollenstreek? Samen bespreken wij jouw wensen en denk ik met je mee zodat je trots kan zijn op het eindresultaat. Hierbij heb ik mij gespecialiseerd in <Link href="/fotoshoot/kinderfotografie" ><a >kinderfotografie</a></Link> , portretfotografie, famillieportretten en zwangersschapsfoto's</>;
+    const testText =  <>Ben jij op zoek naar professionele fotografie in de regio Leiden, Noordwijk of de bollenstreek? Samen bespreken wij jouw wensen en denk ik met je mee zodat je trots kan zijn op het eindresultaat. Hierbij heb ik mij gespecialiseerd in <Link href="/fotoshoot/kinderfotografie" ><a >kinderfotografie</a></Link> , portretfotografie, famillieportretten en zwangersschapsfoto&apos;s</>;
   return (
 
     <section className={styles.container}>
