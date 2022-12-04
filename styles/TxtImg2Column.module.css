@@ -1,21 +1,23 @@
 .txtImg2Column {
     display: flex;
     width: 100%;
+    max-width: var(--max-width);
     justify-content: space-between;
+    margin-top:30px;
 }
 
-.txtImg2Column article {
+.txtImg2Column .text {
     background-color: white;
     padding:20px;
     border-radius: 16px;
     flex-basis: 670px;
 }
 
-.txtImg2Column article h2 {
+.txtImg2Column .text h2 {
     font-family: var(--font-baloo-tamma);
     font-size: 48px;
 }
-.txtImg2Column p {
+.txtImg2Column .text p {
     font-family: var(--font-roboto);
     color: #5E5E5E;
     font-size:20px;
@@ -24,4 +26,13 @@
 }
 .txtImg2Column img {
     border-radius: 16px;
+}
+
+@media only screen and (max-width: 800px) {
+    .txtImg2Column {
+        flex-direction: column;
+    }
+    .txtImg2Column  .text {
+        flex-basis: fit-content;
+    }
 }
