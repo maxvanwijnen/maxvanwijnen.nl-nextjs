@@ -8,7 +8,7 @@ const PricePackage = ({children, type, price, uspList,img}) => {
             <div className={css['price-package']}>
                 <img src={img} alt={type} width={300} />
                 <h3>{type}</h3>
-                <span className={css['price']}>{price}</span>
+                <span className={css['price']}>&euro;{price}</span>
                 <ul className={css['uspList']}>
                     {uspList.map((usp)=>{
                         return (
