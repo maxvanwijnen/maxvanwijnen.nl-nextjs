@@ -17,8 +17,8 @@ const PricePackages = () => {
                 </PricePackage>
 
                 <PricePackage
-                    price={89}
-                    type="basic"
+                    price={139}
+                    type="deluxe"
                     uspList={[{title:'Leuke',desc:'asdasdasdasdas'},
                         {title:'2e',desc:'fdgdfgfgdf'}]}
                     img="https://www.maxvanwijnen.nl/www/images/kinderen/Fotoshoot-strand-kind.webp"
@@ -26,8 +26,8 @@ const PricePackages = () => {
                     kdfjhsdfjhskfhsfkd
                 </PricePackage>
                 <PricePackage
-                    price={89}
-                    type="basic"
+                    price={189}
+                    type="premium"
                     uspList={[{title:'Leuke',desc:'asdasdasdasdas'},
                         {title:'2e',desc:'fdgdfgfgdf'}]}
                     img="https://www.maxvanwijnen.nl/www/images/kinderen/Fotoshoot-strand-kind.webp"

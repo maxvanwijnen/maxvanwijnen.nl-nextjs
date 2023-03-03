@@ -40,8 +40,7 @@ export default function Kinderen (){
                 <h2>Pakketten en prijzen</h2>
                 <p>We bieden verschillende pakketten voor onze kinderfotoshoots, variërend van korte sessies tot uitgebreide fotoshoots. Neem contact met ons op voor meer informatie over onze pakketten en prijzen. We zullen graag uw vragen beantwoorden en u helpen bij het kiezen van het beste pakket voor uw behoeften.
                 </p>
-                <h2>Voorbeeldfotos</h2>
-                <p>Bekijk enkele voorbeelden van onze kinderfotoshoots in ons portfolio. We hebben een verscheidenheid aan stijlen en poses om uit te kiezen, en we zijn ervan overtuigd dat je iets zult vinden dat je leuk vindt.</p>
+
             </TextContent>
             <PricePackages />
 
@@ -53,7 +52,9 @@ export default function Kinderen (){
                 {url:'https://www.maxvanwijnen.nl/www/images/Fotoshoot-kind-noordwijk-001.jpg', alt:'kinder fotografie'},
                 {url:'https://www.maxvanwijnen.nl/www/images/Fotoshoot-kind-noordwijk-001.jpg', alt:'kinder fotografie'}
             ]}
-            />
+            >
+                Bekijk enkele voorbeelden van onze kinderfotoshoots in ons portfolio. We hebben een verscheidenheid aan stijlen en poses om uit te kiezen, en we zijn ervan overtuigd dat je iets zult vinden dat je leuk vindt.
+            </ImageRow>
         </>
 
             );

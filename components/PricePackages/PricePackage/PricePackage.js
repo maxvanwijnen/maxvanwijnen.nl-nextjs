@@ -6,21 +6,22 @@ const PricePackage = ({children, type, price, uspList,img}) => {
     return (
 
             <div className={css['price-package']}>
-                <img src={img} alt={type} width={250} />
+                <img src={img} alt={type} width={300} />
                 <h3>{type}</h3>
-                <span>{price}</span>
+                <span className={css['price']}>{price}</span>
                 <ul className={css['uspList']}>
                     {uspList.map((usp)=>{
                         return (
                             <li key={usp.title}>
-                                <div>{usp.title}</div>
-                                <div>{usp.desc}</div>
+                                <div className={css['title']}>{usp.title}</div>
+                                <div className={css['desc']}>{usp.desc}</div>
                             </li>
                         )
                     })}
                 </ul>
 
-                <div>{children}</div>
+                <div className={css['description']}>{children}</div>
+                <button>Boek fotoshoot {type}</button>
             </div>
 
     )
