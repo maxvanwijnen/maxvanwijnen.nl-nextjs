@@ -3,10 +3,13 @@ import css from './TitleAndText.module.scss';
 
 const TitleAndText = ({title, children}) => {
     return (
-        <article className={css['title-text']}>
-            <h2>{title}</h2>
-            <p>{children}</p>
-        </article>
+        <section>
+            <article className={css['title-text']}>
+                <h2>{title}</h2>
+                <p>{children}</p>
+            </article>
+        </section>
+
     )
 }
 

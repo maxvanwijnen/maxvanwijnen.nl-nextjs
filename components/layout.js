@@ -1,4 +1,4 @@
-import Header from "./header";
+import Header from "./Header/Header";
 import Footer from './footer';
 import {useRouter} from "next/router";
 import breadCrumbStyles from '../styles/Breadcrumb.module.css';
@@ -7,8 +7,9 @@ import { AiFillHome } from 'react-icons/ai'
 import { PhotoshootTileMenu } from './../components/PhotoshootTileMenu/PhotoshootTileMenu';
 
 
-export default function Layout({ children }) {
+export default function Layout({ children , page}) {
     const pathName = useRouter().asPath.replaceAll('/','');
+
 
 
     return (

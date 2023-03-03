@@ -5,12 +5,12 @@ import { PhotoshootTileMenu }from '../components/PhotoshootTileMenu/PhotoshootTi
 import ImgTxt2Column from "../components/TxtImg2Column/TxtImg2Column";
 import React from "react";
 import Link from "next/link";
+import Layout from './../components/layout';
 
 export default function Home() {
 
 
   return (
-
     <section className={styles.container}>
       <h1>Professionele portretfotografie & fotoshoots</h1>
 
@@ -30,3 +30,4 @@ export default function Home() {
     </section>
   )
 }
+

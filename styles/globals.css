@@ -35,7 +35,8 @@ a:active {
 body {
   opacity: 1;
   transition: opacity 5s;
-  background-color: #FBFBFB;
+  background: rgb(255,255,255);
+  background: linear-gradient(180deg, rgba(255,255,255,1) 0%, rgba(255,255,255,1) 10%, rgba(244,244,244,1) 100%);
 }
 .container {
   width:1200px;

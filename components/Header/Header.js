@@ -3,11 +3,11 @@ import React from 'react';
 import Image from 'next/image';
 import { FiMenu } from 'react-icons/fi';
 import { HiArrowSmRight } from 'react-icons/hi';
-import styles from '../styles/Header.module.css';
-import { NavBar } from './NavBar';
+import styles from './Header.module.scss';
+import { NavBar } from '../NavBar';
 
 
-import logoImg from '../public/img/logo/logo-maxvanwijnen-fotografie-black.png';
+import logoImg from '../../public/img/logo/logo-maxvanwijnen-fotografie-black.png';
 
 
 
@@ -45,6 +45,11 @@ export default function Header({page}) {
     //let currentPage  = 'fotoshoot';
 
     console.log('+++++'+page)
+
+    if (!page){
+        page = 'home';
+    }
+
     return (
         <header className={`${styles[page]} ${styles.header}`}>
             <div className={styles['container']}>
