@@ -1,13 +1,13 @@
 import React from 'react';
 import css from './TextImg.module.scss';
 
-const TextImg = ({title, children}) => {
+const TextImg = ({title,img, children}) => {
     return (
         <>
         <article className={css['text-img']}>
             <h2>{title}</h2>
             <div className={css['text-content']}>{children}</div>
-            <img src="https://www.maxvanwijnen.nl/www/images/898/kinderen/Fotoshoot-kind-noordwijk-898.webp" alt="" />
+            <img src={img} alt="" />
         </article>
         </>
     )

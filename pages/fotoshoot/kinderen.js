@@ -1,15 +1,15 @@
-import Image from "next/image";
-import styles from "../../components/Header/Header.module.scss";
+
+
 import React from "react";
-import ImgTxt2Column from '/components/TxtImg2Column/TxtImg2Column';
+
 import Quote from "../../components/Quote/Quote";
 import TxtImg2Column from "/components/TxtImg2Column/TxtImg2Column";
 import ImageRow from "../../components/ImageRow/ImageRow";
 import TextContent from "../../components/TextContent/TextContent";
 import PricePackages from "../../components/PricePackages/PricePackages";
-import ElementImageBG from "../../components/ElementImageBG/ElementImageBG";
+
 import TextImg from './../../components/TextImg/TextImg';
-import Layout from './../../components/layout';
+
 
 export default function Kinderen (){
     return (
