@@ -6,6 +6,7 @@ import Quote from "../../components/Quote/Quote";
 import TxtImg2Column from "/components/TxtImg2Column/TxtImg2Column";
 import ImageRow from "../../components/ImageRow/ImageRow";
 import TextContent from "../../components/TextContent/TextContent";
+import PricePackages from "../../components/PricePackages/PricePackages";
 
 export default function Kinderen (){
     return (
@@ -42,6 +43,7 @@ export default function Kinderen (){
                 <h2>Voorbeeldfotos</h2>
                 <p>Bekijk enkele voorbeelden van onze kinderfotoshoots in ons portfolio. We hebben een verscheidenheid aan stijlen en poses om uit te kiezen, en we zijn ervan overtuigd dat je iets zult vinden dat je leuk vindt.</p>
             </TextContent>
+            <PricePackages />
 
             <ImageRow
             images={[
