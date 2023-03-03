@@ -1,20 +1,20 @@
 import React from 'react';
 import css from './PricePackage.module.scss';
+import { HiBadgeCheck } from 'react-icons/hi';
 
 const PricePackage = ({children, type, price, uspList,img}) => {
 
     return (
 
             <div className={css['price-package']}>
-                <img src={img} alt={type} width={300} />
+                <img src={img} alt={type} width={400} />
                 <h3>{type}</h3>
-                <span className={css['price']}>&euro;{price}</span>
+                <div className={css['price']}>&euro;{price}</div>
                 <ul className={css['uspList']}>
                     {uspList.map((usp)=>{
                         return (
-                            <li key={usp.title}>
-                                <div className={css['title']}>{usp.title}</div>
-                                <div className={css['desc']}>{usp.desc}</div>
+                            <li key={usp}>
+                                <HiBadgeCheck /> {usp}
                             </li>
                         )
                     })}

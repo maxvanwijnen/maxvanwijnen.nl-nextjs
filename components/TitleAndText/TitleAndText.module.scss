@@ -1,0 +1,17 @@
+.title-text {
+  font-family: var(--font-baloo-tamma);
+  h2 {
+    text-align: center;
+    margin-top:20px;
+    font-weight: bold;
+    font-size: 35px;
+  }
+  p {
+    font-size: 20px;
+    text-align: center;
+    font-family: var(--font-raleway);
+    font-weight: normal;
+    padding:0px 120px;
+    line-height: 30px;
+  }
+}

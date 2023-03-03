@@ -1,6 +1,9 @@
 .price-package {
   font-family: var(--font-raleway);
   background-color: #f5f5f5;
+  width: fit-content;
+  box-sizing: border-box;
+  width: 400px;
 
   h3 {
     font-weight: bold;
@@ -8,25 +11,27 @@
     padding:10px;
     font-size:25px;
     text-decoration: underline;
+
   }
 
   .price {
-    font-size:20px;
+    font-size:25px;
     padding:10px;
+
+    text-align: center;
+    width: 100%;
+
   }
 
   ul {
     padding:10px;
     list-style: none;
     li {
-        .title {
-          font-weight: bold;
-          font-size: 16px;
-        }
-        .desc  {
-          font-width: normal;
-          font-size: 14px;
-        }
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      gap:8px;
+      padding:5px 0px;
     }
   }
 

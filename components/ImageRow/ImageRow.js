@@ -1,6 +1,7 @@
 import React from "react"
 import Masonry from "react-responsive-masonry"
 import css from './ImageRow.module.scss';
+import TextContent from "../TextContent/TextContent";
 
 const images = [
     "https://www.maxvanwijnen.nl/www/images/Fotoshoot-kind-noordwijk-001.jpg",
@@ -18,8 +19,9 @@ const ImageRow = ({children}) => {
 
         return (
             <section className={css['image-row']}>
-                <h2>Voorbeeldfotos</h2>
-                <p>{children}</p>
+                <TextContent
+                title="Voorbeeldfoto's"
+                >{children}</TextContent>
             <Masonry columnsCount={3} gutter="10px">
                 {images.map((image, i) => (
                     <img
