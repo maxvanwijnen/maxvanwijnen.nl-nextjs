@@ -34,7 +34,7 @@ export function NavBar() {
                 <FiMenu  /> <span>{menuType.buttonName}</span>
             </a>
             <div className={styles.logoWrapper}>
-                <Image className={styles.logo} src="/img/logo/logo-maxvanwijnen-fotografie-black.png"
+                <Image className={styles.logo} src="https://www.maxvanwijnen.nl/www/docs/images/logo/logo-maxvanwijnen-fotografie-black-280.webp"
                        width={140}
                        height={35}
                        alt="Maxvanwijnen logo" />
