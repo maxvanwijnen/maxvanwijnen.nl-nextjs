@@ -15,7 +15,7 @@ export default function Loveshoot (){
     return (
         <>
             <TxtImg2Column
-                imgSource="/img/header/Kinderfotografie-header.webp"
+                imgSource="https://www.maxvanwijnen.nl/www/docs/images/intro-text/loveshoot-fotoshoot.webp"
                 cssClass="Kinderen"
                 imgAlt = "Kinderfotografie"
                 imgWidth={573}
