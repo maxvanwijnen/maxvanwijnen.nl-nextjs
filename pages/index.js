@@ -15,7 +15,7 @@ export default function Home() {
       <h1>Professionele portretfotografie & fotoshoots</h1>
 
         <ImgTxt2Column
-            imgSource="/img/header/Kinderfotografie-header.webp"
+            imgSource="https://www.maxvanwijnen.nl/www/docs/images/intro-text/kinder-fotoshoot.webp"
             cssClass="Kinderen"
             imgAlt = "Kinderfotografie"
             imgWidth={573}

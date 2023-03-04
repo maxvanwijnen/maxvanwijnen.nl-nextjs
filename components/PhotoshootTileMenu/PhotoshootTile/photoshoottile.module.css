@@ -81,22 +81,23 @@
 }
 
 .photoshoot-tile.kinderen .background-image {
-    background-image: url(/img/fotoshoot-tiles/Kinderen-fotoshoot-303.webp);
+    background-image: url("https://www.maxvanwijnen.nl/www/docs/images/fotoshoot-tiles/kinder-fotoshoot.webp");
+
 }
 
 .photoshoot-tile.loveshoot .background-image {
-    background-image: url(/img/fotoshoot-tiles/Koppel-fotoshoot-303.webp);
+    background-image: url("https://www.maxvanwijnen.nl/www/docs/images/fotoshoot-tiles/loveshoot-fotoshoot.webp");
 }
 
 .photoshoot-tile.zwangerschap .background-image {
-    background-image: url(/img/fotoshoot-tiles/Zwangerschaps-fotoshoot-303.webp);
+    background-image: url("https://www.maxvanwijnen.nl/www/docs/images/fotoshoot-tiles/zwangerschap-fotoshoot.webp");
 }
 
 .photoshoot-tile.familie .background-image {
-    background-image: url(/img/fotoshoot-tiles/Familie-fotoshoot-303.webp);
+    background-image: url("https://www.maxvanwijnen.nl/www/docs/images/fotoshoot-tiles/familie-fotoshoot.webp");
 }
 .photoshoot-tile.portret .background-image {
-    background-image: url(/img/fotoshoot-tiles/Portret-fotoshoot-303.webp);
+    background-image: url("https://www.maxvanwijnen.nl/www/docs/images/fotoshoot-tiles/portret-fotoshoot.webp");
 }
 
 
