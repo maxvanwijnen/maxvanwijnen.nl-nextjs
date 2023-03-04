@@ -34,7 +34,7 @@ export default function Kinderen (){
 
             <TextImg
                 title="fjhfks jhf "
-                img="https://www.maxvanwijnen.nl/www/images/kinderen/Fotoshoot-strand-kind.webp"
+                img="https://www.maxvanwijnen.nl/www/docs/images/content-long/kinder-fotoshoot.webp"
             >
                 <h3>Voorbereiding op de fotoshoot</h3>
                 <p>Het is belangrijk om je kind voor te bereiden op de fotoshoot om het meeste uit de sessie te halen. Hier zijn enkele tips:
