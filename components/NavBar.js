@@ -36,7 +36,7 @@ export function NavBar() {
             <div className={styles.logoWrapper}>
                 <Image className={styles.logo} src="https://www.maxvanwijnen.nl/www/docs/images/logo/logo-maxvanwijnen-fotografie-black-280.webp"
                        width={140}
-                       height={35}
+                       height={41}
                        alt="Maxvanwijnen logo" />
             </div>
 
