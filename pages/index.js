@@ -11,7 +11,18 @@ export default function Home() {
 
 
   return (
+
     <section className={styles.container}>
+        <Head>
+            <title>
+                Fotograaf in Noordwijk | Unieke fotoshoots op locatie
+            </title>
+            <meta
+                name="description"
+                content="Wil je graag mooie en professionele foto's laten maken? Ik sta voor je klaar als ervaren fotograaf uit Noordwijk. Neem nu contact op voor meer informatie."
+                key="desc"
+            />
+        </Head>
       <h1>Professionele portretfotografie & fotoshoots</h1>
 
         <ImgTxt2Column
