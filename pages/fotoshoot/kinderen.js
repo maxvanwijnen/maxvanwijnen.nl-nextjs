@@ -49,23 +49,24 @@ export default function Kinderen (){
             <PricePackages
                 pricePackages={
                 [
-                    {price:89,
+                    {price:119,
                         type:'basic',
                         usplist:["5 Foto's","Hoge kwaliteit nabewerkt", "Digitale download"],
                         img:'https://www.maxvanwijnen.nl/www/docs/images/price-package/kinderen-basic-fotoshoot.webp',
-                        desc:'Met het Basic fotopakket kunt u de magie en spontaniteit van de kindertijd vastleggen. Dit pakket biedt een korte, maar leuke fotosessie van uw kind, met vijf hoogwaardige, nabewerkte foto&apos;s die u na afloop eenvoudig download.  Met dit pakket krijgt u  een digitale download van uw foto&apos;s, zodat u ze gemakkelijk kunt delen met familie en vrienden. Maar het is ook mogelijk om foto&apos;s af te laten drukken.'
+                        desc:'Met het Basic fotopakket geniet u van prachtige foto&quot;s van uw kinderen tegen een scherpe prijs.Dit pakket biedt een korte, maar leuke fotosessie van uw kind, met vijf hoogwaardige, nabewerkte foto&apos;s.  Met dit pakket krijgt u een digitale download van uw foto&apos;s, zodat u ze gemakkelijk kunt delen met familie en vrienden. Maar het is ook mogelijk om foto&apos;s af te laten drukken.'
                     },
                     {price:139,
                         type:'deluxe',
                         usplist:["10 Foto's","Hoge kwaliteit nabewerkt", "Digitale download"],
                         img:'https://www.maxvanwijnen.nl/www/docs/images/price-package/kinderen-deluxe-fotoshoot.webp',
-                        desc:'Met het Basic fotopakket kunt u de magie en spontaniteit van de kindertijd vastleggen. Dit pakket biedt een korte, maar leuke fotosessie van uw kind, met vijf hoogwaardige, nabewerkte foto&apos;s die u na afloop eenvoudig download.  Met dit pakket krijgt u  een digitale download van uw foto&apos;s, zodat u ze gemakkelijk kunt delen met familie en vrienden. Maar het is ook mogelijk om foto&apos;s af te laten drukken.'
+                        desc:'Met het Deluxe fotopakket ontvangt u een uitgebreide en professionele fotosessie van uw kind, waarna u na afloop 10 digitale foto\’s kunt downloaden. Hierdoor kunnen we meer variëren in poses en achtergronden. Uiteraard is het ook mogelijke uw foto’s op hoogwaardige kwaliteit af te laten drukken. '
                     },
                     {price:189,
                         type:'premium',
                         usplist:["15 Foto's","Hoge kwaliteit nabewerkt", "Digitale download"],
                         img:'https://www.maxvanwijnen.nl/www/docs/images/price-package/kinderen-premium-fotoshoot.webp',
-                        desc:'Met het Basic fotopakket kunt u de magie en spontaniteit van de kindertijd vastleggen. Dit pakket biedt een korte, maar leuke fotosessie van uw kind, met vijf hoogwaardige, nabewerkte foto&apos;s die u na afloop eenvoudig download.  Met dit pakket krijgt u  een digitale download van uw foto&apos;s, zodat u ze gemakkelijk kunt delen met familie en vrienden. Maar het is ook mogelijk om foto&apos;s af te laten drukken.'
+                        desc:'Met het Premium fotopakket kiest u voor het meest uitgebreide fotopakket, waarbij u na afloop van de fotoshoot maar liefst vijftien hoogwaardige, nabewerkte foto\'s uit kunt kiezen. Dit pakket biedt de meest uitgebreide mogelijkheden voor variatie in poses, achtergronden en stijlen.\n' +
+                            'Neemt u toch liever meer dan 15 foto’s af? Dat is geen probleem, extra foto’s kosten 20 euro per stuk. Tevens is het mogelijk dit pakket verder uit te breiden met de gehele keuze gallerij voor een meer prijs van 120 euro. U ontvang de gehele keuze gallerij als digitale download. Lees er hier meer over'
                     }
                 ]
                 }

@@ -99,6 +99,9 @@
 .photoshoot-tile.portret .background-image {
     background-image: url("https://www.maxvanwijnen.nl/www/docs/images/fotoshoot-tiles/portret-fotoshoot.webp");
 }
+.photoshoot-tile.trouwen .background-image {
+    background-image: url("https://www.maxvanwijnen.nl/www/docs/images/fotoshoot-tiles/bruidsreportage-fotoshoot.webp");
+}
 
 
 

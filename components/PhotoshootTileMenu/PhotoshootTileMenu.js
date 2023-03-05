@@ -10,6 +10,7 @@ export const PhotoshootTileMenu = () => {
             <PhotoshootTile page="portret" img="Portret-fotoshoot-303.webp"/>
             <PhotoshootTile page="familie" img="Familie-fotoshoot-303.webp"/>
             <PhotoshootTile page="zwangerschap" img="Zwangerschaps-fotoshoot-303.webp"/>
+            <PhotoshootTile page="trouwen" img="Zwangerschaps-fotoshoot-303.webp"/>
         </nav>
     )
 }
