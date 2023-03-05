@@ -33,7 +33,7 @@ export default function Kinderen (){
 
 
             <TextImg
-                title="fjhfks jhf "
+                title="Fotoshoot met kinderen: Advies voor kleding en accessoires"
                 img="https://www.maxvanwijnen.nl/www/docs/images/content-long/kinder-fotoshoot.webp"
             >
                 <h3>Voorbereiding op de fotoshoot</h3>
