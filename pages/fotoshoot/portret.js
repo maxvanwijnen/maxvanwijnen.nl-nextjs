@@ -16,33 +16,22 @@ export default function Portret (){
             <TxtImg2Column
                 imgSource="https://www.maxvanwijnen.nl/www/docs/images/intro-text/familie-fotoshoot.webp"
                 cssClass="Kinderen"
-                imgAlt = "Kinderfotografie"
+                imgAlt = "Portret Fotografie"
                 imgWidth={573}
                 imgHeight={384}
-                txtTitle="Familie fotoshoot">
-                Kinderfotografie is een van de leukste dingen die er is. Sinds de geboorte van mijn dochter ben ik mij hier meer en meer in gaan specialiseren. Op diverse locaties rond Noordwijk fotografeer ik uw kind in het buitenlicht om deze zo mooi mogelijk op een liefdevolle plaat vast te leggen.
+                txtTitle="Portret Fotoshoot">
+                Natuurlijk kun je bij mij ook terecht voor mooie portret foto's. Bijvoorbeeld voor een LinkedIn profielfoto of voor op je website. Zowel zakelijke portretfoto's als foto's met een prive uitstraling, alles is mogelijk.
             </TxtImg2Column>
-            <Quote>Kinderen groeien zo snel op, maak daarom tijd om hun kostbare momenten vast te leggen</Quote>
-            <TextContent
-                title="Waarom een loveshoot boeken?"
-            >
-                Als ouder wil je altijd de beste herinneringen vastleggen van je kinderen. Een professionele fotoshoot is hiervoor de ideale manier. Met professionele apparatuur en ervaring kan een fotograaf de natuurlijke schoonheid van je kind vastleggen, evenals hun unieke persoonlijkheid. Bovendien biedt een fotoshoot de mogelijkheid om fotos te maken die je misschien niet zelf zou bedenken, waardoor je nog meer unieke fotos krijgt om te koesteren.
-            </TextContent>
+            <Quote>Een portret is een manier om een persoon te laten zien zoals hij of zij echt is, zonder masker</Quote>
 
 
 
             <TextImg
-                title="fjhfks jhf "
+                title="Mooie portret foto`s laten maken"
                 img="https://www.maxvanwijnen.nl/www/docs/images/content-long/familie-fotoshoot.webp"
             >
                 <h3>Voorbereiding op de fotoshoot</h3>
-                <p>Het is belangrijk om je kind voor te bereiden op de fotoshoot om het meeste uit de sessie te halen. Hier zijn enkele tips:
-                    Kies kleding die past bij de persoonlijkheid van je kind en comfortabel zit. Vermijd drukke patronen en grote logos die kunnen afleiden van de fotos.
-                    Neem een favoriet speeltje of knuffel mee om je kind zich op zijn gemak te laten voelen. Dit kan ook helpen om een ​​natuurlijke glimlach op te roepen.
-                    Plan de fotoshoot op een moment waarop je kind uitgerust en alert is. Dit kan betekenen dat je de fotoshoot plant na de middagdut of net na de maaltijd.</p>
-                <h3>Wat kun je verwachten tijdens de fotoshoot?</h3>
-                <p>Een kinderfotoshoot is een speelse en ontspannen ervaring. We zullen verschillende poses en activiteiten uitproberen om de spontaniteit en vreugde van je kind vast te leggen. Het is ook mogelijk om enkele fotos van het gezin samen te maken, als je dat wilt. We hebben veel ervaring met het werken met kinderen en zullen ons best doen om de fotoshoot leuk en interactief te maken.</p>
-
+                <p>Samen bespreken we eerst jouw wensen, zodat we de juiste sfeer over kunnen brengen in de foto. Ben je meer op zoek naar een zakelijke uitstraling voor je portret foto’s of wil je een leuke portretfoto laten maken om cadeau te doen in de familie? Alles is mogelijk. Vervolgens zoeken we samen naar de juiste locatie, misschien heb je zelf al een mooi idee? Het tijdstip van de dag kan bepalend zijn voor het licht op de gekozen locatie, dus houden we hier rekening mee bij het plannen van de fotoshoot. Zo gaan we samen opzoek naar het beste resultaat. Het is natuurlijk ook mogelijk een los portret te maken tijdens een andere shoot, bijvoorbeeld een familieshoot.</p>
             </TextImg>
 
             <PricePackages
@@ -52,19 +41,19 @@ export default function Portret (){
                             type:'basic',
                             usplist:["5 Foto's","Hoge kwaliteit nabewerkt", "Digitale download"],
                             img:'https://www.maxvanwijnen.nl/www/docs/images/price-package/familieshoot-basic-fotoshoot.webp',
-                            desc:'Met het Basic fotopakket kunt u de magie en spontaniteit van de kindertijd vastleggen. Dit pakket biedt een korte, maar leuke fotosessie van uw kind, met vijf hoogwaardige, nabewerkte foto&apos;s die u na afloop eenvoudig download.  Met dit pakket krijgt u  een digitale download van uw foto&apos;s, zodat u ze gemakkelijk kunt delen met familie en vrienden. Maar het is ook mogelijk om foto&apos;s af te laten drukken.'
+                            desc:''
                         },
                         {price:139,
                             type:'deluxe',
                             usplist:["10 Foto's","Hoge kwaliteit nabewerkt", "Digitale download"],
                             img:'https://www.maxvanwijnen.nl/www/docs/images/price-package/familieshoot-deluxe-fotoshoot.webp',
-                            desc:'Met het Basic fotopakket kunt u de magie en spontaniteit van de kindertijd vastleggen. Dit pakket biedt een korte, maar leuke fotosessie van uw kind, met vijf hoogwaardige, nabewerkte foto&apos;s die u na afloop eenvoudig download.  Met dit pakket krijgt u  een digitale download van uw foto&apos;s, zodat u ze gemakkelijk kunt delen met familie en vrienden. Maar het is ook mogelijk om foto&apos;s af te laten drukken.'
+                            desc:''
                         },
                         {price:189,
                             type:'premium',
                             usplist:["15 Foto's","Hoge kwaliteit nabewerkt", "Digitale download"],
                             img:'https://www.maxvanwijnen.nl/www/docs/images/price-package/familieshoot-premium-fotoshoot.webp',
-                            desc:'Met het Basic fotopakket kunt u de magie en spontaniteit van de kindertijd vastleggen. Dit pakket biedt een korte, maar leuke fotosessie van uw kind, met vijf hoogwaardige, nabewerkte foto&apos;s die u na afloop eenvoudig download.  Met dit pakket krijgt u  een digitale download van uw foto&apos;s, zodat u ze gemakkelijk kunt delen met familie en vrienden. Maar het is ook mogelijk om foto&apos;s af te laten drukken.'
+                            desc:''
                         }
                     ]
                 }

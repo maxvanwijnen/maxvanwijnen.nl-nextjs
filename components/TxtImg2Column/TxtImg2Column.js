@@ -6,7 +6,7 @@ export default function TxtImg2Column ( {children, txtTitle, imgSource, imgWidth
     return (
         <article className={styles['txtImg2Column']}>
             <div className={styles['text']}>
-                <h2>{txtTitle}</h2>
+                <h1>{txtTitle}</h1>
                 <p>
                     {children}
                 </p>

@@ -5,6 +5,7 @@ import breadCrumbStyles from '../styles/Breadcrumb.module.css';
 import Breadcrumbs from "nextjs-breadcrumbs";
 import { AiFillHome } from 'react-icons/ai'
 import { PhotoshootTileMenu } from './../components/PhotoshootTileMenu/PhotoshootTileMenu';
+import WhatsAppChat from './WhatsAppChat/WhatsAppChat';
 
 
 export default function Layout({ children , page}) {
@@ -21,7 +22,9 @@ export default function Layout({ children , page}) {
                     <Breadcrumbs containerClassName={breadCrumbStyles['breadcrumb-wrapper']} rootLabel="" />
                 </section>
                 {children}
+                <WhatsAppChat />
             </main>
+
             <Footer />
         </>
     )
