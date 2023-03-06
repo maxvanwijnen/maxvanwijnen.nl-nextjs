@@ -20,13 +20,13 @@ export default function Zwangerschap (){
                 imgWidth={573}
                 imgHeight={384}
                 txtTitle="Zwangerschaps fotoshoot">
-                Gezinsuitbreiding op komst? De eerste herinneringen beginnen al tijdens de zwangerschap, leg deze tijd dan ook vast met mooie foto's.
+                Gezinsuitbreiding op komst? De eerste herinneringen beginnen al tijdens de zwangerschap, leg deze tijd dan ook vast met mooie foto`s.
             </TxtImg2Column>
-            <Quote>Een zwangerschapsshoot is een kans om een prachtige en speciale tijd vast te leggen die voorbij gaat voordat je het weet."</Quote>
+            <Quote>Een zwangerschapsshoot is een kans om een prachtige en speciale tijd vast te leggen die voorbij gaat voordat je het weet.</Quote>
             <TextContent
                 title="De mooiste zwangerschapsshoot "
             >
-                De beste tijd voor een zwangerschapsfotoshoot is zo rond de 33e week van je zwangerschap. Boek je zwangerschapsfotoshoot dus tijdig om zeker te weten dat ik rond die tijd ook een plekje beschikbaar heb. Daarnaast plannen we samen een back-up moment voor het geval dat het weer tegen zit. Met name harde wind of regen kunnen roet in het eten gooien. Is het bewolkt? Geen probleem , dit komt het resultaat vaak alleen maar ten goede. Vergeet niet je partner of kinderen ook mee te nemen, we maken natuurlijk ook graag wat foto's van het hele gezin.
+                De beste tijd voor een zwangerschapsfotoshoot is zo rond de 33e week van je zwangerschap. Boek je zwangerschapsfotoshoot dus tijdig om zeker te weten dat ik rond die tijd ook een plekje beschikbaar heb. Daarnaast plannen we samen een back-up moment voor het geval dat het weer tegen zit. Met name harde wind of regen kunnen roet in het eten gooien. Is het bewolkt? Geen probleem , dit komt het resultaat vaak alleen maar ten goede. Vergeet niet je partner of kinderen ook mee te nemen, we maken natuurlijk ook graag wat foto`s van het hele gezin.
             </TextContent>
 
 
@@ -39,7 +39,7 @@ export default function Zwangerschap (){
                 <p>Ik fotografeer graag in het bos, op het strand of in de duinen maar Noordwijk heeft natuurlijk ook andere mooie plekken te bieden. Locaties zijn ook afhankelijk van het weer en spreken we samen af. Misschien heb je zelf wensen? Op dit moment fotografeer ik in de Bollenstreek. Noordwijk, Noordwijkerhout, Voorhout, Katwijk en Leiden. Locaties buiten de Bollenstreek of de Randstad zijn in overleg uiteraard ook mogelijk.</p>
 
                 <h3>Jouw zwangerschapsshoot in de fotostudio in Leiden</h3>
-                <p>Het is ook mogelijk je zwangerschapsshoot in de studio te doen. Hier heb je alle privacy en de mooiste foto's te maken. Dit geeft weer een totaal ander beeld dan shoots op locatie.
+                <p>Het is ook mogelijk je zwangerschapsshoot in de studio te doen. Hier heb je alle privacy en de mooiste foto`s te maken. Dit geeft weer een totaal ander beeld dan shoots op locatie.
                 Beide zijn zijn erg mooi! Mijn fotostudio bevindt zich in Leiden en is goed bereikbaar vanaf de snelweg.</p>
             </TextImg>
 
