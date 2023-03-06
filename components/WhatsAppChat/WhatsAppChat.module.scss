@@ -5,6 +5,9 @@
   z-index: 999;
   cursor: pointer;
   transition: all 0.3s ease-in-out;
+  font-size: 50px;
+  color: #25d366;
+
 
   &:hover {
     transform: scale(1.1);
@@ -12,6 +15,9 @@
 }
 
 .chat-window {
+  font-family: var(--font-raleway);
+  color: #2F2F2F;
+  font-size: 15px;
   position: fixed;
   bottom: 80px;
   right: 20px;
@@ -22,7 +28,27 @@
   border-radius: 5px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
   padding: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
   overflow: hidden;
+
+  .top {
+    background-color: #25d366;
+    color:white;
+    padding:10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+
+  }
+
+  .chat {
+    flex-grow:1;
+    padding:10px 0px;
+  }
+
 
   .welcome-message {
     padding: 10px;

@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
-import { FaWhatsapp } from 'react-icons/fa';
+import { FaWhatsapp, FaWindowClose } from 'react-icons/fa';
+import css from './WhatsAppChat.module.scss';
 
 const WhatsAppChat = () => {
     const [isActive, setIsActive] = useState(false);
@@ -18,14 +19,20 @@ const WhatsAppChat = () => {
     };
 
     return (
-        <div className="whatsapp-button">
+        <div className={css['whatsapp-button']}>
             <FaWhatsapp onClick={handleClick} />
             {isActive && (
-                <div className="chat-window">
-                    <div className="welcome-message">
-                        <p>Welkom bij onze website! Hoe kunnen wij u van dienst zijn?</p>
+                <div className={css['chat-window']}>
+                    <div className={css['top']}>
+                        Max van Wijnen Fotografie
+                        <FaWindowClose onClick={()=>{setIsActive(!isActive)}} />
                     </div>
-                    <div className="input-field">
+                    <div className={css['chat']}>
+                        <div className={css['welcome-message']}>
+                            <p>Welkom op mijn website! Waarmee kan ik je van dienst zijn?</p>
+                        </div>
+                    </div>
+                    <div className={css['input-field']}>
                         <input type="text" value={message} onChange={e => setMessage(e.target.value)} />
                         <button onClick={handleSendMessage}>Verzenden</button>
                     </div>
