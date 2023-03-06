@@ -22,7 +22,7 @@ export function PhotoshootTile ({page, img, size}) {
                     </div>
                     <div className={styles['text']}>
                         {page}
-                        <p>kjfhskdjfhs kjfh skjfh skfhskfjhskfjhs kfjshf kjsh </p>
+                        { size === 'big' && <p>kjfhskdjfhs kjfh skjfh skfhskfjhskfjhs kfjshf kjsh </p>}
                     </div>
                 </div>
 
