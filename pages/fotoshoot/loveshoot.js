@@ -27,7 +27,7 @@ export default function Loveshoot (){
             <TextContent
                 title="Waarom een loveshoot boeken?"
             >
-                Er zijn zoveel redenen waarom je een loveshoot zou kunnen overwegen. Het kan bijvoorbeeld een mooie manier zijn om jullie liefde te vieren en vast te leggen op een unieke manier. Het is ook een leuke ervaring die je samen met je partner kunt delen. Daarnaast kunnen de foto's worden gebruikt voor save the date kaarten of als decoratie op jullie bruiloft.
+                Er zijn zoveel redenen waarom je een loveshoot zou kunnen overwegen. Het kan bijvoorbeeld een mooie manier zijn om jullie liefde te vieren en vast te leggen op een unieke manier. Het is ook een leuke ervaring die je samen met je partner kunt delen. Daarnaast kunnen de foto`s worden gebruikt voor save the date kaarten of als decoratie op jullie bruiloft.
             </TextContent>
 
 
