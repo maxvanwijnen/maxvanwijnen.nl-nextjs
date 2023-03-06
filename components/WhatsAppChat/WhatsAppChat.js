@@ -14,7 +14,7 @@ const WhatsAppChat = () => {
 
     const handleSendMessage = () => {
         // Send message to WhatsApp API
-        window.open(`https://wa.me/+31628812008?text=${encodeURIComponent(message)}`, '_blank');
+        window.open(`https://wa.me/31628812008?text=${encodeURIComponent(message)}`, '_blank');
     };
 
     return (
