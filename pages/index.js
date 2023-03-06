@@ -24,18 +24,7 @@ export default function Home() {
             />
         </Head>
       <h1>Professionele portretfotografie & fotoshoots</h1>
-
-        <ImgTxt2Column
-            imgSource="https://www.maxvanwijnen.nl/www/docs/images/intro-text/kinder-fotoshoot.webp"
-            cssClass="Kinderen"
-            imgAlt = "Kinderfotografie"
-            imgWidth={573}
-            imgHeight={384}
-            txtTitle="Kinderfotografie"
-
-        >
-            Ben jij op zoek naar professionele fotografie in de regio Leiden, Noordwijk of de bollenstreek? Samen bespreken wij jouw wensen en denk ik met je mee zodat je trots kan zijn op het eindresultaat. Hierbij heb ik mij gespecialiseerd in <Link href="/fotoshoot/kinderfotografie" ><a >kinderfotografie</a></Link> , portretfotografie, famillieportretten en zwangersschapsfoto&apos;s
-        </ImgTxt2Column>
+       <PhotoshootTileMenu isBig={true} />
 
 
     </section>

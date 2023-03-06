@@ -18,7 +18,10 @@ export default function Layout({ children , page}) {
             <Header page={pathName} />
             <main>
                 <section>
-                    <PhotoshootTileMenu />
+                    {
+                        pathName && <PhotoshootTileMenu />
+                    }
+
                     <Breadcrumbs containerClassName={breadCrumbStyles['breadcrumb-wrapper']} rootLabel="" />
                 </section>
                 {children}

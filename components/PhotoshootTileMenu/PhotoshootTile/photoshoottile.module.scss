@@ -1,3 +1,26 @@
+.big {
+    .tile-wrapper {
+        width: 249px;
+
+
+        .photoshoot-tile {
+            width: 249px;
+            height: 198px;
+        }
+
+    }
+}
+.tile-wrapper {
+
+    transition: transform 0.3s;
+
+    &:hover {
+        transform: scale(1.1);
+
+    }
+}
+
+
 .photoshoot-tile {
 
     width: 166px;
@@ -12,7 +35,7 @@
     color: white;
     text-transform: capitalize;
     letter-spacing: 1px;
-    transition: transform 0.3s;
+
     position: relative;
 }
 
@@ -63,10 +86,7 @@
     text-transform: lowercase;
     transition: opacity 0.8s ease-in;
 }
-.photoshoot-tile:hover {
-    transform: scale(1.1);
 
-}
 .photoshoot-tile:hover .background-image {
     filter:brightness(0.5);
 }

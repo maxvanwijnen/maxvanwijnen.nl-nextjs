@@ -1,10 +1,10 @@
 import React from 'react';
 import Link from 'next/link';
-import styles from './photoshoottile.module.css';
-export function PhotoshootTile ({page, img}) {
+import styles from './photoshoottile.module.scss';
+export function PhotoshootTile ({page, img, size}) {
     return (
 
-            <div>
+            <div className={`${styles['tile-wrapper']} ${styles[size]}`}>
                 <Link href={`/fotoshoot/${page}`} >
                     <a className={`${styles['photoshoot-tile']} ${styles[page]}`}>
                         <div className={styles['hover-text']}>
@@ -22,8 +22,10 @@ export function PhotoshootTile ({page, img}) {
                     </div>
                     <div className={styles['text']}>
                         {page}
+                        <p>kjfhskdjfhs kjfh skjfh skfhskfjhskfjhs kfjshf kjsh </p>
                     </div>
                 </div>
+
             </div>
 
 
