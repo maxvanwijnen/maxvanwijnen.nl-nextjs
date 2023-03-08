@@ -7,15 +7,15 @@ import Link from 'next/link';
 const Footer = () => {
     return (
         <footer className={css['footer']}>
-
+            <Image
+                src="https://www.maxvanwijnen.nl/www/images/logo-maxvanwijnen-fotografie.png"
+                alt="Logo"
+                width={300}
+                height={100}
+            />
             <section className={css['main-content']}>
                 <div className={css['logo-column']}>
-                    <Image
-                        src="https://www.maxvanwijnen.nl/www/images/logo-maxvanwijnen-fotografie.png"
-                        alt="Logo"
-                        width={300}
-                        height={100}
-                    />
+
 
                 </div>
                 <div>
