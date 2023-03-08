@@ -44,7 +44,7 @@ function HeaderItems({currentPage}) {
 export default function Header({page}) {
     //let currentPage  = 'fotoshoot';
 
-    console.log('+++++'+page)
+
 
     if (!page){
         page = 'home';
