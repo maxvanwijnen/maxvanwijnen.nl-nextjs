@@ -1,5 +1,5 @@
 import Header from "./Header/Header";
-import Footer from './footer';
+import Footer from "./Footer/Footer";
 import {useRouter} from "next/router";
 import breadCrumbStyles from '../styles/Breadcrumb.module.css';
 import Breadcrumbs from "nextjs-breadcrumbs";
@@ -27,8 +27,8 @@ export default function Layout({ children , page}) {
                 {children}
                 <WhatsAppChat />
             </main>
+            <Footer/>
 
-            <Footer />
         </>
     )
 }
