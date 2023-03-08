@@ -1,81 +1,122 @@
-.big {
-    .tile-wrapper {
-        width: 249px;
+.tile-wrapper {
+   transition: transform 0.3s;
 
 
-        .photoshoot-tile {
-            width: 249px;
-            height: 198px;
-        }
+    &.big {
+
+            width:calc(30% - 10px);
+        margin-left:10px;
+        margin-right:10px;
+            .photoshoot-tile {
+                width: 100%;
+                height: 198px;
+            }
 
     }
-}
-.tile-wrapper {
-
-    transition: transform 0.3s;
 
     &:hover {
         transform: scale(1.1);
+    }
+
+
+    .photoshoot-tile {
+
+        width: 166px;
+        height: 132px;
+        margin-top:20px;
+
+
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        color: white;
+        text-transform: capitalize;
+        letter-spacing: 1px;
+
+        position: relative;
+
+        &:hover .background-image {
+            filter:brightness(0.5);
+        }
+        &:hover .hover-text {
+            opacity: 0.9;
+        }
+        .background-image:hover ~ .hover-text {
+            display: block;
+            z-index: 99;
+        }
+
+
+
+        .background-image {
+            height: 100%;
+            width: 100%;
+            position: absolute;
+            border-radius: 10px;
+            z-index: 0;
+            background-position: center;
+            background-size:cover;
+            filter:brightness(1);
+            transition: filter 0.5s ease-in;
+        }
+
+
+        &.kinderen .background-image {
+            background-image: url("https://www.maxvanwijnen.nl/www/docs/images/fotoshoot-tiles/kinder-fotoshoot.webp");
+
+        }
+
+        &.loveshoot .background-image {
+            background-image: url("https://www.maxvanwijnen.nl/www/docs/images/fotoshoot-tiles/loveshoot-fotoshoot.webp");
+        }
+
+        &.zwangerschap .background-image {
+            background-image: url("https://www.maxvanwijnen.nl/www/docs/images/fotoshoot-tiles/zwangerschap-fotoshoot.webp");
+        }
+
+        &.familie .background-image {
+            background-image: url("https://www.maxvanwijnen.nl/www/docs/images/fotoshoot-tiles/familie-fotoshoot.webp");
+        }
+        &.portret .background-image {
+            background-image: url("https://www.maxvanwijnen.nl/www/docs/images/fotoshoot-tiles/portret-fotoshoot.webp");
+        }
+        &.trouwen .background-image {
+            background-image: url("https://www.maxvanwijnen.nl/www/docs/images/fotoshoot-tiles/bruidsreportage-fotoshoot.webp");
+        }
 
     }
+
+
+    .title {
+        font-family: var(--font-nunito);
+        margin-top:5px;
+        color: var(--color-black-coffee);
+
+
+        .fotoshoot {
+            z-index: 1;
+            font-weight: 600;
+            font-size: 16px;
+            text-align: center;
+            line-height: 18px;
+            text-transform:capitalize;
+
+        }
+        .text {
+            z-index: 1;
+            text-transform: uppercase;
+            font-size: 12px;
+            line-height:18px;
+            text-align: center;
+        }
+    }
+
+
 }
 
 
-.photoshoot-tile {
 
-    width: 166px;
-    height: 132px;
-    margin-top:20px;
-
-
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    color: white;
-    text-transform: capitalize;
-    letter-spacing: 1px;
-
-    position: relative;
-}
-
-.title {
-    font-family: var(--font-nunito);
-    margin-top:5px;
-    color: var(--color-black-coffee);
-
-
-}
-.title .fotoshoot {
-    z-index: 1;
-    font-weight: 600;
-    font-size: 16px;
-    text-align: center;
-    line-height: 18px;
-    text-transform:capitalize;
-
-}
-
-.title .text {
-    z-index: 1;
-    text-transform: uppercase;
-    font-size: 12px;
-    line-height:18px;
-    text-align: center;
-}
-
-.photoshoot-tile .background-image {
-    background-image: url(/img/fotoshoot-tiles/Zwangerschaps-fotoshoot-303.webp);
-    height: 100%;
-    width: 100%;
-    position: absolute;
-    border-radius: 10px;
-    z-index: 0;
-    background-position: center;
-    background-size:cover;
-    filter:brightness(1);
-    transition: filter 0.5s ease-in;
-}
 
 .hover-text {
     opacity: 0;
@@ -87,16 +128,7 @@
     transition: opacity 0.8s ease-in;
 }
 
-.photoshoot-tile:hover .background-image {
-    filter:brightness(0.5);
-}
-.photoshoot-tile:hover .hover-text {
-    opacity: 0.9;
-}
-.photoshoot-tile .background-image:hover ~ .hover-text {
-    display: block;
-    z-index: 99;
-}
+
 .hover-text:hover {
     display: block;
 }
@@ -104,28 +136,22 @@
     filter:brightness(0.5);
 }
 
-.photoshoot-tile.kinderen .background-image {
-    background-image: url("https://www.maxvanwijnen.nl/www/docs/images/fotoshoot-tiles/kinder-fotoshoot.webp");
+@media only screen and (max-width:700px) {
+.tile-wrapper {
+    &.big {
 
+        width: calc(40% - 10px);
+        margin-left: 10px;
+        margin-right: 10px;
+
+        .photoshoot-tile {
+            width: 100%;
+            height: 198px;
+        }
+    }
+}
 }
 
-.photoshoot-tile.loveshoot .background-image {
-    background-image: url("https://www.maxvanwijnen.nl/www/docs/images/fotoshoot-tiles/loveshoot-fotoshoot.webp");
-}
-
-.photoshoot-tile.zwangerschap .background-image {
-    background-image: url("https://www.maxvanwijnen.nl/www/docs/images/fotoshoot-tiles/zwangerschap-fotoshoot.webp");
-}
-
-.photoshoot-tile.familie .background-image {
-    background-image: url("https://www.maxvanwijnen.nl/www/docs/images/fotoshoot-tiles/familie-fotoshoot.webp");
-}
-.photoshoot-tile.portret .background-image {
-    background-image: url("https://www.maxvanwijnen.nl/www/docs/images/fotoshoot-tiles/portret-fotoshoot.webp");
-}
-.photoshoot-tile.trouwen .background-image {
-    background-image: url("https://www.maxvanwijnen.nl/www/docs/images/fotoshoot-tiles/bruidsreportage-fotoshoot.webp");
-}
 
 
 
