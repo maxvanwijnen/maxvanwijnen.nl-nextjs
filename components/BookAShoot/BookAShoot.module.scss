@@ -62,19 +62,41 @@
         text-transform: capitalize;
       }
     }
-    button {
-      background-color: var(--color-orange);
-      color: white;
-      padding:10px;
-      border:0px;
-      text-transform: uppercase;
-      border-radius: 3px;
+    .bottom-part {
 
-      &:hover {
-        background-color: var(--color-black-coffee);
-        cursor: pointer;
+      display: flex;
+      justify-content: space-between;
+
+      button {
+        background-color: var(--color-orange);
+        color: white;
+        padding:10px;
+        border:0px;
+        text-transform: uppercase;
+        border-radius: 3px;
+        display: flex;
+        justify-content: space-between;
+        width: fit-content;
+        align-items: center;
+        gap:10px;
+
+        &.cancel {
+          background-color: #d7d7d7;
+        }
+
+
+
+        &:hover {
+          background-color: var(--color-black-coffee);
+          cursor: pointer;
+        }
+
+        .send-icon {
+          font-size: 20px;
+        }
       }
     }
+
 
   }
 }

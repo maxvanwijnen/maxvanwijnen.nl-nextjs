@@ -1,11 +1,15 @@
 import React from 'react';
 import css from './BookAShoot.module.scss';
-import {FiXCircle} from 'react-icons/fi'
+import {FiXCircle, FiSend} from 'react-icons/fi'
 
 const BookAShoot = ({toggle, type, shootType, allPackages}) => {
 
     const handleInnerDivClick = (event) => {
         event.stopPropagation();
+    }
+
+    const sendBooking = () => {
+        console.log('send booking')
     }
     return (
         <div className={css['book-a-shoot-wrapper']} onClick={toggle}>
@@ -44,7 +48,22 @@ const BookAShoot = ({toggle, type, shootType, allPackages}) => {
 
 
                 </div>
-                <button>Boeking afronden</button>
+                <div className={css['bottom-part']}>
+                    <button className={css['cancel']} onClick={toggle}>
+                        Annuleren
+                        <div className={css['send-icon']}>
+                            <FiXCircle/>
+                        </div>
+                    </button>
+                    <button>
+                        Boeking afronden
+                        <div className={css['send-icon']} onClick={()=>sendBooking}>
+                            <FiSend/>
+                        </div>
+                    </button>
+
+                </div>
+
             </div>
 
         </div>
