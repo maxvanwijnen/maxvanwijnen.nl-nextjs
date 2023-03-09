@@ -47,6 +47,7 @@ export default function Kinderen (){
             </TextImg>
 
             <PricePackages
+                shootType="Kinderen"
                 pricePackages={
                 [
                     {price:119,

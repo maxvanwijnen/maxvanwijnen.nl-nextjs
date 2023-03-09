@@ -1,11 +1,19 @@
-import React from 'react';
+import React, {useState} from 'react';
 import css from './PricePackage.module.scss';
 import { HiBadgeCheck } from 'react-icons/hi';
+import BookAShoot from "../../BookAShoot/BookAShoot";
 
-const PricePackage = ({children, type, price, uspList,img}) => {
+const PricePackage = ({children, type, price, uspList,img, shootType, allPackages}) => {
+
+    const [showBookingWindow, toggleShowBookingWindow] = useState(false);
+
+
+    const toggle = () => {
+        toggleShowBookingWindow(!showBookingWindow);
+    }
 
     return (
-
+        <>
             <div className={css['price-package']}>
                 <img src={img} alt={type} width={400} />
                 <h3>{type}</h3>
@@ -21,8 +29,17 @@ const PricePackage = ({children, type, price, uspList,img}) => {
                 </ul>
 
                 <div className={css['description']}>{children}</div>
-                <button>Boek fotoshoot {type}</button>
+                <button onClick={()=>toggleShowBookingWindow(!showBookingWindow)}>Boek fotoshoot {type}</button>
             </div>
+
+        {showBookingWindow &&
+            <BookAShoot
+            toggle={toggle}
+            type={type}
+            shootType={shootType}
+            allPackages={allPackages}
+            />}
+    </>
 
     )
 }

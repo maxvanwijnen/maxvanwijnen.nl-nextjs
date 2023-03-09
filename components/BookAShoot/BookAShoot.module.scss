@@ -1,0 +1,80 @@
+.book-a-shoot-wrapper {
+  background-color: rgba(0,0,0,0.2);
+  position: fixed;
+  top:0px;
+  left:0px;
+  width:100%;
+  height: 100%;
+  z-index: 100;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  backdrop-filter: blur(5px);
+
+
+  .book-a-shoot {
+    background:white;
+    min-width:400px;
+    height: 600px;
+    padding:10px;
+    z-index:999;
+    border-radius: 5px;
+    font-family: var(--font-raleway);
+    display: flex;
+    flex-direction: column;
+    
+    .close-button {
+      &:hover {
+        cursor: pointer;
+      }
+    }
+
+    h2 {
+      width: 100%;
+      text-align: center;
+    }
+    .center-part {
+      flex-grow:1;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap:20px;
+
+      div {
+        width: 90%;
+      }
+
+      label {
+        width: 100%;
+        text-align: left;
+      }
+
+      input, select{
+        width:100%;
+        padding:15px;
+        border-radius: 5px;
+        border:1px solid #cbcbcb;
+
+
+      }
+
+      select {
+        text-transform: capitalize;
+      }
+    }
+    button {
+      background-color: var(--color-orange);
+      color: white;
+      padding:10px;
+      border:0px;
+      text-transform: uppercase;
+      border-radius: 3px;
+
+      &:hover {
+        background-color: var(--color-black-coffee);
+        cursor: pointer;
+      }
+    }
+
+  }
+}

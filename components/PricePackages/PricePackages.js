@@ -2,7 +2,7 @@ import React from 'react';
 import css from './PricePackages.module.scss';
 import PricePackage from "./PricePackage/PricePackage";
 
-const PricePackages = ({pricePackages}) => {
+const PricePackages = ({pricePackages, shootType}) => {
 
 
 
@@ -17,6 +17,8 @@ const PricePackages = ({pricePackages}) => {
                             type={pricePackage.type}
                             uspList={pricePackage.usplist}
                             img={pricePackage.img}
+                            shootType={shootType}
+                            allPackages={pricePackages}
                         >
                             {pricePackage.desc}
                         </PricePackage>)
