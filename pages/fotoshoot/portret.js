@@ -37,6 +37,7 @@ export default function Portret (){
             </TextImg>
 
             <PricePackages
+                shootType="Portret"
                 pricePackages={
                     [
                         {price:89,

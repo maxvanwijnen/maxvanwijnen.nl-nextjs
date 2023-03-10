@@ -46,6 +46,7 @@ export default function Zwangerschap (){
             </TextImg>
 
             <PricePackages
+                shootType="Zwangerschap"
                 pricePackages={
                     [
                         {price:89,

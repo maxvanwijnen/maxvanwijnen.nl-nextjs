@@ -47,6 +47,7 @@ export default function Loveshoot (){
             </TextImg>
 
             <PricePackages
+                shootType="Loveshoot"
                 pricePackages={
                     [
                         {price:89,

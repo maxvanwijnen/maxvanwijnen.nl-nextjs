@@ -42,7 +42,9 @@ export default function Familie (){
             </TextImg>
 
             <PricePackages
+                shootType="Familie"
                 pricePackages={
+
                     [
                         {price:159,
                             type:'basic',

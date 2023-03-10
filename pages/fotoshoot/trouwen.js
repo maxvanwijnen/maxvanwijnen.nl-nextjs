@@ -48,6 +48,7 @@ export default function Trouwen (){
             </TextImg>
 
             <PricePackages
+                shootType="Trouwen"
                 pricePackages={
                     [
                         {price:89,
