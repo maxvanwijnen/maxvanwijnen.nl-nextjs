@@ -16,7 +16,9 @@ const FotoshootNoordwijk = () => {
                 imgAlt = "Familie fotografie"
                 imgWidth={573}
                 imgHeight={384}
-                txtTitle="Fotoshoot locaties in Noordwijk">
+                txtTitle="Fotoshoot locaties in Noordwijk"
+                isFirstArticle={false}
+            >
                 Een mooie locatie voor een fotoshoot in Noordwijk is het Leeuwenhorstbos. Ik kom hier graag vanwege de mooie plekjes en paden. Er is altijd wel een plekje te vinden waar het licht mooi is. Het bos is niet te groot waardoor we niet ver hoeven te lopen, maar toch biedt het alle mogelijkeheden voor een mooie fotoshoot.
 
 

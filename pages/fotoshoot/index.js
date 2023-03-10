@@ -1,5 +1,44 @@
-export default function Fotoshoot (){
+import React from 'react';
+import TextContent from "../../components/TextContent/TextContent";
+import TxtImg2Column from "../../components/TxtImg2Column/TxtImg2Column";
+import Quote from "../../components/Quote/Quote";
+import TextImg from "../../components/TextImg/TextImg";
+
+const Fotoshoot = () => {
     return (
-        <div>Fotoshootd</div>
-    );
+        <section>
+            <TextContent
+                title="Fotoshoot"
+            >De mooiste foto`s maken we samen en voor het maken van die mooie foto`s is een goede planning belangrijk. Factoren als het tijdstip van de dag, de locatie, kledingkeuze en weersomstandigheden hebben allemaal invloed op de de kwaliteit van de foto`s. Op deze pagina deel ik mijn tips en tricks voor het kiezen van de beste tijdstippen en weersomstandigheden, geef ik je kledingadvies en vertel ik je meer over mijn werkwijze. Zo komen we samen tot het beste resultaat!</TextContent>
+            <TxtImg2Column
+                imgSource="https://www.maxvanwijnen.nl/www/docs/images/intro-text/familie-fotoshoot.webp"
+                cssClass="Kinderen"
+                imgAlt = "Familie fotografie"
+                imgWidth={573}
+                imgHeight={384}
+                txtTitle="Het Beste Tijdstip Van De Dag Voor Een Fotoshoot"
+                isFirstArticle={false}
+            >
+                Een van de belangrijkste factoren voor het maken van een succesvolle fotoshoot is het kiezen van het juiste tijdstip van de dag. Het beste moment voor een fotoshoot is meestal tijdens de vroege ochtend of late namiddag wanneer het licht zacht is.
+                Ik fotografeer graag zo rond de 2 uur na zonsopkomst of 2 uur voor zonsondergang voor het mooiste licht. De zon staat dan mooi laag en de schaduwen zijn mooi lang. Uiteraard varieert dit tijdstip met de tijd van het jaar. Voor een goldenhour fotoshoot op het strand spreken we af ongeveer 1 uur voor zonsondergang.
+            </TxtImg2Column>
+            <TxtImg2Column
+                imgSource="https://www.maxvanwijnen.nl/www/docs/images/intro-text/familie-fotoshoot.webp"
+                cssClass="Kinderen"
+                imgAlt = "Familie fotografie"
+                imgWidth={573}
+                imgHeight={384}
+                txtTitle="De beste weeromstandigheden voor een Fotoshoot">
+                Naast het kiezen van het juiste tijdstip van de dag, is het weer ook een belangrijke factor bij een fotoshoot op locatie. Bij slecht weer verplaatsen we de shoot naar een ander tijdstip of dag. Maar wat is nu slecht weer voor een buiten fotoshoot? Bij harde wind en regen zal de fotoshoot niet door kunnen gaan. Bewolking vormt echter geen belemmering, sterker nog voor een fotoshoot op een open locatie zoals het strand is bewolking juist fijn. Het licht wordt er namelijk mooi zacht van wat de foto`s ten goede komt.
+            </TxtImg2Column>
+
+
+
+
+
+
+        </section>
+    )
 }
+
+export default Fotoshoot;

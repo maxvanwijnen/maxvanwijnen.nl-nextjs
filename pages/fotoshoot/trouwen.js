@@ -19,7 +19,9 @@ export default function Trouwen (){
                 imgAlt = "Kinderfotografie"
                 imgWidth={573}
                 imgHeight={384}
-                txtTitle="Trouwreportage">
+                txtTitle="Trouwreportage"
+                isFirstArticle={true}
+            >
                 Kinderfotografie is een van de leukste dingen die er is. Sinds de geboorte van mijn dochter ben ik mij hier meer en meer in gaan specialiseren. Op diverse locaties rond Noordwijk fotografeer ik uw kind in het buitenlicht om deze zo mooi mogelijk op een liefdevolle plaat vast te leggen.
             </TxtImg2Column>
             <Quote>Kinderen groeien zo snel op, maak daarom tijd om hun kostbare momenten vast te leggen</Quote>

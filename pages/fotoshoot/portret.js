@@ -19,7 +19,9 @@ export default function Portret (){
                 imgAlt = "Portret Fotografie"
                 imgWidth={573}
                 imgHeight={384}
-                txtTitle="Portret Fotoshoot">
+                txtTitle="Portret Fotoshoot"
+                isFirstArticle={true}
+            >
                 Natuurlijk kun je bij mij ook terecht voor mooie portret foto`s. Bijvoorbeeld voor een LinkedIn profielfoto of voor op je website. Zowel zakelijke portretfoto`s als foto`s met een prive uitstraling, alles is mogelijk.
             </TxtImg2Column>
             <Quote>Een portret is een manier om een persoon te laten zien zoals hij of zij echt is, zonder masker</Quote>

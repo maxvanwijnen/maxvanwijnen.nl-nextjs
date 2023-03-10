@@ -19,7 +19,9 @@ export default function Zwangerschap (){
                 imgAlt = "Zwangerschapsshoot"
                 imgWidth={573}
                 imgHeight={384}
-                txtTitle="Zwangerschaps fotoshoot">
+                txtTitle="Zwangerschaps fotoshoot"
+                isFirstArticle={true}
+            >
                 Gezinsuitbreiding op komst? De eerste herinneringen beginnen al tijdens de zwangerschap, leg deze tijd dan ook vast met mooie foto`s.
             </TxtImg2Column>
             <Quote>Een zwangerschapsshoot is een kans om een prachtige en speciale tijd vast te leggen die voorbij gaat voordat je het weet.</Quote>

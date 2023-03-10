@@ -16,7 +16,16 @@
 .txtImg2Column .text h1 {
   font-family: var(--font-baloo-tamma);
   font-size: 48px;
+  line-height: 35px;
 }
+
+.txtImg2Column .text h2 {
+  font-family: var(--font-baloo-tamma);
+  font-size: 30px;
+  line-height: 35px;
+  margin-bottom: 10px;
+}
+
 .txtImg2Column .text p {
   font-family: var(--font-roboto);
   color: #5E5E5E;

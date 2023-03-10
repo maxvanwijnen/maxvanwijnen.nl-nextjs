@@ -11,6 +11,8 @@ import TextImg from './../../components/TextImg/TextImg';
 
 
 export default function Familie (){
+
+
     return (
         <>
             <TxtImg2Column
@@ -19,7 +21,9 @@ export default function Familie (){
                 imgAlt = "Familie fotografie"
                 imgWidth={573}
                 imgHeight={384}
-                txtTitle="Familie fotoshoot">
+                txtTitle="Familie fotoshoot"
+                isFirstArticle={true}
+            >
                 Wil je mooie familie- of gezinsfoto`s laten maken? Dat is natuurlijk mogelijk. Bij een familie fotoshoot probeer ik vooral de liefde binnen het gezin vast te leggen. Dit doe ik geheel naar jullie eigen wensen. We kiezen voor een setting waarin iedereen zich gemakkelijk voelt. Dat komt ook het meest natuurlijk over op de uiteindelijke foto`s. Uiteraard hoeft een fotoshoot niet geheel te bestaan uit foto`s van de hele familie. We kunnen ook individuele foto`s maken of bijvoorbeeld een combinatie maken met een kinderfotoshoot.
             </TxtImg2Column>
             <Quote>Kinderen groeien zo snel op, maak daarom tijd om hun kostbare momenten vast te leggen</Quote>
