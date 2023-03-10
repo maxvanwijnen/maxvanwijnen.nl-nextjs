@@ -11,15 +11,13 @@ import WhatsAppChat from './WhatsAppChat/WhatsAppChat';
 export default function Layout({ children , page}) {
     const pathName = useRouter().asPath.replaceAll('/','');
 
-
-
     return (
         <>
             <Header page={pathName} />
             <main>
                 <section>
                     {
-                        pathName && <PhotoshootTileMenu />
+                        pathName && pathName != "fotoshoot" && <PhotoshootTileMenu />
                     }
 
                     <Breadcrumbs containerClassName={breadCrumbStyles['breadcrumb-wrapper']} rootLabel="" />

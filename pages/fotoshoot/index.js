@@ -3,6 +3,7 @@ import TextContent from "../../components/TextContent/TextContent";
 import TxtImg2Column from "../../components/TxtImg2Column/TxtImg2Column";
 import Quote from "../../components/Quote/Quote";
 import TextImg from "../../components/TextImg/TextImg";
+import PhotoshootTileMenu from "../../components/PhotoshootTileMenu/PhotoshootTileMenu";
 
 const Fotoshoot = () => {
     return (
@@ -10,6 +11,8 @@ const Fotoshoot = () => {
             <TextContent
                 title="Fotoshoot"
             >De mooiste foto`s maken we samen en voor het maken van die mooie foto`s is een goede planning belangrijk. Factoren als het tijdstip van de dag, de locatie, kledingkeuze en weersomstandigheden hebben allemaal invloed op de de kwaliteit van de foto`s. Op deze pagina deel ik mijn tips en tricks voor het kiezen van de beste tijdstippen en weersomstandigheden, geef ik je kledingadvies en vertel ik je meer over mijn werkwijze. Zo komen we samen tot het beste resultaat!</TextContent>
+
+            <PhotoshootTileMenu isBig={true} />
             <TxtImg2Column
                 imgSource="https://www.maxvanwijnen.nl/www/docs/images/intro-text/familie-fotoshoot.webp"
                 cssClass="Kinderen"
@@ -28,9 +31,38 @@ const Fotoshoot = () => {
                 imgAlt = "Familie fotografie"
                 imgWidth={573}
                 imgHeight={384}
-                txtTitle="De beste weeromstandigheden voor een Fotoshoot">
+                txtTitle="De beste weeromstandigheden voor een Fotoshoot"
+                isFirstArticle={false}
+                isInverted={true}
+            >
                 Naast het kiezen van het juiste tijdstip van de dag, is het weer ook een belangrijke factor bij een fotoshoot op locatie. Bij slecht weer verplaatsen we de shoot naar een ander tijdstip of dag. Maar wat is nu slecht weer voor een buiten fotoshoot? Bij harde wind en regen zal de fotoshoot niet door kunnen gaan. Bewolking vormt echter geen belemmering, sterker nog voor een fotoshoot op een open locatie zoals het strand is bewolking juist fijn. Het licht wordt er namelijk mooi zacht van wat de foto`s ten goede komt.
             </TxtImg2Column>
+            <TxtImg2Column
+                imgSource="https://www.maxvanwijnen.nl/www/docs/images/intro-text/familie-fotoshoot.webp"
+                cssClass="Kinderen"
+                imgAlt = "Familie fotografie"
+                imgWidth={573}
+                imgHeight={384}
+                txtTitle="Mijn werkwijze als fotograaf"
+                isFirstArticle={false}>
+                Als je een fotoshoot bij me boekt dan kijken we samen naar een geschikte datum en een mooie locatie buiten of in de studio in Leiden. Tijdens de shoot gaan we samen op pad naar een mooie plek waar het licht ook goed is. Heb je speciale wensen voor het maken van de foto`s? Laat het dan gerust even weten. Na afloop van de fotoshoot maak ik een voorselectie en zet ik de foto`s in een voorbeeld gallerij. Kies hier zelf de foto`s uit die je graag zou willen hebben. Als ik je keuze ontvangen heb bewerk ik de foto`s en lever ik de digitale bestanden binnen 2 weken op. Het is ook mogelijk achteraf het aantal foto`s te wijzigen, dat is geen enkel probleem.
+            </TxtImg2Column>
+            <TxtImg2Column
+                imgSource="https://www.maxvanwijnen.nl/www/docs/images/intro-text/familie-fotoshoot.webp"
+                cssClass="Kinderen"
+                imgAlt = "Familie fotografie"
+                imgWidth={573}
+                imgHeight={384}
+                txtTitle="Prijzen voor een fotoshoot"
+                isFirstArticle={false}
+                isInverted={true}
+            >
+                De prijzen voor fotoshoots kunnen verschillen per type shoot.
+                Kijk daarom even op de specieke fotoshoot pagina voor de prijzen.
+                De minimale afname is altijd 5 foto`s en het maximale pakket aantal is 15. Losse foto`s buiten pakketten om kosten 20 euro. Zou je toch liever de complete preview gallerij willen ontvangen? Dit is mogelijk tegen een meerprijs van 100 euro boven het premium pakket van 15 foto`s. Je kiest dan nog steeds je 15 favorieten foto`s uit. Deze worden op hoge kwaliteit nabewerkt. De overigens foto`s ontvang je met een basis nabewerking. (Deze is reeds in de preview gallerij gedaan)
+            </TxtImg2Column>
+
+
 
 
 
