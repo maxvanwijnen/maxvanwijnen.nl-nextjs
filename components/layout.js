@@ -21,6 +21,7 @@ export default function Layout({ children , page}) {
                     }
 
                     <Breadcrumbs containerClassName={breadCrumbStyles['breadcrumb-wrapper']} rootLabel="" />
+
                 </section>
                 {children}
                 <WhatsAppChat />

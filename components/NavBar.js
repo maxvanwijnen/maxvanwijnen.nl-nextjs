@@ -56,7 +56,7 @@ export function NavBar() {
                 <Link href="/contact"><a onClick={closeMenu}>Contact</a></Link>
             </div>
             <div className={styles['book-button']}>
-                <Link href="/booking"><a onClick={closeMenu}>Boek een fotoshoot <HiArrowSmRight /></a></Link>
+                <Link href="/boek-een-fotoshoot"><a onClick={closeMenu}>Boek een fotoshoot <HiArrowSmRight /></a></Link>
             </div>
 
         </nav>
