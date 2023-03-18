@@ -33,6 +33,11 @@
       width: 100%;
       text-align: center;
     }
+
+    h3 {
+      margin-top:20px;
+      margin-bottom:10px;
+    }
     .center-part {
       flex-grow:1;
       display: flex;
@@ -42,11 +47,21 @@
 
       div {
         width: 90%;
+
+        label {
+          width: 100%;
+          display: block;
+          margin-bottom: 5px;
+          text-align: left;
+        }
+
       }
 
-      label {
+
+
+      p {
         width: 100%;
-        text-align: left;
+        max-width: 600px;
       }
 
       input, select{
