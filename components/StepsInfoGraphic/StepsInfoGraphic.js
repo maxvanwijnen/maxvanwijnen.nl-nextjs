@@ -2,8 +2,7 @@ import React from 'react';
 import Step from "./Step/Step";
 import css from './StepsInfoGraphic.module.scss';
 import { GrGallery, GrStatusGood , GrDownload, GrCamera} from 'react-icons/gr';
-import { GiPhotoCamera } from 'react-icons/gi';
-import {BsCalendar2Date} from 'react-icons/Bs'
+import { BsCalendar2Date } from 'react-icons/Bs';
 
 const StepsInfoGraphic = ({title}) => {
     return (
