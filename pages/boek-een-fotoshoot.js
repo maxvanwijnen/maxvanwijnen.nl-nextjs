@@ -2,6 +2,7 @@ import React from 'react';
 import TextContent from "../components/TextContent/TextContent";
 import TxtImg2Column from "../components/TxtImg2Column/TxtImg2Column";
 import PhotoshootTileMenu from "../components/PhotoshootTileMenu/PhotoshootTileMenu";
+import StepsInfoGraphic from "../components/StepsInfoGraphic/StepsInfoGraphic";
 
 const BoekEenShoot = () => {
     return (
@@ -12,6 +13,9 @@ const BoekEenShoot = () => {
             </TextContent>
 
             <PhotoshootTileMenu isBig={true} />
+
+            <StepsInfoGraphic />
+
             <TxtImg2Column
                 imgSource="https://www.maxvanwijnen.nl/www/docs/images/intro-text/familie-fotoshoot.webp"
                 cssClass="Kinderen"

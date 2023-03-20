@@ -1,0 +1,21 @@
+.steps-infographic {
+
+
+  padding-top:30px;
+  padding-bottom: 30px;
+  width: 100%;
+
+
+  .steps-row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: fit-content;
+    overflow-x: scroll;
+
+    max-width: 800px;
+
+
+  }
+
+}
