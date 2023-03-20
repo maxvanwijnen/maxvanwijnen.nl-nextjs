@@ -15,7 +15,7 @@ const StepsInfoGraphic = ({title}) => {
                    step={1}
                    icon={<BsCalendar2Date />}
                >
-                   We plannen een afspraak en locatie voor de fotoshoot. Momenteel fotografeer ik in de bollenstreek, maar alle locaties zijn bespreekbaar
+                   We plannen een afspraak en locatie voor de fotoshoot. Momenteel fotografeer ik in de bollenstreek, maar alle locaties zijn bespreekbaar.
                </Step>
                <Step
                    title="Tips en Trucs"
@@ -43,7 +43,7 @@ const StepsInfoGraphic = ({title}) => {
                    step={5}
                    icon={<GrDownload />}
                >
-                   Binnen 2 weken ontvang je de gekozen foto's op hoge kwaliteit nabewerkt
+                   Binnen 2 weken ontvang je de gekozen foto`s op hoge kwaliteit nabewerkt
                </Step>
            </div>
         </section>
