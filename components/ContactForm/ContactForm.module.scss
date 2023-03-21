@@ -1,0 +1,38 @@
+.contact-form {
+  font-family: var(--font-raleway);
+  form {
+    display: flex;
+    flex-direction: column;
+    max-width: 500px;
+    margin:0 auto;
+    gap:15px;
+
+    label {
+      display: flex;
+      flex-direction: column;
+
+
+      input, textarea {
+        margin-top:8px;
+        padding:10px;
+        border-radius: 5px;
+        border:1px solid grey;
+
+      }
+
+
+    }
+
+    button {
+      padding:10px;
+      border-radius: 5px;
+      background-color: var(--color-orange);
+      color: white;
+      border:0px;
+      text-transform: uppercase;
+      letter-spacing: 1px;
+
+    }
+
+  }
+}
