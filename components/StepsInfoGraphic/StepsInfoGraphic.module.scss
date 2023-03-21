@@ -4,16 +4,20 @@
   padding-top:30px;
   padding-bottom: 30px;
   width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 
 
   .steps-row {
     display: flex;
-    flex-wrap: wrap;
+    flex-wrap: nowrap;
     justify-content: space-between;
-    width: fit-content;
+    gap:20px;
+    width:100%;
     overflow-x: scroll;
+    overflow-y: hidden;
 
-    max-width: 800px;
 
 
   }
