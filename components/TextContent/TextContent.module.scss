@@ -17,3 +17,11 @@
     line-height: 30px;
   }
 }
+@media only screen and (max-width:1200px) {
+
+  .text-content {
+    p {
+      padding:20px;
+    }
+  }
+}
