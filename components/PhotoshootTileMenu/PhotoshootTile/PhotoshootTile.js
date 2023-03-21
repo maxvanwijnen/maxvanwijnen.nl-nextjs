@@ -19,10 +19,13 @@ export function PhotoshootTile ({page, img, size, isBookable}) {
                 </Link>
                 <div className={styles['title']}>
                     <div className={styles['fotoshoot']}>
-                        fotoshoot
+                        {isBookable && "Nu boeken"}
+                        {!isBookable && "Fotoshoot"}
                     </div>
                     <div className={styles['text']}>
-                        {page}
+                        {isBookable && `Fotoshoot ${page}`}
+                        {!isBookable && page}
+
                        {/* { size === 'big' && <p>kjfhskdjfhs kjfh skjfh skfhskfjhskfjhs kfjshf kjsh </p>}*/}
                     </div>
                 </div>
