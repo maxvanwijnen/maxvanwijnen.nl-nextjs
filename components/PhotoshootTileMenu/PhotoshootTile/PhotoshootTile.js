@@ -1,14 +1,15 @@
 import React from 'react';
 import Link from 'next/link';
 import styles from './photoshoottile.module.scss';
-export function PhotoshootTile ({page, img, size}) {
+export function PhotoshootTile ({page, img, size, isBookable}) {
     return (
 
             <div className={`${styles['tile-wrapper']} ${styles[size]}`}>
                 <Link href={`/fotoshoot/${page}`} >
                     <a className={`${styles['photoshoot-tile']} ${styles[page]}`}>
                         <div className={styles['hover-text']}>
-                            Naar fotoshoot {page}
+                            {!isBookable && `Naar fotoshoot ${page}`}
+                            {isBookable && `${page} fotoshoot boeken`}
                         </div>
                         <div className={styles['background-image']}>
 
