@@ -9,9 +9,9 @@ export default function Portfolio ({props}){
     const [photos, setPhotos] = useState([]);
 
     useEffect(()=>{console.log(photos)},[photos])
-    useEffect(()=>{test()},[])
+    useEffect(()=>{getPictures()},[])
 
-    const test = async () => {
+    const getPictures = async () => {
         let photoObj = {};
         let error = {};
         try {
