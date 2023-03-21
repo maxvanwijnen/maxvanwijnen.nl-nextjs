@@ -17,7 +17,7 @@ export default function Layout({ children , page}) {
             <main>
                 <section>
                     {
-                        pathName && pathName != "fotoshoot" && <PhotoshootTileMenu />
+                        pathName && pathName != "fotoshoot" && <PhotoshootTileMenu isBookable={false} isBig={false} />
                     }
 
                     <Breadcrumbs containerClassName={breadCrumbStyles['breadcrumb-wrapper']} rootLabel="" />
