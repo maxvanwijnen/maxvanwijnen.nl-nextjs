@@ -13,7 +13,7 @@ export const PhotoshootTileMenu = ({isBig, isBookable}) => {
     return (
         <nav className={`${styles['photoshoot-tile-menu']} ${styles[size]} `}>
             {isBig && !isBookable && <h2>Kies jouw fotoshoot</h2>}
-            {isBig && isBookable && <h2>Kies de fotoshoot die wilt boeken</h2>}
+            {isBig && isBookable && <><h2>Kies de fotoshoot die je wilt boeken</h2></>}
             <PhotoshootTile page="kinderen" img="Familie-fotoshoot-303.webp" size={size} isBookable={isBookable} />
             <PhotoshootTile page="loveshoot" img="Koppel-fotoshoot-303.webp" size={size} isBookable={isBookable}/>
             <PhotoshootTile page="portret" img="Portret-fotoshoot-303.webp" size={size} isBookable={isBookable} />
