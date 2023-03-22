@@ -1,25 +1,104 @@
-import React from 'react';
+import React, {useEffect} from 'react';
 import css from './ContactForm.module.scss';
+import axios from "axios";
+import {useState} from "react";
+
+
 
 const ContactForm = () => {
+
+    const [clientName, setClientName] = useState();
+    const [phoneNumber, setPhoneNumber] = useState();
+    const [email, setEmail] = useState();
+    const [comments, setComments] = useState();
+    const [error, setError] = useState({
+        general:'',
+        email:''
+    });
+
+
+    useEffect(()=> {
+        if (clientName && phoneNumber && email && comments) {
+
+            setError({
+                general:'',
+                email:''
+            });
+        }
+    },[clientName, phoneNumber, email, comments])
+
+    const sendContactForm = async (e) => {
+
+        e.preventDefault();
+
+
+        // regex voor het controleren van e-mail
+        const regex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+
+        if (!regex.test(email)){
+            setError({...error, email:'Voer een geldig emailadres in'})
+            console.log('ajsdhakdhj')
+            return false;
+        }
+
+
+
+        if (!clientName || !phoneNumber || !email || !comments) {
+
+            setError({...error, general:'Alle velden zijn verplicht'})
+            console.log('ajsdhakdhj')
+            return false;
+        }
+
+
+
+        const data = {
+            clientName: clientName,
+            phoneNumber: phoneNumber,
+            email: email,
+            comments: comments
+        };
+
+
+        console.log('send contactForm');
+        /*axios.post('https://www.maxvanwijnen.nl/mail-contactform.php',JSON.stringify(data),{
+            'Content-Type': 'application/json'
+        })
+            .then(response => {
+                console.log(response.data);
+            })
+            .catch(error => {
+                console.log(error);
+
+            });*/
+
+
+    }
+
+
+
     return (
         <section className={css['contact-form']}>
-            <form>
+
+            <form onSubmit={(e)=>sendContactForm(e)}>
+                {error.general && <div className={css['general-error']}>{error.general}</div>}
                 <label htmlFor="name">
                     Naam:
-                    <input type="text" name="name"/>
+                    <input type="text" name="name" onChange={(e)=>setClientName(e.target.value)} />
                 </label>
                 <label htmlFor="email">
-                    Telefoon:
-                    <input type="text" name="email"/>
+
+                    Email:
+                    {error.email && <div className={css['field-error']}>{error.email}</div>}
+                    <input type="text" name="email" onChange={(e)=>setEmail(e.target.value)}/>
                 </label>
-                <label htmlFor="telefoon">
+                <label htmlFor="phone">
                     Telefoon:
-                    <input type="text" name="telefoon"/>
+                    <input type="text" name="phone" onChange={(e)=>setPhoneNumber(e.target.value)} />
                 </label>
                 <label htmlFor="comment">
                     Vraag of opmerking:
-                    <textarea name="comment"></textarea>
+                    <textarea name="comment" onChange={(e)=>setComments(e.target.value)}></textarea>
                 </label>
                 <button type="submit">Versturen</button>
 

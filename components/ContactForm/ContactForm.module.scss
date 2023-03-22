@@ -7,17 +7,50 @@
     margin:0 auto;
     gap:15px;
 
+    .general-error {
+      background-color: darkred;
+      color: white;
+      width: fit-content;
+      padding:8px;
+      border-radius: 5px;
+      font-size: 12px;
+      margin-top:5px;
+      letter-spacing: 1px;
+      text-transform: uppercase;
+    }
     label {
       display: flex;
       flex-direction: column;
+
+      .field-error {
+        background-color: darkred;
+        color: white;
+        width: fit-content;
+        padding:8px;
+        border-radius: 5px;
+        font-size: 12px;
+        margin-top:5px;
+        letter-spacing: 1px;
+        text-transform: uppercase;
+      }
 
 
       input, textarea {
         margin-top:8px;
         padding:10px;
         border-radius: 5px;
-        border:1px solid grey;
+        border:1px solid #d7d7d7;
+        transform:scale(1.0);
+        transition: transform 0.2s ease-in-out;
 
+        &:focus {
+          transform:scale(1.07);
+        }
+
+      }
+
+      textarea {
+        height:200px;
       }
 
 
@@ -26,11 +59,19 @@
     button {
       padding:10px;
       border-radius: 5px;
+      border: 1px solid #D7D7D7FF;
       background-color: var(--color-orange);
       color: white;
       border:0px;
       text-transform: uppercase;
       letter-spacing: 1px;
+      transform:scale(1.0);
+      transition: transform 0.2s ease-in-out;
+
+      &:hover {
+        cursor:pointer;
+        transform: scale(1.1);
+    }
 
     }
 
