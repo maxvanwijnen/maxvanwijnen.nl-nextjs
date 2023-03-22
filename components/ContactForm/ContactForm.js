@@ -2,6 +2,7 @@ import React, {useEffect} from 'react';
 import css from './ContactForm.module.scss';
 import axios from "axios";
 import {useState} from "react";
+import {FiXCircle} from "react-icons/fi";
 
 
 
@@ -15,6 +16,7 @@ const ContactForm = () => {
         general:'',
         email:''
     });
+    const [send, setSend] = useState(true);
 
 
     useEffect(()=> {
@@ -61,21 +63,45 @@ const ContactForm = () => {
 
 
         console.log('send contactForm');
-        /*axios.post('https://www.maxvanwijnen.nl/mail-contactform.php',JSON.stringify(data),{
+        axios.post('https://www.maxvanwijnen.nl/mail-contactform.php',JSON.stringify(data),{
             'Content-Type': 'application/json'
         })
             .then(response => {
-                console.log(response.data);
+                setEmail(null);
+                setPhoneNumber(null);
+                setClientName(null);
+                setComments(null);
+
+                setSend(true);
             })
             .catch(error => {
                 console.log(error);
 
-            });*/
+            });
 
 
     }
 
 
+
+    if (send) {
+        console.log(send)
+        return (
+            <>
+                <div className={css['book-a-shoot-wrapper']}>
+                    <div className={css['send-success']}>
+                        <h2>Bedankt voor het invullen van het contactformulier</h2>
+                        <p>Het formulier is successvol verzonden</p>
+                        <p>Je ontvangt zo spoedig mogelijk een reactie</p>
+                        <button onClick={()=>setSend(false)}><FiXCircle /> Sluiten</button>
+
+                    </div>
+                </div>
+            </>
+
+        )
+
+    }
 
     return (
         <section className={css['contact-form']}>

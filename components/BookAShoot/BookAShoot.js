@@ -14,8 +14,33 @@ const BookAShoot = ({toggle, type, shootType, allPackages}) => {
     const [photoshootType, setPhotoshootType] = useState();
     const [email, setEmail] = useState();
     const [comments, setComments] = useState();
+    const [error, setError] = useState({
+        general:'',
+        email:''
+    })
+
+    const [send, setSend] = useState(false);
+
+    console.log(photoshootType)
 
     const sendBooking = async () => {
+
+        const regex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+
+        if (!regex.test(email)){
+            setError({...error, email:'Voer een geldig emailadres in'})
+            console.log('foutief emailadres')
+            return false;
+        }
+
+
+
+        if (!clientName || !phoneNumber || !email || !comments) {
+
+            setError({...error, general:'Alle velden zijn verplicht'})
+            console.log('ajsdhakdhj')
+            return false;
+        }
 
         const data = {
             clientName: clientName,
@@ -31,7 +56,13 @@ const BookAShoot = ({toggle, type, shootType, allPackages}) => {
             'Content-Type': 'application/json'
         })
         .then(response => {
-            console.log(response.data);
+            setEmail(null);
+            setPhotoshootType(null)
+            setPhoneNumber(null);
+            setClientName(null);
+            setComments(null);
+
+            setSend(true);
         })
         .catch(error => {
             console.log(error);
@@ -40,8 +71,31 @@ const BookAShoot = ({toggle, type, shootType, allPackages}) => {
 
 
     }
+
+    if (send) {
+        return (
+            <>
+                <div className={css['book-a-shoot-bg']} onClick={toggle}>
+                </div>
+                <div className={css['book-a-shoot-wrapper']}>
+                    <div className={css['send-success']}>
+                        <h2>Bedankt voor het boeken van de fotoshoot</h2>
+                        <p>Het formulier is successvol verzonden</p>
+                        <p>Je ontvangt zo spoedig mogelijk een reactie</p>
+                        <button onClick={toggle}><FiXCircle /> Sluiten</button>
+
+                    </div>
+                </div>
+            </>
+
+        )
+
+    }
     return (
-        <div className={css['book-a-shoot-wrapper']} onClick={toggle}>
+        <>
+            <div className={css['book-a-shoot-bg']} onClick={toggle}>
+            </div>
+            <div className={css['book-a-shoot-wrapper']}>
             <div className={css['book-a-shoot']}>
                 <div onClick={toggle} className={css['close-button']}><FiXCircle /></div>
                 <h2>Boek een shoot</h2>
@@ -52,6 +106,7 @@ const BookAShoot = ({toggle, type, shootType, allPackages}) => {
                             Vul gerust dit formulier in, geen zorgen je zit nergens aan vast. Samen stemmen we nog een geschikt moment en locatie af. Ook het fotoshoot pakket kun je later in alle rust nog aanpassen.
                         </p>
                     </div>
+                    {error.general && <div className={css['general-error']}>{error.general}</div>}
                     <div>
                         <label htmlFor="name">Naam</label>
                         <input type="text" name="name" onChange={(e)=>{setClientName(e.target.value)}}/>
@@ -62,19 +117,24 @@ const BookAShoot = ({toggle, type, shootType, allPackages}) => {
                     </div>
                     <div>
                         <label htmlFor="name">Email</label>
+                        {error.email && <div className={css['field-error']}>{error.email}</div>}
                         <input type="text" name="email" onChange={(e)=>{setEmail(e.target.value)}}/>
                     </div>
                     <div>
                         <label htmlFor="name">Fotoshoot</label>
-                        <select name="" id="" defaultValue={type} onChange={(e)=>{setPhotoshootType(e.target.value)}}>
+                        <select name="photoshootType" id="" defaultValue={type} onChange={(e)=>{setPhotoshootType(e.target.value)}}>
                             {
                                 allPackages.map((pricePackage)=>{
                                     return (
-                                        <option key={pricePackage.type} name={pricePackage.type} value={pricePackage.type}>{`${shootType} - ${pricePackage.type} €${pricePackage.price}`}</option>
+                                        <option key={pricePackage.type} name={pricePackage.type} value={`${shootType} - ${pricePackage.type} €${pricePackage.price}`}>{`${shootType} - ${pricePackage.type} €${pricePackage.price}`}</option>
                                     )
                                 })
                             }
                         </select>
+                    </div>
+                    <div>
+                        <label htmlFor="name">Bericht:</label>
+                        <textarea type="text" name="comments" onChange={(e)=>{setComments(e.target.value)}}></textarea>
                     </div>
 
 
@@ -100,8 +160,10 @@ const BookAShoot = ({toggle, type, shootType, allPackages}) => {
                 </div>
 
             </div>
+            </div>
+            </>
 
-        </div>
+
     )
 }
 
