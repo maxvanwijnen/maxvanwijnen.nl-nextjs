@@ -52,6 +52,7 @@ export function NavBar() {
                     <Link href="/fotoshoot/trouwen"><a onClick={closeMenu}>Bruidsreportage</a></Link>
                 </div>
                 <Link href="/portfolio"><a onClick={closeMenu}>Portfolio</a></Link>
+                <Link href="/prijzen"><a onClick={closeMenu}>Prijzen</a></Link>
                 <Link href="/over-mij"><a onClick={closeMenu}>Over mij</a></Link>
                 <Link href="/contact"><a onClick={closeMenu}>Contact</a></Link>
             </div>

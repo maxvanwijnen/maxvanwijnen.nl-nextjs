@@ -16,7 +16,7 @@ const ContactForm = () => {
         general:'',
         email:''
     });
-    const [send, setSend] = useState(true);
+    const [send, setSend] = useState(false);
 
 
     useEffect(()=> {

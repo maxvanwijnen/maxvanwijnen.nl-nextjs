@@ -3,15 +3,20 @@ import Link from 'next/link';
 import styles from './photoshoottile.module.scss';
 import BookAShoot from "../../BookAShoot/BookAShoot";
 import { prices } from "../../../objects/prices";
-export function PhotoshootTile ({page, img, size, isBookable}) {
+export function PhotoshootTile ({page, img, size, isBookable, isPricePage}) {
 
     const [isExpanded, toggleIsExpanded] = useState(false);
+    let gotoId;
 
     const toggle = () => {
         toggleIsExpanded(!isExpanded);
     }
 
     const allPackages = prices.find(entry => entry.fotoshoot === page).packages;
+
+    if (isPricePage) {
+        gotoId = '#prijzen';
+    }
 
 
 
@@ -31,7 +36,7 @@ export function PhotoshootTile ({page, img, size, isBookable}) {
                     {
                         !isBookable
                             ?
-                            <Link href={`/fotoshoot/${page}`} >
+                            <Link href={`/fotoshoot/${page}${gotoId}`} >
                                 <a className={`${styles['photoshoot-tile']} ${styles[page]}`}>
                                     <div className={styles['hover-text']}>
                                         {!isBookable && `Naar fotoshoot ${page}`}

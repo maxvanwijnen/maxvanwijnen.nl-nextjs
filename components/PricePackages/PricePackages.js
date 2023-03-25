@@ -8,7 +8,7 @@ const PricePackages = ({pricePackages, shootType}) => {
 
     return (
         <section>
-            <article className={css['price-packages']}>
+            <article className={css['price-packages']} id="prijzen">
                 {
                     pricePackages.map((pricePackage)=>{
                         return ( <PricePackage
