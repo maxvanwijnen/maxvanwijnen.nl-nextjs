@@ -6,6 +6,7 @@ import ReCAPTCHA from 'react-google-recaptcha';
 
 const BookAShoot = ({toggle, type, shootType, allPackages}) => {
 
+
     const handleInnerDivClick = (event) => {
         event.stopPropagation();
     }
@@ -21,15 +22,27 @@ const BookAShoot = ({toggle, type, shootType, allPackages}) => {
     })
 
     const [send, setSend] = useState(false);
+    const [isVerified, setIsVerified] = useState('');
 
     console.log(photoshootType)
 
-    const sendBooking = async () => {
+    const onVerify = () => {
+        setIsVerified(true);
+    };
+
+    const sendBooking = async (e) => {
+        e.preventDefault();
+
+        if (!isVerified){
+            setError({...error, general:'Klik op ik ben geen robot'})
+            return false;
+        }
+
 
         const regex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
 
         if (!regex.test(email)){
-            setError({...error, email:'Voer een geldig emailadres in'})
+            setError({...error, email:'Voer een geldig emailadres in', general:''})
             console.log('foutief emailadres')
             return false;
         }
@@ -97,7 +110,7 @@ const BookAShoot = ({toggle, type, shootType, allPackages}) => {
             <div className={css['book-a-shoot-bg']} onClick={toggle}>
             </div>
             <div className={css['book-a-shoot-wrapper']}>
-            <form className={css['book-a-shoot']} onSubmit={()=>{sendBooking()}}>
+            <form className={css['book-a-shoot']} onSubmit={(e)=>{sendBooking(e)}}>
                 <div onClick={toggle} className={css['close-button']}><FiXCircle /></div>
                 <h2>Boek een shoot</h2>
                 <div className={css['center-part']} onClick={handleInnerDivClick}>
@@ -144,7 +157,7 @@ const BookAShoot = ({toggle, type, shootType, allPackages}) => {
 
 
                 </div>
-                <ReCAPTCHA sitekey="6LevfsAZAAAAAAy5Y2oZYVFs6Mnmk2rE1tac8flH" />
+                <ReCAPTCHA sitekey="6Lf1hi8lAAAAAMSK3961bx-eqnUI3MUlw2INdG09" onChange={onVerify} />
                 <div className={css['bottom-part']}>
                     <button className={css['cancel']} onClick={toggle}>
                         Annuleren
