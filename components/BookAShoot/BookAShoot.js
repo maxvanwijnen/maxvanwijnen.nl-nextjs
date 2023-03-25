@@ -2,6 +2,7 @@ import React, {useState} from 'react';
 import css from './BookAShoot.module.scss';
 import {FiXCircle, FiSend} from 'react-icons/fi';
 import axios from 'axios';
+import ReCAPTCHA from 'react-google-recaptcha';
 
 const BookAShoot = ({toggle, type, shootType, allPackages}) => {
 
@@ -96,7 +97,7 @@ const BookAShoot = ({toggle, type, shootType, allPackages}) => {
             <div className={css['book-a-shoot-bg']} onClick={toggle}>
             </div>
             <div className={css['book-a-shoot-wrapper']}>
-            <div className={css['book-a-shoot']}>
+            <form className={css['book-a-shoot']} onSubmit={()=>{sendBooking()}}>
                 <div onClick={toggle} className={css['close-button']}><FiXCircle /></div>
                 <h2>Boek een shoot</h2>
                 <div className={css['center-part']} onClick={handleInnerDivClick}>
@@ -143,6 +144,7 @@ const BookAShoot = ({toggle, type, shootType, allPackages}) => {
 
 
                 </div>
+                <ReCAPTCHA sitekey="6LevfsAZAAAAAAy5Y2oZYVFs6Mnmk2rE1tac8flH" />
                 <div className={css['bottom-part']}>
                     <button className={css['cancel']} onClick={toggle}>
                         Annuleren
@@ -150,7 +152,7 @@ const BookAShoot = ({toggle, type, shootType, allPackages}) => {
                             <FiXCircle/>
                         </div>
                     </button>
-                    <button onClick={()=>sendBooking()}>
+                    <button type="submit">
                         Boeking afronden
                         <div className={css['send-icon']}>
                             <FiSend/>
@@ -159,7 +161,7 @@ const BookAShoot = ({toggle, type, shootType, allPackages}) => {
 
                 </div>
 
-            </div>
+            </form>
             </div>
             </>
 

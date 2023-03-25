@@ -21,7 +21,8 @@ const FotoshootLeiden = () => {
                 isFirstArticle={false}
                 isInverted={false}
             >
-                Wil je graag mooie studio foto`s laten maken? In mijn studio in Leiden ben je van harte welkom.
+                Buiten fotograferen is natuurlijk prachtig, maar soms gaat de voorkeur uit naar een sessie in de fotostudio. Voordelen van de studio zijn, ook bij slecht weer kunnen we fotograferen, je hebt meer privacy en met de diverse achtergrond kleuren kunnen we eenvoudig de mooiste kleur combinaties maken.
+                Wil je graag mooie studio foto`s laten maken? In mijn studio in Leiden ben je van harte welkom! Lees er <Link href="/fotostudio">hier</Link> meer over.
             </TxtImg2Column>
             <TxtImg2Column
                 imgSource="https://www.maxvanwijnen.nl/www/docs/images/intro-text/familie-fotoshoot.webp"
@@ -49,7 +50,7 @@ const FotoshootLeiden = () => {
             </TxtImg2Column>
             <TextContent
                 title="Portretfotografie buiten in Leiden">
-                Heb je een portretfoto nodig voor je social media kanalen of website? Of vind je het gewoon leuk om mooie foto's te laten maken? Ook een portretfotoshoot kan uitstekend buiten in Leiden gedaan worden.
+                Heb je een portretfoto nodig voor je social media kanalen of website? Of vind je het gewoon leuk om mooie foto`s te laten maken? Ook een portretfotoshoot kan uitstekend buiten in Leiden gedaan worden.
             </TextContent>
             <TextContent
                 title="Familiefotografie in Leiden">
