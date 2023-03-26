@@ -3,10 +3,21 @@ import TextContent from "../components/TextContent/TextContent";
 import TxtImg2Column from "../components/TxtImg2Column/TxtImg2Column";
 import Quote from "../components/Quote/Quote";
 import TextImg from "../components/TextImg/TextImg";
+import Head from "next/head";
 
 const Fotostudio = () => {
     return (
         <section>
+            <Head>
+                <title>
+                    Fotostudio | Mijn studio in Leiden | Max van Wijnen Fotografie
+                </title>
+                <meta
+                    name="description"
+                    content="In mijn fotostudio in Leiden zorg ik voor professionele foto's van idee tot resultaat. Laat je verrassen door de mogelijkheden en ontdek wat ik voor jou kan betekenen."
+                    key="desc"
+                />
+            </Head>
             <TextContent
                 title="Mijn fotostudio in Leiden"
             >Ben je op zoek naar een fotoshoot in of rondom Noordwijk? Dan ben je bij mij aan het juiste adres. Je kunt bij mij terecht voor alle type fotoshoots zoals een zwangerschapsfotoshoot,kinderfotoshoot, familiefotoshoot of een portretfotoshoot. Of heb je zelf een ander goed idee? Laat het me weten! Ik doe al mijn fotoshoots op locatie. Noordwijk kent vele mooie locaties voor fotoshoots, denk daarbij aan het strand, de duinen of het bos.</TextContent>

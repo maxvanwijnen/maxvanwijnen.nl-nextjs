@@ -4,10 +4,21 @@ import TxtImg2Column from "../../components/TxtImg2Column/TxtImg2Column";
 import Quote from "../../components/Quote/Quote";
 import TextImg from "../../components/TextImg/TextImg";
 import PhotoshootTileMenu from "../../components/PhotoshootTileMenu/PhotoshootTileMenu";
+import Head from "next/head";
 
 const Fotoshoot = () => {
     return (
         <section>
+            <Head>
+                <title>
+                    Fotoshoots op locatie & in de studio | Max van Wijnen Fotografie
+                </title>
+                <meta
+                    name="description"
+                    content="Stap in de wereld van fotografie en beleef een onvergetelijke ervaring tijdens een fotoshoot op locatie of in mijn studio in Leiden. Boek nu en geniet!"
+                    key="desc"
+                />
+            </Head>
             <TextContent
                 title="Fotoshoot"
             >De mooiste foto`s maken we samen en voor het maken van die mooie foto`s is een goede planning belangrijk. Factoren als het tijdstip van de dag, de locatie, kledingkeuze en weersomstandigheden hebben allemaal invloed op de de kwaliteit van de foto`s. Op deze pagina deel ik mijn tips en tricks voor het kiezen van de beste tijdstippen en weersomstandigheden, geef ik je kledingadvies en vertel ik je meer over mijn werkwijze. Zo komen we samen tot het beste resultaat!</TextContent>

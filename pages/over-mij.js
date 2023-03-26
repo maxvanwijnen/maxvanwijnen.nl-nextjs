@@ -3,6 +3,7 @@ import ReactPhotoGallery from "../components/ReactPhotoGallery/ReactPhotoGallery
 import TextContent from "../components/TextContent/TextContent";
 import axios from "axios";
 import TxtImg2Column from "../components/TxtImg2Column/TxtImg2Column";
+import Head from "next/head";
 
 
 export default function OverMij ({props}){
@@ -13,6 +14,16 @@ export default function OverMij ({props}){
 
     return (
         <section>
+            <Head>
+                <title>
+                    Over Mij | Max van Wijnen Fotografie
+                </title>
+                <meta
+                    name="description"
+                    content="Hoe ben ik van hobbyist naar professionele fotograaf gegroeid? Lees mijn 'Over Mij'-pagina en ontdek mijn persoonlijke reis in de wereld van fotografie."
+                    key="desc"
+                />
+            </Head>
             <TxtImg2Column
                 imgSource="https://www.maxvanwijnen.nl/www/images/diverse/Max-van-Wijnen-Profielfoto.webp"
                 cssClass="Kinderen"
