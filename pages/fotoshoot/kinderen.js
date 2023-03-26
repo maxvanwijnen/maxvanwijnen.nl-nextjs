@@ -9,11 +9,22 @@ import TextContent from "../../components/TextContent/TextContent";
 import PricePackages from "../../components/PricePackages/PricePackages";
 
 import TextImg from './../../components/TextImg/TextImg';
+import Head from "next/head";
 
 
 export default function Kinderen (){
     return (
         <>
+            <Head>
+                <title>
+                    Een leuke kinderfotoshoot | Max van Wijnen Fotografie
+                </title>
+                <meta
+                    name="description"
+                    content="Kleine kinderen worden snel groot, maak te gekke kinderfoto's en bewaar de herinneringen aan die mooie tijd! Boek nu een kinderfotoshoot op bij Max van Wijnen Fotografie"
+                    key="desc"
+                />
+            </Head>
             <TxtImg2Column
             imgSource="/img/header/Kinderfotografie-header.webp"
             cssClass="Kinderen"
