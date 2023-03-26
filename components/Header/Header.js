@@ -4,7 +4,7 @@ import Image from 'next/image';
 import { FiMenu } from 'react-icons/fi';
 import { HiArrowSmRight } from 'react-icons/hi';
 import styles from './Header.module.scss';
-import { NavBar } from '../NavBar';
+import { NavBar } from '../NavBar/NavBar';
 
 
 import logoImg from '../../public/img/logo/logo-maxvanwijnen-fotografie-black.png';

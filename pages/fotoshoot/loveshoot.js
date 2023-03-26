@@ -9,11 +9,22 @@ import TextContent from "../../components/TextContent/TextContent";
 import PricePackages from "../../components/PricePackages/PricePackages";
 
 import TextImg from './../../components/TextImg/TextImg';
+import Head from "next/head";
 
 
 export default function Loveshoot (){
     return (
         <>
+            <Head>
+                <title>
+                    Een romantische love fotoshoot | Max van Wijnen Fotografie
+                </title>
+                <meta
+                    name="description"
+                    content="Wil je de liefde tussen jou en je partner vastleggen op een unieke manier? Boek dan nu een love fotoshoot op maat bij Max van Wijnen Fotografie"
+                    key="desc"
+                />
+            </Head>
             <TxtImg2Column
                 imgSource="https://www.maxvanwijnen.nl/www/docs/images/intro-text/loveshoot-fotoshoot.webp"
                 cssClass="Kinderen"

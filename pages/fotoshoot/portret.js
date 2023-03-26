@@ -8,11 +8,22 @@ import TextContent from "../../components/TextContent/TextContent";
 import PricePackages from "../../components/PricePackages/PricePackages";
 
 import TextImg from './../../components/TextImg/TextImg';
+import Head from "next/head";
 
 
 export default function Portret (){
     return (
         <>
+            <Head>
+                <title>
+                    Een portretfotoshoot op maat | Max van Wijnen Fotografie
+                </title>
+                <meta
+                    name="description"
+                    content="Mijn portretfotoshoots in Leiden zijn op maat gemaakt voor jou. Of je nu op zoek bent naar zakelijke portretten of persoonlijke foto's, ik zorg voor professionele fotografie op maat."
+                    key="desc"
+                />
+            </Head>
             <TxtImg2Column
                 imgSource="https://www.maxvanwijnen.nl/www/docs/images/intro-text/familie-fotoshoot.webp"
                 cssClass="Kinderen"
