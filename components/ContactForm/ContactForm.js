@@ -3,6 +3,7 @@ import css from './ContactForm.module.scss';
 import axios from "axios";
 import {useState} from "react";
 import {FiXCircle} from "react-icons/fi";
+import ReCAPTCHA from 'react-google-recaptcha';
 
 
 
@@ -17,7 +18,11 @@ const ContactForm = () => {
         email:''
     });
     const [send, setSend] = useState(false);
+    const [isVerified, setIsVerified] = useState('');
 
+    const onVerify = () => {
+        setIsVerified(true);
+    };
 
     useEffect(()=> {
         if (clientName && phoneNumber && email && comments) {
@@ -32,6 +37,11 @@ const ContactForm = () => {
     const sendContactForm = async (e) => {
 
         e.preventDefault();
+
+        if (!isVerified){
+            setError({...error, general:'Klik op ik ben geen robot'})
+            return false;
+        }
 
 
         // regex voor het controleren van e-mail
@@ -126,6 +136,7 @@ const ContactForm = () => {
                     Vraag of opmerking:
                     <textarea name="comment" onChange={(e)=>setComments(e.target.value)}></textarea>
                 </label>
+                <ReCAPTCHA sitekey="6Lf1hi8lAAAAAMSK3961bx-eqnUI3MUlw2INdG09" onChange={onVerify}/>
                 <button type="submit">Versturen</button>
 
 
