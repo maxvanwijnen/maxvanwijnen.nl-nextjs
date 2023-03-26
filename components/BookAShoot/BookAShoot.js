@@ -15,6 +15,7 @@ const BookAShoot = ({toggle, type, shootType, allPackages}) => {
     const [phoneNumber, setPhoneNumber] = useState();
     const [photoshootType, setPhotoshootType] = useState();
     const [email, setEmail] = useState();
+    const [studioLocation, setStudioLocation] = useState();
     const [comments, setComments] = useState();
     const [error, setError] = useState({
         general:'',
@@ -60,6 +61,7 @@ const BookAShoot = ({toggle, type, shootType, allPackages}) => {
             clientName: clientName,
             phoneNumber: phoneNumber,
             photoshootType: photoshootType,
+            studioLocation:studioLocation,
             email: email,
             comments: comments
         };
@@ -74,6 +76,7 @@ const BookAShoot = ({toggle, type, shootType, allPackages}) => {
             setPhotoshootType(null)
             setPhoneNumber(null);
             setClientName(null);
+            setStudioLocation(null);
             setComments(null);
 
             setSend(true);
@@ -114,48 +117,56 @@ const BookAShoot = ({toggle, type, shootType, allPackages}) => {
                 <div onClick={toggle} className={css['close-button']}><FiXCircle /></div>
                 <h2>Boek een shoot</h2>
                 <div className={css['center-part']} onClick={handleInnerDivClick}>
-                    <div>
+                    <div className={css['form-intro-text']}>
                         <h3>Wat leuk dat je een fotoshoot bij mij zou willen in plannen</h3>
                         <p>
                             Vul gerust dit formulier in, geen zorgen je zit nergens aan vast. Samen stemmen we nog een geschikt moment en locatie af. Ook het fotoshoot pakket kun je later in alle rust nog aanpassen.
                         </p>
                     </div>
                     {error.general && <div className={css['general-error']}>{error.general}</div>}
-                    <div>
-                        <label htmlFor="name">Naam</label>
-                        <input type="text" name="name" onChange={(e)=>{setClientName(e.target.value)}}/>
+                    <div className={css['form-part']}>
+                        <div className={css['form-column']}>
+                            <div>
+                                <label htmlFor="name">Naam</label>
+                                <input type="text" name="name" onChange={(e)=>{setClientName(e.target.value)}}/>
+                            </div>
+                            <div>
+                                <label htmlFor="name">Telefoonnummer</label>
+                                <input type="text" name="phone" onChange={(e)=>{setPhoneNumber(e.target.value)}} />
+                            </div>
+                            <div>
+                                <label htmlFor="name">Email</label>
+                                {error.email && <div className={css['field-error']}>{error.email}</div>}
+                                <input type="text" name="email" onChange={(e)=>{setEmail(e.target.value)}}/>
+                            </div>
+                        </div>
+                        <div className={css['form-column']}>
+                            <div>
+                                <label htmlFor="photoshootType">Fotoshoot</label>
+                                <select name="photoshootType" id="" defaultValue={type} onChange={(e)=>{setPhotoshootType(e.target.value)}}>
+                                    {
+                                        allPackages.map((pricePackage)=>{
+                                            return (
+                                                <option key={pricePackage.type} name={pricePackage.type} value={`${shootType} - ${pricePackage.type} €${pricePackage.price}`}>{`${shootType} - ${pricePackage.type} €${pricePackage.price}`}</option>
+                                            )
+                                        })
+                                    }
+                                </select>
+                            </div>
+                            <div>
+                                <label htmlFor="studio-location">Studio of Locatie</label>
+                                <select name="studio-location" id="" onChange={(e)=>{setStudioLocation(e.target.value)}}>
+                                    <option value="Studio">Studio</option>
+                                    <option value="Buiten op locatie">Buiten op locatie</option>
+                                    <option value="Nader te bepalen">Nader te bepalen</option>
+                                </select>
+                            </div>
+                            <div>
+                                <label htmlFor="name">Bericht:</label>
+                                <textarea type="text" name="comments" onChange={(e)=>{setComments(e.target.value)}}></textarea>
+                            </div>
+                        </div>
                     </div>
-                    <div>
-                        <label htmlFor="name">Telefoonnummer</label>
-                        <input type="text" name="phone" onChange={(e)=>{setPhoneNumber(e.target.value)}} />
-                    </div>
-                    <div>
-                        <label htmlFor="name">Email</label>
-                        {error.email && <div className={css['field-error']}>{error.email}</div>}
-                        <input type="text" name="email" onChange={(e)=>{setEmail(e.target.value)}}/>
-                    </div>
-                    <div>
-                        <label htmlFor="name">Fotoshoot</label>
-                        <select name="photoshootType" id="" defaultValue={type} onChange={(e)=>{setPhotoshootType(e.target.value)}}>
-                            {
-                                allPackages.map((pricePackage)=>{
-                                    return (
-                                        <option key={pricePackage.type} name={pricePackage.type} value={`${shootType} - ${pricePackage.type} €${pricePackage.price}`}>{`${shootType} - ${pricePackage.type} €${pricePackage.price}`}</option>
-                                    )
-                                })
-                            }
-                        </select>
-                    </div>
-                    <div>
-                        <label htmlFor="name">Bericht:</label>
-                        <textarea type="text" name="comments" onChange={(e)=>{setComments(e.target.value)}}></textarea>
-                    </div>
-
-
-
-
-
-
                 </div>
                 <ReCAPTCHA sitekey="6Lf1hi8lAAAAAMSK3961bx-eqnUI3MUlw2INdG09" onChange={onVerify} />
                 <div className={css['bottom-part']}>

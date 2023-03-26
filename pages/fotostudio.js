@@ -4,13 +4,14 @@ import TxtImg2Column from "../components/TxtImg2Column/TxtImg2Column";
 import Quote from "../components/Quote/Quote";
 import TextImg from "../components/TextImg/TextImg";
 import Head from "next/head";
+import Link from "next/link";
 
 const Fotostudio = () => {
     return (
         <section>
             <Head>
                 <title>
-                    Fotostudio | Mijn studio in Leiden | Max van Wijnen Fotografie
+                    Fotostudio | Bezoek mijn studio in Leiden | Max van Wijnen Fotografie
                 </title>
                 <meta
                     name="description"
@@ -19,25 +20,23 @@ const Fotostudio = () => {
                 />
             </Head>
             <TextContent
-                title="Mijn fotostudio in Leiden"
-            >Ben je op zoek naar een fotoshoot in of rondom Noordwijk? Dan ben je bij mij aan het juiste adres. Je kunt bij mij terecht voor alle type fotoshoots zoals een zwangerschapsfotoshoot,kinderfotoshoot, familiefotoshoot of een portretfotoshoot. Of heb je zelf een ander goed idee? Laat het me weten! Ik doe al mijn fotoshoots op locatie. Noordwijk kent vele mooie locaties voor fotoshoots, denk daarbij aan het strand, de duinen of het bos.</TextContent>
+                title="Welkom in mijn fotostudio in Leiden"
+            >
+                Ben je opzoek naar professionele studiofoto`s? In mijn fotostudio in Leiden help ik je hier graag mee! Hier heb ik alle apparatuur beschikbaar om samen tot de mooiste resultaten te komen. Ben je opzoek naar portretfoto`s, zakelijk of gewoon voor jezelf? Of wil je graag een mooie zwangerschapsfotoshoot doen in mijn studio? Je bent van harte welkom in mijn studio in Leiden!
+
+
+            </TextContent>
             <TxtImg2Column
                 imgSource="https://www.maxvanwijnen.nl/www/docs/images/intro-text/familie-fotoshoot.webp"
                 cssClass="Kinderen"
-                imgAlt = "Familie fotografie"
+                imgAlt = "Studio fotografie in Leiden"
                 imgWidth={573}
                 imgHeight={384}
-                txtTitle="Fotoshoot locaties in Noordwijk"
+                txtTitle="Studio portretfoto's in Leiden"
                 isFirstArticle={false}
             >
-                Een mooie locatie voor een fotoshoot in Noordwijk is het Leeuwenhorstbos. Ik kom hier graag vanwege de mooie plekjes en paden. Er is altijd wel een plekje te vinden waar het licht mooi is. Het bos is niet te groot waardoor we niet ver hoeven te lopen, maar toch biedt het alle mogelijkeheden voor een mooie fotoshoot.
-
-
+               Wil je graag studio portretfoto`s laten maken in leiden? Dat kan! Boek snel je fotoshoot via de <Link href="/fotoshoot/portet#prijzen">pagina portretten</Link>.
             </TxtImg2Column>
-            <Quote>Kinderen groeien zo snel op, maak daarom tijd om hun kostbare momenten vast te leggen</Quote>
-
-
-
 
             <TextImg
                 title="De juiste voorbereiding voor een perfecte familieshoot"
