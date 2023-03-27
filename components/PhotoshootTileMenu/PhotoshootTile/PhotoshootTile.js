@@ -6,7 +6,7 @@ import { prices } from "../../../objects/prices";
 export function PhotoshootTile ({page, img, size, isBookable, isPricePage}) {
 
     const [isExpanded, toggleIsExpanded] = useState(false);
-    let gotoId;
+    let gotoId = '';
 
     const toggle = () => {
         toggleIsExpanded(!isExpanded);
@@ -17,6 +17,7 @@ export function PhotoshootTile ({page, img, size, isBookable, isPricePage}) {
     if (isPricePage) {
         gotoId = '#prijzen';
     }
+
 
 
 

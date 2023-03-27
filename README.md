@@ -1,5 +1,31 @@
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
+
+
+## TODO
+# pagina's
+* homepagina
+* fotoshoot
+  * kinderen
+  * portret
+  * familie
+  * trouwen
+  * loveshoot
+  * zwangerschap
+* studio
+* portfolio
+* prijzen
+* over-mij
+* contact
+
+* fotoshoot-noordwijk
+* fotoshoot-leiden
+* fotoshoot-buiten
+* fotoshoot-kleding-tips
+
+
+
+
 ## Getting Started
 
 First, run the development server:
