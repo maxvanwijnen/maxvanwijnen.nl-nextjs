@@ -35,7 +35,7 @@ export default function Home() {
 
 
         <TxtImg2Column
-            imgSource="https://dev1.maxvanwijnen.nl/images/diverse/Max-van-Wijnen-Profielfoto.webp"
+            imgSource="https://dev1.maxvanwijnen.nl/docs/images/diverse/Max-van-Wijnen-Profielfoto.webp"
             cssClass="Kinderen"
             imgAlt = "Kinderfotografie"
             imgWidth={573}
