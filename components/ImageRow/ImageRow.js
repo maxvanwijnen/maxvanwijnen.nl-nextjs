@@ -4,14 +4,14 @@ import css from './ImageRow.module.scss';
 import TextContent from "../TextContent/TextContent";
 
 const images = [
-    "https://www.maxvanwijnen.nl/www/images/Fotoshoot-kind-noordwijk-001.jpg",
+    "https://dev1.maxvanwijnen.nl/docs/miniportfolio/images/Fotoshoot-kind-noordwijk-001.jpg",
     //...
-    "https://www.maxvanwijnen.nl/www/images/kinderen/Fotoshoot-strand-kind.webp",
-    "https://www.maxvanwijnen.nl/www/images/898/kinderen/Fotoshoot-kind-noordwijk-898.webp",
-    "https://www.maxvanwijnen.nl/www/images//kinderen/kinderfotografie-bollenveld-signed.webp",
-    "https://www.maxvanwijnen.nl/www/images/898/kinderen/Fotoshoot-kind-noordwijk-898.webp",
-    "https://www.maxvanwijnen.nl/www/images/15.jpg",
-    "https://www.maxvanwijnen.nl/www/images/1.jpg"
+    "https://dev1.maxvanwijnen.nl/docs/miniportfolio/images/kinderen/Fotoshoot-strand-kind.webp",
+    "https://dev1.maxvanwijnen.nl/docs/miniportfolio/images/898/kinderen/Fotoshoot-kind-noordwijk-898.webp",
+    "https://dev1.maxvanwijnen.nl/docs/miniportfolio/images//kinderen/kinderfotografie-bollenveld-signed.webp",
+    "https://dev1.maxvanwijnen.nl/docs/miniportfolio/images/898/kinderen/Fotoshoot-kind-noordwijk-898.webp",
+    "https://dev1.maxvanwijnen.nl/docs/miniportfolio/images/15.jpg",
+    "https://dev1.maxvanwijnen.nl/docs/miniportfolio/images/1.jpg"
 
 ]
 
