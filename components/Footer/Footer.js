@@ -8,7 +8,7 @@ const Footer = () => {
     return (
         <footer className={css['footer']}>
             <Image
-                src="https://www.maxvanwijnen.nl/www/images/logo-maxvanwijnen-fotografie.png"
+                src="https://dev1.maxvanwijnen.nl/images/logo-maxvanwijnen-fotografie.png"
                 alt="Logo"
                 width={300}
                 height={100}
