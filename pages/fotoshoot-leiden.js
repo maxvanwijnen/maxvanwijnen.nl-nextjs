@@ -12,7 +12,7 @@ const FotoshootLeiden = () => {
                 title="Fotoshoot Leiden"
             >Ben je op zoek naar een fotograaf voor een mooie fotoshoot in of rondom Leiden? Dan ben je bij mij aan het juiste adres. Je kunt bij mij terecht voor alle type fotoshoots zoals een <Link href="/fotoshoot/zwangerschap">zwangerschapsfotoshoot</Link>, <Link href="/fotoshoot/kinderen">kinderfotoshoot</Link>, <Link href="/fotoshoot/familie">familiefotoshoot</Link> of een <Link href="/fotoshoot/portret">portretfotoshoot</Link>. Of heb je zelf een ander goed idee? Laat het me weten! Ik doe al mijn fotoshoots op locatie. Leiden kent vele mooie locaties voor fotoshoots, lees er hier meer over.</TextContent>
             <TxtImg2Column
-                imgSource="https://www.maxvanwijnen.nl/www/docs/images/intro-text/familie-fotoshoot.webp"
+                imgSource="https://dev1.maxvanwijnen.nl/docs/images/intro-text/familie-fotoshoot.webp"
                 cssClass="Kinderen"
                 imgAlt = "Familie fotografie"
                 imgWidth={573}
@@ -25,7 +25,7 @@ const FotoshootLeiden = () => {
                 Wil je graag mooie studio foto`s laten maken? In mijn studio in Leiden ben je van harte welkom! Lees er <Link href="/fotostudio">hier</Link> meer over.
             </TxtImg2Column>
             <TxtImg2Column
-                imgSource="https://www.maxvanwijnen.nl/www/docs/images/intro-text/familie-fotoshoot.webp"
+                imgSource="https://dev1.maxvanwijnen.nl/docs/images/intro-text/familie-fotoshoot.webp"
                 cssClass="Kinderen"
                 imgAlt = "Familie fotografie"
                 imgWidth={573}
@@ -37,7 +37,7 @@ const FotoshootLeiden = () => {
                 Het centrum van Leiden is natuurlijk prachtig voor foto`s met een stedelijke sfeer. Die typische leidsche sfeer met de prachtige grachten, bruggetjes en straatjes zijn fantastisch voor een mooie fotoshoot. Maar binnen loopafstand bevinden zich ook genoeg parken waar we prachtige plekjes gaan vinden voor een mooie foto. Kortom ben je op zoek naar een mooie plek voor portretfoto`s? Leiden heeft het allemaal.
             </TxtImg2Column>
             <TxtImg2Column
-                imgSource="https://www.maxvanwijnen.nl/www/docs/images/intro-text/familie-fotoshoot.webp"
+                imgSource="https://dev1.maxvanwijnen.nl/docs/images/intro-text/familie-fotoshoot.webp"
                 cssClass="Kinderen"
                 imgAlt = "Familie fotografie"
                 imgWidth={573}
@@ -57,7 +57,7 @@ const FotoshootLeiden = () => {
                 Met het hele gezin een mooie fotoshoot doen in Leiden, dat staat garant voor de mooiste resultaten. Het leuke van Leiden is dat we van de karakteristieke straatjes, zo ineens in een park belanden of bij de Leidsche grachten zijn. Een totaal andere familiefoto binnen enkele meter lopen.
             </TextContent>
             <TxtImg2Column
-                imgSource="https://www.maxvanwijnen.nl/www/docs/images/intro-text/familie-fotoshoot.webp"
+                imgSource="https://dev1.maxvanwijnen.nl/docs/images/intro-text/familie-fotoshoot.webp"
                 cssClass="Kinderen"
                 imgAlt = "Familie fotografie"
                 imgWidth={573}

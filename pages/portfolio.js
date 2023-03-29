@@ -16,7 +16,7 @@ export default function Portfolio ({props}){
         let photoObj = {};
         let error = {};
         try {
-            const result = await axios.get('https://www.maxvanwijnen.nl/www/docs/images/gallery/getImages.php');
+            const result = await axios.get('https://dev1.maxvanwijnen.nl/docs/images/gallery/getImages.php');
             setPhotos(result.data);
         }
         catch (e) {

@@ -25,7 +25,7 @@ export default function OverMij ({props}){
                 />
             </Head>
             <TxtImg2Column
-                imgSource="https://www.maxvanwijnen.nl/www/images/diverse/Max-van-Wijnen-Profielfoto.webp"
+                imgSource="https://dev1.maxvanwijnen.nl/images/diverse/Max-van-Wijnen-Profielfoto.webp"
                 cssClass="Kinderen"
                 imgAlt = "Kinderfotografie"
                 imgWidth={573}

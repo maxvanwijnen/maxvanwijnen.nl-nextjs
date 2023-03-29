@@ -13,7 +13,7 @@ const Prijzen = () => {
 
             <PhotoshootTileMenu isBig={true} isPricePage={true}  />
             <TxtImg2Column
-                imgSource="https://www.maxvanwijnen.nl/www/docs/images/intro-text/familie-fotoshoot.webp"
+                imgSource="https://dev1.maxvanwijnen.nl/docs/images/intro-text/familie-fotoshoot.webp"
                 cssClass="Kinderen"
                 imgAlt = "Familie fotografie"
                 imgWidth={573}
@@ -25,7 +25,7 @@ const Prijzen = () => {
 
             </TxtImg2Column>
             <TxtImg2Column
-                imgSource="https://www.maxvanwijnen.nl/www/docs/images/intro-text/familie-fotoshoot.webp"
+                imgSource="https://dev1.maxvanwijnen.nl/docs/images/intro-text/familie-fotoshoot.webp"
                 cssClass="Kinderen"
                 imgAlt = "Familie fotografie"
                 imgWidth={573}
@@ -37,7 +37,7 @@ const Prijzen = () => {
                 Alle pakketten zijn uitbreidbaar met extra foto`s. Je hoeft dus niet het exacte aantal foto`s van het pakket te kiezen. Extra foto`s kosten 15 euro per stuk. De foto`s in de voorselectie hebben een basis nabewerking. Nadat ik je keuze binnen heb ga ik voor je aan de slag met de nabewerking van de foto`s. Deze ontvang je binnen 2 weken als digitale download na het maken van de keuze. Wil je graag afdrukken ontvangen? Ook dat is uiteraard mogelijk. Kijk op de specifieke fotoshoot pagina voor meer informatie over de prijzen van de fotoshoots.
             </TxtImg2Column>
             <TxtImg2Column
-                imgSource="https://www.maxvanwijnen.nl/www/docs/images/intro-text/familie-fotoshoot.webp"
+                imgSource="https://dev1.maxvanwijnen.nl/docs/images/intro-text/familie-fotoshoot.webp"
                 cssClass="Kinderen"
                 imgAlt = "Familie fotografie"
                 imgWidth={573}
@@ -47,7 +47,7 @@ const Prijzen = () => {
                 Heb je andere wensen of ideeën? Vraag het me gerust, ik bespreek graag met jou de mogelijkheden. Ik ben een ervaren fotograaf die gespecialiseerd is in verschillende soorten fotoshoots. Of het nu gaat om een zakelijke fotoshoot, een familiefotoshoot of een fotoshoot voor je portfolio, bij mij ben je aan het juiste adres.
             </TxtImg2Column>
             <TxtImg2Column
-                imgSource="https://www.maxvanwijnen.nl/www/docs/images/intro-text/familie-fotoshoot.webp"
+                imgSource="https://dev1.maxvanwijnen.nl/docs/images/intro-text/familie-fotoshoot.webp"
                 cssClass="Kinderen"
                 imgAlt = "Familie fotografie"
                 imgWidth={573}

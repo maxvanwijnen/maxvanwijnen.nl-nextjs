@@ -47,7 +47,7 @@ export default function Kinderen (){
 
             <TextImg
                 title="Fotoshoot met kinderen: Advies voor kleding en accessoires"
-                img="https://www.maxvanwijnen.nl/www/docs/images/content-long/kinder-fotoshoot.webp"
+                img="https://dev1.maxvanwijnen.nl/docs/images/content-long/kinder-fotoshoot.webp"
             >
                 <h3>Voorbereiding op de fotoshoot</h3>
                 <p>Het is belangrijk om je kind voor te bereiden op de fotoshoot om het meeste uit de sessie te halen. Hier zijn enkele tips:
@@ -66,19 +66,19 @@ export default function Kinderen (){
                     {price:119,
                         type:'basic',
                         usplist:["5 Foto's","Hoge kwaliteit nabewerkt", "Digitale download"],
-                        img:'https://www.maxvanwijnen.nl/www/docs/images/price-package/kinderen-basic-fotoshoot.webp',
+                        img:'https://dev1.maxvanwijnen.nl/docs/images/price-package/kinderen-basic-fotoshoot.webp',
                         desc:''
                     },
                     {price:139,
                         type:'deluxe',
                         usplist:["10 Foto's","Hoge kwaliteit nabewerkt", "Digitale download"],
-                        img:'https://www.maxvanwijnen.nl/www/docs/images/price-package/kinderen-deluxe-fotoshoot.webp',
+                        img:'https://dev1.maxvanwijnen.nl/docs/images/price-package/kinderen-deluxe-fotoshoot.webp',
                         desc:''
                     },
                     {price:189,
                         type:'premium',
                         usplist:["15 Foto's","Hoge kwaliteit nabewerkt", "Digitale download"],
-                        img:'https://www.maxvanwijnen.nl/www/docs/images/price-package/kinderen-premium-fotoshoot.webp',
+                        img:'https://dev1.maxvanwijnen.nl/docs/images/price-package/kinderen-premium-fotoshoot.webp',
                         desc:''
                     }
                 ]
@@ -87,11 +87,11 @@ export default function Kinderen (){
 
             <ImageRow
             images={[
-                {url:'https://www.maxvanwijnen.nl/www/images/Fotoshoot-kind-noordwijk-001.jpg', alt:'kinder fotografie'},
-                {url:'https://www.maxvanwijnen.nl/www/images/Fotoshoot-kind-noordwijk-001.jpg', alt:'kinder fotografie'},
-                {url:'https://www.maxvanwijnen.nl/www/images/Fotoshoot-kind-noordwijk-001.jpg', alt:'kinder fotografie'},
-                {url:'https://www.maxvanwijnen.nl/www/images/Fotoshoot-kind-noordwijk-001.jpg', alt:'kinder fotografie'},
-                {url:'https://www.maxvanwijnen.nl/www/images/Fotoshoot-kind-noordwijk-001.jpg', alt:'kinder fotografie'}
+                {url:'https://dev1.maxvanwijnen.nl/images/Fotoshoot-kind-noordwijk-001.jpg', alt:'kinder fotografie'},
+                {url:'https://dev1.maxvanwijnen.nl/images/Fotoshoot-kind-noordwijk-001.jpg', alt:'kinder fotografie'},
+                {url:'https://dev1.maxvanwijnen.nl/images/Fotoshoot-kind-noordwijk-001.jpg', alt:'kinder fotografie'},
+                {url:'https://dev1.maxvanwijnen.nl/images/Fotoshoot-kind-noordwijk-001.jpg', alt:'kinder fotografie'},
+                {url:'https://dev1.maxvanwijnen.nl/images/Fotoshoot-kind-noordwijk-001.jpg', alt:'kinder fotografie'}
             ]}
             >
                 Bekijk enkele voorbeelden van familieshoots in mijn portfolio.

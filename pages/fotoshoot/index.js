@@ -25,7 +25,7 @@ const Fotoshoot = () => {
 
             <PhotoshootTileMenu isBig={true} />
             <TxtImg2Column
-                imgSource="https://www.maxvanwijnen.nl/www/docs/images/intro-text/familie-fotoshoot.webp"
+                imgSource="https://dev1.maxvanwijnen.nl/docs/images/intro-text/familie-fotoshoot.webp"
                 cssClass="Kinderen"
                 imgAlt = "Familie fotografie"
                 imgWidth={573}
@@ -37,7 +37,7 @@ const Fotoshoot = () => {
                 Ik fotografeer graag zo rond de 2 uur na zonsopkomst of 2 uur voor zonsondergang voor het mooiste licht. De zon staat dan mooi laag en de schaduwen zijn mooi lang. Uiteraard varieert dit tijdstip met de tijd van het jaar. Voor een goldenhour fotoshoot op het strand spreken we af ongeveer 1 uur voor zonsondergang.
             </TxtImg2Column>
             <TxtImg2Column
-                imgSource="https://www.maxvanwijnen.nl/www/docs/images/intro-text/familie-fotoshoot.webp"
+                imgSource="https://dev1.maxvanwijnen.nl/docs/images/intro-text/familie-fotoshoot.webp"
                 cssClass="Kinderen"
                 imgAlt = "Familie fotografie"
                 imgWidth={573}
@@ -49,7 +49,7 @@ const Fotoshoot = () => {
                 Naast het kiezen van het juiste tijdstip van de dag, is het weer ook een belangrijke factor bij een fotoshoot op locatie. Bij slecht weer verplaatsen we de shoot naar een ander tijdstip of dag. Maar wat is nu slecht weer voor een buiten fotoshoot? Bij harde wind en regen zal de fotoshoot niet door kunnen gaan. Bewolking vormt echter geen belemmering, sterker nog voor een fotoshoot op een open locatie zoals het strand is bewolking juist fijn. Het licht wordt er namelijk mooi zacht van wat de foto`s ten goede komt.
             </TxtImg2Column>
             <TxtImg2Column
-                imgSource="https://www.maxvanwijnen.nl/www/docs/images/intro-text/familie-fotoshoot.webp"
+                imgSource="https://dev1.maxvanwijnen.nl/docs/images/intro-text/familie-fotoshoot.webp"
                 cssClass="Kinderen"
                 imgAlt = "Familie fotografie"
                 imgWidth={573}
@@ -59,7 +59,7 @@ const Fotoshoot = () => {
                 Als je een fotoshoot bij me boekt dan kijken we samen naar een geschikte datum en een mooie locatie buiten of in de studio in Leiden. Tijdens de shoot gaan we samen op pad naar een mooie plek waar het licht ook goed is. Heb je speciale wensen voor het maken van de foto`s? Laat het dan gerust even weten. Na afloop van de fotoshoot maak ik een voorselectie en zet ik de foto`s in een voorbeeld gallerij. Kies hier zelf de foto`s uit die je graag zou willen hebben. Als ik je keuze ontvangen heb bewerk ik de foto`s en lever ik de digitale bestanden binnen 2 weken op. Het is ook mogelijk achteraf het aantal foto`s te wijzigen, dat is geen enkel probleem.
             </TxtImg2Column>
             <TxtImg2Column
-                imgSource="https://www.maxvanwijnen.nl/www/docs/images/intro-text/familie-fotoshoot.webp"
+                imgSource="https://dev1.maxvanwijnen.nl/docs/images/intro-text/familie-fotoshoot.webp"
                 cssClass="Kinderen"
                 imgAlt = "Familie fotografie"
                 imgWidth={573}

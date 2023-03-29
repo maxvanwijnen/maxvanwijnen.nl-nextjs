@@ -26,7 +26,7 @@ export default function Loveshoot (){
                 />
             </Head>
             <TxtImg2Column
-                imgSource="https://www.maxvanwijnen.nl/www/docs/images/intro-text/loveshoot-fotoshoot.webp"
+                imgSource="https://dev1.maxvanwijnen.nl/docs/images/intro-text/loveshoot-fotoshoot.webp"
                 cssClass="Kinderen"
                 imgAlt = "Kinderfotografie"
                 imgWidth={573}
@@ -47,7 +47,7 @@ export default function Loveshoot (){
 
             <TextImg
                 title="Jullie loveshoot"
-                img="https://www.maxvanwijnen.nl/www/images/1200/loveshoot/Loveshoot-strand-scheveningen-001.webp"
+                img="https://dev1.maxvanwijnen.nl/images/1200/loveshoot/Loveshoot-strand-scheveningen-001.webp"
             >
                 <h3>Hoe verloopt een loveshoot?</h3>
                 <p>Het is belangrijk dat jullie je fijn en ontspannen voelen tijdens fotoshoot. Dat geeft niet alleen de mooiste resultaten op de foto, maar maakt ook de hele shoot tot een leuke ervaring. Het is daarom belangrijk om te weten dat tijdens de shoot alles kan en alles mag. Voel je je niet comfortabel op een drukke locatie in de binnenstad van Leiden? Dan kiezen we gewoon voor een rustig plekje op het strand of in een park. Daarnaast zijn jullie ook van harte welkom in mijn studio in Leiden. Uiteraard zijn er verschillende poses te bedenken voor de leukste resultaten, maar ook hierbij is het belangrijk dat deze goed bij jullie passen. Natuurlijk mag je het ook zelf aangeven als je leuke ideeën of wensen hebt.</p>
@@ -64,19 +64,19 @@ export default function Loveshoot (){
                         {price:89,
                             type:'basic',
                             usplist:["5 Foto's","Hoge kwaliteit nabewerkt", "Digitale download"],
-                            img:'https://www.maxvanwijnen.nl/www/docs/images/price-package/loveshoot-basic-fotoshoot.webp',
+                            img:'https://dev1.maxvanwijnen.nl/docs/images/price-package/loveshoot-basic-fotoshoot.webp',
                             desc:''
                         },
                         {price:139,
                             type:'deluxe',
                             usplist:["10 Foto's","Hoge kwaliteit nabewerkt", "Digitale download"],
-                            img:'https://www.maxvanwijnen.nl/www/docs/images/price-package/loveshoot-deluxe-fotoshoot.webp',
+                            img:'https://dev1.maxvanwijnen.nl/docs/images/price-package/loveshoot-deluxe-fotoshoot.webp',
                             desc:''
                         },
                         {price:189,
                             type:'premium',
                             usplist:["15 Foto's","Hoge kwaliteit nabewerkt", "Digitale download"],
-                            img:'https://www.maxvanwijnen.nl/www/docs/images/price-package/loveshoot-premium-fotoshoot.webp',
+                            img:'https://dev1.maxvanwijnen.nl/docs/images/price-package/loveshoot-premium-fotoshoot.webp',
                             desc:''
                         }
                     ]

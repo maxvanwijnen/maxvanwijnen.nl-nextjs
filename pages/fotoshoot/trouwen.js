@@ -14,7 +14,7 @@ export default function Trouwen (){
     return (
         <>
             <TxtImg2Column
-                imgSource="https://www.maxvanwijnen.nl/www/docs/images/intro-text/trouwreportage-fotoshoot.webp"
+                imgSource="https://dev1.maxvanwijnen.nl/docs/images/intro-text/trouwreportage-fotoshoot.webp"
                 cssClass="Kinderen"
                 imgAlt = "Kinderfotografie"
                 imgWidth={573}
@@ -35,7 +35,7 @@ export default function Trouwen (){
 
             <TextImg
                 title="fjhfks jhf "
-                img="https://www.maxvanwijnen.nl/www/docs/images/content-long/bruidsreportage.webp"
+                img="https://dev1.maxvanwijnen.nl/docs/images/content-long/bruidsreportage.webp"
             >
                 <h3>Voorbereiding op de fotoshoot</h3>
                 <p>Het is belangrijk om je kind voor te bereiden op de fotoshoot om het meeste uit de sessie te halen. Hier zijn enkele tips:
@@ -54,19 +54,19 @@ export default function Trouwen (){
                         {price:89,
                             type:'basic',
                             usplist:["5 Foto's","Hoge kwaliteit nabewerkt", "Digitale download"],
-                            img:'https://www.maxvanwijnen.nl/www/docs/images/price-package/bruidsreportage-basic-fotoshoot.webp',
+                            img:'https://dev1.maxvanwijnen.nl/docs/images/price-package/bruidsreportage-basic-fotoshoot.webp',
                             desc:'Met het Basic fotopakket kunt u de magie en spontaniteit van de kindertijd vastleggen. Dit pakket biedt een korte, maar leuke fotosessie van uw kind, met vijf hoogwaardige, nabewerkte foto&apos;s die u na afloop eenvoudig download.  Met dit pakket krijgt u  een digitale download van uw foto&apos;s, zodat u ze gemakkelijk kunt delen met familie en vrienden. Maar het is ook mogelijk om foto&apos;s af te laten drukken.'
                         },
                         {price:139,
                             type:'deluxe',
                             usplist:["10 Foto's","Hoge kwaliteit nabewerkt", "Digitale download"],
-                            img:'https://www.maxvanwijnen.nl/www/docs/images/price-package/bruidsreportage-deluxe-fotoshoot.webp',
+                            img:'https://dev1.maxvanwijnen.nl/docs/images/price-package/bruidsreportage-deluxe-fotoshoot.webp',
                             desc:'Met het Basic fotopakket kunt u de magie en spontaniteit van de kindertijd vastleggen. Dit pakket biedt een korte, maar leuke fotosessie van uw kind, met vijf hoogwaardige, nabewerkte foto&apos;s die u na afloop eenvoudig download.  Met dit pakket krijgt u  een digitale download van uw foto&apos;s, zodat u ze gemakkelijk kunt delen met familie en vrienden. Maar het is ook mogelijk om foto&apos;s af te laten drukken.'
                         },
                         {price:189,
                             type:'premium',
                             usplist:["15 Foto's","Hoge kwaliteit nabewerkt", "Digitale download"],
-                            img:'https://www.maxvanwijnen.nl/www/docs/images/price-package/bruidsreportage-premium-fotoshoot.webp',
+                            img:'https://dev1.maxvanwijnen.nl/docs/images/price-package/bruidsreportage-premium-fotoshoot.webp',
                             desc:'Met het Basic fotopakket kunt u de magie en spontaniteit van de kindertijd vastleggen. Dit pakket biedt een korte, maar leuke fotosessie van uw kind, met vijf hoogwaardige, nabewerkte foto&apos;s die u na afloop eenvoudig download.  Met dit pakket krijgt u  een digitale download van uw foto&apos;s, zodat u ze gemakkelijk kunt delen met familie en vrienden. Maar het is ook mogelijk om foto&apos;s af te laten drukken.'
                         }
                     ]

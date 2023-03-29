@@ -27,7 +27,7 @@ const Fotostudio = () => {
 
             </TextContent>
             <TxtImg2Column
-                imgSource="https://www.maxvanwijnen.nl/www/docs/images/intro-text/familie-fotoshoot.webp"
+                imgSource="https://dev1.maxvanwijnen.nl/docs/images/intro-text/familie-fotoshoot.webp"
                 cssClass="Kinderen"
                 imgAlt = "Studio fotografie in Leiden"
                 imgWidth={573}
@@ -40,7 +40,7 @@ const Fotostudio = () => {
 
             <TextImg
                 title="De juiste voorbereiding voor een perfecte familieshoot"
-                img="https://www.maxvanwijnen.nl/www/docs/images/content-long/familie-fotoshoot.webp"
+                img="https://dev1.maxvanwijnen.nl/docs/images/content-long/familie-fotoshoot.webp"
             >
                 <h3>Andere locaties voor een fotoshoot in Noordwijk</h3>
                 <p>Voor portretten zijn natuurlijk alle locaties mogelijk. Een groene, bosrijke omgeving biedt een sfeervolle achtergrond, maar ook het strand en de duinen kunnen een mooie locatie zijn. Heb je zelf wensen? Laat het me weten! Ik fotografeer momenteel in de Bollenstreek. Noordwijk, Noordwijkerhout, Voorhout, Katwijk en Leiden. Locaties buiten de Bollenstreek of de Randstad zijn in overleg uiteraard ook mogelijk.

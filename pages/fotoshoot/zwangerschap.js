@@ -14,7 +14,7 @@ export default function Zwangerschap (){
     return (
         <>
             <TxtImg2Column
-                imgSource="https://www.maxvanwijnen.nl/www/docs/images/intro-text/zwangerschap-fotoshoot.webp"
+                imgSource="https://dev1.maxvanwijnen.nl/docs/images/intro-text/zwangerschap-fotoshoot.webp"
                 cssClass="Kinderen"
                 imgAlt = "Zwangerschapsshoot"
                 imgWidth={573}
@@ -35,7 +35,7 @@ export default function Zwangerschap (){
 
             <TextImg
                 title="Zwangerschapshoot op locatie of in de studio in Leiden"
-                img="https://www.maxvanwijnen.nl/www/docs/images/content-long/zwangerschap-fotoshoot.webp"
+                img="https://dev1.maxvanwijnen.nl/docs/images/content-long/zwangerschap-fotoshoot.webp"
             >
                 <h3>De mooiste locatie`s voor een zwangerschapshoot in Noordwijk</h3>
                 <p>Ik fotografeer graag in het bos, op het strand of in de duinen maar Noordwijk heeft natuurlijk ook andere mooie plekken te bieden. Locaties zijn ook afhankelijk van het weer en spreken we samen af. Misschien heb je zelf wensen? Op dit moment fotografeer ik in de Bollenstreek. Noordwijk, Noordwijkerhout, Voorhout, Katwijk en Leiden. Locaties buiten de Bollenstreek of de Randstad zijn in overleg uiteraard ook mogelijk.</p>
@@ -52,19 +52,19 @@ export default function Zwangerschap (){
                         {price:89,
                             type:'basic',
                             usplist:["5 Foto's","Hoge kwaliteit nabewerkt", "Digitale download"],
-                            img:'https://www.maxvanwijnen.nl/www/docs/images/price-package/zwangerschap-basic-fotoshoot.webp',
+                            img:'https://dev1.maxvanwijnen.nl/docs/images/price-package/zwangerschap-basic-fotoshoot.webp',
                             desc:''
                         },
                         {price:139,
                             type:'deluxe',
                             usplist:["10 Foto's","Hoge kwaliteit nabewerkt", "Digitale download"],
-                            img:'https://www.maxvanwijnen.nl/www/docs/images/price-package/zwangerschap-deluxe-fotoshoot.webp',
+                            img:'https://dev1.maxvanwijnen.nl/docs/images/price-package/zwangerschap-deluxe-fotoshoot.webp',
                             desc:''
                         },
                         {price:189,
                             type:'premium',
                             usplist:["15 Foto's","Hoge kwaliteit nabewerkt", "Digitale download"],
-                            img:'https://www.maxvanwijnen.nl/www/docs/images/price-package/zwangerschap-premium-fotoshoot.webp',
+                            img:'https://maxvanwijnen.nl/docs/images/price-package/zwangerschap-premium-fotoshoot.webp',
                             desc:''
                         }
                     ]
@@ -73,11 +73,11 @@ export default function Zwangerschap (){
 
             <ImageRow
                 images={[
-                    {url:'https://www.maxvanwijnen.nl/www/images/Fotoshoot-kind-noordwijk-001.jpg', alt:'kinder fotografie'},
-                    {url:'https://www.maxvanwijnen.nl/www/images/Fotoshoot-kind-noordwijk-001.jpg', alt:'kinder fotografie'},
-                    {url:'https://www.maxvanwijnen.nl/www/images/Fotoshoot-kind-noordwijk-001.jpg', alt:'kinder fotografie'},
-                    {url:'https://www.maxvanwijnen.nl/www/images/Fotoshoot-kind-noordwijk-001.jpg', alt:'kinder fotografie'},
-                    {url:'https://www.maxvanwijnen.nl/www/images/Fotoshoot-kind-noordwijk-001.jpg', alt:'kinder fotografie'}
+                    {url:'https://dev1.maxvanwijnen.nl/images/Fotoshoot-kind-noordwijk-001.jpg', alt:'kinder fotografie'},
+                    {url:'https://dev1.maxvanwijnen.nl/images/Fotoshoot-kind-noordwijk-001.jpg', alt:'kinder fotografie'},
+                    {url:'https://dev1.maxvanwijnen.nl/images/Fotoshoot-kind-noordwijk-001.jpg', alt:'kinder fotografie'},
+                    {url:'https://dev1.maxvanwijnen.nl/images/Fotoshoot-kind-noordwijk-001.jpg', alt:'kinder fotografie'},
+                    {url:'https://dev1.maxvanwijnen.nl/images/Fotoshoot-kind-noordwijk-001.jpg', alt:'kinder fotografie'}
                 ]}
             >
                 Bekijk enkele voorbeelden van onze kinderfotoshoots in ons portfolio. We hebben een verscheidenheid aan stijlen en poses om uit te kiezen, en we zijn ervan overtuigd dat je iets zult vinden dat je leuk vindt.

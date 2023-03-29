@@ -73,7 +73,7 @@ const ContactForm = () => {
 
 
         console.log('send contactForm');
-        axios.post('https://www.maxvanwijnen.nl/mail-contactform.php',JSON.stringify(data),{
+        axios.post('https://dev1.maxvanwijnen.nl/mail-contactform.php',JSON.stringify(data),{
             'Content-Type': 'application/json'
         })
             .then(response => {
