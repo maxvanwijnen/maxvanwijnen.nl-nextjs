@@ -5,19 +5,19 @@ export const prices = [
             {price:139,
                 type:'basic',
                 usplist:["5 Foto's","Hoge kwaliteit nabewerkt", "Digitale download"],
-                img:'https://dev1.maxvanwijnen.nl/docs/images/price-package/familieshoot-basic-fotoshoot.webp',
+                img:'https://dev1.maxvanwijnen.nl/docs/images/price-package/kinderen-basic-fotoshoot.webp',
                 desc:''
             },
             {price:189,
                 type:'deluxe',
                 usplist:["10 Foto's","Hoge kwaliteit nabewerkt", "Digitale download"],
-                img:'https://dev1.maxvanwijnen.nl/docs/images/price-package/familieshoot-deluxe-fotoshoot.webp',
+                img:'https://dev1.maxvanwijnen.nl/docs/images/price-package/kinderen-deluxe-fotoshoot.webp',
                 desc:''
             },
             {price:229,
                 type:'premium',
                 usplist:["15 Foto's","Hoge kwaliteit nabewerkt", "Digitale download"],
-                img:'https://dev1.maxvanwijnen.nl/docs/images/price-package/familieshoot-premium-fotoshoot.webp',
+                img:'https://dev1.maxvanwijnen.nl/docs/images/price-package/kinderen-premium-fotoshoot.webp',
                 desc:''
             }
         ]
@@ -74,19 +74,19 @@ export const prices = [
             {price:139,
                 type:'basic',
                 usplist:["5 Foto's","Hoge kwaliteit nabewerkt", "Digitale download"],
-                img:'https://dev1.maxvanwijnen.nl/docs/images/price-package/familieshoot-basic-fotoshoot.webp',
+                img:'https://dev1.maxvanwijnen.nl/docs/images/price-package/bruidsreportage-basic-fotoshoot.webp',
                 desc:''
             },
             {price:189,
                 type:'deluxe',
                 usplist:["10 Foto's","Hoge kwaliteit nabewerkt", "Digitale download"],
-                img:'https://dev1.maxvanwijnen.nl/docs/images/price-package/familieshoot-deluxe-fotoshoot.webp',
+                img:'https://dev1.maxvanwijnen.nl/docs/images/price-package/bruidsreportage-deluxe-fotoshoot.webp',
                 desc:''
             },
             {price:229,
                 type:'premium',
                 usplist:["15 Foto's","Hoge kwaliteit nabewerkt", "Digitale download"],
-                img:'https://dev1.maxvanwijnen.nl/docs/images/price-package/familieshoot-premium-fotoshoot.webp',
+                img:'https://dev1.maxvanwijnen.nl/docs/images/price-package/bruidsreportage-premium-fotoshoot.webp',
                 desc:''
             }
         ]
@@ -97,19 +97,19 @@ export const prices = [
             {price:139,
                 type:'basic',
                 usplist:["5 Foto's","Hoge kwaliteit nabewerkt", "Digitale download"],
-                img:'https://dev1.maxvanwijnen.nl/docs/images/price-package/familieshoot-basic-fotoshoot.webp',
+                img:'https://dev1.maxvanwijnen.nl/docs/images/price-package/loveshoot-basic-fotoshoot.webp',
                 desc:''
             },
             {price:189,
                 type:'deluxe',
                 usplist:["10 Foto's","Hoge kwaliteit nabewerkt", "Digitale download"],
-                img:'https://dev1.maxvanwijnen.nl/docs/images/price-package/familieshoot-deluxe-fotoshoot.webp',
+                img:'https://dev1.maxvanwijnen.nl/docs/images/price-package/loveshoot-deluxe-fotoshoot.webp',
                 desc:''
             },
             {price:229,
                 type:'premium',
                 usplist:["15 Foto's","Hoge kwaliteit nabewerkt", "Digitale download"],
-                img:'https://dev1.maxvanwijnen.nl/docs/images/price-package/familieshoot-premium-fotoshoot.webp',
+                img:'https://dev1.maxvanwijnen.nl/docs/images/price-package/loveshoot-premium-fotoshoot.webp',
                 desc:''
             }
         ]
@@ -120,19 +120,19 @@ export const prices = [
             {price:139,
                 type:'basic',
                 usplist:["5 Foto's","Hoge kwaliteit nabewerkt", "Digitale download"],
-                img:'https://dev1.maxvanwijnen.nl/docs/images/price-package/familieshoot-basic-fotoshoot.webp',
+                img:'https://dev1.maxvanwijnen.nl/docs/images/price-package/zwangerschap-basic-fotoshoot.webp',
                 desc:''
             },
             {price:189,
                 type:'deluxe',
                 usplist:["10 Foto's","Hoge kwaliteit nabewerkt", "Digitale download"],
-                img:'https://dev1.maxvanwijnen.nl/docs/images/price-package/familieshoot-deluxe-fotoshoot.webp',
+                img:'https://dev1.maxvanwijnen.nl/docs/images/price-package/zwangerschap-deluxe-fotoshoot.webp',
                 desc:''
             },
             {price:229,
                 type:'premium',
                 usplist:["15 Foto's","Hoge kwaliteit nabewerkt", "Digitale download"],
-                img:'https://dev1.maxvanwijnen.nl/docs/images/price-package/familieshoot-premium-fotoshoot.webp',
+                img:'https://dev1.maxvanwijnen.nl/docs/images/price-package/zwangerschap-premium-fotoshoot.webp',
                 desc:''
             }
         ]
