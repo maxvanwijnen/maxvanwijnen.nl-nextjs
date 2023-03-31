@@ -9,9 +9,12 @@ import PricePackages from "../../components/PricePackages/PricePackages";
 
 import TextImg from './../../components/TextImg/TextImg';
 import Head from "next/head";
+import {prices} from "../../objects/prices";
 
 
 export default function Familie (){
+
+    const allPackages = prices.find(entry => entry.fotoshoot === 'familie').packages;
 
 
     return (
@@ -54,29 +57,7 @@ export default function Familie (){
 
             <PricePackages
                 shootType="Familie"
-                pricePackages={
-
-                    [
-                        {price:159,
-                            type:'basic',
-                            usplist:["5 Foto's","Hoge kwaliteit nabewerkt", "Digitale download"],
-                            img:'https://dev1.maxvanwijnen.nl/docs/images/price-package/familieshoot-basic-fotoshoot.webp',
-                            desc:''
-                        },
-                        {price:229,
-                            type:'deluxe',
-                            usplist:["10 Foto's","Hoge kwaliteit nabewerkt", "Digitale download"],
-                            img:'https://dev1.maxvanwijnen.nl/docs/images/price-package/familieshoot-deluxe-fotoshoot.webp',
-                            desc:''
-                        },
-                        {price:299,
-                            type:'premium',
-                            usplist:["15 Foto's","Hoge kwaliteit nabewerkt", "Digitale download"],
-                            img:'https://dev1.maxvanwijnen.nl/docs/images/price-package/familieshoot-premium-fotoshoot.webp',
-                            desc:''
-                        }
-                    ]
-                }
+                pricePackages={allPackages}
             />
 
             <ImageRow

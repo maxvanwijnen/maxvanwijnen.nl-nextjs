@@ -10,9 +10,12 @@ import PricePackages from "../../components/PricePackages/PricePackages";
 
 import TextImg from './../../components/TextImg/TextImg';
 import Head from "next/head";
-
+import {prices} from "../../objects/prices";
 
 export default function Loveshoot (){
+
+    const allPackages = prices.find(entry => entry.fotoshoot === 'loveshoot').packages;
+
     return (
         <>
             <Head>
@@ -59,28 +62,7 @@ export default function Loveshoot (){
 
             <PricePackages
                 shootType="Loveshoot"
-                pricePackages={
-                    [
-                        {price:89,
-                            type:'basic',
-                            usplist:["5 Foto's","Hoge kwaliteit nabewerkt", "Digitale download"],
-                            img:'https://dev1.maxvanwijnen.nl/docs/images/price-package/loveshoot-basic-fotoshoot.webp',
-                            desc:''
-                        },
-                        {price:139,
-                            type:'deluxe',
-                            usplist:["10 Foto's","Hoge kwaliteit nabewerkt", "Digitale download"],
-                            img:'https://dev1.maxvanwijnen.nl/docs/images/price-package/loveshoot-deluxe-fotoshoot.webp',
-                            desc:''
-                        },
-                        {price:189,
-                            type:'premium',
-                            usplist:["15 Foto's","Hoge kwaliteit nabewerkt", "Digitale download"],
-                            img:'https://dev1.maxvanwijnen.nl/docs/images/price-package/loveshoot-premium-fotoshoot.webp',
-                            desc:''
-                        }
-                    ]
-                }
+                pricePackages={allPackages}
             />
 
             <ImageRow

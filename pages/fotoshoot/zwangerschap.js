@@ -8,9 +8,15 @@ import TextContent from "../../components/TextContent/TextContent";
 import PricePackages from "../../components/PricePackages/PricePackages";
 import Head from 'next/head';
 import TextImg from './../../components/TextImg/TextImg';
+import {prices} from "../../objects/prices";
 
 
 export default function Zwangerschap (){
+
+
+    const allPackages = prices.find(entry => entry.fotoshoot === 'zwangerschap').packages;
+
+
     return (
         <>
             <Head>
@@ -57,6 +63,10 @@ export default function Zwangerschap (){
 
             <PricePackages
                 shootType="Zwangerschap"
+                pricePackages={allPackages}
+            />
+            {/*<PricePackages
+                shootType="Zwangerschap"
                 pricePackages={
                     [
                         {price:89,
@@ -79,7 +89,7 @@ export default function Zwangerschap (){
                         }
                     ]
                 }
-            />
+            />*/}
 
             <ImageRow
                 images={[
