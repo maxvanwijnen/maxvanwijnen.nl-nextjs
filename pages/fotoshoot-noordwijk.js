@@ -3,7 +3,7 @@ import TextContent from "../components/TextContent/TextContent";
 import TxtImg2Column from "../components/TxtImg2Column/TxtImg2Column";
 import Quote from "../components/Quote/Quote";
 import TextImg from "../components/TextImg/TextImg";
-import Head from 'next/header';
+import Head from 'next/head';
 
 const FotoshootNoordwijk = () => {
     return (

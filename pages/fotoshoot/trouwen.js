@@ -6,7 +6,7 @@ import TxtImg2Column from "/components/TxtImg2Column/TxtImg2Column";
 import ImageRow from "../../components/ImageRow/ImageRow";
 import TextContent from "../../components/TextContent/TextContent";
 import PricePackages from "../../components/PricePackages/PricePackages";
-import Head from 'next/header';
+import Head from 'next/head';
 import TextImg from './../../components/TextImg/TextImg';
 
 
