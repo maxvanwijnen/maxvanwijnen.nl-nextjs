@@ -3,9 +3,21 @@ import TextContent from "../components/TextContent/TextContent";
 import TxtImg2Column from "../components/TxtImg2Column/TxtImg2Column";
 import PhotoshootTileMenu from "../components/PhotoshootTileMenu/PhotoshootTileMenu";
 import StepsInfoGraphic from "../components/StepsInfoGraphic/StepsInfoGraphic";
+import Head from 'next/head';
 
 const BoekEenShoot = () => {
     return (
+        <>
+            <Head>
+                <title>
+                    Fotoshoot boeken | Noordwijk Leiden | Max van Wijnen Fotografie
+                </title>
+                <meta
+                    name="description"
+                    content="Wil je graag een mooie fotoshoot boeken in de omgeving Noordwijk, Leiden? Neem vrijblijvend contact op!"
+                    key="desc"
+                />
+            </Head>
         <section>
             <TextContent
                 title="Boek een fotoshoot"
@@ -20,6 +32,7 @@ const BoekEenShoot = () => {
 
 
         </section>
+    </>
     )
 }
 

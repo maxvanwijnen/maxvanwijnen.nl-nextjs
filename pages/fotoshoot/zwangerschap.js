@@ -6,13 +6,23 @@ import TxtImg2Column from "/components/TxtImg2Column/TxtImg2Column";
 import ImageRow from "../../components/ImageRow/ImageRow";
 import TextContent from "../../components/TextContent/TextContent";
 import PricePackages from "../../components/PricePackages/PricePackages";
-
+import Head from 'next/head';
 import TextImg from './../../components/TextImg/TextImg';
 
 
 export default function Zwangerschap (){
     return (
         <>
+            <Head>
+                <title>
+                    Zwangerschapshoot | Regio Noordwijk | Max van Wijnen Fotografie
+                </title>
+                <meta
+                    name="description"
+                    content="Leg de mooiste momenten van je zwangerschap vast met een zwangerschapsfotoshoot. Kies voor een prachtige buitenlocatie of voor prachtige studio foto's"
+                    key="desc"
+                />
+            </Head>
             <TxtImg2Column
                 imgSource="https://dev1.maxvanwijnen.nl/docs/images/intro-text/zwangerschap-fotoshoot.webp"
                 cssClass="Kinderen"

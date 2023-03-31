@@ -17,11 +17,12 @@ export default function Kinderen (){
         <>
             <Head>
                 <title>
-                    Een leuke kinderfotoshoot | Max van Wijnen Fotografie
+                    Kinderfotoshoot | Regio Noordwijk | Max van Wijnen Fotografie
                 </title>
                 <meta
                     name="description"
-                    content="Kleine kinderen worden snel groot, maak te gekke kinderfoto's en bewaar de herinneringen aan die mooie tijd! Boek nu een kinderfotoshoot op bij Max van Wijnen Fotografie"
+                    content="Leg de mooiste momenten van je kinderen vast met een professionele fotograaf.
+Boek nu een kinderfotoshoot!"
                     key="desc"
                 />
             </Head>

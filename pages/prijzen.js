@@ -2,9 +2,21 @@ import React from 'react';
 import TextContent from "../components/TextContent/TextContent";
 import TxtImg2Column from "../components/TxtImg2Column/TxtImg2Column";
 import PhotoshootTileMenu from "../components/PhotoshootTileMenu/PhotoshootTileMenu";
+import Head from 'next/head';
 
 const Prijzen = () => {
     return (
+        <>
+        <Head>
+            <title>
+                Fotoshoot prijzen | Regio Noordwijk | Max van Wijnen Fotografie
+            </title>
+            <meta
+                name="description"
+                content="Leer de fotograaf kennen achter de foto's. Ontdek mijn achtergrond en passie voor de fotografie."
+                key="desc"
+            />
+        </Head>
         <section>
             <TextContent
                 title="Boek nu jouw fotoshoot met keuze uit 3 pakketten!"
@@ -67,6 +79,7 @@ const Prijzen = () => {
 
 
         </section>
+            </>
     )
 }
 

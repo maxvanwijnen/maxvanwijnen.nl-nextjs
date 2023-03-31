@@ -4,9 +4,21 @@ import TxtImg2Column from "../components/TxtImg2Column/TxtImg2Column";
 import Quote from "../components/Quote/Quote";
 import TextImg from "../components/TextImg/TextImg";
 import Link from "next/link";
+import Head from 'next/head';
 
 const FotoshootLeiden = () => {
     return (
+        <>
+            <Head>
+                <title>
+                    Fotograaf met studio in Leiden | Max van Wijnen Fotografie
+                </title>
+                <meta
+                    name="description"
+                    content="Professionele fotoshoot boeken in Leiden? De binnenstad van Leiden en mijn fotostudio bieden diverse mogelijkheden voor unieke en persoonlijke fotoshoots."
+                    key="desc"
+                />
+            </Head>
         <section>
             <TextContent
                 title="Fotoshoot Leiden"
@@ -71,6 +83,7 @@ const FotoshootLeiden = () => {
 
 
         </section>
+            </>
     )
 }
 

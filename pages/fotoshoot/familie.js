@@ -8,6 +8,7 @@ import TextContent from "../../components/TextContent/TextContent";
 import PricePackages from "../../components/PricePackages/PricePackages";
 
 import TextImg from './../../components/TextImg/TextImg';
+import Head from "next/head";
 
 
 export default function Familie (){
@@ -15,6 +16,16 @@ export default function Familie (){
 
     return (
         <>
+            <Head>
+                <title>
+                    Familiefoto`s | Regio Noordwijk | Max van Wijnen Fotografie
+                </title>
+                <meta
+                    name="description"
+                    content="Creër blijvende herinneringen met een prachtig familieportret, gemaakt door een proffesionele familiefotograaf. Boek nu!"
+                    key="desc"
+                />
+            </Head>
             <TxtImg2Column
                 imgSource="https://dev1.maxvanwijnen.nl/docs/images/intro-text/familie-fotoshoot.webp"
                 cssClass="Kinderen"

@@ -3,9 +3,21 @@ import TextContent from "../components/TextContent/TextContent";
 import TxtImg2Column from "../components/TxtImg2Column/TxtImg2Column";
 import Quote from "../components/Quote/Quote";
 import TextImg from "../components/TextImg/TextImg";
+import Head from 'next/header';
 
 const FotoshootNoordwijk = () => {
     return (
+        <>
+            <Head>
+                <title>
+                    Fotograaf in Noordwijk | Max van Wijnen Fotografie
+                </title>
+                <meta
+                    name="description"
+                    content="Op zoek naar een fotograaf in Noordwijk? Als ervaren fotograaf biedt ik rprachtige fotoshoot op het strand en andere unieke locaties. Lees snel meer!"
+                    key="desc"
+                />
+            </Head>
         <section>
             <TextContent
             title="Fotoshoot Noordwijk"
@@ -40,6 +52,7 @@ const FotoshootNoordwijk = () => {
             </TextImg>
 
         </section>
+            </>
     )
 }
 

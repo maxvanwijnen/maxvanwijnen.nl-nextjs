@@ -6,13 +6,23 @@ import TxtImg2Column from "/components/TxtImg2Column/TxtImg2Column";
 import ImageRow from "../../components/ImageRow/ImageRow";
 import TextContent from "../../components/TextContent/TextContent";
 import PricePackages from "../../components/PricePackages/PricePackages";
-
+import Head from 'next/header';
 import TextImg from './../../components/TextImg/TextImg';
 
 
 export default function Trouwen (){
     return (
         <>
+            <Head>
+                <title>
+                    Trouwreportage | Regio Noordwijk | Max van Wijnen Fotografie
+                </title>
+                <meta
+                    name="description"
+                    content="Als professionele fotograaf maak ik prachtige portreftfoto's in de studio of buiten op locatie. Boek nu!"
+                    key="desc"
+                />
+            </Head>
             <TxtImg2Column
                 imgSource="https://dev1.maxvanwijnen.nl/docs/images/intro-text/trouwreportage-fotoshoot.webp"
                 cssClass="Kinderen"
