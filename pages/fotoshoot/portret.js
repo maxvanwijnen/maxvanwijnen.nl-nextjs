@@ -58,11 +58,11 @@ export default function Portret (){
 
             <ImageRow
                 images={[
-                    {url:'https://www.maxvanwijnen.nl/www/images/Fotoshoot-kind-noordwijk-001.jpg', alt:'kinder fotografie'},
-                    {url:'https://www.maxvanwijnen.nl/www/images/Fotoshoot-kind-noordwijk-001.jpg', alt:'kinder fotografie'},
-                    {url:'https://www.maxvanwijnen.nl/www/images/Fotoshoot-kind-noordwijk-001.jpg', alt:'kinder fotografie'},
-                    {url:'https://www.maxvanwijnen.nl/www/images/Fotoshoot-kind-noordwijk-001.jpg', alt:'kinder fotografie'},
-                    {url:'https://www.maxvanwijnen.nl/www/images/Fotoshoot-kind-noordwijk-001.jpg', alt:'kinder fotografie'}
+                    {url:'https://dev1.maxvanwijnen.nl/docs/images/Fotoshoot-kind-noordwijk-001.jpg', alt:'kinder fotografie'},
+                    {url:'https://dev1.maxvanwijnen.nl/docs/images/Fotoshoot-kind-noordwijk-001.jpg', alt:'kinder fotografie'},
+                    {url:'https://dev1.maxvanwijnen.nl/docs/images/Fotoshoot-kind-noordwijk-001.jpg', alt:'kinder fotografie'},
+                    {url:'https://dev1.maxvanwijnen.nl/docs/images/Fotoshoot-kind-noordwijk-001.jpg', alt:'kinder fotografie'},
+                    {url:'https://dev1.maxvanwijnen.nl/docs/images/Fotoshoot-kind-noordwijk-001.jpg', alt:'kinder fotografie'}
                 ]}
             >
                 Bekijk enkele voorbeelden van onze kinderfotoshoots in ons portfolio. We hebben een verscheidenheid aan stijlen en poses om uit te kiezen, en we zijn ervan overtuigd dat je iets zult vinden dat je leuk vindt.
