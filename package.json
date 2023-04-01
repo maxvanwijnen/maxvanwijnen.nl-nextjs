@@ -22,6 +22,7 @@
     "react-photo-gallery": "^8.0.0",
     "react-responsive-masonry": "^2.1.7",
     "sass": "^1.58.3",
+    "sib-api-v3-sdk": "^8.5.0",
     "use-react-router-breadcrumbs": "^3.2.1"
   },
   "devDependencies": {

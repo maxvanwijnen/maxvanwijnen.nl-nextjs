@@ -68,7 +68,19 @@ const BookAShoot = ({toggle, type, shootType, allPackages}) => {
 
 
         console.log('send booking');
-        axios.post('https://dev1.maxvanwijnen.nl/mail.php',JSON.stringify(data),{
+
+        fetch('/api/sendEmail',{
+            method: 'POST',
+                headers: {
+                'Content-Type': ' application/json'
+            },
+            body: JSON.stringify(data)
+            })
+            .then(response => response.json())
+            .then(data => console.log(data))
+            .catch(error => console.error(error));
+
+        /*axios.post('https://dev1.maxvanwijnen.nl/mail.php',JSON.stringify(data),{
             'Content-Type': 'application/json'
         })
         .then(response => {
@@ -84,7 +96,7 @@ const BookAShoot = ({toggle, type, shootType, allPackages}) => {
         .catch(error => {
             console.log(error);
 
-        });
+        });*/
 
 
     }
