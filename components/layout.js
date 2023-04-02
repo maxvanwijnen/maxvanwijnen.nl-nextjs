@@ -2,7 +2,7 @@ import Header from "./Header/Header";
 import Footer from "./Footer/Footer";
 import {useRouter} from "next/router";
 import breadCrumbStyles from '../styles/Breadcrumb.module.css';
-import Breadcrumbs from "nextjs-breadcrumbs";
+
 import { AiFillHome } from 'react-icons/ai'
 import { PhotoshootTileMenu } from './../components/PhotoshootTileMenu/PhotoshootTileMenu';
 import WhatsAppChat from './WhatsAppChat/WhatsAppChat';
@@ -20,7 +20,7 @@ export default function Layout({ children , page}) {
                         pathName && pathName != "fotoshoot" && <PhotoshootTileMenu isBookable={false} isBig={false} />
                     }
 
-                    <Breadcrumbs containerClassName={breadCrumbStyles['breadcrumb-wrapper']} rootLabel="" />
+
 
                 </section>
                 {children}
