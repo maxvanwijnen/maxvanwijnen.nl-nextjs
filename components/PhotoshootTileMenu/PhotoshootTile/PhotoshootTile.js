@@ -37,7 +37,7 @@ export function PhotoshootTile ({page, img, size, isBookable, isPricePage}) {
                     {
                         !isBookable
                             ?
-                            <Link href={`/fotoshoot/${page}${gotoId}`} >
+                            <Link href={`/fotoshoot/${page}${gotoId}`} legacyBehavior>
                                 <a className={`${styles['photoshoot-tile']} ${styles[page]}`}>
                                     <div className={styles['hover-text']}>
                                         {!isBookable && `Naar fotoshoot ${page}`}

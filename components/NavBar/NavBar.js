@@ -41,24 +41,24 @@ export function NavBar() {
             </div>
 
             <div className={styles['nav-items']}>
-                <Link href="/"><a onClick={closeMenu}>Home</a></Link>
-                <Link href="/fotoshoot"><a onClick={closeMenu} className={styles['fotoshoot']}> Fotoshoots</a></Link>
+                <Link href="/" legacyBehavior><a onClick={closeMenu}>Home</a></Link>
+                <Link href="/fotoshoot" legacyBehavior><a onClick={closeMenu} className={styles['fotoshoot']}> Fotoshoots</a></Link>
                 <div className={styles['submenu-fotoshoot']}>
-                    <Link href="/fotoshoot/kinderen" ><a onClick={closeMenu}>Kinderen</a></Link>
-                    <Link href="/fotoshoot/portret"><a onClick={closeMenu}>Portret</a></Link>
-                    <Link href="/fotoshoot/loveshoot"><a onClick={closeMenu}>Loveshoot</a></Link>
-                    <Link href="/fotoshoot/familie"><a onClick={closeMenu}>Familie</a></Link>
-                    <Link href="/fotoshoot/zwangerschap"><a onClick={closeMenu}>Zwangerschap</a></Link>
-                    <Link href="/fotoshoot/trouwen"><a onClick={closeMenu}>Bruidsreportage</a></Link>
+                    <Link href="/fotoshoot/kinderen" legacyBehavior><a onClick={closeMenu}>Kinderen</a></Link>
+                    <Link href="/fotoshoot/portret" legacyBehavior><a onClick={closeMenu}>Portret</a></Link>
+                    <Link href="/fotoshoot/loveshoot" legacyBehavior><a onClick={closeMenu}>Loveshoot</a></Link>
+                    <Link href="/fotoshoot/familie" legacyBehavior><a onClick={closeMenu}>Familie</a></Link>
+                    <Link href="/fotoshoot/zwangerschap" legacyBehavior><a onClick={closeMenu}>Zwangerschap</a></Link>
+                    <Link href="/fotoshoot/trouwen" legacyBehavior><a onClick={closeMenu}>Bruidsreportage</a></Link>
                 </div>
-                <Link href="/fotostudio"><a onClick={closeMenu}>Studio</a></Link>
-                <Link href="/portfolio"><a onClick={closeMenu}>Portfolio</a></Link>
-                <Link href="/prijzen"><a onClick={closeMenu}>Prijzen</a></Link>
-                <Link href="/over-mij"><a onClick={closeMenu}>Over mij</a></Link>
-                <Link href="/contact"><a onClick={closeMenu}>Contact</a></Link>
+                <Link href="/fotostudio" legacyBehavior><a onClick={closeMenu}>Studio</a></Link>
+                <Link href="/portfolio" legacyBehavior><a onClick={closeMenu}>Portfolio</a></Link>
+                <Link href="/prijzen" legacyBehavior><a onClick={closeMenu}>Prijzen</a></Link>
+                <Link href="/over-mij" legacyBehavior><a onClick={closeMenu}>Over mij</a></Link>
+                <Link href="/contact" legacyBehavior><a onClick={closeMenu}>Contact</a></Link>
             </div>
             <div className={styles['book-button']}>
-                <Link href="/boek-een-fotoshoot"><a onClick={closeMenu}>Boek een fotoshoot <HiArrowSmRight /></a></Link>
+                <Link href="/boek-een-fotoshoot" legacyBehavior><a onClick={closeMenu}>Boek een fotoshoot <HiArrowSmRight /></a></Link>
             </div>
 
         </nav>

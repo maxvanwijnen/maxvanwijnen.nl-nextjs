@@ -6,6 +6,9 @@ const nextConfig = {
     images: {
       unoptimized: true,
     },
+  },
+  images: {
+    domains: ['dev1.maxvanwijnen.nl'],
   }
 }
 
