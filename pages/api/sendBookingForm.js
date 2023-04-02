@@ -1,7 +1,7 @@
 import SibApiV3Sdk from 'sib-api-v3-sdk';
 
 
-export default function sendEmail(req, res) {
+export default function sendBookingForm(req, res) {
 
 
     const { clientName, phoneNumber,photoshootType, studioLocation, email, comments} = req.body;
@@ -19,12 +19,12 @@ export default function sendEmail(req, res) {
             'params' : {
                 'clientName': clientName,
                 'phoneNumber' : phoneNumber,
-                'photoshootType': photoshootType,
-                'studioLocation':studioLocation,
                 'email':email,
+                'photoshootType':photoshootType,
+                'studioLocation':studioLocation,
                 'comments':comments
             },
-            'templateId':4
+            'templateId':2
         }
     ).then(function(data) {
         console.log(data);

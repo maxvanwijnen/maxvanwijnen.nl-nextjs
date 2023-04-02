@@ -4,7 +4,7 @@ import SibApiV3Sdk from 'sib-api-v3-sdk';
 export default function sendEmail(req, res) {
 
 
-    const { clientName, phoneNumber,photoshootType, studioLocation, email, comments} = req.body;
+    const { clientName, phoneNumber, email, comments} = req.body;
 
 //asd
     var SibApiV3Sdk = require('sib-api-v3-sdk');
@@ -20,8 +20,6 @@ export default function sendEmail(req, res) {
             'params' : {
                 'clientName': clientName,
                 'phoneNumber' : phoneNumber,
-                'photoshootType': photoshootType,
-                'studioLocation':studioLocation,
                 'email':email,
                 'comments':comments
             },

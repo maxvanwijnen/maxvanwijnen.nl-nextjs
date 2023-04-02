@@ -38,8 +38,8 @@ const ContactForm = () => {
 
         e.preventDefault();
 
-        if (!isVerified){
-            setError({...error, general:'Klik op ik ben geen robot'})
+        if (!isVerified) {
+            setError({...error, general: 'Klik op ik ben geen robot'})
             return false;
         }
 
@@ -47,21 +47,19 @@ const ContactForm = () => {
         // regex voor het controleren van e-mail
         const regex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
 
-        if (!regex.test(email)){
-            setError({...error, email:'Voer een geldig emailadres in'})
+        if (!regex.test(email)) {
+            setError({...error, email: 'Voer een geldig emailadres in'})
             console.log('ajsdhakdhj')
             return false;
         }
-
 
 
         if (!clientName || !phoneNumber || !email || !comments) {
 
-            setError({...error, general:'Alle velden zijn verplicht'})
+            setError({...error, general: 'Alle velden zijn verplicht'})
             console.log('ajsdhakdhj')
             return false;
         }
-
 
 
         const data = {
@@ -73,7 +71,7 @@ const ContactForm = () => {
 
 
         console.log('send contactForm');
-        axios.post('https://dev1.maxvanwijnen.nl/mail-contactform',JSON.stringify(data),{
+        /*axios.post('https://dev1.maxvanwijnen.nl/mail-contactform',JSON.stringify(data),{
             'Content-Type': 'application/json'
         })
             .then(response => {
@@ -90,6 +88,17 @@ const ContactForm = () => {
             });
 
 
+    }*/
+        fetch('/api/sendContactForm', {
+            method: 'POST',
+            headers: {
+                'Content-Type': ' application/json'
+            },
+            body: JSON.stringify(data)
+        })
+            .then(response => response.json())
+            .then(data => console.log(data))
+            .catch(error => console.error(error));
     }
 
 

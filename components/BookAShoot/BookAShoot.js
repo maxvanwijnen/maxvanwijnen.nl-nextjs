@@ -69,7 +69,7 @@ const BookAShoot = ({toggle, type, shootType, allPackages}) => {
 
         console.log('send booking');
 
-        fetch('/api/sendEmail',{
+        fetch('/api/sendBookingForm',{
             method: 'POST',
                 headers: {
                 'Content-Type': ' application/json'
@@ -77,7 +77,16 @@ const BookAShoot = ({toggle, type, shootType, allPackages}) => {
             body: JSON.stringify(data)
             })
             .then(response => response.json())
-            .then(data => console.log(data))
+            .then(data => {
+                setEmail(null);
+                setPhotoshootType(null)
+                setPhoneNumber(null);
+                setClientName(null);
+                setStudioLocation(null);
+                setComments(null);
+
+                setSend(true);
+            })
             .catch(error => console.error(error));
 
         /*axios.post('https://dev1.maxvanwijnen.nl/mail.php',JSON.stringify(data),{
