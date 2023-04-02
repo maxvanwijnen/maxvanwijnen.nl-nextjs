@@ -6,6 +6,7 @@ export default function sendEmail(req, res) {
 
     const { clientName, phoneNumber,photoshootType, studioLocation, email, comments} = req.body;
 
+
     var SibApiV3Sdk = require('sib-api-v3-sdk');
     SibApiV3Sdk.ApiClient.instance.authentications['api-key'].apiKey = process.env.SENDINBLUE_API_KEY;
 
