@@ -19,7 +19,7 @@ export default function TxtImg2Column ( {children, txtTitle, imgSource, imgWidth
                     {children}
                 </p>
             </div>
-            <div>
+            <div className={styles['img-wrapper']}>
                 <Image src={imgSource}
                        width={imgWidth}
                        height={imgHeight}

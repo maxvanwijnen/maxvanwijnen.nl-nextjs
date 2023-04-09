@@ -22,12 +22,12 @@ const Fotostudio = () => {
             <TextContent
                 title="Welkom in mijn fotostudio in Leiden"
             >
-                Ben je opzoek naar professionele studiofoto`s? In mijn fotostudio in Leiden help ik je hier graag mee! Hier heb ik alle apparatuur beschikbaar om samen tot de mooiste resultaten te komen. Ben je opzoek naar portretfoto`s, zakelijk of gewoon voor jezelf? Of wil je graag een mooie zwangerschapsfotoshoot doen in mijn studio? Je bent van harte welkom in mijn studio in Leiden!
+                Op zoek naar professionele foto`s in de studio? Ik sta voor je klaar in mijn fotostudio in Leiden! Ik beschik over alle benodigde apparatuur om samen met jou de beste resultaten te behalen. Of je nu op zoek bent naar zakelijke portretfot`s of gewoon een mooie foto van jezelf wilt laten maken, ik help je graag verder. Ook als je een prachtige zwangerschapsfotoshoot wilt doen, ben je bij mij aan het juiste adres. Voel je welkom in mijn studio in Leiden!
 
 
             </TextContent>
             <TxtImg2Column
-                imgSource="https://dev1.maxvanwijnen.nl/docs/images/intro-text/familie-fotoshoot.webp"
+                imgSource="https://dev1.maxvanwijnen.nl/docs/images/content-long/fotostudio-leiden.webp"
                 cssClass="Kinderen"
                 imgAlt = "Studio fotografie in Leiden"
                 imgWidth={573}

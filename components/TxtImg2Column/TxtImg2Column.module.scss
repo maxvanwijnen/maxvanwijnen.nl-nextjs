@@ -34,8 +34,15 @@
   line-height: 27.5px;
 
 }
-.txtImg2Column img {
-  border-radius: 16px;
+.txtImg2Column .img-wrapper {
+
+  display: flex;
+  justify-content: center;
+  img {
+    border-radius: 16px;
+    max-width: 90%;
+    height: auto;
+  }
 }
 
 @media only screen and (max-width: 800px) {
