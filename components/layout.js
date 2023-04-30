@@ -13,6 +13,7 @@ export default function Layout({ children , page}) {
 
     return (
         <>
+            <meta name="msvalidate.01" content="6EEF5CFC8BBEDF2585F23959D9F085A0" />
             <Header page={pathName} />
             <main>
                 <section>
