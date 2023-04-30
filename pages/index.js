@@ -25,6 +25,7 @@ export default function Home() {
                 content="Wil je graag mooie en professionele foto's laten maken? Ik sta voor je klaar als ervaren fotograaf uit Noordwijk. Neem nu contact op voor meer informatie."
                 key="desc"
             />
+            <meta name="msvalidate.01" content="6EEF5CFC8BBEDF2585F23959D9F085A0" />
         </Head>
         <IntroTextOnly title="Professionele portretfotografie & fotoshoots">
             Ben jij op zoek naar professionele fotografie in de regio Leiden, Noordwijk of de bollenstreek? Samen bespreken we jouw wensen en denk ik met je mee voor het mooiste eindresultaat. Hierbij heb ik mij gespecialiseerd in <Link href="/fotoshoot/kinderen">kinderfotoshoots</Link>, <Link href="/fotoshoot/portret">portretfotografie</Link>, <Link href="/fotoshoot/familie">familie fotoshoots</Link>, <Link href="/fotoshoot/zwangerschap">zwangerschapshoots</Link>, <Link href="/fotoshoot/loveshoot">loveshoots</Link> en <Link href="/fotoshoot/trouwen">zwangerschapsshoots</Link>.
