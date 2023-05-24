@@ -1,8 +1,10 @@
-import React, {useState} from 'react';
+import React, {useEffect, useState} from 'react';
 import css from './BookAShoot.module.scss';
 import {FiXCircle, FiSend} from 'react-icons/fi';
 import axios from 'axios';
 import ReCAPTCHA from 'react-google-recaptcha';
+
+
 
 const BookAShoot = ({toggle, type, shootType, allPackages}) => {
 
@@ -30,6 +32,12 @@ const BookAShoot = ({toggle, type, shootType, allPackages}) => {
     const onVerify = () => {
         setIsVerified(true);
     };
+
+    useEffect(()=>{
+        console.log('testtest');
+    },[send])
+
+    
 
     const sendBooking = async (e) => {
         e.preventDefault();
@@ -66,48 +74,38 @@ const BookAShoot = ({toggle, type, shootType, allPackages}) => {
             comments: comments
         };
 
+        
 
-        console.log('send booking');
-
-        fetch('/api/sendBookingForm',{
-            method: 'POST',
-                headers: {
-                'Content-Type': ' application/json'
-            },
-            body: JSON.stringify(data)
-            })
-            .then(response => response.json())
-            .then(data => {
-                setEmail(null);
-                setPhotoshootType(null)
-                setPhoneNumber(null);
-                setClientName(null);
-                setStudioLocation(null);
-                setComments(null);
-
-                setSend(true);
-            })
-            .catch(error => console.error(error));
-
-        /*axios.post('https://dev1.maxvanwijnen.nl/mail.php',JSON.stringify(data),{
-            'Content-Type': 'application/json'
-        })
-        .then(response => {
+        try {
+            const response = await fetch('/api/sendBookingForm', {
+              method: 'POST',
+              headers: {
+                'Content-Type': 'application/json'
+              },
+              body: JSON.stringify(data)
+            });
+          
+            if (!response.ok) {
+              throw new Error('Network response was not ok');
+            }
+          
+            const result = await response.json();
+            if (!result.success) {
+              throw new Error('Error sending booking form');
+            }
+          
             setEmail(null);
-            setPhotoshootType(null)
+            setPhotoshootType(null);
             setPhoneNumber(null);
             setClientName(null);
             setStudioLocation(null);
             setComments(null);
-
             setSend(true);
-        })
-        .catch(error => {
-            console.log(error);
-
-        });*/
-
-
+          } catch (error) {
+            console.error('Error:', error);
+            // Handle error here, e.g. show error message to user
+          }
+          
     }
 
     if (send) {
