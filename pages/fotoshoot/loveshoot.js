@@ -50,7 +50,7 @@ export default function Loveshoot (){
 
             <TextImg
                 title="Jullie loveshoot"
-                img="https://dev1.maxvanwijnen.nl/images/1200/loveshoot/Loveshoot-strand-scheveningen-001.webp"
+                img="https://dev1.maxvanwijnen.nl/docs/images/content-long/loveshoot-noordwijk.webp"
             >
                 <h3>Hoe verloopt een loveshoot?</h3>
                 <p>Het is belangrijk dat jullie je fijn en ontspannen voelen tijdens fotoshoot. Dat geeft niet alleen de mooiste resultaten op de foto, maar maakt ook de hele shoot tot een leuke ervaring. Het is daarom belangrijk om te weten dat tijdens de shoot alles kan en alles mag. Voel je je niet comfortabel op een drukke locatie in de binnenstad van Leiden? Dan kiezen we gewoon voor een rustig plekje op het strand of in een park. Daarnaast zijn jullie ook van harte welkom in mijn studio in Leiden. Uiteraard zijn er verschillende poses te bedenken voor de leukste resultaten, maar ook hierbij is het belangrijk dat deze goed bij jullie passen. Natuurlijk mag je het ook zelf aangeven als je leuke ideeën of wensen hebt.</p>

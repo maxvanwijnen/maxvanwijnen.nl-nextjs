@@ -8,10 +8,10 @@ const Footer = () => {
     return (
         <footer className={css['footer']}>
             <Image
-                src="https://dev1.maxvanwijnen.nl/images/logo-maxvanwijnen-fotografie.png"
+                src="https://dev1.maxvanwijnen.nl/docs/images/logo/logo-maxvanwijnen-fotografie-white.webp"
                 alt="Logo"
                 width={300}
-                height={100}
+                height={200}
             />
             <section className={css['main-content']}>
                 <div className={css['logo-column']}>
