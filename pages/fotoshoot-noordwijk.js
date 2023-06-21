@@ -20,8 +20,8 @@ const FotoshootNoordwijk = () => {
             </Head>
         <section>
             <TextContent
-            title="Fotoshoot Noordwijk"
-            >Ben je op zoek naar een fotoshoot in of rondom Noordwijk? Dan ben je bij mij aan het juiste adres. Je kunt bij mij terecht voor alle type fotoshoots zoals een zwangerschapsfotoshoot, kinderfotoshoot, familiefotoshoot of een portretfotoshoot. Of heb je zelf een ander goed idee? Laat het me weten! Ik doe al mijn fotoshoots op locatie. Noordwijk kent vele mooie locaties voor fotoshoots, denk daarbij aan het strand, de duinen of het bos.</TextContent>
+            title="Fotograaf in Noordwijk"
+            >Ben je op zoek naar een fotograaf voor een fotoshoot in of rondom Noordwijk? Dan ben je bij mij aan het juiste adres. Je kunt bij mij terecht voor alle type fotoshoots zoals een zwangerschapsfotoshoot, kinderfotoshoot, familiefotoshoot of een portretfotoshoot. Of heb je zelf een ander goed idee? Laat het me weten! Ik doe al mijn fotoshoots op locatie. Noordwijk kent vele mooie locaties voor fotoshoots, denk daarbij aan het strand, de duinen of het bos.</TextContent>
             <TxtImg2Column
                 imgSource="https://dev1.maxvanwijnen.nl/docs/images/intro-text/familie-fotoshoot.webp"
                 cssClass="Kinderen"
