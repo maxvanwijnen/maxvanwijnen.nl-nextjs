@@ -1,0 +1,16 @@
+.question {
+    width: 100%;
+    max-width: 48%;
+    
+    border-bottom: 1px solid rgb(219, 219, 219);
+    margin-bottom: 25px;
+}
+
+@media only screen and (max-width:1200px) {
+
+    .question {
+      width: 98%;
+      max-width: unset;
+      margin-bottom:5px;
+    }
+  }

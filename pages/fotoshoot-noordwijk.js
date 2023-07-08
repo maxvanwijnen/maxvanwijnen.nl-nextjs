@@ -4,6 +4,7 @@ import TxtImg2Column from "../components/TxtImg2Column/TxtImg2Column";
 import Quote from "../components/Quote/Quote";
 import TextImg from "../components/TextImg/TextImg";
 import Head from 'next/head';
+import Faq from '../components/FAQ/Faq';
 
 const FotoshootNoordwijk = () => {
     return (
@@ -21,6 +22,7 @@ const FotoshootNoordwijk = () => {
         <section>
             <TextContent
             title="Fotograaf in Noordwijk"
+            firstItem={true}
             multiContent={[
                 "Ben je op zoek naar een professionele fotograaf in Noordwijk? Als portretfotograaf fotografeer ik op locatie in Noordwijk en omgeving en heb ik een studio in Leiden. Of je nu op zoek bent naar een prachtige zwangerschapsfotoshoot, een leuke familiesessie, een romantische loveshoot of professionele profielfoto's voor LinkedIn, bij mij ben je aan het juiste adres.",
                 "Als portretfotograaf werk ik graag op locatie, maar je bent ook van harte welkom in mijn studio in Leiden. Noordwijk en omgeving bieden diverse mooie fotolocaties, zoals het bos en het prachtige strand van Noordwijk met de zee en de duinen. Maar ook de Amsterdamse Waterleiding Duinen zijn in de buurt. Samen vinden we de perfecte locatie voor jouw of jullie fotoshoot",
@@ -55,6 +57,8 @@ const FotoshootNoordwijk = () => {
 
 
             </TextImg>
+
+            <Faq />
 
         </section>
             </>
