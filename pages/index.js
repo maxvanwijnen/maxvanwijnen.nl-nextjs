@@ -25,6 +25,7 @@ export default function Home() {
                 content="Wil je graag mooie en professionele foto's laten maken? Ik sta voor je klaar als ervaren fotograaf uit Noordwijk. Neem nu contact op voor meer informatie."
                 key="desc"
             />
+            <meta name="google-site-verification" content="VRuaMHZTJKhR_HKYhUWEgmSLOvLt_kMQKt0zYVpw_mw" />
             <meta name="msvalidate.01" content="6EEF5CFC8BBEDF2585F23959D9F085A0" />
         </Head>
         <IntroTextOnly title="Professionele portretfotografie & fotoshoots">
