@@ -21,7 +21,7 @@ const Faq = () => {
                 />
                 <Question 
                     question="Hoe gaat een fotoshoot in zijn werk?"
-                    answer="Samen plannen we een datum en locatie in voor de fotoshoot. Na afloop "
+                    answer="Samen plannen we een datum en locatie in voor de fotoshoot. Na afloop maak ik een voorselectie van alle gemaakte foto's. Deze zijn in een afgeschermd gedeelte van mijn website te bezichtigen. Als je je favorieten foto's gekozen hebt, ga er mee aan de slag en heb ik ze binnen 2 weken gereed als digitale download."
                 />
                 <Question 
                     question="Wat doen we bij slecht weer tijdens de fotoshoot?"
