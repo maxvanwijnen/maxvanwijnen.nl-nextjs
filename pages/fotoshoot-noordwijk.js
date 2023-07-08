@@ -21,7 +21,13 @@ const FotoshootNoordwijk = () => {
         <section>
             <TextContent
             title="Fotograaf in Noordwijk"
-            >Ben je op zoek naar een fotograaf voor een fotoshoot in of rondom Noordwijk? Dan ben je bij mij aan het juiste adres. Je kunt bij mij terecht voor alle type fotoshoots zoals een zwangerschapsfotoshoot, kinderfotoshoot, familiefotoshoot of een portretfotoshoot. Of heb je zelf een ander goed idee? Laat het me weten! Ik doe al mijn fotoshoots op locatie. Noordwijk kent vele mooie locaties voor fotoshoots, denk daarbij aan het strand, de duinen of het bos.</TextContent>
+            multiContent={[
+                "Ben je op zoek naar een professionele fotograaf in Noordwijk? Als portretfotograaf fotografeer ik op locatie in Noordwijk en omgeving en heb ik een studio in Leiden. Of je nu op zoek bent naar een prachtige zwangerschapsfotoshoot, een leuke familiesessie, een romantische loveshoot of professionele profielfoto's voor LinkedIn, bij mij ben je aan het juiste adres.",
+                "Als portretfotograaf werk ik graag op locatie, maar je bent ook van harte welkom in mijn studio in Leiden. Noordwijk en omgeving bieden diverse mooie fotolocaties, zoals het bos en het prachtige strand van Noordwijk met de zee en de duinen. Maar ook de Amsterdamse Waterleiding Duinen zijn in de buurt. Samen vinden we de perfecte locatie voor jouw of jullie fotoshoot",
+                "Ik sta altijd open voor nieuwe ideeën en uitdagingen. Dus als je een ander leuk idee hebt voor een fotoshoot dan je terug vind op mijn website, laat het me gerust weten, dan kijken we samen naar de mogelijkheden!",
+                "Dus heb je zin in een leuke onstspannen shoot met mooie resultaten? Boek mij als jouw fotograaf in Noordwijk en neem contact met me op."
+              ]}
+            />
             <TxtImg2Column
                 imgSource="https://dev1.maxvanwijnen.nl/docs/images/intro-text/familie-fotoshoot.webp"
                 cssClass="Kinderen"
@@ -35,8 +41,7 @@ const FotoshootNoordwijk = () => {
 
 
             </TxtImg2Column>
-            <Quote>Kinderen groeien zo snel op, maak daarom tijd om hun kostbare momenten vast te leggen</Quote>
-
+            
 
 
 
