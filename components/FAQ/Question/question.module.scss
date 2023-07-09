@@ -25,6 +25,7 @@
       height: 0;
       overflow: hidden;
       transition: opacity 1.2s ease;
+      font-family: var(--font-raleway);
     }
   
     &.extended {
@@ -55,15 +56,15 @@
       }
      
     }
-  
-    @media only screen and (max-width: 1200px) {
-      width: 98%;
-      max-width: unset;
-      margin-bottom: 5px;
-    }
-    
-    & + .question {
-      flex-basis: 100%;
-    }
+}
+@media only screen and (max-width: 1200px) {
+
+    .question {
+    width: 98%;
+    max-width: unset;
+    margin-bottom: 5px;
+    padding:15px;
   }
+
+}
   
