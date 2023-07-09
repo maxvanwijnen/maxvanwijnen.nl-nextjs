@@ -26,6 +26,7 @@
       overflow: hidden;
       transition: opacity 1.2s ease;
       font-family: var(--font-raleway);
+      
     }
   
     &.extended {
@@ -34,6 +35,7 @@
         opacity: 1;
         height: auto;
         transition: opacity 0.2s ease;
+        line-height: 26px;
       }
 
       .arrow {
