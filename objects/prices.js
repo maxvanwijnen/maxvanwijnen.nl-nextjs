@@ -28,19 +28,19 @@ export const prices = [
             {price:139,
                 type:'basic',
                 usplist:["5 Foto's","Hoge kwaliteit nabewerkt", "Digitale download"],
-                img:'https://dev1.maxvanwijnen.nl/docs/images/price-package/familieshoot-basic-fotoshoot.webp',
+                img:'https://dev1.maxvanwijnen.nl/docs/images/price-package/portret-basic-fotoshoot.webp',
                 desc:''
             },
             {price:189,
                 type:'deluxe',
                 usplist:["10 Foto's","Hoge kwaliteit nabewerkt", "Digitale download"],
-                img:'https://dev1.maxvanwijnen.nl/docs/images/price-package/familieshoot-deluxe-fotoshoot.webp',
+                img:'https://dev1.maxvanwijnen.nl/docs/images/price-package/portret-deluxe-fotoshoot.webp',
                 desc:''
             },
             {price:229,
                 type:'premium',
                 usplist:["15 Foto's","Hoge kwaliteit nabewerkt", "Digitale download"],
-                img:'https://dev1.maxvanwijnen.nl/docs/images/price-package/familieshoot-premium-fotoshoot.webp',
+                img:'https://dev1.maxvanwijnen.nl/docs/images/price-package/portret-premium-fotoshoot.webp',
                 desc:''
             }
         ]

@@ -24,12 +24,12 @@ export default function Portret (){
                 </title>
                 <meta
                     name="description"
-                    content="Mijn portretfotoshoots in Leiden zijn op maat gemaakt voor jou. Of je nu op zoek bent naar zakelijke portretten of persoonlijke foto's, ik zorg voor professionele fotografie op maat."
+                    content="Mijn portretfotoshoots in Leiden en Noordwijk en omgeving zijn op maat gemaakt voor jou. Of je nu op zoek bent naar zakelijke portretten of persoonlijke foto's, ik zorg voor professionele fotografie op maat."
                     key="desc"
                 />
             </Head>
             <TxtImg2Column
-                imgSource="https://dev1.maxvanwijnen.nl/docs/images/intro-text/familie-fotoshoot.webp"
+                imgSource="https://dev1.maxvanwijnen.nl/docs/images/intro-text/portret-fotoshoot.webp"
                 cssClass="Kinderen"
                 imgAlt = "Portret Fotografie"
                 imgWidth={573}
@@ -45,7 +45,7 @@ export default function Portret (){
 
             <TextImg
                 title="Mooie portret foto`s laten maken"
-                img="https://dev1.maxvanwijnen.nl/docs/images/content-long/familie-fotoshoot.webp"
+                img="https://dev1.maxvanwijnen.nl/docs/images/content-long/portret-fotoshoot.webp"
             >
                 <h3>Voorbereiding op de fotoshoot</h3>
                 <p>Samen bespreken we eerst jouw wensen, zodat we de juiste sfeer over kunnen brengen in de foto. Ben je meer op zoek naar een zakelijke uitstraling voor je portret foto’s of wil je een leuke portretfoto laten maken om cadeau te doen in de familie? Alles is mogelijk. Vervolgens zoeken we samen naar de juiste locatie, misschien heb je zelf al een mooi idee? Het tijdstip van de dag kan bepalend zijn voor het licht op de gekozen locatie, dus houden we hier rekening mee bij het plannen van de fotoshoot. Zo gaan we samen opzoek naar het beste resultaat. Het is natuurlijk ook mogelijk een los portret te maken tijdens een andere shoot, bijvoorbeeld een familieshoot.</p>
