@@ -1,0 +1,23 @@
+.campaign-popup {
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    bottom:5px;
+    left:5px;
+    padding:10px;
+    background-color: rgb(255, 212, 162);
+    width:340px;
+    border-radius: 5px;
+    height: fit-content;
+    z-index: 99;
+    font-family: var(--font-baloo-tamma);
+
+    p {
+        line-height: 18px;
+
+        .discount {
+            font-weight: bold;
+            font-size: 20px;
+        }
+    }
+}

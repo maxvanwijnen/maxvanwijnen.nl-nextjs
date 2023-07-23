@@ -6,6 +6,7 @@ import breadCrumbStyles from '../styles/Breadcrumb.module.css';
 import { AiFillHome } from 'react-icons/ai'
 import { PhotoshootTileMenu } from './../components/PhotoshootTileMenu/PhotoshootTileMenu';
 import WhatsAppChat from './WhatsAppChat/WhatsAppChat';
+import CampaignPopUp from './CampaignPopUp/CampaignPopUp';
 
 
 export default function Layout({ children , page}) {
@@ -24,6 +25,7 @@ export default function Layout({ children , page}) {
 
                 </section>
                 {children}
+                <CampaignPopUp />
                 <WhatsAppChat />
             </main>
             <Footer/>
