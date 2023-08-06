@@ -47,7 +47,7 @@ export default function Trouwen (){
 
 
             <TextImg
-                title="Voorbereicing"
+                title="Voorbereiding"
                 img="https://dev1.maxvanwijnen.nl/docs/images/content-long/bruidsreportage.webp"
             >
                 <h3>Voorbereiding op de fotoshoot</h3>
