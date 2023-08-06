@@ -25,7 +25,6 @@ export default function Layout({ children , page}) {
 
                 </section>
                 {children}
-                <CampaignPopUp />
                 <WhatsAppChat />
             </main>
             <Footer/>
