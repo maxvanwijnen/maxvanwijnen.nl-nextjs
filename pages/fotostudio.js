@@ -6,6 +6,7 @@ import TextImg from "../components/TextImg/TextImg";
 import Head from "next/head";
 import Link from "next/link";
 
+//gittest
 const Fotostudio = () => {
     return (
         <section>
