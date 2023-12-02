@@ -36,14 +36,14 @@ const Fotostudio = () => {
             >
                In mijn cursus basis fotografie leer ik je alle basis principes van het fotograferen.
                De workshop bestaat uit 2 delen. Op donderdag avond komen we gezellig samen in mijn studio in Leiden. Hier leer ik je alle basis beginselen van de fotografie.
-               Hoewel deze avond de focus heeft op de theorie gaan we het zo praktisch mogelijk insteken. Door middel van live demo's met mijn eigen camera laat ik alle theorie in de praktijk zien.
-               Dat maakt het niet alleen extra leerzaam, maar zo maken we zelfs de theorie erg praktisch. Na afloop van deze avond weet je alles wat je moet weten om los te gaan op de praktijk dag. Op de praktijk dag gaan we samen met een model op pad en maken we de mooiste foto's waarbij we de zojuist opgedane theorische kennis direct uitvoeren.<br></br>
+               Hoewel deze avond de focus heeft op de theorie gaan we het zo praktisch mogelijk insteken. Door middel van live demo&apos;s met mijn eigen camera laat ik alle theorie in de praktijk zien.
+               Dat maakt het niet alleen extra leerzaam, maar zo maken we zelfs de theorie erg praktisch. Na afloop van deze avond weet je alles wat je moet weten om los te gaan op de praktijk dag. Op de praktijk dag gaan we samen met een model op pad en maken we de mooiste foto&apos;s waarbij we de zojuist opgedane theorische kennis direct uitvoeren.<br></br>
                 <br></br>
                 <h3>We kijken onder andere naar:</h3>
                <ul>
                 <li>Je camera hoe werkt dat apparaat nu eigenlijk?</li>
                 <li>Alles over: Diafragma / Sluitertijd / ISO</li>
-                <li>Altijd Scherpe foto's </li>
+                <li>Altijd Scherpe foto&apos;s </li>
                 <li>De beste Compositie</li>
                 <li>Wat is RAW? Het verschil met JPG</li>
                 <li>Apparatuur</li>

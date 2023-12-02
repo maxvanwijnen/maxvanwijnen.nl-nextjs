@@ -24,7 +24,7 @@ const FotoshootNoordwijk = () => {
             <IntroTextImg
             title="Fotograaf in Noordwijk"
             >
-                <p>Ben je op zoek naar een professionele fotograaf in Noordwijk? Als portretfotograaf fotografeer ik op locatie in Noordwijk en omgeving en heb ik een studio in Leiden. Of je nu op zoek bent naar een prachtige zwangerschapsfotoshoot, een leuke familiesessie, een romantische loveshoot of professionele profielfoto's voor LinkedIn, bij mij ben je aan het juiste adres.</p>
+                <p>Ben je op zoek naar een professionele fotograaf in Noordwijk? Als portretfotograaf fotografeer ik op locatie in Noordwijk en omgeving en heb ik een studio in Leiden. Of je nu op zoek bent naar een prachtige zwangerschapsfotoshoot, een leuke familiesessie, een romantische loveshoot of professionele profielfoto&apos;s voor LinkedIn, bij mij ben je aan het juiste adres.</p>
                 <p>Als portretfotograaf werk ik graag op locatie, maar je bent ook van harte welkom in mijn studio in Leiden. Noordwijk en omgeving bieden diverse mooie fotolocaties, zoals het bos en het prachtige strand van Noordwijk met de zee en de duinen. Maar ook de Amsterdamse Waterleiding Duinen zijn in de buurt. Samen vinden we de perfecte locatie voor jouw of jullie fotoshoot.</p>
                 <p>Ik sta altijd open voor nieuwe ideeën en uitdagingen. Dus als je een ander leuk idee hebt voor een fotoshoot dan je terug vind op mijn website, laat het me gerust weten, dan kijken we samen naar de mogelijkheden!</p>
                 <p>Dus heb je zin in een leuke onstspannen shoot met mooie resultaten? Boek mij als jouw fotograaf in Noordwijk en neem contact met me op.</p>
