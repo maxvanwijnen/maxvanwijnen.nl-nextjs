@@ -1,33 +1,30 @@
 import React from 'react';
-import TextContent from "../components/TextContent/TextContent";
-import IntroTextImg from "../components/IntroTextImg/IntroTextImg";
-import TxtImg2Column from "../components/TxtImg2Column/TxtImg2Column";
-import Quote from "../components/Quote/Quote";
-import TextImg from "../components/TextImg/TextImg";
+import TextContent from '../../components/TextContent/TextContent';
+import IntroTextImg from "../../components/IntroTextImg/IntroTextImg";
+import TxtImg2Column from "../../components/TxtImg2Column/TxtImg2Column";
+import Quote from "../../components/Quote/Quote";
+import TextImg from "../../components/TextImg/TextImg";
 import Head from 'next/head';
-import Faq from '../components/FAQ/Faq';
+import Faq from '../../components/FAQ/Faq';
 
-const FotoshootNoordwijk = () => {
+const HerfstFotografieWorkshopNatuurlijkLicht = () => {
     return (
         <>
             <Head>
                 <title>
-                    Fotograaf in Noordwijk | Max van Wijnen Fotografie
+                    Natuurlijk licht portret workshop | Max van Wijnen Fotografie
                 </title>
                 <meta
                     name="description"
-                    content="Op zoek naar een fotograaf in Noordwijk? Als ervaren fotograaf biedt ik prachtige fotoshoots op het strand en andere unieke locaties. Lees snel meer!"
+                    content="De natuurlijk licht portret fotografie workshop, leuk, interactief en leerzaam. Kom je ook?"
                     key="desc"
                 />
             </Head>
         <section>
             <IntroTextImg
-            title="Fotograaf in Noordwijk"
+            title="Workshop herfst portretten in natuurlijk licht"
             >
-                <p>Ben je op zoek naar een professionele fotograaf in Noordwijk? Als portretfotograaf fotografeer ik op locatie in Noordwijk en omgeving en heb ik een studio in Leiden. Of je nu op zoek bent naar een prachtige zwangerschapsfotoshoot, een leuke familiesessie, een romantische loveshoot of professionele profielfoto's voor LinkedIn, bij mij ben je aan het juiste adres.</p>
-                <p>Als portretfotograaf werk ik graag op locatie, maar je bent ook van harte welkom in mijn studio in Leiden. Noordwijk en omgeving bieden diverse mooie fotolocaties, zoals het bos en het prachtige strand van Noordwijk met de zee en de duinen. Maar ook de Amsterdamse Waterleiding Duinen zijn in de buurt. Samen vinden we de perfecte locatie voor jouw of jullie fotoshoot.</p>
-                <p>Ik sta altijd open voor nieuwe ideeën en uitdagingen. Dus als je een ander leuk idee hebt voor een fotoshoot dan je terug vind op mijn website, laat het me gerust weten, dan kijken we samen naar de mogelijkheden!</p>
-                <p>Dus heb je zin in een leuke onstspannen shoot met mooie resultaten? Boek mij als jouw fotograaf in Noordwijk en neem contact met me op.</p>
+                <p>Een tweedelige leuke en praktische fotografie workshop</p>
             </IntroTextImg>
 
             
@@ -66,4 +63,4 @@ const FotoshootNoordwijk = () => {
     )
 }
 
-export default FotoshootNoordwijk;
+export default HerfstFotografieWorkshopNatuurlijkLicht;

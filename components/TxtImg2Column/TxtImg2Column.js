@@ -15,9 +15,9 @@ export default function TxtImg2Column ( {children, txtTitle, imgSource, imgWidth
             <div className={styles['text']}>
 
                 {isFirstArticle ? <h1>{txtTitle}</h1> : <h2>{txtTitle}</h2> }
-                <p>
+                <div>
                     {children}
-                </p>
+                </div>
             </div>
             <div className={styles['img-wrapper']}>
                 <Image src={imgSource}

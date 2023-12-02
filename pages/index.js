@@ -28,7 +28,7 @@ export default function Home() {
             <meta name="google-site-verification" content="VRuaMHZTJKhR_HKYhUWEgmSLOvLt_kMQKt0zYVpw_mw" />
             <meta name="msvalidate.01" content="6EEF5CFC8BBEDF2585F23959D9F085A0" />
         </Head>
-        <IntroTextOnly title="Professionele portretfotografie & fotoshoots">
+        <IntroTextOnly title="Professionele fotoshoots & workshops">
             Ben jij op zoek naar professionele fotografie in de regio Leiden, Noordwijk of de bollenstreek? Samen bespreken we jouw wensen en denk ik met je mee voor het mooiste eindresultaat. Hierbij heb ik mij gespecialiseerd in <Link href="/fotoshoot/kinderen">kinderfotoshoots</Link>, <Link href="/fotoshoot/portret">portretfotografie</Link>, <Link href="/fotoshoot/familie">familie fotoshoots</Link>, <Link href="/fotoshoot/zwangerschap">zwangerschapshoots</Link>, <Link href="/fotoshoot/loveshoot">loveshoots</Link> en <Link href="/fotoshoot/trouwen">zwangerschapsshoots</Link>.
         </IntroTextOnly>
 

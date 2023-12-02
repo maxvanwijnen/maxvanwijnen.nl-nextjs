@@ -1,0 +1,154 @@
+.studio-content {
+    background-color: rgb(247, 247, 247);
+    max-width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top:30px;
+    padding-bottom:30px;
+
+  .content-wrapper {
+    display: flex;
+    max-width: var(--max-width);
+    width: 100%;
+    flex-direction: column;
+    gap:30px;
+    justify-content: space-between;
+    align-items: center;
+    justify-content: center;
+
+    h2,h3 {
+      font-size: 24px;
+      margin-bottom: 0px;
+      margin-top: 0px;
+      font-family: var(--font-baloo-tamma);
+      text-align: left;
+      margin-bottom:0px;
+    }
+    h3 {
+      font-size: 20px;
+    }
+  
+
+    .intro-part {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      
+      .text-wrapper {
+        max-width: 700px;
+  
+       
+        
+        p {
+          font-family: var(--font-roboto);
+          color: #5E5E5E;
+          font-size: 16px;
+          line-height: 27.5px;
+          text-align: left;
+          padding:10px 10px 10px 0px;
+      
+        }
+        .book-a-shoot-button {
+          background-color:var(--color-orange);
+          color: white;
+          padding:12px;
+          border-radius: 3px;
+          font-family: var(--font-roboto);
+          margin-top:10px;
+          display: block;
+          width: fit-content;
+        }
+      }
+      
+      img {
+        border-radius: 5px;
+        box-shadow:1px 0 11px -3px rgba(0,0,0,.75);
+      }
+    }
+
+    .studio-content-mini-info-box {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+
+   
+
+      .mini-menu {
+        display: flex;
+        flex-direction: row;
+        gap:20px;
+
+        
+        
+
+        button {
+          background:var(--color-light-green);
+          border:0px;
+          padding:10px;
+          border-radius: 4px;
+          color:white;
+          text-transform: uppercase;
+          font-family: var(--font-raleway);
+          letter-spacing: 1.2px;
+          cursor: pointer;
+          transform: scale(1);
+          transition: transform 0.2s ease-in;
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          gap:10px;
+
+          .mini-icon {
+            width:30px;
+            font-size: 30px;
+          }
+        }
+
+        button:hover {
+          transform: scale(1.1);
+        }
+      }
+    }
+
+
+    
+  }
+ 
+  margin-bottom: 50px;
+}
+
+@media only screen and (max-width: 1200px) {
+  .intro-text-img {
+    .content-wrapper {
+      display: flex;
+      flex-direction: column;
+      gap:30px;
+      justify-content: space-between;
+      align-items: center;
+      padding:20px;
+  
+  
+      .text-wrapper {
+        max-width: 700px;
+  
+        h1 {
+          font-size: 36px;
+        }
+        p {
+    
+      
+        }
+        .book-a-shoot-button {
+          
+        }
+      }
+      
+      img {
+
+      }
+    }
+
+  }
+}
+

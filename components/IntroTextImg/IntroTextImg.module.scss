@@ -1,0 +1,82 @@
+.intro-text-img {
+  .content-wrapper {
+    display: flex;
+    flex-direction: row;
+    gap:30px;
+    justify-content: space-between;
+    align-items: center;
+
+
+    .text-wrapper {
+      max-width: 700px;
+
+      h1 {
+        font-size: 36px;
+        margin-bottom: 0px;
+        margin-top: 0px;
+        text-align: left;
+      }
+      p {
+        font-family: var(--font-roboto);
+        color: #5E5E5E;
+        font-size: 16px;
+        line-height: 27.5px;
+        text-align: left;
+        padding:10px 10px 10px 0px;
+    
+      }
+      .book-a-shoot-button {
+        background-color:var(--color-orange);
+        color: white;
+        padding:12px;
+        border-radius: 3px;
+        font-family: var(--font-roboto);
+        margin-top:10px;
+        display: block;
+        width: fit-content;
+      }
+    }
+    
+    img {
+      border-radius: 5px;
+      box-shadow:1px 0 11px -3px rgba(0,0,0,.75);
+    }
+  }
+ 
+  margin-bottom: 50px;
+}
+
+@media only screen and (max-width: 1200px) {
+  .intro-text-img {
+    .content-wrapper {
+      display: flex;
+      flex-direction: column;
+      gap:30px;
+      justify-content: space-between;
+      align-items: center;
+      padding:20px;
+  
+  
+      .text-wrapper {
+        max-width: 700px;
+  
+        h1 {
+          font-size: 36px;
+        }
+        p {
+    
+      
+        }
+        .book-a-shoot-button {
+          
+        }
+      }
+      
+      img {
+
+      }
+    }
+
+  }
+}
+

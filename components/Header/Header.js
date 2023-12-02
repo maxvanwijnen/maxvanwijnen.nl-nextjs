@@ -53,7 +53,7 @@ export default function Header({page}) {
         <header className={`${styles[page]} ${styles.header}`}>
             <div className={styles['container']}>
                 <NavBar />
-                <div className={styles['main-title']}>Professionele portretfotografie <br/>&<br/> Fotoshoots</div>
+                <div className={styles['main-title']}>Professionele portretfotografie <br/>&<br/> workshops</div>
 
                 {/*<Breadcrumbs />*/}
             </div>

@@ -53,6 +53,7 @@ export function NavBar() {
                 </div>
                 <Link href="/fotostudio" legacyBehavior><a onClick={closeMenu}>Studio</a></Link>
                 <Link href="/portfolio" legacyBehavior><a onClick={closeMenu}>Portfolio</a></Link>
+                <Link href="/fotografie-workshop" legacyBehavior><a onClick={closeMenu}>Workshops</a></Link>
                 <Link href="/prijzen" legacyBehavior><a onClick={closeMenu}>Prijzen</a></Link>
                 <Link href="/over-mij" legacyBehavior><a onClick={closeMenu}>Over mij</a></Link>
                 <Link href="/contact" legacyBehavior><a onClick={closeMenu}>Contact</a></Link>
