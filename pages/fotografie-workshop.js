@@ -60,6 +60,11 @@ const Fotostudio = () => {
                 zaterdag 13 januari om 14:00 op een  nader te bepalen locatie in de regio Leiden. (de praktijk dag)
                </p>
                <br></br>
+               <h3>Kosten:</h3>
+               <p>  
+                De kosten voor de cursus bedragen 150 euro per persoon.
+               </p>
+               <br></br>
                <h3>Meedoen aan de workshop?</h3>
                <p>  
                 Neem snel contact op! Omdat ik de groepen graag klein wil houden, zijn er beperkte plekken beschikbaar. (5 personen)
