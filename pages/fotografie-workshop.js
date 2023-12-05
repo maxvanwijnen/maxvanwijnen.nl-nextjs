@@ -60,6 +60,13 @@ const Fotostudio = () => {
                 zaterdag 13 januari om 14:00 op een  nader te bepalen locatie in de regio Leiden. (de praktijk dag)
                </p>
                <br></br>
+               <h3>Wat heb je nodig voor de workshop?:</h3>
+               <p>  
+                Een camera waarbij je de de belichting zelf in kunt stellen is voldoende.
+                Bijvoorbeeld een spiegelreflex of een systeemcamera.
+                Mooie portretlenzen zijn bijvoorbeeld de 50mm of de 85mm, maar in feite is elke lens geschikt voor de workshop.
+               </p>
+               <br></br>
                <h3>Kosten:</h3>
                <p>  
                 De kosten voor de cursus bedragen 150 euro per persoon.
