@@ -61,14 +61,12 @@ export default function Portret (){
 
             <ImageRow
                 images={[
-                    {url:'https://dev1.maxvanwijnen.nl/docs/images/Fotoshoot-kind-noordwijk-001.jpg', alt:'kinder fotografie'},
-                    {url:'https://dev1.maxvanwijnen.nl/docs/images/Fotoshoot-kind-noordwijk-001.jpg', alt:'kinder fotografie'},
-                    {url:'https://dev1.maxvanwijnen.nl/docs/images/Fotoshoot-kind-noordwijk-001.jpg', alt:'kinder fotografie'},
-                    {url:'https://dev1.maxvanwijnen.nl/docs/images/Fotoshoot-kind-noordwijk-001.jpg', alt:'kinder fotografie'},
-                    {url:'https://dev1.maxvanwijnen.nl/docs/images/Fotoshoot-kind-noordwijk-001.jpg', alt:'kinder fotografie'}
+                    {url:'https://dev1.maxvanwijnen.nl/docs/images/mini-portfolio/roos-studio-portret-achtergrond-zwart.webp', alt:'Studio Portret met zwarte achtergrond'},
+                    {url:'https://dev1.maxvanwijnen.nl/docs/images/mini-portfolio/roos-studio-portret-zwart-wit.webp', alt:'Studio portret in zwart wit'},
+                    {url:'https://dev1.maxvanwijnen.nl/docs/images/mini-portfolio/roos-portret-fotostudio-achtergrond-wit.webp', alt:'Studio portret tegen een witte achtergrond'}
                 ]}
             >
-                Bekijk enkele voorbeelden van onze kinderfotoshoots in ons portfolio. We hebben een verscheidenheid aan stijlen en poses om uit te kiezen, en we zijn ervan overtuigd dat je iets zult vinden dat je leuk vindt.
+                Bekijk enkele voorbeelden van mijn portretfotoshoots in mijn portfolio. 
             </ImageRow>
         </>
 

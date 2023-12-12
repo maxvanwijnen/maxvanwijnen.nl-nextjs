@@ -3,7 +3,7 @@ import Masonry from "react-responsive-masonry"
 import css from './ImageRow.module.scss';
 import TextContent from "../TextContent/TextContent";
 
-const images = [
+const defaultImages = [
     "https://dev1.maxvanwijnen.nl/docs/miniportfolio/images/Fotoshoot-kind-noordwijk-001.jpg",
     //...
     "https://dev1.maxvanwijnen.nl/docs/miniportfolio/images/kinderen/Fotoshoot-strand-kind.webp",
@@ -15,8 +15,14 @@ const images = [
 
 ]
 
-const ImageRow = ({children}) => {
+const ImageRow = ({images,children}) => {
 
+        
+        if(!images) {
+            images = defaultImages;
+        }
+        console.log("adadas");
+        console.log(images);
         return (
             <section className={css['image-row']}>
                 <TextContent
@@ -26,7 +32,7 @@ const ImageRow = ({children}) => {
                 {images.map((image, i) => (
                     <img
                         key={i}
-                        src={image}
+                        src={image.url}
                         style={{width: "100%", display: "block"}}
                     />
                 ))}
