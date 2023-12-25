@@ -12,7 +12,7 @@ const IntroTextImg = ({title, children}) => {
                     {children}
                     <Link href="" className={css['book-a-shoot-button']}>Boek nu je familie fotoshoot</Link>
                 </div>
-                <Image src="https://dev1.maxvanwijnen.nl/docs/images/intro-text/familie-fotoshoot.webp" imgWidth={1200} width="450" height="300" imgHeight={75}/>
+                <Image src="https://dev1.maxvanwijnen.nl/docs/images/intro-text/familie-fotoshoot.webp" width="450" height="300" />
             </div>
         </section>
     )
