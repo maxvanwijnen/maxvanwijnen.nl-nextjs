@@ -36,7 +36,7 @@ const FotoshootNoordwijk = () => {
             <TxtImg2Column
                 imgSource="https://dev1.maxvanwijnen.nl/docs/images/content-long/fotoshoot-leeuwenhorstbos-noordwijk.webp"
                 cssClass="Kinderen"
-                imgAlt = "Familie fotografie"
+                imgAlt = "Fotoshoot Leeuwenhorstbos in Noordwijk"
                 imgWidth={573}
                 imgHeight={384}
                 txtTitle="Fotoshoot locaties in Noordwijk"
