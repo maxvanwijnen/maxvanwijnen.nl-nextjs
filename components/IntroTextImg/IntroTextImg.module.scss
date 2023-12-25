@@ -23,6 +23,11 @@
         line-height: 27.5px;
         text-align: left;
         padding:10px 10px 10px 0px;
+
+        a,a:active,a:visited {
+          text-decoration: bold;
+          color:black;
+        }
     
       }
       .book-a-shoot-button {

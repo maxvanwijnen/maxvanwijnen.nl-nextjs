@@ -6,6 +6,7 @@ import Quote from "../components/Quote/Quote";
 import TextImg from "../components/TextImg/TextImg";
 import Head from 'next/head';
 import Faq from '../components/FAQ/Faq';
+import Link from 'next/link';
 
 const FotoshootNoordwijk = () => {
     return (
@@ -24,10 +25,10 @@ const FotoshootNoordwijk = () => {
             <IntroTextImg
             title="Fotograaf in Noordwijk"
             >
-                <p>Ben je op zoek naar een professionele fotograaf in Noordwijk? Als portretfotograaf fotografeer ik op locatie in Noordwijk en omgeving en heb ik een studio in Leiden. Of je nu op zoek bent naar een prachtige zwangerschapsfotoshoot, een leuke familiesessie, een romantische loveshoot of professionele profielfoto&apos;s voor LinkedIn, bij mij ben je aan het juiste adres.</p>
+                <p>Ben je op zoek naar een professionele fotograaf in Noordwijk? Als <Link href="/fotoshoot/portret">portretfotograaf</Link> fotografeer ik op locatie in Noordwijk en omgeving en heb ik een <Link href="/fotostudio">studio in Leiden</Link>. Of je nu op zoek bent naar een prachtige <Link href="/fotoshoot/zwangerschap">zwangerschapsfotoshoot</Link>, een leuke <Link href="/fotoshoot/familie">familiesessie</Link>, een romantische <Link href="/fotoshoot/loveshoot">loveshoot</Link> of professionele <Link href="/fotoshoot/portret">profielfoto&apos;s</Link> voor LinkedIn, bij mij ben je aan het juiste adres.</p>
                 <p>Als portretfotograaf werk ik graag op locatie, maar je bent ook van harte welkom in mijn studio in Leiden. Noordwijk en omgeving bieden diverse mooie fotolocaties, zoals het bos en het prachtige strand van Noordwijk met de zee en de duinen. Maar ook de Amsterdamse Waterleiding Duinen zijn in de buurt. Samen vinden we de perfecte locatie voor jouw of jullie fotoshoot.</p>
                 <p>Ik sta altijd open voor nieuwe ideeën en uitdagingen. Dus als je een ander leuk idee hebt voor een fotoshoot dan je terug vind op mijn website, laat het me gerust weten, dan kijken we samen naar de mogelijkheden!</p>
-                <p>Dus heb je zin in een leuke onstspannen shoot met mooie resultaten? Boek mij als jouw fotograaf in Noordwijk en neem contact met me op.</p>
+                <p>Dus heb je zin in een leuke onstspannen shoot met mooie resultaten? Boek mij als jouw fotograaf in Noordwijk en neem <Link href="/contact">contact</Link> met me op.</p>
             </IntroTextImg>
 
             
@@ -41,7 +42,6 @@ const FotoshootNoordwijk = () => {
                 isFirstArticle={false}
             >
                 Een mooie locatie voor een fotoshoot in Noordwijk is het Leeuwenhorstbos. Ik kom hier graag vanwege de mooie plekjes en paden. Er is altijd wel een plekje te vinden waar het licht mooi is. Het bos is niet te groot waardoor we niet ver hoeven te lopen, maar toch biedt het alle mogelijkeheden voor een mooie fotoshoot.
-
 
             </TxtImg2Column>
             
