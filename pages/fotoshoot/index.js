@@ -70,7 +70,7 @@ const Fotoshoot = () => {
             >
                 De prijzen voor fotoshoots kunnen verschillen per type shoot.
                 Kijk daarom even op de specieke fotoshoot pagina voor de prijzen.
-                De minimale afname is altijd 5 foto`s en het maximale pakket aantal is 15. Losse foto`s buiten pakketten om kosten 20 euro. Zou je toch liever de complete preview gallerij willen ontvangen? Dit is mogelijk tegen een meerprijs van 100 euro boven het premium pakket van 15 foto`s. Je kiest dan nog steeds je 15 favorieten foto`s uit. Deze worden op hoge kwaliteit nabewerkt. De overigens foto`s ontvang je met een basis nabewerking. (Deze is reeds in de preview gallerij gedaan)
+                De minimale afname is altijd 5 foto`s en het maximale pakket aantal is 15. Losse foto`s buiten pakketten om kosten 15 euro. 
             </TxtImg2Column>
 
 
