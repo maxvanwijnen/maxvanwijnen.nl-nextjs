@@ -64,8 +64,13 @@ export default function Portret (){
             <ImageRow
                 images={[
                     {url:'https://dev1.maxvanwijnen.nl/docs/images/mini-portfolio/roos-studio-portret-achtergrond-zwart.webp', alt:'Studio Portret met zwarte achtergrond'},
+                    {url:'https://dev1.maxvanwijnen.nl/docs/images/mini-portfolio/studio-fashion-model-portret-blauwe-achtergrond.jpg', alt:'Studio dame in lange jurk tegen een blauwe achtergrond'},
+                    {url:'https://dev1.maxvanwijnen.nl/docs/images/mini-portfolio/studio-fashion-portret-aisha.webp', alt:'Studio portret fashion tegen een donkere achtergrond'},
                     {url:'https://dev1.maxvanwijnen.nl/docs/images/mini-portfolio/roos-studio-portret-zwart-wit.webp', alt:'Studio portret in zwart wit'},
-                    {url:'https://dev1.maxvanwijnen.nl/docs/images/mini-portfolio/roos-portret-fotostudio-achtergrond-wit.webp', alt:'Studio portret tegen een witte achtergrond'}
+                    {url:'https://dev1.maxvanwijnen.nl/docs/images/mini-portfolio/studio-model-portfolio-lange-jurk.webp', alt:'Studio portret fashion tegen een beige achtergrond'},
+                    {url:'https://dev1.maxvanwijnen.nl/docs/images/mini-portfolio/roos-portret-fotostudio-achtergrond-wit.webp', alt:'Studio portret tegen een witte achtergrond'},
+                    {url:'https://dev1.maxvanwijnen.nl/docs/images/mini-portfolio/studio-fashion-portret-aisha-witte-achtergrond.jpg', alt:'Studio portret fashion witte achtergrond'}
+                    
                 ]}
             >
                 Bekijk enkele voorbeelden van mijn portretfotoshoots in mijn portfolio. 

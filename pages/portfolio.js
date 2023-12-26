@@ -12,21 +12,27 @@ export default function Portfolio ({props}){
     useEffect(()=>{console.log(photos)},[photos])
     useEffect(()=>{getPictures()},[])
 
+    function randomOrder(a, b) {
+        return Math.random() - 0.5;
+    }
+
+    
+
     const getPictures = async () => {
         let photoObj = {};
         let error = {};
         try {
             const result = await axios.get('https://dev1.maxvanwijnen.nl/docs/images/gallery/getImages.php');
-            setPhotos(result.data);
+            let photos = [];
+            photos  = result.data;
+            photos.sort(randomOrder);
+            setPhotos(photos);
         }
         catch (e) {
             error = e;
         }
 
-
     }
-
-
 
 
     return (
