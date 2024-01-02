@@ -29,7 +29,7 @@ export default function Layout({ children , page}) {
                 </main>
                 <Footer/>
      
-            <GoogleTagManager gtmId="G-D580ZJDHNV" />
+            <GoogleTagManager gtmId="GTM-WW67V52" />
             
         </>
     )
