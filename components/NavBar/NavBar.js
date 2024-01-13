@@ -1,9 +1,12 @@
 import React, {useState} from "react";
 import styles from "../Header/Header.module.scss";
 import {FiMenu} from "react-icons/fi";
+import {FiXCircle} from "react-icons/fi";
 import Image from "next/image";
 import Link from "next/link";
 import {HiArrowSmRight} from "react-icons/hi";
+import { IoMdCloseCircleOutline } from "react-icons/io";
+
 
 
 export function NavBar() {
@@ -31,7 +34,9 @@ export function NavBar() {
     return (
         <nav className={`${styles[menuType.type]} ${styles.nav}`}>
             <a className={styles['mobile-menu-button']} onClick={switchMenuType}  >
-                <FiMenu  /> <span>{menuType.buttonName}</span>
+            {menuType.type == 'desktop-menu' && <FiMenu  />}
+            {menuType.type == 'mobile-menu' && <FiXCircle />}                
+                <span>{menuType.buttonName}</span>
             </a>
             <div className={styles.logoWrapper}>
                 <Image className={styles.logo} src="https://dev1.maxvanwijnen.nl/docs/images/logo/logo-maxvanwijnen-fotografie-black-280.webp"

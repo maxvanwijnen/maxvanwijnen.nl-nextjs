@@ -47,10 +47,6 @@
     }
 
 
-
-
-
-
 }
 .header.portfolio {
     background-image:url("../../public/img/header/familiefotografie_header.webp");
@@ -232,7 +228,8 @@
 .nav.mobile-menu {
 
 
-    height:400px;
+    height:fit-content;
+    padding-bottom: 30px;
     z-index:999;
     overflow:hidden;
     display: flex;
@@ -247,12 +244,15 @@
 }
 .nav.mobile-menu .mobile-menu-button {
     position: absolute;
+    cursor: pointer;
     bottom: 10px;
     right: 10px;
     height: 20px;
+    width: fit-content;
 }
 .nav.mobile-menu svg {
-    display: none;
+    margin-right:10px;
+    font-size: 15px;
 }
 .nav.mobile-menu .nav-items {
     display: flex;
@@ -321,7 +321,7 @@
         width: 65px;
     }
     .nav .mobile-menu-button svg {
-        width:22px;
+        width:15px;
         height:200px;
     }
     .nav .mobile-menu-button span {
