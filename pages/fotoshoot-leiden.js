@@ -3,10 +3,20 @@ import TextContent from "../components/TextContent/TextContent";
 import TxtImg2Column from "../components/TxtImg2Column/TxtImg2Column";
 import Quote from "../components/Quote/Quote";
 import TextImg from "../components/TextImg/TextImg";
+import RelatedPages from '../components/RelatedPages/RelatedPages';
 import Link from "next/link";
 import Head from 'next/head';
 
 const FotoshootLeiden = () => {
+
+    const relatedPages = [
+        {text : "Zwangerschapsfotoshoot in Leiden",link : "/fotoshoot/zwangerschap"},
+        {text : "Fotostudio in Leiden",link : "/fotostudio"},
+        {text : "Fotograaf in Noordwijk",link : "/fotoshoot-noordwijk"},
+        {text : "Fotografie workshops in Leiden",link : "/fotografie-workshop"}
+    ]
+
+
     return (
         <>
             <Head>
@@ -80,6 +90,11 @@ const FotoshootLeiden = () => {
             >
                 Voor portretten zijn natuurlijk alle locaties mogelijk. Een groene, bosrijke omgeving biedt een sfeervolle achtergrond, maar ook het strand en de duinen kunnen een mooie locatie zijn. Heb je zelf wensen? Laat het me weten! Ik fotografeer momenteel in de Bollenstreek. Noordwijk, Noordwijkerhout, Voorhout, Katwijk en Leiden. Locaties buiten de Bollenstreek of de Randstad zijn in overleg uiteraard ook mogelijk.
             </TxtImg2Column>
+            <RelatedPages  
+                relatedTo = 'Fotoshoot Leiden'
+                relatedPages = {relatedPages}
+            />
+
 
 
         </section>
