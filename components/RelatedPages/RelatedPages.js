@@ -12,7 +12,7 @@ const RelatedPages = ({relatedTo,relatedPages}) => {
             <div className={css['links']}>
                 {
                     relatedPages.map((page, index)=> (
-                        <Link href={page.link} legacyBehavior><a className={css['link']}><FiNavigation /> {page.text}</a></Link>
+                        <Link key={index} href={page.link} legacyBehavior><a className={css['link']}><FiNavigation /> {page.text}</a></Link>
                     ))
                 }
             </div>
