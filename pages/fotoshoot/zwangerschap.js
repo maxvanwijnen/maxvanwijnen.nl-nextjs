@@ -31,7 +31,7 @@ export default function Zwangerschap (){
             img:"https://dev1.maxvanwijnen.nl/docs/images/txt-image-short/Zwangerschapsfotografie-fotostudio.webp",
             imgAlt:"Zwangerschapsfotoshoot in de studio",
             h2:"Zwangerschaps fotoshoot in mijn studio in Leiden",
-            p:"De mooiste zwangerschapsfoto&apos;s maken we in de studio. In de fotostudio hebben we alle apparatuur, ruimte en privacy om jouw zangerschap prachtig vast te leggen. In de studio zijn de mogelijkheden eindeloos, zo kunnen we varieren met achtergrond kleuren, belichting en is er een ruimte aanwezig waar je je om kunt kleden.",
+            p:"De mooiste zwangerschapsfoto's maken we in de studio. In de fotostudio hebben we alle apparatuur, ruimte en privacy om jouw zangerschap prachtig vast te leggen. In de studio zijn de mogelijkheden eindeloos, zo kunnen we varieren met achtergrond kleuren, belichting en is er een ruimte aanwezig waar je je om kunt kleden.",
             callToAction:{
                 text:"bekijk meer",
                 link:"/fotoshoot/zwangerschap#fotoshoot-in-studio",
