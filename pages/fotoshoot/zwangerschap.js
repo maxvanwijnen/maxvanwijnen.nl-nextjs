@@ -31,7 +31,7 @@ export default function Zwangerschap (){
             img:"https://dev1.maxvanwijnen.nl/docs/images/txt-image-short/Zwangerschapsfotografie-fotostudio.webp",
             imgAlt:"Zwangerschapsfotoshoot in de studio",
             h2:"Zwangerschapsfotoshoot in mijn studio in Leiden",
-            p:"De mooiste zwangerschapsfoto's maken we in de studio. In de fotostudio hebben we alle apparatuur, ruimte en privacy om jouw zangerschap prachtig vast te leggen. In de studio zijn de mogelijkheden eindeloos, zo kunnen we varieren met achtergrond kleuren, belichting en is er een ruimte aanwezig waar je je om kunt kleden.",
+            p:"De mooiste zwangerschapsfoto&apos;s maken we in de studio. In de fotostudio hebben we alle apparatuur, ruimte en privacy om jouw zangerschap prachtig vast te leggen. In de studio zijn de mogelijkheden eindeloos, zo kunnen we varieren met achtergrond kleuren, belichting en is er een ruimte aanwezig waar je je om kunt kleden.",
             callToAction:{
                 text:"bekijk meer",
                 link:"/fotoshoot/zwangerschap#fotoshoot-in-studio",
@@ -62,7 +62,7 @@ export default function Zwangerschap (){
                 </title>
                 <meta
                     name="description"
-                    content="Leg de mooiste momenten van je zwangerschap vast met een zwangerschapsfotoshoot. Kies voor een prachtige buitenlocatie of voor prachtige studio foto's"
+                    content="Leg de mooiste momenten van je zwangerschap vast met een zwangerschapsfotoshoot. Kies voor een prachtige buitenlocatie of voor prachtige studio foto&apos;s"
                     key="desc"
                 />
             </Head>
@@ -75,7 +75,7 @@ export default function Zwangerschap (){
                 txtTitle="Zwangerschapsfotoshoot"
                 isFirstArticle={true}
             >
-                Ben je zwanger en wil je graag mooie zwangerschapsfoto's laten maken? Ik help je er graag bij! Je bent van harte welkom in mijn fotostudio in Leiden of op een willekeurige andere locatie. Zwangerschapsfotografie is heel persoonlijk en iedereen heeft zo zijn eigen wensen. Daarom vind ik het belangrijk om voorafgaand aan de fotoshoot alvast een contact moment te hebben om je wensen te bespreken. Zo weet jij wat je kunt verwachten en weet ik wat ik voor je kan betekenen.
+                Ben je zwanger en wil je graag mooie zwangerschapsfoto&apos;s laten maken? Ik help je er graag bij! Je bent van harte welkom in mijn fotostudio in Leiden of op een willekeurige andere locatie. Zwangerschapsfotografie is heel persoonlijk en iedereen heeft zo zijn eigen wensen. Daarom vind ik het belangrijk om voorafgaand aan de fotoshoot alvast een contact moment te hebben om je wensen te bespreken. Zo weet jij wat je kunt verwachten en weet ik wat ik voor je kan betekenen.
             </TxtImg2Column>
             <TxtImgShort2
                 imgSource="https://dev1.maxvanwijnen.nl/docs/images/intro-text/zwangerschap-fotoshoot.webp"
@@ -89,7 +89,7 @@ export default function Zwangerschap (){
             {short}
             </TxtImgShort2>
             <TextContent
-                title="De mooiste zwangerschapsfoto's laten maken "
+                title="De mooiste zwangerschapsfoto&apos;s laten maken "
             >
                 De beste tijd voor een zwangerschapsfotoshoot is zo rond de 33e week van je zwangerschap. Boek je zwangerschapsfotoshoot dus tijdig om zeker te weten dat ik rond die tijd ook een plekje beschikbaar heb. Vergeet niet je partner of kinderen ook mee te nemen, we maken natuurlijk ook graag wat foto`s van het hele gezin.
             </TextContent>
