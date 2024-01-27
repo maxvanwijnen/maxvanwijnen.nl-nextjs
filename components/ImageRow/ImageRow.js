@@ -24,7 +24,7 @@ const ImageRow = ({images,children}) => {
         console.log("adadas");
         console.log(images);
         return (
-            <section className={css['image-row']}>
+            <section className={css['image-row']} id="photo-portfolio">
                 <TextContent
                 title="Voorbeeldfoto's"
                 >{children}</TextContent>

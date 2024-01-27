@@ -48,7 +48,9 @@ export default function Header({page}) {
     if (!page){
         page = 'home';
     }
-
+    
+    page = page.includes('#') ? page.substring(0, page.indexOf('#')) : page;
+    
     return (
         <header className={`${styles[page]} ${styles.header}`}>
             <div className={styles['container']}>

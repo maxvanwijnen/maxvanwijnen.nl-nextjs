@@ -31,10 +31,11 @@
 }
 
 .txtImg2Column .text div {
-  font-family: var(--font-roboto);
+  
   color: #5E5E5E;
-  font-size:20px;
-  line-height: 27.5px;
+  font-size: var(--font-size-p);
+  line-height: var(--line-height-p);
+  font-family: var(--font-family-p);
 
 }
 .txtImg2Column .img-wrapper {

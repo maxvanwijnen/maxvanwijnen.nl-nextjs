@@ -8,19 +8,39 @@
   img {
     border-radius: 20px;
 
-    width: 200px;
+    width: 900px;
 
   }
   h2 {
     text-align: center;
+    margin-top: 20px;
+    font-weight: bold;
+    font-size: 35px;
+    padding:20px;
   }
   p {
 
     color: #5E5E5E;
-    font-size: 20px;
-    line-height: 27.5px;
+    font-size: var(--font-size-p);
+    line-height: var(--line-height-p);
+    font-family: var(--font-family-p);
     text-align: center;
+    max-width: 800px;
+
 
   }
   margin-bottom: 50px;
+}
+
+@media only screen and (max-width: 1100px) {
+  .txt-img-above {
+    flex-direction: column;
+    img {
+      width: 90%;
+      height: auto;
+    }
+    p {
+      padding:10px;
+    }
+  }
 }

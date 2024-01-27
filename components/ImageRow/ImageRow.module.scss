@@ -3,7 +3,9 @@
   flex-direction: column;
   justify-content: space-between;
   margin: 50px 0;
-  font-family: var(--font-raleway);
+  font-size: var(--font-size-p);
+  line-height: var(--line-height-p);
+  font-family: var(--font-family-p);
 
   h3 {
     font-family: var(--font-raleway);

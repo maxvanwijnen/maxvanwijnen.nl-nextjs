@@ -17,7 +17,7 @@ const FotoshootNoordwijk = () => {
                 </title>
                 <meta
                     name="description"
-                    content="Op zoek naar een fotograaf in Noordwijk? Als ervaren fotograaf biedt ik prachtige fotoshoots op het strand en andere unieke locaties. Lees snel meer!"
+                    content="Op zoek naar een fotograaf in Noordwijk? Als ervaren fotograaf bied ik prachtige fotoshoots op het strand en andere unieke locaties. Lees snel meer!"
                     key="desc"
                 />
             </Head>

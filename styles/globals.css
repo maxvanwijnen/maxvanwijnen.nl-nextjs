@@ -20,6 +20,10 @@
   --font-roboto: 'roboto', sans-serif;
   --font-nunito: 'Nunito', sans-serif;
 
+  --font-family-p:'Raleway', sans-serif;
+  --font-size-p:18px;
+  --line-height-p:30px;
+
 }
 
 * {
@@ -75,7 +79,7 @@ h1 {
   font-family: var(--font-nunito);
   font-weight: 600;
   margin-top:20px;
-  margin-bottom: 50px;
+  margin-bottom: 20px;
   font-size: 32px;
 
 }

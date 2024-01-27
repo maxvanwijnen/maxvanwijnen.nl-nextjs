@@ -15,13 +15,16 @@
     font-size: 35px;
   }
   p {
-    font-size: 16px;
+    
     text-align: center;
-    font-family: var(--font-raleway);
+
     font-weight: normal;
     padding:0px 250px;
-    line-height: 30px;
+    
     margin-bottom:30px;
+    font-size: var(--font-size-p);
+    line-height: var(--line-height-p);
+    font-family: var(--font-family-p);
     
 
     a {
