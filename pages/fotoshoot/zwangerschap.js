@@ -30,7 +30,7 @@ export default function Zwangerschap (){
         "column1":{
             img:"https://dev1.maxvanwijnen.nl/docs/images/txt-image-short/Zwangerschapsfotografie-fotostudio.webp",
             imgAlt:"Zwangerschapsfotoshoot in de studio",
-            h2:"Zwangerschapsfotoshoot in mijn studio in Leiden",
+            h2:"Zwangerschaps fotoshoot in mijn studio in Leiden",
             p:"De mooiste zwangerschapsfoto&apos;s maken we in de studio. In de fotostudio hebben we alle apparatuur, ruimte en privacy om jouw zangerschap prachtig vast te leggen. In de studio zijn de mogelijkheden eindeloos, zo kunnen we varieren met achtergrond kleuren, belichting en is er een ruimte aanwezig waar je je om kunt kleden.",
             callToAction:{
                 text:"bekijk meer",
@@ -42,7 +42,7 @@ export default function Zwangerschap (){
         "column2":{
             img:"https://dev1.maxvanwijnen.nl/docs/images/content-long/zwangerschap-fotoshoot.webp",
             imgAlt:"Zwangerschapsfotoshoot op locatie",
-            h2:"Zwangerschapsfotoshoot op locatie",
+            h2:"Zwangerschaps fotoshoot op locatie",
             p:"Kies je liever voor een buiten locatie? Dat kan natuurlijk ook! Ook buiten zijn er veel mogelijkheden om een mooie zwangerschapsfotoshoot te doen. Denk aan zonsondergang op het strand, het bos of misschien wel gewoon in je eigen huis. Alles is mogelijk.",
             callToAction:{
                 text:"bekijk meer",
@@ -72,7 +72,7 @@ export default function Zwangerschap (){
                 imgAlt = "Zwangerschapsshoot"
                 imgWidth={573}
                 imgHeight={384}
-                txtTitle="Zwangerschapsfotoshoot"
+                txtTitle="Zwangerschaps fotoshoot"
                 isFirstArticle={true}
             >
                 Ben je zwanger en wil je graag mooie zwangerschapsfoto&apos;s laten maken? Ik help je er graag bij! Je bent van harte welkom in mijn fotostudio in Leiden of op een willekeurige andere locatie. Zwangerschapsfotografie is heel persoonlijk en iedereen heeft zo zijn eigen wensen. Daarom vind ik het belangrijk om voorafgaand aan de fotoshoot alvast een contact moment te hebben om je wensen te bespreken. Zo weet jij wat je kunt verwachten en weet ik wat ik voor je kan betekenen.
@@ -95,7 +95,7 @@ export default function Zwangerschap (){
             </TextContent>
             <TextImageAbove
                 img="https://dev1.maxvanwijnen.nl/docs/images/txt-image-above/Zwangerschapsfotoshoot-studio-leiden.jpg"
-                title="Jouw zwangerschapsfotoshoot in de fotostudio in Leiden"
+                title="Jouw zwangerschaps fotoshoot in de fotostudio in Leiden"
                 id="fotoshoot-in-studio"
                 callToAction={{text:"Bekijk de fotos",link:"/fotoshoot/zwangerschap#photo-portfolio"}}
             >
@@ -104,7 +104,7 @@ export default function Zwangerschap (){
             </TextImageAbove>
             <TextImageAbove
                 img="https://dev1.maxvanwijnen.nl/docs/images/txt-image-above/Zwangerschapsfotoshoot-op-locatie-buiten.webp"
-                title="Zwangerschapsfotografie op locatie"
+                title="Zwangerschaps fotografie op locatie"
                 id="fotoshoot-op-locatie"
                 callToAction={{text:"Bekijk de fotos",link:"/fotoshoot/zwangerschap#photo-portfolio"}}
             >
@@ -152,7 +152,7 @@ export default function Zwangerschap (){
                 Bekijk enkele voorbeelden van zwangerschapsfotoshoots in mijn portfolio. Zwangerschapsfotoshoot zijn natuurlijk heel persoonlijk. In de studio is vrijwel alles mogelijk. Heb je voorkeuren die je niet zo zeer op mijn website tegenkomt? Laat het gerust weten, er is van alles mogelijk!
             </ImageRow>
             <RelatedPages  
-                relatedTo = 'Zwangerschapsfotografie in de studio en op locatie'
+                relatedTo = 'Zwangerschaps fotografie in de studio en op locatie'
                 relatedPages = {relatedPages}
             />
         </>
