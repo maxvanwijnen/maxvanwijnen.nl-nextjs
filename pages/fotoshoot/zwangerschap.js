@@ -58,7 +58,7 @@ export default function Zwangerschap (){
         <>
             <Head>
                 <title>
-                    Zwangerschapshoot | Regio Noordwijk | Max van Wijnen Fotografie
+                    Zwangerschapsshoot | in de studio in Leiden of op locatie in de bollenstreek
                 </title>
                 <meta
                     name="description"
