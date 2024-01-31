@@ -143,10 +143,16 @@ export default function Zwangerschap (){
 
             <ImageRow
                 images={[
-                    {url:'https://dev1.maxvanwijnen.nl/docs/images/mini-portfolio/zwangerschapsfotoshoot-zwart-wit.webp', alt:'kinder fotografie'},
-                    {url:'https://dev1.maxvanwijnen.nl/docs/images/mini-portfolio/zwangerschaps-fotoshoot-studio.webp', alt:'kinder fotografie'},
-                    {url:'https://dev1.maxvanwijnen.nl/docs/images/mini-portfolio/zwangerschaps-fotograaf.webp', alt:'kinder fotografie'},
-                    {url:'https://dev1.maxvanwijnen.nl/docs/images/mini-portfolio/zwangerschaps-foto-samen-met partner.webp', alt:'kinder fotografie'}
+                    {url:'https://dev1.maxvanwijnen.nl/docs/images/mini-portfolio/zwangerschapsfotoshoot-zwart-wit.webp', alt:'Zwart wit zwangerschapsfoto'},
+                    {url:'https://dev1.maxvanwijnen.nl/docs/images/mini-portfolio/zwangerschaps-fotoshoot-studio.webp', alt:'Zwangerschapsfotoshoot in de studio in Leiden'},
+                    {url:'https://dev1.maxvanwijnen.nl/docs/images/mini-portfolio/zwangerschaps-foto-samen-met partner.webp', alt:'Zwanger Fotoshoot met gezin'},
+                    {url:'https://dev1.maxvanwijnen.nl/docs/images/mini-portfolio/zwangerschaps-fotografie-in-leiden.webp', alt:'Zwangerschapsfotografie in Leiden'},
+                    {url:'https://dev1.maxvanwijnen.nl/docs/images/mini-portfolio/zwangerschaps-fotograaf.webp', alt:'Zwangerschapsfotoshoot Fotograaf in Leiden'},
+                    {url:'https://dev1.maxvanwijnen.nl/docs/images/mini-portfolio/zwangerschapsshoot-in-Leiden.webp', alt:'Zwangerschapsfotoshoot in Leiden'},
+                    {url:'https://dev1.maxvanwijnen.nl/docs/images/mini-portfolio/zwangerschap-fotoshoot-leiden-studio.webp', alt:'Zwangerschapsfotoshoot in Leiden'},
+                    {url:'https://dev1.maxvanwijnen.nl/docs/images/mini-portfolio/zwangerschap-fotoshoot-leiden-noordwijk.webp', alt:'Zwangerschapsfotoshoot in Leiden'}
+
+                    
                 ]}
             >
                 Bekijk enkele voorbeelden van zwangerschapsfotoshoots in mijn portfolio. Zwangerschapsfotoshoot zijn natuurlijk heel persoonlijk. In de studio is vrijwel alles mogelijk. Heb je voorkeuren die je niet zo zeer op mijn website tegenkomt? Laat het gerust weten, er is van alles mogelijk!

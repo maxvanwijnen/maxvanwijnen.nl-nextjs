@@ -21,14 +21,13 @@ const ImageRow = ({images,children}) => {
         if(!images) {
             images = defaultImages;
         }
-        console.log("adadas");
-        console.log(images);
+
         return (
             <section className={css['image-row']} id="photo-portfolio">
                 <TextContent
                 title="Voorbeeldfoto's"
                 >{children}</TextContent>
-            <Masonry columnsCount={3} gutter="10px">
+            <Masonry columnsCount={3} gutter="4px">
                 {images.map((image, i) => (
                     <img
                         key={i}

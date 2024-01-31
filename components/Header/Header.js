@@ -12,7 +12,6 @@ import logoImg from '../../public/img/logo/logo-maxvanwijnen-fotografie-black.pn
 
 
 function HeaderItems({currentPage}) {
-    console.log('++++');
     const breadCrumb = useBreadcrumbs();
 
     if (breadCrumb.length > 1){
