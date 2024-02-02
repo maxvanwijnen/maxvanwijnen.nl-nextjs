@@ -136,6 +136,15 @@
     filter:brightness(0.5);
 }
 
+@media only screen and (max-width:1220px){
+    .tile-wrapper {
+         .photoshoot-tile {
+             height: 100px;
+             margin-top:10px;
+        }
+    }
+}
+
 @media only screen and (max-width:700px) {
 .tile-wrapper {
     &.big {
@@ -146,7 +155,7 @@
 
         .photoshoot-tile {
             width: 100%;
-            height: 110px;
+            height: 85px;
         }
     }
 }

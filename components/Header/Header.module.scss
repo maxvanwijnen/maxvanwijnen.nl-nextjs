@@ -345,6 +345,9 @@
         width:15px;
         height:200px;
     }
+    .filter {
+        max-height: 200px;
+    }
     .nav .mobile-menu-button span {
 
     }
@@ -363,6 +366,9 @@
                 font-size:22px;
                 margin-top:100px;
             }
+        }
+        .filter {
+            max-height: 240px;
         }
     }
 }
