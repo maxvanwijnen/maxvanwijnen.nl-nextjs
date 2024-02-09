@@ -4,6 +4,10 @@
   width: fit-content;
   box-sizing: border-box;
   width: 400px;
+  -webkit-box-shadow: 10px 10px 65px -10px rgba(0,0,0,0.27);
+  -moz-box-shadow: 10px 10px 65px -10px rgba(0,0,0,0.27);
+  box-shadow: 10px 10px 65px -10px rgba(0,0,0,0.27);
+  border-radius: 5px;
 
 
   img {
@@ -55,6 +59,7 @@
     color: white;
     text-transform: uppercase;
     font-size: 12px;
+    border-radius: 0px 0px 5px 5px;
 
     &:hover {
       background-color: var(--color-black-coffee);
