@@ -4,33 +4,22 @@
     background-size: cover;
     background-attachment: fixed;
     background-position: 50% 20%;
-    height: 500px;
+    height: 625px;
     display: flex;
     flex-direction: column;
     align-items: center;
-
     transition: background-image 1.5s ease-in;
 
     .main-title {
-        margin-top: 160px;
+        flex-grow:1;
         font-family: var(--font-nunito);
         color: white;
         font-weight: 600;
         font-size: 60px;
+        padding-top:60px;
         z-index: 10;
         text-align: center;
 
-    }
-
-    .filter {
-        filter:brightness(0.8);
-        position: absolute;
-        top:0px;
-        left:0px;
-        width: 100%;
-        height: 500px;
-        background-color: #6b6b6b5c;
-        z-index: 1;
     }
 
     &.home {
@@ -39,28 +28,28 @@
         .filter {
             display: none;
         }
-
         .main-title {
-            margin-top: 300px;
-
+            margin-top: 60px;
         }
+    }
+
+    &.portfolio {
+        background-image:url("../../public/img/header/familiefotografie_header.webp");
+        height: 600px;
+    }
+    &.fotoshootfamilie {
+    background-image:url("../../public/img/header/familiefotografie_header.webp");
+    height:600px;
     }
 
 
 }
-.header.portfolio {
-    background-image:url("../../public/img/header/familiefotografie_header.webp");
-    height: 500px;
-    
 
-}
-.header.fotoshootfamilie {
-    background-image:url("../../public/img/header/familiefotografie_header.webp");
-    height: 500px;
-}
+
+
 .header.fotoshootkinderen {
     background-image:url("../../public/img/header/Kinderfotografie-header.webp");
-    height: 500px;
+    height: 600px;
 }
 
 .header.fotoshootloveshoot {
@@ -86,19 +75,19 @@
 }
 .header.fotoshoot {
     background-image:url("../../public/img/header/Kinderfotografie-header.webp");
-    height: 500px;
+    height: 540px;
 }
 .header.fotostudio {
     background-image:url("https://dev1.maxvanwijnen.nl/docs/images/header/studio-fotoshoot-leiden.webp");
-    height: 500px;
+    height: 540px;
 }
 .header.contact {
     background-image:url("../../public/img/header/contact-header.webp");
-    height: 500px;
+    height: 540px;
 }
 .header.fotoshootportret {
     background-image: url("https://dev1.maxvanwijnen.nl/docs/images/header/portretfotografie.webp");
-    height: 500px;
+    height: 540px;
 }
 
 
@@ -107,6 +96,8 @@
     align-items: center;
     flex-direction: column;
     position: relative;
+    justify-content:space-between;
+    height: 100%;
 }
 
 
@@ -290,7 +281,7 @@
 @media screen and (max-width: 1220px) {
     .header {
         width:100%;
-        max-height: 300px;
+        max-height: 500px;
         background-size:contain;
         background-position: top;
 
@@ -360,11 +351,11 @@
 }
 @media screen and (max-width: 450px) {
     .header {
-        max-height:230px;
+        max-height:330px;
         .container {
             .main-title {
                 font-size:22px;
-                margin-top:100px;
+                margin-top:20px;
             }
         }
         .filter {

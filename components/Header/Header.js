@@ -5,7 +5,7 @@ import { FiMenu } from 'react-icons/fi';
 import { HiArrowSmRight } from 'react-icons/hi';
 import styles from './Header.module.scss';
 import { NavBar } from '../NavBar/NavBar';
-
+import { PhotoshootTileMenu } from '../PhotoshootTileMenu/PhotoshootTileMenu'
 
 import logoImg from '../../public/img/logo/logo-maxvanwijnen-fotografie-black.png';
 
@@ -57,11 +57,15 @@ export default function Header({page}) {
                 <div className={styles['main-title']}>Professionele portretfotografie <br/>&<br/> workshops</div>
 
                 {/*<Breadcrumbs />*/}
+                <PhotoshootTileMenu
+                isBig={false}
+                isBookable={false}
+                isPricePage={false}
+            />
             </div>
-            <div className={styles['filter']}></div>
-
         </header>
 
     );
 
 }
+//<div className={styles['filter']}></div>

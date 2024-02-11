@@ -17,9 +17,9 @@ export default function Layout({ children , page}) {
                 <Header page={pathName} />
                 <main>
                     <section>
-                        {
+                        {/* {
                             pathName && pathName != "fotoshoot" && <PhotoshootTileMenu isBookable={false} isBig={false} />
-                        }
+                        } */}
 
 
 
