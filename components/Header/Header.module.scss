@@ -60,6 +60,7 @@
 }
 .header.fotoshootzwangerschap {
     background-image: url("https://dev1.maxvanwijnen.nl/docs/images/header/zwangerschapsfotografie.webp");
+    height: 390px;
 }
 .header.prijzen {
     background-image: url("https://dev1.maxvanwijnen.nl/docs/images/header/zwangerschapsfotografie.webp");
@@ -312,6 +313,9 @@
 }
 
 @media screen and (max-width: 800px) {
+    .header  {
+        margin-bottom: 40px;
+    }
     .nav {
         width:calc(100% - 20px);
         justify-content: center;
@@ -346,6 +350,7 @@
         font-size: 40px;
 
     }
+
 
 
 }
