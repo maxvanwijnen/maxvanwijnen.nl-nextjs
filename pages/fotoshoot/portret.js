@@ -26,7 +26,7 @@ export default function Portret (){
                 </title>
                 <meta
                     name="description"
-                    content="Mijn portretfotoshoots in Leiden en Noordwijk en omgeving zijn op maat gemaakt voor jou. Of je nu op zoek bent naar zakelijke portretten of persoonlijke foto's, ik zorg voor professionele fotografie op maat."
+                    content="Ontvang op maat gemaakte portretfotoshoots in Leiden en Noordwijk. Of het nu zakelijk of persoonlijk is, ervaar professionele fotografie op z'n best."
                     key="desc"
                 />
             </Head>

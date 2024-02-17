@@ -25,13 +25,14 @@ const FotoshootLeiden = () => {
                 </title>
                 <meta
                     name="description"
-                    content="Professionele fotoshoot boeken in Leiden? De binnenstad van Leiden en mijn fotostudio bieden diverse mogelijkheden voor unieke en persoonlijke fotoshoots."
+                    content="Ontvang professionele foto's in mijn fotostudio in Leiden. Van idee tot resultaat, ontdek de mogelijkheden voor jouw perfecte foto"
                     key="desc"
                 />
             </Head>
         <section>
             <TextContent
                 title="Fotoshoot Leiden"
+                firstItem={true}
             >Ben je op zoek naar een fotograaf voor een mooie fotoshoot in of rondom Leiden? Dan ben je bij mij aan het juiste adres. Je kunt bij mij terecht voor alle type fotoshoots zoals een <Link href="/fotoshoot/zwangerschap">zwangerschapsfotoshoot</Link>, <Link href="/fotoshoot/kinderen">kinderfotoshoot</Link>, <Link href="/fotoshoot/familie">familiefotoshoot</Link> of een <Link href="/fotoshoot/portret">portretfotoshoot</Link>. Of heb je zelf een ander goed idee? Laat het me weten! Ik doe al mijn fotoshoots op locatie. Leiden kent vele mooie locaties voor fotoshoots, lees er hier meer over.</TextContent>
             <TxtImg2Column
                 imgSource="https://dev1.maxvanwijnen.nl/docs/images/intro-text/zwangerschap-fotoshoot-leiden-met-dochter.webp"

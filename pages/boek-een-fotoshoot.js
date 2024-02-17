@@ -21,6 +21,7 @@ const BoekEenShoot = () => {
         <section>
             <TextContent
                 title="Boek een fotoshoot"
+                firstItem={true}
             >Boek je bij mij een fotoshoot? Dan kies je voor kwaliteit. Want niet alleen tijdens de fotoshoot ben ik gedreven om het beste resultaat te behalen. Ook de tijd voorafgaand aan de fotoshoot is bepalend voor de kwaliteit. Zo bespreken we samen de locatie, het tijdstip en krijg je tips over kledingkeuze en meer. Ook besteed ik veel tijd en aandacht aan de nabewerking. Bekijk voor meer informatie de pagina’s Kinder foto`s, Portret foto`s, Familie foto`s, Zwangerschaps foto`s,
             </TextContent>
 

@@ -58,7 +58,7 @@ export default function Zwangerschap (){
         <>
             <Head>
                 <title>
-                    Zwangerschapsshoot | in de studio in Leiden of op locatie in de bollenstreek
+                    Zwangerschapsshoot | Fotostudio Leiden of op locatie
                 </title>
                 <meta
                     name="description"

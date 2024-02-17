@@ -12,16 +12,17 @@ const Fotostudio = () => {
         <section>
             <Head>
                 <title>
-                    Fotografie workshop | Leer basis en portret fotografie | Max van Wijnen Fotografie
+                    Fotografie workshop | Leer basis en portret fotografie
                 </title>
                 <meta
                     name="description"
-                    content="Ontdek de wereld van fotografie bij Max van Wijnen Fotografie! Meld je aan voor een van mijn workshops: Leer je camera instellen in de basisfotografie workshop of verbeter je portretfotografie in de workshop portretfotografie."
+                    content="Ontdek fotografie bij Max van Wijnen Fotografie! Leer je camera instellen in de basisfotografie workshop of verbeter je portretfotografie. Meld je aan!"
                     key="desc"
                 />
             </Head>
             <TextContent
                 title="Leuke en leerzame workshops voor iedereen"
+                firstItem={true}
             >
             Heb je ook nog zo&apos;n mooie camera in de kast liggen, maar weet je eigenlijk niet zo goed hoe je deze het best kunt gebruiken? Of gebruik je hem wel, maar zet je hem altijd op de automatische stand? Of misschien wil je gewoon je eigen portretfoto&apos;s naar een nog hoger niveau brengen? Kom gezellig een workshop volgen. De workshops zijn voor elk niveau geschikt, of je nu net begint met fotograferen of je al wat langer fotografeert. Volg bij mij een fotografie workshop en verbeter je vaardigheden. Mijn workshops zijn zowel theoretisch als praktijk gericht en natuurlijk gewoon enorm gezellig.
             </TextContent>
