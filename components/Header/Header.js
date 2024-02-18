@@ -63,7 +63,7 @@ export default function Header({page, h1='Professionele portretfotografie',text_
         case 'fotostudio':
             text_position = 'right'
             h1 = 'Fotostudio in Leiden'
-            descr  = 'De mooiste zwangerschaps fotografie om deze bijzonder tijd vast te leggen. In de studio komen we tot de mooiste en dierbaarste foto\'s'
+            descr  = 'In de studio weten we een aantal dingen zeker, we hebben geen last van slecht weer, het licht is altijd mooi, en we kunnen ook \'s avonds fotograferen. Zie ik je binnenkort in mijn fotostudio?'
             darken_bg = 'darken-bg'
             break;
         case 'fotoshoot':
