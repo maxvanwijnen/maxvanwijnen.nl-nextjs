@@ -22,7 +22,7 @@ const FotoshootNoordwijk = () => {
         <section>
             <TextContent
             title="Fotoshoot op het strand"
-            firstItem={true}
+            firstItem={false}
             multiContent={[
                 "Ben je op zoek naar een professionele fotograaf in Noordwijk? Als portretfotograaf fotografeer ik op locatie in Noordwijk en omgeving en heb ik een studio in Leiden. Of je nu op zoek bent naar een prachtige zwangerschapsfotoshoot, een leuke familiesessie, een romantische loveshoot of professionele profielfoto's voor LinkedIn, bij mij ben je aan het juiste adres.",
                 "Als portretfotograaf werk ik graag op locatie, maar je bent ook van harte welkom in mijn studio in Leiden. Noordwijk en omgeving bieden diverse mooie fotolocaties, zoals het bos en het prachtige strand van Noordwijk met de zee en de duinen. Maar ook de Amsterdamse Waterleiding Duinen zijn in de buurt. Samen vinden we de perfecte locatie voor jouw of jullie fotoshoot",

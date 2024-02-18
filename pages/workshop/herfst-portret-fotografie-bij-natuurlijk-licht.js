@@ -23,6 +23,7 @@ const HerfstFotografieWorkshopNatuurlijkLicht = () => {
         <section>
             <IntroTextImg
             title="Workshop herfst portretten in natuurlijk licht"
+            
             >
                 <p>Een tweedelige leuke en praktische fotografie workshop</p>
             </IntroTextImg>

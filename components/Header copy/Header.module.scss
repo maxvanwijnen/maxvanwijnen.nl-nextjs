@@ -10,52 +10,16 @@
     align-items: center;
     transition: background-image 1.5s ease-in;
 
-    .container {
-        display: flex;
-        align-items: flex-end;
-        justify-content: center;
-        flex-direction: column;
-        position: relative;
-        justify-content:center;
-        height: 100%;
-        width: 100%;
-        max-width: 1200px;
+    .main-title {
+        flex-grow:1;
+        font-family: var(--font-nunito);
+        color: white;
+        font-weight: 600;
+        font-size: 60px;
+        padding-top:60px;
+        z-index: 10;
+        text-align: center;
 
-        &.left  {
-            align-items: flex-start;
-        }
-
-        .text-block {
-            width: 500px;
-            display: flex;
-            flex-direction: column;
-            align-items: flex-start;
-            gap:25px;
-            padding:10px;
-            .main-title {
-                flex-grow:1;
-                font-family: var(--font-nunito);
-                color: white;
-                font-weight: 600;
-                font-size: 60px;
-                padding-top:60px;
-                z-index: 10;
-                line-height:46px;
-            }
-            .descr {
-                color: white;
-                font-size: 18px;
-                font-family: var(--font-family-p);
-                width: 100%;
-            }
-            .call-to-action  {
-                color: white;
-                padding:10px;
-                border:1px solid  white;
-                font-family: var(--font-nunito);
-                border-radius: 10px;
-            }
-        }
     }
 
     &.home {
@@ -94,12 +58,6 @@
     &.prijzen {
         background-image: url("https://dev1.maxvanwijnen.nl/docs/images/header/zwangerschapsfotografie.webp");
     }
-    &.over-mij {
-        background-image: url("https://dev1.maxvanwijnen.nl/docs/images/header/fotoshoot-op-het-strand.webp");
-    }
-    &.boek-een-fotoshoot {
-        background-image: url("https://dev1.maxvanwijnen.nl/docs/images/header/fotoshoot-op-het-strand.webp");
-    }
     &.fotoshoot-noordwijk {
         background-image:url("../../public/img/header/Kinderfotografie-header.webp");
     }
@@ -125,10 +83,6 @@
         background-image: url("https://dev1.maxvanwijnen.nl/docs/images/header/portretfotografie.webp");
         height: 540px;
     }
-    &.fotografie-workshop {
-        background-image: url("https://dev1.maxvanwijnen.nl/docs/images/header/portretfotografie.webp");
-        height: 540px;
-    }
 
 
 }
@@ -138,7 +92,14 @@
 
 
 
-
+.header .container {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+    justify-content:space-between;
+    height: 100%;
+}
 
 
 .nav {

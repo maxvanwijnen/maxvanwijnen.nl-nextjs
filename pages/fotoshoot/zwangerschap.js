@@ -73,7 +73,7 @@ export default function Zwangerschap (){
                 imgWidth={573}
                 imgHeight={384}
                 txtTitle="Zwangerschaps fotoshoot"
-                isFirstArticle={true}
+                isFirstArticle={false}
             >
                 Ben je zwanger en wil je graag mooie zwangerschapsfoto&apos;s laten maken? Ik help je er graag bij! Je bent van harte welkom in mijn fotostudio in Leiden of op een willekeurige andere locatie. Zwangerschapsfotografie is heel persoonlijk en iedereen heeft zo zijn eigen wensen. Daarom vind ik het belangrijk om voorafgaand aan de fotoshoot alvast een contact moment te hebben om je wensen te bespreken. Zo weet jij wat je kunt verwachten en weet ik wat ik voor je kan betekenen.
             </TxtImg2Column>

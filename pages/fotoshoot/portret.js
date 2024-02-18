@@ -37,7 +37,7 @@ export default function Portret (){
                 imgWidth={573}
                 imgHeight={384}
                 txtTitle="Portret Fotoshoot"
-                isFirstArticle={true}
+                isFirstArticle={false}
             >
                 Natuurlijk kun je bij mij ook terecht voor mooie portretfoto`s. Bijvoorbeeld voor een LinkedIn profielfoto of voor op je website. Zowel zakelijke portretfoto`s als foto`s met een prive uitstraling, alles is mogelijk.
             </TxtImg2Column>

@@ -31,7 +31,7 @@ export default function OverMij ({props}){
                 imgWidth={573}
                 imgHeight={802}
                 txtTitle="Over mij als fotograaf"
-                isFirstArticle={true}
+                isFirstArticle={false}
             >
                 Al sinds ik oud genoeg was om met de spiegelreflex camera van mijn vader te spelen ben ik stukje bij beetje verslaafd geraakt aan fotografie. Toen ik voor mijn 21ste verjaardag mijn eigen camera kreeg was ik verkocht. In de loop der jaren en na de geboorte van mijn dochter Maud ben ik mij meer en meer gaan focussen op portret fotografie.
 

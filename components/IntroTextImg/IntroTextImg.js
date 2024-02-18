@@ -10,7 +10,7 @@ const IntroTextImg = ({title, callToActionTitle = 'Bekijk al mijn fotoshoots', c
         <section className={css['intro-text-img']}>
             <div className={css['content-wrapper']}>
                 <div className={css['text-wrapper']}>
-                    <h1>{title}</h1>
+                    <h2>{title}</h2>
                     {children}
                     <Link href="/fotoshoot" className={css['book-a-shoot-button']}>{callToActionTitle}</Link>
                 </div>

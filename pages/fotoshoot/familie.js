@@ -36,7 +36,7 @@ export default function Familie (){
                 imgWidth={573}
                 imgHeight={384}
                 txtTitle="Familie fotoshoot"
-                isFirstArticle={true}
+                isFirstArticle={false}
             >
                 Wil je mooie familie- of gezinsfoto`s laten maken? Dat is natuurlijk mogelijk. Bij een familie fotoshoot probeer ik vooral de liefde binnen het gezin vast te leggen. Dit doe ik geheel naar jullie eigen wensen. We kiezen voor een setting waarin iedereen zich gemakkelijk voelt. Dat komt ook het meest natuurlijk over op de uiteindelijke foto`s. Uiteraard hoeft een fotoshoot niet geheel te bestaan uit foto`s van de hele familie. We kunnen ook individuele foto`s maken of bijvoorbeeld een combinatie maken met een kinderfotoshoot.
             </TxtImg2Column>

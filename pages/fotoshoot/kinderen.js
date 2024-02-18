@@ -37,7 +37,7 @@ Boek nu een kinderfotoshoot!"
             imgWidth={573}
             imgHeight={384}
             txtTitle="Kinderfotografie"
-            isFirstArticle={true}
+            isFirstArticle={false}
             >
             Kinderfotografie is een van de leukste dingen die er is. Sinds de geboorte van mijn dochter ben ik mij hier meer en meer in gaan specialiseren. Op diverse locaties rond Noordwijk fotografeer ik uw kind in het buitenlicht om deze zo mooi mogelijk op een liefdevolle plaat vast te leggen.
             </TxtImg2Column>

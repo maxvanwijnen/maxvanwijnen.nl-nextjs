@@ -21,6 +21,7 @@ const Workshop = () => {
             </Head>
             <TextContent
                 title="Fotoshoot"
+                firstItem={false}
             >De mooiste foto`s maken we samen en voor het maken van die mooie foto`s is een goede planning belangrijk. Factoren als het tijdstip van de dag, de locatie, kledingkeuze en weersomstandigheden hebben allemaal invloed op de de kwaliteit van de foto`s. Op deze pagina deel ik mijn tips en tricks voor het kiezen van de beste tijdstippen en weersomstandigheden, geef ik je kledingadvies en vertel ik je meer over mijn werkwijze. Zo komen we samen tot het beste resultaat!</TextContent>
 
             <PhotoshootTileMenu isBig={true} />

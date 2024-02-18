@@ -22,7 +22,7 @@ const Fotostudio = () => {
             </Head>
             <TextContent
                 title="Welkom in mijn fotostudio in Leiden"
-                firstItem={true}
+                firstItem={false}
             >
                 Op zoek naar professionele foto`s in de studio? Ik sta voor je klaar in mijn fotostudio in Leiden! Ik beschik over alle benodigde apparatuur om samen met jou de beste resultaten te behalen. Of je nu op zoek bent naar zakelijke portretfot`s of gewoon een mooie foto van jezelf wilt laten maken, ik help je graag verder. Ook als je een prachtige zwangerschapsfotoshoot wilt doen, ben je bij mij aan het juiste adres. Voel je welkom in mijn studio in Leiden!
 

@@ -20,7 +20,7 @@ const Prijzen = () => {
         <section>
             <TextContent
                 title="Boek nu jouw fotoshoot met keuze uit 3 pakketten!"
-                firstItem={true}
+                firstItem={false}
             >Als je op zoek bent naar een professionele fotoshoot, dan ben je bij mij aan het juiste adres. Ik bied 3 verschillende pakketten aan waar je uit kunt kiezen: basic, deluxe en premium. Op deze pagina zal ik je meer vertellen over deze pakketten en de mogelijkheden die je hebt als je bij mij een fotoshoot boekt. Prijzen kunnen verschillen per fotoshoot en zijn te vinden op pagina van de specifieke fotoshoot. Staat jouw keuze er niet bij? Neem gerust even contact op, dan kijken we samen naar de mogelijkheden.
             </TextContent>
 
