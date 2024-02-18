@@ -19,6 +19,7 @@ const Fotoshoot = () => {
                     key="desc"
                 />
             </Head>
+            <PhotoshootTileMenu  isBig={true}/>
             <TextContent
                 title="Fotoshoot"
                 firstItem={false}

@@ -7,8 +7,17 @@ import TextImg from "../components/TextImg/TextImg";
 import Head from 'next/head';
 import Faq from '../components/FAQ/Faq';
 import Link from 'next/link';
+import RelatedPages from '../components/RelatedPages/RelatedPages';
 
 const FotoshootNoordwijk = () => {
+
+    const relatedPages = [
+        {text : "Zwangerschapsfotoshoot in Leiden",link : "/fotoshoot/zwangerschap"},
+        {text : "Fotostudio in Leiden",link : "/fotostudio"},
+        {text : "Fotograaf in Noordwijk",link : "/fotoshoot-noordwijk"},
+        {text : "Fotoshoot op het strand",link : "/fotoshoot-strand"}
+    ]
+
     return (
         <>
             <Head>
@@ -57,6 +66,10 @@ const FotoshootNoordwijk = () => {
             </TextImg>
 
             <Faq />
+            <RelatedPages  
+                relatedTo = 'Fotoshoot Leiden'
+                relatedPages = {relatedPages}
+            />
 
         </section>
             </>
