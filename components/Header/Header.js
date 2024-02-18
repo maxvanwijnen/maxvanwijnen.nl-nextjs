@@ -49,17 +49,22 @@ export default function Header({page, h1='Professionele portretfotografie',text_
     }
 
     console.log(page)
+
+    let darken_bg = 'none'
+
     
     switch(page) {
         case 'home':
           text_position='left'
           h1 = 'Professionele portretfotografie'
           descr = 'Welkom op de website van Max van Wijnen Fotografie. Neem de tijd om verder te kijken en ontdek de diverse fotoshoots, van portretten tot gezinsmomenten. Kies jouw perfecte shoot of overweeg een fotoshoot cadeaubon voor een dierbare.'
+          darken_bg = 'darken-bg'
           break;
         case 'fotostudio':
             text_position = 'right'
             h1 = 'Fotostudio in Leiden'
             descr  = 'De mooiste zwangerschaps fotografie om deze bijzonder tijd vast te leggen. In de studio komen we tot de mooiste en dierbaarste foto\'s'
+            darken_bg = 'darken-bg'
             break;
         case 'fotoshoot':
             text_position = 'left'
@@ -144,7 +149,7 @@ export default function Header({page, h1='Professionele portretfotografie',text_
         case 'prijzen':
             text_position = 'left'
             h1 = 'Fotografie prijzen'
-            descr = 'Leesm meer over de prijzen van mijn fotografie diensten'
+            descr = 'Lees meer over de prijzen van mijn fotografie diensten'
             break;
 
         
@@ -161,16 +166,13 @@ export default function Header({page, h1='Professionele portretfotografie',text_
         <header className={`${styles[page]} ${styles.header}`}>
             <NavBar />
             <div className={`${styles[text_position]} ${styles.container}`}>
-                <div className={styles['text-block']}>
+                <div className={`${styles.textblock}`}>
                     <h1 className={styles['main-title']}>{h1}</h1>
-                    <div className={styles['descr']}>{descr}</div>
+                    <div className={`${styles.descr} ${styles[darken_bg]}`}>{descr}</div>
                     {/* <div className={styles['call-to-action']}>Lees meer</div> */}
 
                 </div>
-                
-
                 {/*<Breadcrumbs />*/}
-               
             </div>
         </header>
 

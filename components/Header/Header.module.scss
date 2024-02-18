@@ -25,20 +25,23 @@
             align-items: flex-start;
         }
 
-        .text-block {
+        .textblock {
             width: 500px;
             display: flex;
             flex-direction: column;
             align-items: flex-start;
             gap:25px;
             padding:10px;
+            
+            
+
+            
             .main-title {
                 flex-grow:1;
                 font-family: var(--font-nunito);
                 color: white;
                 font-weight: 600;
                 font-size: 60px;
-                padding-top:60px;
                 z-index: 10;
                 line-height:46px;
             }
@@ -47,6 +50,12 @@
                 font-size: 18px;
                 font-family: var(--font-family-p);
                 width: 100%;
+                &.darken-bg {
+                    background-color: rgba(0,0,0,0.25);
+                    border-radius: 10px;
+                    backdrop-filter: blur(5px);
+                    padding:10px;
+                }
             }
             .call-to-action  {
                 color: white;
@@ -338,7 +347,6 @@
             }
             .main-title {
                 font-size:28px;
-                margin-top:115px;
             }
     
         }
@@ -370,6 +378,18 @@
         &.fotoshoottrouwen {
             background-size:160%;
         }
+
+        .container {
+            .textblock {
+                width: 90%;
+                margin:0 auto;
+
+                .main-title {
+                    font-size: 50px;
+                }
+            }
+        }
+        
     }
     .nav {
         width:calc(100% - 20px);
