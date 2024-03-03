@@ -20,7 +20,7 @@ const CustomerList = () => {
     const fetchCustomers = async () => {
       try {
         // Maak een Axios-verzoek naar het API-endpoint met Basic Authentication-header
-        const response = await axios.get('http://136.144.163.229/photos/customer/list/', {
+        const response = await axios.get('https://api.maxvanwijnen.nl/photos/customer/list/', {
           headers: {
             Authorization: `Basic ${apiToken}`
           }
