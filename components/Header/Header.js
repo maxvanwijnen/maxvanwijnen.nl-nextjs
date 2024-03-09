@@ -175,15 +175,11 @@ export default function Header({page, h1='Professionele portretfotografie',text_
           // code block
     }
 
-    let PhotoshootTileMenuCss = '';
-    if (showPhotoTileMenu){
-        PhotoshootTileMenuCss = 'photoshoot-tile-menu'
-    }
-    
+
     page = page.includes('#') ? page.substring(0, page.indexOf('#')) : page;
     
     return (
-        <header className={`${styles[page]} ${styles.header} ${styles[PhotoshootTileMenuCss]}`}>
+        <header className={`${styles[page]} ${styles.header}`}>
             <NavBar />
             <div className={`${styles[text_position]} ${styles.container}`}>
                 <div className={`${styles.textblock}`}>
@@ -193,12 +189,13 @@ export default function Header({page, h1='Professionele portretfotografie',text_
 
                 </div>
                 {/*<Breadcrumbs />*/}
-                {showPhotoTileMenu &&<PhotoshootTileMenu
+                
+            </div>
+            {showPhotoTileMenu &&<PhotoshootTileMenu
                 isBig={false}
                 isBookable={false}
                 isPricePage={false}
             />}
-            </div>
         </header>
 
     );

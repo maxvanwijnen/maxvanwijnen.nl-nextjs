@@ -9,12 +9,8 @@
     flex-direction: column;
     align-items: center;
     transition: background-image 1.5s ease-in;
+    overflow: visible;
 
-    &.photoshoot-tile-menu {
-        .container {
-            justify-content:flex-end;
-        }
-    }
 
     .container {
         display: flex;
