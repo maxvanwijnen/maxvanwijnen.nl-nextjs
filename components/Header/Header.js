@@ -51,6 +51,7 @@ export default function Header({page, h1='Professionele portretfotografie',text_
     console.log(page)
 
     let darken_bg = 'none'
+    let showPhotoTileMenu = false
 
     
     switch(page) {
@@ -59,111 +60,130 @@ export default function Header({page, h1='Professionele portretfotografie',text_
           h1 = 'Professionele portretfotografie'
           descr = 'Welkom op de website van Max van Wijnen Fotografie. Neem de tijd om verder te kijken en ontdek de diverse fotoshoots, van portretten tot gezinsmomenten. Kies jouw perfecte shoot of overweeg een fotoshoot cadeaubon voor een dierbare.'
           darken_bg = 'darken-bg'
+          showPhotoTileMenu = false
           break;
         case 'fotostudio':
             text_position = 'right'
             h1 = 'Fotostudio in Leiden'
             descr  = 'In de studio weten we een aantal dingen zeker, we hebben geen last van slecht weer, het licht is altijd mooi, en we kunnen ook \'s avonds fotograferen. Zie ik je binnenkort in mijn fotostudio?'
             darken_bg = 'darken-bg'
+            showPhotoTileMenu = false
             break;
         case 'fotoshoot':
             text_position = 'left'
             h1 = 'Jouw Fotoshoot'
             descr  = 'Ontdek mijn diverse fotoshoots: portretten, familieshoots, zwangerschaps fotografie en meer. Welke kies jij? Of geef een fotoshoot cadeau aan een dierbare.'
+            showPhotoTileMenu = false
             break;
         case 'fotoshootzwangerschap':
             text_position = 'left'
             h1 = 'Zwangerschaps fotoshoot'
             descr  = 'De mooiste zwangerschapfotografie om deze bijzonder tijd vast te leggen. In de studio komen we tot de mooiste en dierbaarste foto\'s'
+            showPhotoTileMenu = false
             break;
         case 'fotoshootportret':
             text_position='left'
             h1 = 'Portret Fotoshoot'
             descr = 'Mooie portret foto\'s laten maken in de studio of op locatie. Gewoon voor je zelf, de familie, of een zakelijk portret.'
+            showPhotoTileMenu = false
             break;
         case 'fotoshootkinderen':
             text_position = 'left'
             h1 = 'Kinder fotoshoot'
             descr = 'Mooi kinderfotografie om voor altijd te koesteren'
+            showPhotoTileMenu = false
             break;
         case 'fotoshootfamilie':
             text_position='left'
             h1 = 'Familie fotoshoot'
             descr = 'Proffesionele foto\'s met de hele familie laten maken'
+            showPhotoTileMenu = false
             break;
         case 'fotoshootloveshoot':
             text_position='right'
             h1 = 'Fotoshoot loveshoot'
             descr = 'Doe een leuke fotoshoot samen met je geliefde. Dan heb je niet alleen mooie foto`s maar zijn jullie samen een leuke ervaring rijker'
+            showPhotoTileMenu = false
             break;
         case 'fotoshoottrouwen':
             text_position='left'
             h1 = 'Trouw reportage'
             descr = 'Gaan jullie trouwen en zijn jullie opzoek naar een fotograaf? Met liefdef fotografeer ik jullie bruiloft'
+            showPhotoTileMenu = false
             break;
         case 'fotografie-workshop':
             text_position='left'
             h1 = 'Fotografie workshops voor alle niveaus'
             descr = 'Leer je camera kennen in een beginners cursus of leer nabewerken in een photoshop cursus. Alles is mogelijk'
+            showPhotoTileMenu = false
             break;
         case 'boek-een-fotoshoot':
             text_position='right'
             h1 = 'Boek een fotoshoot'
             descr = 'Een leuke fotoshoot gezien en wil je mij graag boeken als jouw fotograaf? Boek direct je shoot via deze pagina'
+            showPhotoTileMenu = false
             break;
         case 'contact':
             text_position = 'left'
             h1 = 'Neem contact op'
             descr = 'Wil je shoot boeken of heb je vragen over mijn diensten? Neem gerust even contact op voor de mogelijkheden'
+            showPhotoTileMenu = false
             break;
         case 'fotoshoot-buiten':
             text_position =  'right'
             h1 = 'Fotoshoot buiten'
             descr = 'Jouw fotoshoot buiten op locatie'
+            showPhotoTileMenu = true
             break;
         case 'fotoshoot-leiden':
             text_position = 'right'
             h1 = 'Fotoshoot Leiden'
             descr = 'Leiden biedt prachtige locaties voor een mooie fotoshoot, maar je bent natuurlijk ook van harte welkom in mijn fotostudio in Leiden'
+            showPhotoTileMenu = true
             break;
         case 'fotoshoot-noordwijk':
             text_position = 'left'
             h1 = 'Fotoshoot Noordwijk'
             descr = 'Noordwijk biedt prachtige locaties voor de mooiste fotoshoot. Kom naar het bos, het strand of een andere locatie, in Noordwijk maken we mooie foto\'s'
+            showPhotoTileMenu = true
             break;
         case 'fotoshoot-strand':
             text_position = 'left'
             h1 = 'Fotoshoot op het strand'
             descr = 'Het strand is een prachtige locatie voor een fotoshoot, lees er hier meer over'
+            showPhotoTileMenu = true
             break;
         case 'over-mij':
             text_position = 'left'
             h1 = 'Over mij als fotograaf'
             descr = 'Fotografie is mijn passie'
+            showPhotoTileMenu = false
             break;
         case 'portfolio':
             text_position = 'left'
             h1 = 'Mijn fotografie portfolio'
             descr = 'Bekijk hier mijn fotografie portfolio. Heb je een shoot bij mij gedaan en vind je het leuk ook op mijn portfolio te staan, leuk!  Maar niets hoeft natuurlijk'
+            showPhotoTileMenu = false
             break;
         case 'prijzen':
             text_position = 'left'
             h1 = 'Fotografie prijzen'
             descr = 'Lees meer over de prijzen van mijn fotografie diensten'
+            showPhotoTileMenu = false
             break;
-
-        
-        
-        
-
         default:
           // code block
+    }
+
+    let PhotoshootTileMenuCss = '';
+    if (showPhotoTileMenu){
+        PhotoshootTileMenuCss = 'photoshoot-tile-menu'
     }
     
     page = page.includes('#') ? page.substring(0, page.indexOf('#')) : page;
     
     return (
-        <header className={`${styles[page]} ${styles.header}`}>
+        <header className={`${styles[page]} ${styles.header} ${styles[PhotoshootTileMenuCss]}`}>
             <NavBar />
             <div className={`${styles[text_position]} ${styles.container}`}>
                 <div className={`${styles.textblock}`}>
@@ -173,6 +193,11 @@ export default function Header({page, h1='Professionele portretfotografie',text_
 
                 </div>
                 {/*<Breadcrumbs />*/}
+                {showPhotoTileMenu &&<PhotoshootTileMenu
+                isBig={false}
+                isBookable={false}
+                isPricePage={false}
+            />}
             </div>
         </header>
 

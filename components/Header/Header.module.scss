@@ -10,6 +10,12 @@
     align-items: center;
     transition: background-image 1.5s ease-in;
 
+    &.photoshoot-tile-menu {
+        .container {
+            justify-content:flex-end;
+        }
+    }
+
     .container {
         display: flex;
         align-items: flex-end;
