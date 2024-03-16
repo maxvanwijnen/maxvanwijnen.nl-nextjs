@@ -1,0 +1,135 @@
+.slot {
+  width: 330px;
+  height:auto;
+  box-shadow: 10px 10px 65px -10px rgba(0, 0, 0, 0.27);
+  font-family:var(--font-baloo-tamma);
+  transform: scale(1);
+  transition:transform 0.2s ease-in;
+  transition:width 0.8s ease-in;
+  background-color: white;
+  z-index: 1;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  position: relative;
+
+
+    .footer {
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      gap:20px;
+      padding:5px;
+
+      button {
+        border-radius: 5px;
+        
+        &:hover {
+          cursor: pointer;
+        }
+      }
+      
+      .cancel {
+        background-color: rgb(176, 56, 56);
+        padding:10px;
+        color: white;
+        border:0px;
+      }
+    }
+  
+  
+  &.collapsed {
+    width:330px;
+
+  }
+
+  &:not(.extended):hover {
+    transform: scale(1.2);
+    cursor: pointer;
+    z-index:2;
+  }
+
+  .header {
+    display: flex;
+    flex-direction: row;
+    width: 100%;  
+    justify-content: space-between;
+  
+
+    .item {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      width: 33%;
+      padding:10px;
+      line-height: 12px;
+
+      &.Zwart {
+        background-color: rgb(68, 68, 68);
+        color:white;
+        border-radius: 5px 0px 0px 0px;
+      }
+      &.Wit {
+
+        background-color: rgb(246, 246, 246);
+        color:rgb(68, 68, 68);
+        border-radius: 5px 0px 0px 0px;
+      }
+
+
+      .label {
+          font-size:10px;
+          text-transform: uppercase;
+          font-weight: bold;
+          
+      }
+    }
+  }
+  .datetime {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding:10px;
+    font-family:var(--font-baloo-tamma);
+
+
+    .date {
+      font-size: 18px;
+      line-height: 18px;
+    }
+    .time {
+      font-size:25px;
+      line-height: 18px;
+    }
+  }
+  .call-to-action {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding:5px;
+    background-color: var(--color-light-green);
+    color:white;
+    border:0px;
+    width: 100%;
+
+    &.is_booked {
+     background-color:#c65252;
+    }
+  }
+  
+}
+@media only screen and (max-width: 1200px) {
+
+    .question {
+    width: 98%;
+    max-width: unset;
+    margin-bottom: 5px;
+    padding:15px;
+  }
+
+}
+

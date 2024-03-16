@@ -27,8 +27,6 @@ const BookAShoot = ({toggle, type, shootType, allPackages}) => {
     const [send, setSend] = useState(false);
     const [isVerified, setIsVerified] = useState('');
 
-    console.log(photoshootType)
-
     const onVerify = () => {
         setIsVerified(true);
     };

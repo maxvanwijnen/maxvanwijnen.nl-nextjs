@@ -17,7 +17,6 @@ const relatedPages = [
 ]
 
 
-
 const short = {
     "column1":{
         img:"https://dev1.maxvanwijnen.nl/docs/images/txt-image-short/Zwangerschapsfotografie-fotostudio.webp",

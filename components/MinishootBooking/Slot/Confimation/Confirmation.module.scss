@@ -1,0 +1,72 @@
+.confirm-background {
+  background-color: rgba(0, 0, 0, 0.2);
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 100%;
+  z-index: 100;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  -webkit-backdrop-filter: blur(5px);
+  backdrop-filter: blur(5px);
+}
+
+.confirmation{ 
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+
+
+  background-color: white;
+  border:1px solid grey;
+
+  width: 90vw;
+  max-width: 800px;
+  height: fit-content;
+
+  z-index:999;
+  position: absolute;
+  padding:30px;
+  display: flex;
+  flex-direction: column;
+  gap:20px;
+  align-items: center;
+
+  .bottom-part {
+
+    display: flex;
+    justify-content: space-between;
+
+    button {
+      background-color: var(--color-orange);
+      color: white;
+      padding: 10px;
+      border: 0px;
+      text-transform: uppercase;
+      border-radius: 3px;
+      display: flex;
+      justify-content: space-between;
+      width: fit-content;
+      align-items: center;
+      gap: 10px;
+      line-height: 0;
+
+      &.cancel {
+        background-color: #d7d7d7;
+      }
+
+
+      &:hover {
+        background-color: var(--color-black-coffee);
+        cursor: pointer;
+      }
+
+      .send-icon {
+        font-size: 20px;
+      }
+    }
+  }
+
+}

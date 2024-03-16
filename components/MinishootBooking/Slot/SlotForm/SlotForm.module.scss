@@ -1,0 +1,125 @@
+.slot-form-background {
+  background-color: rgba(0, 0, 0, 0.2);
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 100%;
+  z-index: 100;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  -webkit-backdrop-filter: blur(5px);
+  backdrop-filter: blur(5px);
+}
+.slot-form-wrapper {
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 100%;
+  z-index: 101;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+  .slot-form { 
+    background: white;
+    min-width: 400px;
+    height: -moz-fit-content;
+    height: fit-content;
+    padding: 30px;
+    z-index: 999;
+    border-radius: 5px;
+    font-family: var(--font-raleway);
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    max-width: 90vw;
+    max-height: 100vh;
+    overflow-y: scroll;
+
+    p {
+      
+      strong {
+        font-weight: bolder;
+        color:black;
+        text-decoration: underline;
+        
+      }
+    }
+  
+    .datetime {
+        .time {
+          line-height: 20px;
+        }
+        .date {
+          line-height: 20px;
+        }
+    }
+  
+    form {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      flex-wrap: wrap;
+      gap:20px;
+      padding-bottom:40px;
+  
+      .input {
+        display: flex;
+        flex-direction: column;
+        width:90%;
+        max-width: 400px;
+        
+        
+        label {
+          font-size: 18px;
+        }
+        input {
+          padding:10px;
+          //width: 200px;
+          width:100%;
+        }
+      }
+  
+      
+    }
+
+    .bottom-part {
+
+      display: flex;
+      justify-content: space-between;
+
+      button {
+        background-color: var(--color-orange);
+        color: white;
+        padding: 10px;
+        border: 0px;
+        text-transform: uppercase;
+        border-radius: 3px;
+        display: flex;
+        justify-content: space-between;
+        width: fit-content;
+        align-items: center;
+        gap: 10px;
+
+        &.cancel {
+          background-color: #d7d7d7;
+        }
+
+
+        &:hover {
+          background-color: var(--color-black-coffee);
+          cursor: pointer;
+        }
+
+        .send-icon {
+          font-size: 20px;
+        }
+      }
+    }
+  
+  }
+}

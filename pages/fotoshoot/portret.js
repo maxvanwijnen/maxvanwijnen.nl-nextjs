@@ -1,21 +1,23 @@
 
 import React from "react";
-
+import { useEffect , useState} from "react";
 import Quote from "../../components/Quote/Quote";
 import TxtImg2Column from "/components/TxtImg2Column/TxtImg2Column";
 import ImageRow from "../../components/ImageRow/ImageRow";
 import TextContent from "../../components/TextContent/TextContent";
 import PricePackages from "../../components/PricePackages/PricePackages";
-
+import axios from "axios"
 import TextImg from './../../components/TextImg/TextImg';
 import Head from "next/head";
 import {prices} from "../../objects/prices";
 import StudioContent from "../../components/StudioContent/StudioContent";
 import OnPageSubDiv from "../../components/OnPageSubDiv/OnPageSubDiv";
+import MinishootBooking from "../../components/MinishootBooking/MinishootBooking";
+
 
 
 export default function Portret (){
-
+    
     const allPackages = prices.find(entry => entry.fotoshoot === 'portret').packages;
 
     return (
@@ -41,7 +43,9 @@ export default function Portret (){
             >
                 Natuurlijk kun je bij mij ook terecht voor mooie portretfoto`s. Bijvoorbeeld voor een LinkedIn profielfoto of voor op je website. Zowel zakelijke portretfoto`s als foto`s met een prive uitstraling, alles is mogelijk.
             </TxtImg2Column>
+            
             <OnPageSubDiv></OnPageSubDiv>
+            <MinishootBooking></MinishootBooking>
             <StudioContent
                 title="Jouw portret in de fotostudio in Leiden">
                 Voel je welkom in mijn fotostudio in Leiden. Naast fotoshoots op locatie is het ook mogelijk je portretfoto in mijn studio in Leiden te maken. Een studioportret heeft weer een andere uitstraling dan portretfoto’s gemaakt op een buitenlocatie. Beiden zijn mooi, en beiden hebben zo z’n eigen voordelen. In de studio kies je gemakkelijk zelf je achtergrondkleur, kunnen we meer spelen met het licht en zijn we natuurlijk onafhankelijk van het weer. Wat natuurlijk erg fijn is. Daarnaast biedt de fotostudio meer privacy en is er een aparte ruimte aanwezig waar je je om kunt kleden indien je meerdere setjes kleding meebrengt.</StudioContent>

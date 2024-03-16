@@ -1,0 +1,99 @@
+.minishoot-booking {
+    display: flex;
+    flex-direction: column;
+    gap:10px;
+    width: 100%;
+    font-family:var(--font-baloo-tamma);
+    
+    h2, h3 {
+        text-align: center;
+        font-family:var(--font-baloo-tamma);
+    }
+
+    .intro {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        gap:20px;
+        p {
+            color: #5E5E5E;
+            font-size: var(--font-size-p);
+            line-height: var(--line-height-p);
+            font-family: var(--font-family-p);
+            max-width: 600px;
+        }
+
+    }
+
+    
+
+
+    .minishoot-buttons {
+        display:flex;
+        flex-direction:column;
+        justify-content: center;
+        gap:10px;
+
+        .minishoot-dates {
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            button.date-button {
+                padding: 10px 15px;
+                background-color: #fb8b24;
+                color: white;
+                font-size: 15px;
+                font-family: var(--font-raleway);
+                border: 0px;
+                font-weight: bold;
+                border-radius: 5px;
+                line-height: 0;
+                display: flex;
+                flex-direction: row;
+                gap:10px;
+                align-items: center;
+                justify-content: center;
+    
+                &:hover {
+                    cursor: pointer;
+    
+                }
+            }
+        }
+        
+    }
+    .minishoot-slots {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        gap:30px;
+        justify-content:space-around;
+
+        
+
+        .slot {
+            padding:10px;
+            background:rgb(232, 232, 232);
+            &:hover {
+                cursor: pointer;
+            }
+        }
+        
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .minishoot-booking {
+        .intro {
+            flex-direction: column;
+            align-items: center;
+            p {
+                padding:20px;
+            }
+            img {
+                max-width: 90vw;
+            }
+        }
+    }
+
+}
