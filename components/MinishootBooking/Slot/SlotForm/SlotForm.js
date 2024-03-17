@@ -48,7 +48,7 @@ const SlotForm = ({minishootId, date, slot, setExtend, setBookingSuccess}) => {
             // Verstuur de data naar de API met Axios
             const formContent = {
                 'name':name,
-                //'phone':phone,
+                'phone':phone,
                 'email':email,
                 'place':'-',
                 'address':'-'
