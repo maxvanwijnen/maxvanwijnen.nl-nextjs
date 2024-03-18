@@ -124,11 +124,9 @@ const MinishootBooking = () => {
                     <div className={css['minishoot-button']}>
                     {minishoot.map((mini)=>{
                         return (
-                        <div key={mini.date}>
-                            <button className={css['date-button']} onClick={()=>setSelectedMini(mini)}>
+                            <button key={mini.date} className={css['date-button']} onClick={()=>setSelectedMini(mini)}>
                                 {mini.date} <FiCalendar />
                             </button>
-                        </div>
                         )
                     })}
                     </div>
