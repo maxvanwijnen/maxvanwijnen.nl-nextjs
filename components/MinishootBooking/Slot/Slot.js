@@ -133,6 +133,8 @@ const Slot = ({minishootId, date, slot}) => {
             <div className={css['datetime']}>
                 <div className={css['date']}>{date}</div>
                 <div className={css['time']}>{slot.time}</div>
+                <div>2 digitale foto&apos;s</div>
+                <div>Van €69 voor slechts €50</div>
             </div>
             
             {!extend && !bookingSuccess && 
