@@ -93,6 +93,12 @@ export default function Header({page, h1='Professionele portretfotografie',text_
             descr = 'Mooi kinderfotografie om voor altijd te koesteren'
             showPhotoTileMenu = false
             break;
+        case 'fotoshootfashion':
+            text_position = 'left'
+            h1 = 'Fashion fotograaf'
+            descr = 'Hogewaardige kwaliteit fashion fotografie voor uw mode bedrijf'
+            showPhotoTileMenu = false
+            break;
         case 'fotoshootfamilie':
             text_position='left'
             h1 = 'Familie fotoshoot'

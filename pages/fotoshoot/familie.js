@@ -21,12 +21,22 @@ export default function Familie (){
         <>
             <Head>
                 <title>
-                    Familiefoto`s | Regio Noordwijk | Max van Wijnen Fotografie
+                    Fashion Fotoshoot | Regio Noordwijk | Max van Wijnen Fotografie
                 </title>
                 <meta
                     name="description"
-                    content="Creër blijvende herinneringen met een prachtig familieportret, gemaakt door een proffesionele familiefotograaf. Boek nu!"
+                    content="Premium fashion foto's voor uw webshop, brochure of publicatie. Boek nu een fashion fotoshoot voor uw fashion bedrijf."
                     key="desc"
+                />
+                <meta
+                    name="keywords"
+                    content="fashion fotografie, fashion fotoshoot, professionele fashion fotograaf, mode fotografie, mode fotoshoot, fashionfotografie, fashionfotograaf"
+                    key="keywords"
+                />
+                <meta
+                    name="author"
+                    content="Max van Wijnen Fotografie"
+                    key="author"
                 />
             </Head>
             <TxtImg2Column
