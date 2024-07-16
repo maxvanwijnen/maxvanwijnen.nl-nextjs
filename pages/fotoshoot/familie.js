@@ -72,14 +72,11 @@ export default function Familie (){
 
             <ImageRow
                 images={[
-                    {url:'https://dev1.maxvanwijnen.nl/images/Fotoshoot-kind-noordwijk-001.jpg', alt:'kinder fotografie'},
-                    {url:'https://dev1.maxvanwijnen.nl/images/Fotoshoot-kind-noordwijk-001.jpg', alt:'kinder fotografie'},
-                    {url:'https://dev1.maxvanwijnen.nl/images/Fotoshoot-kind-noordwijk-001.jpg', alt:'kinder fotografie'},
-                    {url:'https://dev1.maxvanwijnen.nl/images/Fotoshoot-kind-noordwijk-001.jpg', alt:'kinder fotografie'},
-                    {url:'https://dev1.maxvanwijnen.nl/images/Fotoshoot-kind-noordwijk-001.jpg', alt:'kinder fotografie'}
+                    {url:'https://dev1.maxvanwijnen.nl/docs/images/mini-portfolio/Familie-fotograaf-bos.webp', alt:'Familie fotoshoot'},
+                    {url:'https://dev1.maxvanwijnen.nl/docs/images/mini-portfolio/Familie-fotograaf-bollenstreek.webp', alt:'Familie fotoshoot'}
                 ]}
             >
-                Bekijk enkele voorbeelden van onze kinderfotoshoots in ons portfolio. We hebben een verscheidenheid aan stijlen en poses om uit te kiezen, en we zijn ervan overtuigd dat je iets zult vinden dat je leuk vindt.
+                Bekijk enkele voorbeelden van eerdere familiefotoshoots in de bollenstreek.
             </ImageRow>
         </>
 

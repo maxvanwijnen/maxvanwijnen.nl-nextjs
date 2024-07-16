@@ -20,6 +20,8 @@
   img {
     flex-basis: calc(20% - 10px);
     margin-bottom: 20px;
+    border-radius:5px;
+    box-shadow:10px 10px 65px -10px rgba(0, 0, 0, 0.27);
 
     @media screen and (max-width: 1024px) {
       flex-basis: calc(25% - 10px);
