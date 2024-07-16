@@ -21,11 +21,11 @@ export default function Familie (){
         <>
             <Head>
                 <title>
-                    Fashion / Mode Fotografie | Nederland | Max van Wijnen Fotografie
+                    Fashion Fotograaf | Nederland | Max van Wijnen Fotografie
                 </title>
                 <meta
                     name="description"
-                    content="Creër blijvende herinneringen met een prachtig familieportret, gemaakt door een proffesionele familiefotograaf. Boek nu!"
+                    content="De beste fashion fotograaf voor uw modebedrijf"
                     key="desc"
                 />
             </Head>
@@ -47,7 +47,9 @@ export default function Familie (){
                     {url:'https://dev1.maxvanwijnen.nl/docs/images/mini-portfolio/Fashion-fotoshoot-blouses.webp', alt:'kinder fotografie'},
                     {url:'https://dev1.maxvanwijnen.nl/docs/images/mini-portfolio/Fashion-fotoshoot-soluzione.webp', alt:'kinder fotografie'},
                     {url:'https://dev1.maxvanwijnen.nl/docs/images/mini-portfolio/Fashion-fotoshoot-utrecht.webp', alt:'kinder fotografie'},
-                    {url:'https://dev1.maxvanwijnen.nl/docs/images/mini-portfolio/Fashion-fotoshoot-met-model-utrecht.webp', alt:'kinder fotografie'}
+                    {url:'https://dev1.maxvanwijnen.nl/docs/images/mini-portfolio/Fashion-fotoshoot-utrecht.webp', alt:'kinder fotografie'},
+                    {url:'https://dev1.maxvanwijnen.nl/docs/images/mini-portfolio/Fashion-fotograaf-studio-lichte-achtergrond.webp', alt:'kinder fotografie'},
+                    {url:'https://dev1.maxvanwijnen.nl/docs/images/mini-portfolio/Fashion-fotograaf-studio.webp', alt:'Fashion fotograaf'}
                 ]}
             >
                 Bekijk hier enkele voorbeelden van eerdere fashionfotoshoots.
