@@ -136,6 +136,35 @@ export const prices = [
                 desc:''
             }
         ]
+    },
+    {
+        fotoshoot:'fashion',
+        packages: [
+            {price:139,
+                type:'basic - particulier',
+                usplist:["5 Foto's","Hoge kwaliteit nabewerkt", "Digitale download"],
+                img:'https://dev1.maxvanwijnen.nl/docs/images/price-package/zwangerschap-basic-fotoshoot.webp',
+                desc:''
+            },
+            {price:189,
+                type:'deluxe - particulier',
+                usplist:["10 Foto's","Hoge kwaliteit nabewerkt", "Digitale download"],
+                img:'https://dev1.maxvanwijnen.nl/docs/images/price-package/zwangerschap-deluxe-fotoshoot.webp',
+                desc:''
+            },
+            {price:229,
+                type:'premium - particulier',
+                usplist:["15 Foto's","Hoge kwaliteit nabewerkt", "Digitale download"],
+                img:'https://dev1.maxvanwijnen.nl/docs/images/price-package/zwangerschap-premium-fotoshoot.webp',
+                desc:''
+            },
+            {price:'Offerte',
+                type:'Zakelijk',
+                usplist:["Vraag naar een vrijblijvende offerte","Hoge kwaliteit", "Vrij van rechten"],
+                img:'https://dev1.maxvanwijnen.nl/docs/images/price-package/zwangerschap-premium-fotoshoot.webp',
+                desc:''
+            }
+        ]
     }
 
 ]
