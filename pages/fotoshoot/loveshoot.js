@@ -67,14 +67,13 @@ export default function Loveshoot (){
 
             <ImageRow
                 images={[
-                    {url:'https://www.maxvanwijnen.nl/www/images/Fotoshoot-kind-noordwijk-001.jpg', alt:'kinder fotografie'},
-                    {url:'https://www.maxvanwijnen.nl/www/images/Fotoshoot-kind-noordwijk-001.jpg', alt:'kinder fotografie'},
-                    {url:'https://www.maxvanwijnen.nl/www/images/Fotoshoot-kind-noordwijk-001.jpg', alt:'kinder fotografie'},
-                    {url:'https://www.maxvanwijnen.nl/www/images/Fotoshoot-kind-noordwijk-001.jpg', alt:'kinder fotografie'},
-                    {url:'https://www.maxvanwijnen.nl/www/images/Fotoshoot-kind-noordwijk-001.jpg', alt:'kinder fotografie'}
+                    {url:'https://dev1.maxvanwijnen.nl/docs/images/mini-portfolio/duinen-fotoshoot-verloving.webp', alt:'Fotoshoot verloving'},
+                    {url:'https://dev1.maxvanwijnen.nl/docs/images/mini-portfolio/koppel-shoot-noordwijk.webp', alt:'Fotoshoot verloving'},
+                    {url:'https://dev1.maxvanwijnen.nl/docs/images/mini-portfolio/romantische-fotoshoot-duinen.webp', alt:'Fotoshoot verloving'},
+                    {url:'https://dev1.maxvanwijnen.nl/docs/images/mini-portfolio/verlovingsshoot-strand-duinen.webp', alt:'Fotoshoot verloving'}
                 ]}
             >
-                Bekijk enkele voorbeelden van onze kinderfotoshoots in ons portfolio. We hebben een verscheidenheid aan stijlen en poses om uit te kiezen, en we zijn ervan overtuigd dat je iets zult vinden dat je leuk vindt.
+                Bekijk enkele voorbeelden van loveshoots die ik eerder heb mogen verzorgen. Loveshoots zijn een hele leuke optie voor koppels om unieke fotos te maken voor een trouwkaart.
             </ImageRow>
         </>
 
