@@ -159,6 +159,12 @@ export default function Header({page, h1='Professionele portretfotografie',text_
             descr = 'Het strand is een prachtige locatie voor een fotoshoot, lees er hier meer over'
             showPhotoTileMenu = true
             break;
+        case 'fotoshoot-hillegom':
+            text_position = 'right'
+            h1 = 'Fotograaf in Hillegom'
+            descr = 'Als professioneel fotograaf in Hillegom leg ik jouw mooiste momenten vast. Van portretfotografie tot familiefotoshoots in de prachtige Bollenstreek.'
+            showPhotoTileMenu = true
+            break;
         case 'over-mij':
             text_position = 'left'
             h1 = 'Over mij als fotograaf'

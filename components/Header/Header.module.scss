@@ -143,6 +143,10 @@
         background-image: url("https://dev1.maxvanwijnen.nl/docs/images/header/portretfotografie.webp");
         height: 540px;
     }
+    &.fotoshoot-hillegom {
+        background-image: url("https://dev1.maxvanwijnen.nl/docs/images/gallery/Loveshoot-Noordwijk-002.webp");
+        height: 600px;
+    }
 
 
 }
@@ -284,7 +288,7 @@
     justify-content: flex-start;
 }
 .mobile-menu a {
-
+    display: block;
 }
 .nav.mobile-menu .logo {
     width:138px;
@@ -329,6 +333,9 @@
     width: 50%;
 }
 
+.nav .mobile-menu-button span {
+    display: inline-block;
+}
 
 @media screen and (max-width: 1220px) {
     .header {
