@@ -86,7 +86,7 @@ const FotoshootHillegom = () => {
                 <TextContent
                     title="Fotograaf in Hillegom"
                     firstItem={false}
-                >Ben je op zoek naar een professionele fotograaf in Hillegom? Als ervaren fotograaf in de Bollenstreek ben ik gespecialiseerd in het maken van prachtige <Link href="/fotoshoot/zwangerschap">zwangerschapsfoto's</Link>, <Link href="/fotoshoot/kinderen">kinderfotografie</Link>, <Link href="/fotoshoot/familie">familiefotoshoots</Link> en <Link href="/fotoshoot/portret">portretfotografie</Link>. Bekijk ook mijn profiel op <a href="https://www.top-fotografen.nl/fotograaf/max-van-wijnen" target="_blank" rel="noopener">top-fotografen.nl</a>.</TextContent>
+                >Ben je op zoek naar een professionele fotograaf in Hillegom? Als ervaren fotograaf in de Bollenstreek ben ik gespecialiseerd in het maken van prachtige <Link href="/fotoshoot/zwangerschap">zwangerschapsfoto&apos;s</Link>, <Link href="/fotoshoot/kinderen">kinderfotografie</Link>, <Link href="/fotoshoot/familie">familiefotoshoots</Link> en <Link href="/fotoshoot/portret">portretfotografie</Link>. Bekijk ook mijn profiel op <a href="https://www.top-fotografen.nl/fotograaf/max-van-wijnen" target="_blank" rel="noopener">top-fotografen.nl</a>.</TextContent>
                 <TxtImg2Column
                     imgSource="https://dev1.maxvanwijnen.nl/docs/images/gallery/Loveshoot-Noordwijk-002.webp"
                     cssClass="Kinderen"
@@ -121,25 +121,25 @@ const FotoshootHillegom = () => {
                     isFirstArticle={false}
                     isInverted={false}
                 >
-                    Hillegom en omgeving bieden talloze mogelijkheden voor een prachtige fotoshoot. Van de historische Hoftuin en het Wilhelminapark tot de karakteristieke bollenvelden - elk seizoen heeft zijn eigen charme. Als lokale fotograaf ken ik de mooiste plekjes in en rond Hillegom, waar we samen onvergetelijke foto's kunnen maken die perfect aansluiten bij jouw wensen.
+                    Hillegom en omgeving bieden talloze mogelijkheden voor een prachtige fotoshoot. Van de historische Hoftuin en het Wilhelminapark tot de karakteristieke bollenvelden - elk seizoen heeft zijn eigen charme. Als lokale fotograaf ken ik de mooiste plekjes in en rond Hillegom, waar we samen onvergetelijke foto&apos;s kunnen maken die perfect aansluiten bij jouw wensen.
                 </TxtImg2Column>
                 <TextContent
                     title="Bijzondere fotoshoot locaties rond Hillegom">
                     Als fotograaf in Hillegom heb ik keuze uit prachtige locaties in de regio:
                     
-                    Het Kasteel Keukenhof en het omliggende bos bieden een sprookjesachtige setting voor je fotoshoot. Het historische kasteel, de prachtige tuinen en het sfeervolle bos vormen het perfecte decor voor romantische portretten en familiefoto's.
+                    Het Kasteel Keukenhof en het omliggende bos bieden een sprookjesachtige setting voor je fotoshoot. Het historische kasteel, de prachtige tuinen en het sfeervolle bos vormen het perfecte decor voor romantische portretten en familiefoto&apos;s.
 
-                    Het strand bij Langevelderslag, op slechts een korte afstand van Hillegom, is een geliefde locatie voor natuurlijke en sfeervolle foto's. Het prachtige duinlandschap, het brede strand en de ondergaande zon creëren magische momenten voor je fotoshoot.
+                    Het strand bij Langevelderslag, op slechts een korte afstand van Hillegom, is een geliefde locatie voor natuurlijke en sfeervolle foto&apos;s. Het prachtige duinlandschap, het brede strand en de ondergaande zon creëren magische momenten voor je fotoshoot.
 
                     De Amsterdamse Waterleidingduinen, een uniek natuurgebied grenzend aan Hillegom, biedt een verscheidenheid aan landschappen. Van open duinvlaktes tot beschutte bospaadjes - hier vinden we altijd het perfecte plekje voor jouw fotoshoot, met kans op het spotten van herten en andere wildlife als bijzondere bonus.
                 </TextContent>
                 <TextContent
                     title="Portretfotografie in Hillegom">
-                    Zoek je een professionele portretfoto voor je LinkedIn, social media of website? Als portretfotograaf in Hillegom help ik je graag aan foto's die jou of je bedrijf perfect presenteren. Met oog voor detail en persoonlijke aandacht zorgen we samen voor het gewenste resultaat.
+                    Zoek je een professionele portretfoto voor je LinkedIn, social media of website? Als portretfotograaf in Hillegom help ik je graag aan foto&apos;s die jou of je bedrijf perfect presenteren. Met oog voor detail en persoonlijke aandacht zorgen we samen voor het gewenste resultaat.
                 </TextContent>
                 <TextContent
                     title="Familiefotografie Hillegom">
-                    Een familiefotoshoot in Hillegom is een prachtige manier om dierbare herinneringen vast te leggen. De diverse locaties in en rond Hillegom maken het mogelijk om gevarieerde en persoonlijke familiefoto's te maken. Van spontane momentopnames tot stijlvolle groepsportretten - samen creëren we foto's die je nog jaren met plezier terugkijkt.
+                    Een familiefotoshoot in Hillegom is een prachtige manier om dierbare herinneringen vast te leggen. De diverse locaties in en rond Hillegom maken het mogelijk om gevarieerde en persoonlijke familiefoto&apos;s te maken. Van spontane momentopnames tot stijlvolle groepsportretten - samen creëren we foto&apos;s die je nog jaren met plezier terugkijkt.
                 </TextContent>
                 <TxtImg2Column
                     imgSource="https://dev1.maxvanwijnen.nl/docs/images/intro-text/familie-fotoshoot.webp"
