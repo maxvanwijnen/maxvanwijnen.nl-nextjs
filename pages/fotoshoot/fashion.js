@@ -106,7 +106,7 @@ export default function Fashion() {
                 >In de studio heb ik volledige controle over licht, styling en sfeer. Dit maakt het mogelijk om jouw fashion collectie of branding campagne op het hoogste niveau vast te leggen. Ideaal voor lookbooks, campagnes en portfolio shoots.</TxtImg2Column>
                 <TextContent
                     title="Waarom kiezen voor Max van Wijnen als fashion fotograaf?"
-                >- Creatief en professioneel<br/>- Veel ervaring met fashion, modellen en merken<br/>- Snelle levering en duidelijke communicatie<br/>- Samenwerking met stylisten, visagisten en modellenbureau’s mogelijk<br/><br/>Wil je meer weten of direct een fashion shoot boeken? Neem <Link href="/contact">contact</Link> op of bekijk mijn <Link href="/portfolio">portfolio</Link> voor inspiratie!</TextContent>
+                >- Creatief en professioneel<br/>- Veel ervaring met fashion, modellen en merken<br/>- Snelle levering en duidelijke communicatie<br/>- Samenwerking met stylisten, visagisten en modellenbureau&apos;s mogelijk<br/><br/>Wil je meer weten of direct een fashion shoot boeken? Neem <Link href="/contact">contact</Link> op of bekijk mijn <Link href="/portfolio">portfolio</Link> voor inspiratie!</TextContent>
                 <ImageRow
                     images={[
                         {url:'https://dev1.maxvanwijnen.nl/docs/images/mini-portfolio/Mode-fotoshoot-soluzione-blouses.webp', alt:'Fashion fotograaf blouses'},
