@@ -1,15 +1,14 @@
-import Head from 'next/head';
-import TextContent from "../../components/TextContent/TextContent";
-import TxtImg2Column from "/components/TxtImg2Column/TxtImg2Column";
-import ImageRow from "../../components/ImageRow/ImageRow";
+import Head from 'next/head'
+import TextContent from "../components/TextContent/TextContent";
+import TxtImg2Column from "../components/TxtImg2Column/TxtImg2Column";
 import Link from "next/link";
 
-export default function Fashion() {
+export default function FashionFotograaf() {
     const schema = {
         "@context": "https://schema.org",
         "@type": "LocalBusiness",
         "name": "Max van Wijnen Fashion Fotografie",
-        "image": "https://dev1.maxvanwijnen.nl/docs/images/mini-portfolio/Mode-fotoshoot-soluzione-blouses.webp",
+        "image": "https://dev1.maxvanwijnen.nl/docs/images/gallery/fashion-shoot-001.webp",
         "description": "Fashion fotograaf voor professionele fashion shoots, lookbooks en campagnes. Gespecialiseerd in modelfotografie en fashion branding.",
         "address": {
             "@type": "PostalAddress",
@@ -22,7 +21,7 @@ export default function Fashion() {
             "latitude": "52.2869",
             "longitude": "4.5833"
         },
-        "url": "https://www.maxvanwijnen.nl/fotoshoot/fashion",
+        "url": "https://www.maxvanwijnen.nl/fashion-fotograaf",
         "telephone": "+31628812008",
         "priceRange": "€€€",
         "areaServed": ["Hillegom", "Leiden", "Noordwijk", "Amsterdam", "Rotterdam", "Den Haag"],
@@ -59,15 +58,15 @@ export default function Fashion() {
                 {/* Open Graph tags */}
                 <meta property="og:title" content="Fashion Fotograaf | Professionele Fashion Shoots & Modelfotografie"/>
                 <meta property="og:description" content="Fashion fotograaf voor high-end fashion shoots, lookbooks en campagnes. Gespecialiseerd in modelfotografie en fashion branding."/>
-                <meta property="og:image" content="https://dev1.maxvanwijnen.nl/docs/images/mini-portfolio/Mode-fotoshoot-soluzione-blouses.webp"/>
-                <meta property="og:url" content="https://www.maxvanwijnen.nl/fotoshoot/fashion"/>
+                <meta property="og:image" content="https://dev1.maxvanwijnen.nl/docs/images/gallery/fashion-shoot-001.webp"/>
+                <meta property="og:url" content="https://www.maxvanwijnen.nl/fashion-fotograaf"/>
                 <meta property="og:type" content="website"/>
                 <meta property="og:site_name" content="Max van Wijnen Fotografie"/>
                 {/* Twitter Card tags */}
                 <meta name="twitter:card" content="summary_large_image"/>
                 <meta name="twitter:title" content="Fashion Fotograaf | Professionele Fashion Shoots & Modelfotografie"/>
                 <meta name="twitter:description" content="Fashion fotograaf voor high-end fashion shoots, lookbooks en campagnes. Gespecialiseerd in modelfotografie en fashion branding."/>
-                <meta name="twitter:image" content="https://dev1.maxvanwijnen.nl/docs/images/mini-portfolio/Mode-fotoshoot-soluzione-blouses.webp"/>
+                <meta name="twitter:image" content="https://dev1.maxvanwijnen.nl/docs/images/gallery/fashion-shoot-001.webp"/>
                 {/* Canonical URL */}
                 <link rel="canonical" href="https://www.top-fotografen.nl/fotograaf/max-van-wijnen"/>
                 {/* JSON-LD structured data */}
@@ -85,7 +84,7 @@ export default function Fashion() {
                   <li>Editorial en creatieve samenwerkingen</li>
                 </ul>
                 <TxtImg2Column
-                    imgSource="https://dev1.maxvanwijnen.nl/docs/images/mini-portfolio/Mode-fotoshoot-soluzione-blouses.webp"
+                    imgSource="https://dev1.maxvanwijnen.nl/docs/images/gallery/fashion-shoot-002.webp"
                     cssClass="Fashion"
                     imgAlt="Fashion fotografie op locatie"
                     imgWidth={573}
@@ -95,7 +94,7 @@ export default function Fashion() {
                     isInverted={false}
                 >Fashion shoots op locatie geven je beelden een unieke sfeer. Of je nu kiest voor een urban setting, het strand of een bijzondere binnenlocatie, samen creëren we een shoot die past bij jouw stijl en merkidentiteit.</TxtImg2Column>
                 <TxtImg2Column
-                    imgSource="https://dev1.maxvanwijnen.nl/docs/images/mini-portfolio/Fashion-fotograaf-studio-lichte-achtergrond.webp"
+                    imgSource="https://dev1.maxvanwijnen.nl/docs/images/gallery/fashion-shoot-003.webp"
                     cssClass="Fashion"
                     imgAlt="Professionele modelfotografie in de studio"
                     imgWidth={573}
@@ -107,19 +106,7 @@ export default function Fashion() {
                 <TextContent
                     title="Waarom kiezen voor Max van Wijnen als fashion fotograaf?"
                 >- Creatief en professioneel<br/>- Veel ervaring met fashion, modellen en merken<br/>- Snelle levering en duidelijke communicatie<br/>- Samenwerking met stylisten, visagisten en modellenbureau’s mogelijk<br/><br/>Wil je meer weten of direct een fashion shoot boeken? Neem <Link href="/contact">contact</Link> op of bekijk mijn <Link href="/portfolio">portfolio</Link> voor inspiratie!</TextContent>
-                <ImageRow
-                    images={[
-                        {url:'https://dev1.maxvanwijnen.nl/docs/images/mini-portfolio/Mode-fotoshoot-soluzione-blouses.webp', alt:'Fashion fotograaf blouses'},
-                        {url:'https://dev1.maxvanwijnen.nl/docs/images/mini-portfolio/Fashion-fotoshoot-utrecht.webp', alt:'Model fotograaf'},
-                        {url:'https://dev1.maxvanwijnen.nl/docs/images/mini-portfolio/Fashion-fotoshoot-strand-Noordwijk.webp', alt:'Outdoor fashion fotografie'},
-                        {url:'https://dev1.maxvanwijnen.nl/docs/images/mini-portfolio/Fashion-fotoshoot-blouses.webp', alt:'Modefotograaf blouse'},
-                        {url:'https://dev1.maxvanwijnen.nl/docs/images/mini-portfolio/Fashion-fotograaf-studio-lichte-achtergrond.webp', alt:'Fashion fotografie in de studio'},
-                        {url:'https://dev1.maxvanwijnen.nl/docs/images/mini-portfolio/Fashion-fotoshoot-soluzione.webp', alt:'Model fotografie'},
-                        {url:'https://dev1.maxvanwijnen.nl/docs/images/mini-portfolio/Fashion-fotoshoot-utrecht-gracht.webp', alt:'Fashion foto'},
-                        {url:'https://dev1.maxvanwijnen.nl/docs/images/mini-portfolio/Fashion-fotograaf-studio.webp', alt:'Fashion fotograaf'}
-                    ]}
-                >Bekijk hier enkele voorbeelden van eerdere fashionfotoshoots.</ImageRow>
             </main>
         </div>
-    );
+    )
 }
