@@ -14,15 +14,12 @@ const Footer = () => {
                 height={200}
             />
             <section className={css['main-content']}>
-                <div className={css['logo-column']}>
-
-
-                </div>
                 <div>
                     <h3>
                        Fotoshoots
                     </h3>
-                    <ul>
+                    <div className={css['footer-columns']}>
+                      <ul>
                         <li>
                             <Link href="/fotoshoot/familie">Familie</Link>
                         </li>
@@ -32,23 +29,27 @@ const Footer = () => {
                         <li>
                             <Link href="/fotoshoot/portret">Portret</Link>
                         </li>
+                      </ul>
+                      <ul>
                         <li>
                             <Link href="/fotoshoot/zwangerschap">Zwangerschap</Link>
                         </li>
                         <li>
-                            <Link href="/fotoshoot/kinderen">Kinderen</Link>
+                            <Link href="/fotoshoot/fashion">Fashion</Link>
                         </li>
                         <li>
                             <Link href="/fotoshoot/trouwen">Bruidsraportage</Link>
                         </li>
-                    </ul>
+                      </ul>
+                    </div>
                 </div>
 
                 <div>
                     <h3>
                         Pagina`s
                     </h3>
-                    <ul>
+                    <div className={css['footer-columns']}>
+                      <ul>
                         <li>
                             <Link href="/">Home</Link>
                         </li>
@@ -58,13 +59,16 @@ const Footer = () => {
                         <li>
                             <Link href="/portfolio">Portfolio</Link>
                         </li>
+                      </ul>
+                      <ul>
                         <li>
                             <Link href="/over-mij">Over Mij</Link>
                         </li>
                         <li>
                             <Link href="/contact">Contact</Link>
                         </li>
-                    </ul>
+                      </ul>
+                    </div>
                 </div>
 
 

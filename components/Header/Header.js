@@ -53,7 +53,7 @@ export default function Header({page, h1='Professionele portretfotografie',text_
     let darken_bg = 'none'
     let showPhotoTileMenu = false
 
-    
+
     switch(page) {
         case 'home':
           text_position='left'
@@ -191,25 +191,29 @@ export default function Header({page, h1='Professionele portretfotografie',text_
     page = page.includes('#') ? page.substring(0, page.indexOf('#')) : page;
     
     return (
-        <header className={`${styles[page]} ${styles.header}`}>
-            <NavBar />
-            <div className={`${styles[text_position]} ${styles.container}`}>
-                <div className={`${styles.textblock}`}>
-                    <h1 className={styles['main-title']}>{h1}</h1>
-                    <div className={`${styles.descr} ${styles[darken_bg]}`}>{descr}</div>
-                    {/* <div className={styles['call-to-action']}>Lees meer</div> */}
-
-                </div>
-                {/*<Breadcrumbs />*/}
-                
-            </div>
-            {showPhotoTileMenu &&<PhotoshootTileMenu
-                isBig={false}
-                isBookable={false}
-                isPricePage={false}
-            />}
-        </header>
-
+        <div className={styles.headerOuter}>
+          <header className={`${styles[page]} ${styles.header}`}>
+              <NavBar />
+              <div className={`${styles[text_position]} ${styles.container}`}>
+                  <div className={`${styles.textblock}`}>
+                      <h1 className={styles['main-title']}>{h1}</h1>
+                      <div className={`${styles.descr} ${styles[darken_bg]}`}>{descr}</div>
+                      <div className={styles.bookButtonWrap}>
+                        <a href="/boek-een-fotoshoot" className={styles.bookButton}>
+                          Boek een fotoshoot
+                          <HiArrowSmRight style={{marginLeft:8, verticalAlign:'middle'}}/>
+                        </a>
+                      </div>
+                  </div>
+                  {/*<Breadcrumbs />*/}
+              </div>
+              {showPhotoTileMenu &&<PhotoshootTileMenu
+                  isBig={false}
+                  isBookable={false}
+                  isPricePage={false}
+              />}
+          </header>
+        </div>
     );
 
 }

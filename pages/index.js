@@ -1,57 +1,80 @@
 import Head from 'next/head'
 import Image from 'next/image'
-import styles from '../styles/Home.module.css'
-import { PhotoshootTileMenu }from '../components/PhotoshootTileMenu/PhotoshootTileMenu';
-import ImgTxt2Column from "../components/TxtImg2Column/TxtImg2Column";
-import React from "react";
+import homeStyles from '../styles/HomeModern.module.scss';
 import Link from "next/link";
 import Layout from './../components/layout';
-import IntroTextOnly from "../components/IntroTextOny/IntroTextOnly";
-import TextImageAbove from "../components/TextImgAbove/TextImageAbove";
-import TxtImg2Column from "../components/TxtImg2Column/TxtImg2Column";
 
 export default function Home() {
-
-
   return (
+    <>
+      <Head>
+        <title>
+          Fotograaf in Noordwijk | Unieke fotoshoots op locatie
+        </title>
+        <meta
+          name="description"
+          content="Wil je graag mooie en professionele foto's laten maken? Ik sta voor je klaar als ervaren fotograaf uit Noordwijk. Neem nu contact op voor meer informatie."
+          key="desc"
+        />
+        <meta name="google-site-verification" content="VRuaMHZTJKhR_HKYhUWEgmSLOvLt_kMQKt0zYVpw_mw" />
+        <meta name="msvalidate.01" content="6EEF5CFC8BBEDF2585F23959D9F085A0" />
+      </Head>
+      {/* HERO SECTION */}
+      <section className={homeStyles.homeHero}>
+        <div className={homeStyles.homeHeroText}>
+          <h1 className={homeStyles.homeHeroTitle}>Professionele fotografie</h1>
+          <div className={homeStyles.homeHeroSubtitle}>
+            Fotoshoots voor gezinnen, bedrijven, merken en creatieve ondernemers. Altijd persoonlijk, creatief en met oog voor jouw unieke verhaal.
+          </div>
+          <a className={homeStyles.homeHeroBtn} href="#diensten">Bekijk mijn aanbod</a>
+        </div>
+        <div className={homeStyles.homeHeroImg}>
+          <img src="https://dev1.maxvanwijnen.nl/docs/images/intro-text/Max-van-Wijnen-Profielfoto.webp" alt="Max van Wijnen fotograaf" />
+        </div>
+      </section>
 
-    <section className={styles.container}>
-        <Head>
-            <title>
-                Fotograaf in Noordwijk | Unieke fotoshoots op locatie
-            </title>
-            <meta
-                name="description"
-                content="Wil je graag mooie en professionele foto's laten maken? Ik sta voor je klaar als ervaren fotograaf uit Noordwijk. Neem nu contact op voor meer informatie."
-                key="desc"
-            />
-            <meta name="google-site-verification" content="VRuaMHZTJKhR_HKYhUWEgmSLOvLt_kMQKt0zYVpw_mw" />
-            <meta name="msvalidate.01" content="6EEF5CFC8BBEDF2585F23959D9F085A0" />
-        </Head>
-        <IntroTextOnly title="Professionele fotoshoots & workshops">
-            Ben jij op zoek naar professionele fotografie in de regio Leiden, Noordwijk of de bollenstreek? Samen bespreken we jouw wensen en denk ik met je mee voor het mooiste eindresultaat. Hierbij heb ik mij gespecialiseerd in <Link href="/fotoshoot/kinderen">kinderfotoshoots</Link>, <Link href="/fotoshoot/portret">portretfotografie</Link>, <Link href="/fotoshoot/familie">familie fotoshoots</Link>, <Link href="/fotoshoot/zwangerschap">zwangerschapshoots</Link>, <Link href="/fotoshoot/loveshoot">loveshoots</Link> en <Link href="/fotoshoot/trouwen">zwangerschapsshoots</Link>.
-        </IntroTextOnly>
+      {/* DIENSTEN / SPECIALISATIES */}
+      <section id="diensten" className={homeStyles.servicesGrid}>
+        <div className={homeStyles.serviceCard}>
+          <div className={homeStyles.serviceCardTitle}>Fashion & branding</div>
+          <div className={homeStyles.serviceCardDesc}>Fashion, lookbook en branding shoots voor merken en ondernemers.</div>
+          <a className={homeStyles.serviceCardLink} href="/fotoshoot/fashion">Meer over fashion fotografie</a>
+        </div>
+        <div className={homeStyles.serviceCard}>
+          <div className={homeStyles.serviceCardTitle}>Portretfotografie</div>
+          <div className={homeStyles.serviceCardDesc}>Professionele portretten voor particulieren en zakelijk gebruik.</div>
+          <a className={homeStyles.serviceCardLink} href="/fotoshoot/portret">Meer over portretfotografie</a>
+        </div>
+        <div className={homeStyles.serviceCard}>
+          <div className={homeStyles.serviceCardTitle}>Familie fotoshoots</div>
+          <div className={homeStyles.serviceCardDesc}>Gezinsfoto's met een ontspannen sfeer en veel aandacht voor interactie.</div>
+          <a className={homeStyles.serviceCardLink} href="/fotoshoot/familie">Meer over familieshoots</a>
+        </div>
+        <div className={homeStyles.serviceCard}>
+          <div className={homeStyles.serviceCardTitle}>Zwangerschapsfotografie</div>
+          <div className={homeStyles.serviceCardDesc}>Prachtige zwangerschapsfoto's op locatie of in de studio, met aandacht voor jouw verhaal.</div>
+          <a className={homeStyles.serviceCardLink} href="/fotoshoot/zwangerschap">Meer over zwangerschapsfotografie</a>
+        </div>
+      </section>
 
-
-       <PhotoshootTileMenu isBig={true} />
-
-
-        <TxtImg2Column
-            imgSource="https://dev1.maxvanwijnen.nl/docs/images/intro-text/Max-van-Wijnen-Profielfoto.webp"
-            cssClass="Kinderen"
-            imgAlt = "Kinderfotografie"
-            imgWidth={573}
-            imgHeight={802}
-            txtTitle="Over mij als fotograaf"
-            isFirstArticle={false}
-        >
-            Al sinds ik oud genoeg was om met de spiegelreflex camera van mijn vader te spelen ben ik stukje bij beetje verslaafd geraakt aan fotografie. Toen ik voor mijn 21ste verjaardag mijn eigen camera kreeg was ik verkocht. In de loop der jaren en na de geboorte van mijn dochter Maud ben ik mij meer en meer gaan focussen op portret fotografie.
-
-            Bij elke fotoshoot ga ik de uitdaging aan. Ben jij of zijn jullie de volgende die ik vast mag leggen? Ik heb er zin in!
-        </TxtImg2Column>
-
-
-    </section>
+      {/* TESTIMONIALS */}
+      <section className={homeStyles.testimonialsSection}>
+        <div className={homeStyles.testimonialsTitle}>Wat klanten zeggen</div>
+        <div className={homeStyles.testimonialGrid}>
+          <div className={homeStyles.testimonialCard}>
+            <div className={homeStyles.testimonialText}>“Max weet als geen ander hoe hij mensen op hun gemak stelt. De foto's zijn prachtig en écht een blijvende herinnering!”</div>
+            <div className={homeStyles.testimonialName}>- Sanne, Noordwijk</div>
+          </div>
+          <div className={homeStyles.testimonialCard}>
+            <div className={homeStyles.testimonialText}>“Superfijne ervaring, snelle levering en geweldige foto's. Zeker een aanrader voor gezinnen!”</div>
+            <div className={homeStyles.testimonialName}>- Jeroen, Leiden</div>
+          </div>
+          <div className={homeStyles.testimonialCard}>
+            <div className={homeStyles.testimonialText}>“Voor onze branding shoot kregen we veel creatieve input en het resultaat was boven verwachting.”</div>
+            <div className={homeStyles.testimonialName}>- Studio Bloom</div>
+          </div>
+        </div>
+      </section>
+    </>
   )
 }
-

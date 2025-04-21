@@ -1,5 +1,26 @@
+.headerOuter {
+  padding: 22px 0 0 0;
+  background: transparent;
+}
+@media (min-width: 700px) {
+  .headerOuter {
+    padding: 28px 26px 0 26px;
+  }
+}
+@media screen and (max-width: 900px) {
+  .headerOuter {
+    padding: 4px 4px 0 4px;
+  }
+}
 .header {
     width: 100%;
+    background: #fff;
+    border-radius: 32px;
+    box-shadow: 0 4px 32px rgba(0,0,0,0.06);
+    padding: 22px 0 0 0;
+    margin-bottom: 36px;
+    position: relative;
+    z-index: 10;
     background-image:initial;
     background-size: cover;
     background-attachment: fixed;
@@ -10,7 +31,7 @@
     align-items: center;
     transition: background-image 1.5s ease-in;
     overflow: visible;
-
+    position: relative; 
 
     .container {
         display: flex;
@@ -151,26 +172,22 @@
         background-image: url("https://dev1.maxvanwijnen.nl/docs/images/gallery/Loveshoot-Noordwijk-002.webp");
         height: 600px;
     }
-
-
 }
 
-
-
-
-
-
-
-
-
 .nav {
-
     display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 18px;
+    margin: 0 42px 0 0;
     z-index: 90;
+    background: #fff;
+    border-radius: 32px 32px 32px 32px;
+    box-shadow: 0 2px 18px rgba(0,0,0,0.03);
+    padding: 5px 10px;
 
     justify-content: space-between;
     background-color: var(--transparant-white);
-    border-radius: 0px 0px 5px 5px;
     align-items: center;
     box-shadow: 0px 4px 4px 0px rgba(0,0,0,0.25);
     position: fixed;
@@ -181,17 +198,29 @@
 
 }
 
-
-
 .nav a {
     display: inline-block;
-
+    padding: 11px 26px;
+    border-radius: 999px;
+    background: #f7f7f7;
+    color: #232323;
+    font-weight: 700;
+    font-size: 1.06rem;
+    transition: background 0.18s, color 0.18s;
+    margin-left: 6px;
+    text-decoration: none;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.03);
     color: #2F2F2F;
     font-family: var(--font-raleway);
     text-transform: uppercase;
     font-size:var(--nav-font-size);
-
 }
+
+.nav a:hover, .nav a.active {
+    background: var(--color-orange);
+    color: #fff;
+}
+
 .nav .nav-items {
     padding:5px;
     flex-grow: 1;
@@ -253,7 +282,7 @@
     display: flex;
     align-items: center;
     color: white;
-    border-radius: 0px 0px 5px 0px;
+    border-radius: 32px;
     transition: background-color 0.4s ease-in-out;
 }
 .nav .book-button a svg {
@@ -281,6 +310,23 @@
 
 }
 
+.headerLogo {
+    margin-left: 40px;
+    font-size: 2rem;
+    font-weight: 900;
+    color: #111;
+    letter-spacing: -1px;
+    font-family: var(--font-nunito);
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.headerLogo img {
+    width: 46px;
+    height: 46px;
+    border-radius: 14px;
+    box-shadow: 0 2px 12px rgba(251,139,36,0.08);
+}
 
 .nav.mobile-menu {
     height:fit-content;
@@ -373,6 +419,31 @@
 
 }
 
+@media screen and (max-width: 900px) {
+    .headerOuter {
+        padding: 4px 4px 0 4px;
+    }
+    .header {
+        border-radius: 18px;
+        padding: 12px 0 0 0;
+        margin-bottom: 18px;
+    }
+    .headerLogo {
+        margin-left: 12px;
+        font-size: 1.3rem;
+    }
+    .nav {
+        margin: 0 4px 0 0;
+        gap: 8px;
+        border-radius: 18px 18px 18px 18px;
+        padding: 3px 2px;
+    }
+    .nav a {
+        padding: 8px 14px;
+        font-size: 0.98rem;
+    }
+}
+
 @media screen and (max-width: 800px) {
     .header  {
         margin-bottom: 40px;
@@ -462,4 +533,100 @@
             max-height: 230px;
         }
     }
+}
+
+.bookButton {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  background: var(--color-orange);
+  color: #fff;
+  font-size: 1.13rem;
+  font-weight: 700;
+  border: none;
+  border-radius: 999px;
+  padding: 16px 38px;
+  cursor: pointer;
+  box-shadow: 0 2px 12px rgba(251,139,36,0.13);
+  transition: background 0.2s, box-shadow 0.2s, transform 0.15s;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  outline: none;
+  border-right: 0;
+  min-width: 240px;
+  max-width: 100%;
+  white-space: nowrap;
+  position: relative;
+  z-index: 2;
+  font-family: var(--font-raleway);
+}
+.bookButton:hover {
+  background: #ffac4c;
+  box-shadow: 0 4px 20px rgba(251,139,36,0.18);
+  transform: translateY(-2px) scale(1.03);
+}
+.bookButton svg {
+  margin-left: 14px;
+  font-size: 1.35em;
+  vertical-align: middle;
+}
+.bookButtonWrap {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  width: 100%;
+  padding-right: 0;
+  padding-top: 6px;
+  padding-bottom: 6px;
+  background: transparent;
+  border-radius: 999px;
+  box-sizing: border-box;
+  position: relative;
+}
+@media (max-width: 700px) {
+  .bookButtonWrap {
+    justify-content: center;
+    padding-right: 0;
+    padding-left: 0;
+  }
+  .bookButton {
+    min-width: 160px;
+    padding: 12px 18px;
+    font-size: 1rem;
+  }
+}
+
+.Header_nav__9EX6V .Header_book-button__CY_l5 a {
+  background-color: var(--color-orange);
+  color: #fff;
+  padding: 16px 38px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 32px;
+  font-size: 1.13rem;
+  font-weight: 700;
+  min-width: 240px;
+  max-width: 100%;
+  height: auto;
+  box-shadow: 0 2px 12px rgba(251,139,36,0.13);
+  transition: background 0.2s, box-shadow 0.2s, transform 0.15s;
+  outline: none;
+  border: none;
+  white-space: nowrap;
+  margin: 0;
+  position: relative;
+  z-index: 2;
+}
+.Header_nav__9EX6V .Header_book-button__CY_l5 a:hover {
+  background: #ffac4c;
+  box-shadow: 0 4px 20px rgba(251,139,36,0.18);
+  transform: translateY(-2px) scale(1.03);
+}
+@media (max-width: 700px) {
+  .Header_nav__9EX6V .Header_book-button__CY_l5 a {
+    min-width: 160px;
+    padding: 12px 18px;
+    font-size: 1rem;
+  }
 }

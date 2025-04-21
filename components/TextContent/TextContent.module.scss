@@ -1,43 +1,251 @@
-.text-content {
-  font-family: var(--font-baloo-tamma);
-  margin-bottom: 40px;
+.textContent {
+  font-family: var(--font-nunito);
+  margin-bottom: 30px;
+  background: #fff;
+  border-radius: 16px;
+  box-shadow: 0 2px 12px rgba(0,0,0,0.04);
+  padding: 24px 0 8px 0;
 
-  h2 {
+  h2, h1 {
     text-align: center;
-    margin-top:20px;
+    margin-top: 18px;
     font-weight: bold;
-    font-size: 35px;
-  }
-  h1 {
-    text-align: center;
-    margin-top:20px;
-    margin-bottom: 10px;
-    font-size: 35px;
+    font-size: 2.1rem;
+    letter-spacing: 0.5px;
+    border-bottom: 2px solid #f1e4f9;
+    display: inline-block;
+    padding-bottom: 4px;
+    margin-bottom: 16px;
   }
   p {
-    
     text-align: center;
-
     font-weight: normal;
-    padding:0px 250px;
-    
-    margin-bottom:30px;
+    font-family: var(--font-nunito);
+    padding: 0 120px;
+    margin-bottom: 20px;
     font-size: var(--font-size-p);
     line-height: var(--line-height-p);
-    font-family: var(--font-family-p);
-    
-
     a {
       color: #2F2F2F;
       font-weight: bold;
     }
   }
 }
-@media only screen and (max-width:1200px) {
-
-  .text-content {
-    p {
-      padding:5px 30px;
+.specialisatiesBox {
+  background: linear-gradient(90deg, #f4f1fa 0%, #f9f7fc 100%);
+  border-radius: 14px;
+  box-shadow: 0 1px 8px rgba(120,80,200,0.05);
+  margin: 0 auto 28px auto;
+  max-width: 600px;
+  padding: 18px 30px 12px 30px;
+  ul {
+    margin: 0;
+    padding: 0 0 0 18px;
+    list-style: disc inside;
+    color: #3d2b6f;
+    font-size: 1.13rem;
+    font-family: var(--font-nunito);
+    li {
+      margin-bottom: 7px;
+      font-family: var(--font-nunito);
     }
+  }
+}
+.imgSection {
+  background: #f7f6fb;
+  padding: 18px 0 14px 0;
+  margin-bottom: 18px;
+}
+.imgSection.altBg {
+  background: linear-gradient(90deg, #f9f7fc 0%, #f4f1fa 100%);
+}
+.portfolioRow {
+  background: #f7f6fb;
+  padding: 26px 0 10px 0;
+  border-radius: 14px;
+  margin-bottom: 18px;
+}
+.portfolioRow.altBg {
+  background: linear-gradient(90deg, #f4f1fa 0%, #f9f7fc 100%);
+}
+.fashionMain {
+  background: #fff;
+  padding-top: 12px;
+}
+.fashionHero {
+  width: 100%;
+  min-height: 340px;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+}
+.fashionHeroOverlay {
+  width: 100%;
+  background: linear-gradient(180deg, rgba(255,255,255,0.01) 0%, rgba(255,255,255,0.95) 70%);
+  padding: 44px 0 20px 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.fashionHeroTitle {
+  font-size: 2.7rem;
+  font-family: var(--font-nunito);
+  font-weight: 700;
+  color: #2d225a;
+  margin-bottom: 4px;
+  letter-spacing: 0.5px;
+}
+.fashionHeroSubtitle {
+  font-size: 1.18rem;
+  color: #4e3e7c;
+  margin-bottom: 0;
+  font-weight: 400;
+  font-family: var(--font-nunito);
+}
+.fashionIntroSection {
+  max-width: 700px;
+  margin: 0 auto 18px auto;
+  text-align: center;
+}
+.fashionIntroText {
+  font-size: 1.15rem;
+  color: #3d2b6f;
+  margin-bottom: 18px;
+  font-family: var(--font-nunito);
+}
+.specialisatiesPills {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10px;
+  margin: 0 0 18px 0;
+  padding: 0;
+  list-style: none;
+  font-family: var(--font-nunito);
+}
+.specialisatiesPills li {
+  background: #f4f1fa;
+  color: #3d2b6f;
+  border-radius: 32px;
+  padding: 7px 20px;
+  font-size: 1.04rem;
+  font-weight: 500;
+  box-shadow: 0 1px 6px rgba(120,80,200,0.04);
+  transition: background 0.2s;
+  font-family: var(--font-nunito);
+}
+.fashionGridSection {
+  max-width: 1100px;
+  margin: 0 auto 36px auto;
+}
+.fashionGridRow {
+  display: flex;
+  align-items: center;
+  gap: 48px;
+  margin-bottom: 38px;
+}
+.fashionGridRow.reverse {
+  flex-direction: row-reverse;
+}
+.fashionGridImg {
+  flex: 1 1 370px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-width: 0;
+}
+.fashionGridImg img {
+  width: auto;
+  max-width: 100%;
+  height: 400px;
+  max-height: 60vh;
+  object-fit: contain;
+  border-radius: 16px;
+  box-shadow: 0 8px 32px rgba(60,40,120,0.10);
+  display: block;
+  margin: 0 auto;
+}
+.fashionGridText {
+  flex: 1 1 400px;
+  min-width: 0;
+}
+.fashionGridText h2 {
+  font-size: 1.35rem;
+  font-weight: 600;
+  margin-bottom: 7px;
+  color: #2d225a;
+  border-left: 5px solid #e3d2fa;
+  padding-left: 12px;
+  font-family: var(--font-nunito);
+}
+.fashionGridText p {
+  font-size: 1.07rem;
+  color: #222;
+  margin-bottom: 0;
+  font-family: var(--font-nunito);
+}
+.fashionUspSection {
+  margin: 0 auto 34px auto;
+  max-width: 750px;
+  text-align: center;
+}
+.fashionUspSection h2 {
+  font-size: 1.25rem;
+  font-weight: 600;
+  margin-bottom: 10px;
+  color: #3d2b6f;
+  font-family: var(--font-nunito);
+}
+.uspList {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  justify-content: center;
+  list-style: none;
+  padding: 0;
+  margin: 0 0 10px 0;
+}
+.uspList li {
+  background: #f4f1fa;
+  color: #3d2b6f;
+  border-radius: 20px;
+  padding: 7px 18px;
+  font-size: 1.01rem;
+  font-weight: 500;
+  box-shadow: 0 1px 6px rgba(120,80,200,0.04);
+  font-family: var(--font-nunito);
+}
+@media only screen and (max-width:1200px) {
+  .textContent p {
+    padding: 5px 24px;
+  }
+  .specialisatiesPills {
+    padding: 12px 8px 8px 8px;
+  }
+}
+@media (max-width: 1100px) {
+  .fashionGridRow, .fashionGridRow.reverse {
+    flex-direction: column;
+    gap: 18px;
+  }
+  .fashionGridImg, .fashionGridText {
+    width: 100%;
+    flex: unset;
+  }
+  .fashionGridImg img {
+    max-width: 100%;
+  }
+}
+@media (max-width: 900px) {
+  .fashionImgTxt, .reverse {
+    flex-direction: column;
+    gap: 18px;
+  }
+  .fashionImgLeft, .fashionImgRight, .fashionTxtRight, .fashionTxtLeft {
+    flex: unset;
+    width: 100%;
   }
 }

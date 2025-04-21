@@ -3,54 +3,36 @@ import TextContent from "../../components/TextContent/TextContent";
 import TxtImg2Column from "/components/TxtImg2Column/TxtImg2Column";
 import ImageRow from "../../components/ImageRow/ImageRow";
 import Link from "next/link";
+import styles from '../../components/TextContent/TextContent.module.scss';
+
+const heroImg = "https://dev1.maxvanwijnen.nl/docs/images/mini-portfolio/Fashion-fotoshoot-strand-Noordwijk.webp";
 
 export default function Fashion() {
     const schema = {
         "@context": "https://schema.org",
         "@type": "LocalBusiness",
-        "name": "Max van Wijnen Fashion Fotografie",
-        "image": "https://dev1.maxvanwijnen.nl/docs/images/mini-portfolio/Mode-fotoshoot-soluzione-blouses.webp",
-        "description": "Fashion fotograaf voor professionele fashion shoots, lookbooks en campagnes. Gespecialiseerd in modelfotografie en fashion branding.",
+        "name": "Max van Wijnen Fotografie",
+        "url": "https://www.maxvanwijnen.nl",
+        "image": "https://www.maxvanwijnen.nl/logo192.png",
         "address": {
             "@type": "PostalAddress",
+            "streetAddress": "Sixlaan 4",
             "addressLocality": "Hillegom",
-            "addressRegion": "Zuid-Holland",
-            "addressCountry": "NL"
+            "postalCode": "2182 TV",
+            "addressCountry": "NL",
         },
-        "geo": {
-            "@type": "GeoCoordinates",
-            "latitude": "52.2869",
-            "longitude": "4.5833"
-        },
-        "url": "https://www.maxvanwijnen.nl/fotoshoot/fashion",
-        "telephone": "+31628812008",
-        "priceRange": "€€€",
-        "areaServed": ["Hillegom", "Leiden", "Noordwijk", "Amsterdam", "Rotterdam", "Den Haag"],
-        "serviceArea": {
-            "@type": "GeoCircle",
-            "geoMidpoint": {
-                "@type": "GeoCoordinates",
-                "latitude": "52.2869",
-                "longitude": "4.5833"
-            },
-            "geoRadius": "50000"
-        },
-        "makesOffer": [
-            {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "Fashion fotografie"}},
-            {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "Modelfotografie"}},
-            {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "Lookbook shoots"}},
-            {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "Campagne fotografie"}}
-        ]
+        "telephone": "+31612345678",
+        "priceRange": "$$",
     };
 
     return (
         <div>
             <Head>
-                <title>Fashion Fotograaf | Professionele Fashion Shoots & Modelfotografie | Max van Wijnen</title>
-                <meta name="description" content="Fashion fotograaf voor high-end fashion shoots, lookbooks en campagnes. Gespecialiseerd in modelfotografie en fashion branding. Boek jouw fashion shoot bij Max van Wijnen."/>
-                <meta name="keywords" content="fashion fotograaf, fashion photography, modelfotografie, fashion shoot, lookbook fotograaf, fashion branding, modefotografie, fashion campagne, professionele fashion fotograaf"/>
-                <meta name="author" content="Max van Wijnen"/>
-                <meta name="robots" content="index, follow"/>
+                <title>Fashion Fotograaf - Max van Wijnen</title>
+                <meta name="description" content="Professionele fashion fotograaf voor merken, modellen en campagnes. Unieke fashion shoots op locatie of in de studio. Bekijk het portfolio!" />
+                <meta name="keywords" content="fashion fotograaf, modefotograaf, fashion shoot, lookbook, campagne, editorial, modellen, merken, studio, locatie" />
+                <meta name="author" content="Max van Wijnen" />
+                <meta name="robots" content="index, follow" />
                 {/* Geo tags */}
                 <meta name="geo.region" content="NL-ZH"/>
                 <meta name="geo.placename" content="Hillegom"/>
@@ -69,44 +51,53 @@ export default function Fashion() {
                 <meta name="twitter:description" content="Fashion fotograaf voor high-end fashion shoots, lookbooks en campagnes. Gespecialiseerd in modelfotografie en fashion branding."/>
                 <meta name="twitter:image" content="https://dev1.maxvanwijnen.nl/docs/images/mini-portfolio/Mode-fotoshoot-soluzione-blouses.webp"/>
                 {/* Canonical URL */}
-                <link rel="canonical" href="https://www.top-fotografen.nl/fotograaf/max-van-wijnen"/>
+                <link rel="canonical" href="https://www.maxvanwijnen.nl/fotoshoot/fashion"/>
                 {/* JSON-LD structured data */}
                 <script type="application/ld+json">{JSON.stringify(schema)}</script>
             </Head>
-            <main>
-                <TextContent
-                    title="Fashion Fotograaf"
-                    firstItem={false}
-                >Ben je op zoek naar een professionele fashion fotograaf voor een unieke fashion shoot, lookbook of campagne? Met jarenlange ervaring in fashion- en modelfotografie help ik merken, modellen en designers om hun visie krachtig vast te leggen. Of het nu gaat om een editorial shoot, een branding campagne of een creatieve samenwerking, ik zorg voor beelden die indruk maken en jouw verhaal vertellen.<br/><br/>Mijn aanpak is persoonlijk en creatief: samen bespreken we het concept, de styling en de gewenste uitstraling. Dankzij mijn ervaring met zowel studio- als locatie shoots, kan ik elk idee omzetten in een professioneel eindresultaat. Bekijk mijn <Link href="/portfolio">portfolio</Link> voor recente fashion shoots of neem <Link href="/contact">contact</Link> op voor een vrijblijvende kennismaking.<br/><br/><strong>Specialisaties:</strong></TextContent>
-                <ul style={{marginLeft: '2em', marginBottom: '2em'}}>
-                  <li>Fashion shoots voor merken, modellen & influencers</li>
-                  <li>Lookbook fotografie</li>
-                  <li>Campagne fotografie</li>
-                  <li>Editorial en creatieve samenwerkingen</li>
-                </ul>
-                <TxtImg2Column
-                    imgSource="https://dev1.maxvanwijnen.nl/docs/images/mini-portfolio/Mode-fotoshoot-soluzione-blouses.webp"
-                    cssClass="Fashion"
-                    imgAlt="Fashion fotografie op locatie"
-                    imgWidth={573}
-                    imgHeight={384}
-                    txtTitle="Fashion fotografie op locatie"
-                    isFirstArticle={false}
-                    isInverted={false}
-                >Fashion shoots op locatie geven je beelden een unieke sfeer. Of je nu kiest voor een urban setting, het strand of een bijzondere binnenlocatie, samen creëren we een shoot die past bij jouw stijl en merkidentiteit.</TxtImg2Column>
-                <TxtImg2Column
-                    imgSource="https://dev1.maxvanwijnen.nl/docs/images/mini-portfolio/Fashion-fotograaf-studio-lichte-achtergrond.webp"
-                    cssClass="Fashion"
-                    imgAlt="Professionele modelfotografie in de studio"
-                    imgWidth={573}
-                    imgHeight={384}
-                    txtTitle="Professionele modelfotografie in de studio"
-                    isFirstArticle={false}
-                    isInverted={true}
-                >In de studio heb ik volledige controle over licht, styling en sfeer. Dit maakt het mogelijk om jouw fashion collectie of branding campagne op het hoogste niveau vast te leggen. Ideaal voor lookbooks, campagnes en portfolio shoots.</TxtImg2Column>
-                <TextContent
-                    title="Waarom kiezen voor Max van Wijnen als fashion fotograaf?"
-                >- Creatief en professioneel<br/>- Veel ervaring met fashion, modellen en merken<br/>- Snelle levering en duidelijke communicatie<br/>- Samenwerking met stylisten, visagisten en modellenbureau&apos;s mogelijk<br/><br/>Wil je meer weten of direct een fashion shoot boeken? Neem <Link href="/contact">contact</Link> op of bekijk mijn <Link href="/portfolio">portfolio</Link> voor inspiratie!</TextContent>
+            <main className={styles.fashionMain}>
+                <section className={styles.fashionIntroSection}>
+                    <h1 className={styles.fashionHeroTitle} style={{marginTop:0}}>Fashion fotograaf voor merken, modellen & campagnes</h1>
+                    <p className={styles.fashionIntroText}>
+                        Op zoek naar een professionele fashion fotograaf die jouw merk, collectie of lookbook krachtig in beeld brengt? Met jarenlange ervaring in fashion- en modelfotografie help ik merken, modellen en designers aan unieke beelden die opvallen. Of het nu gaat om een editorial shoot, campagne of creatieve samenwerking: ik zorg voor stijlvolle fotografie die jouw verhaal vertelt en indruk maakt.
+                    </p>
+                    <ul className={styles.specialisatiesPills}>
+                        <li>Fashion shoots voor merken, modellen & influencers</li>
+                        <li>Lookbook fotografie</li>
+                        <li>Campagne fotografie</li>
+                        <li>Editorial en creatieve samenwerkingen</li>
+                    </ul>
+                </section>
+                <section className={styles.fashionGridSection}>
+                    <div className={styles.fashionGridRow}>
+                        <div className={styles.fashionGridImg}>
+                            <img src="https://dev1.maxvanwijnen.nl/docs/images/mini-portfolio/Mode-fotoshoot-soluzione-blouses.webp" alt="Fashion fotografie op locatie" width="400" height="270" />
+                        </div>
+                        <div className={styles.fashionGridText}>
+                            <h2>Fashion fotografie op locatie</h2>
+                            <p>Fashion shoots op locatie geven je beelden een unieke sfeer. Of je nu kiest voor een urban setting, het strand of een bijzondere binnenlocatie, samen creëren we een shoot die past bij jouw stijl en merkidentiteit.</p>
+                        </div>
+                    </div>
+                    <div className={`${styles.fashionGridRow} ${styles.reverse}`}> 
+                        <div className={styles.fashionGridText}>
+                            <h2>Professionele modelfotografie in de studio</h2>
+                            <p>In de studio heb ik volledige controle over licht, styling en sfeer. Dit maakt het mogelijk om jouw fashion collectie of branding campagne op het hoogste niveau vast te leggen. Ideaal voor lookbooks, campagnes en portfolio shoots.</p>
+                        </div>
+                        <div className={styles.fashionGridImg}>
+                            <img src="https://dev1.maxvanwijnen.nl/docs/images/mini-portfolio/Fashion-fotograaf-studio-lichte-achtergrond.webp" alt="Professionele modelfotografie in de studio" width="400" height="270" />
+                        </div>
+                    </div>
+                </section>
+                <section className={styles.fashionUspSection}>
+                    <h2>Waarom kiezen voor Max van Wijnen als fashion fotograaf?</h2>
+                    <ul className={styles.uspList}>
+                        <li>Creatief en professioneel</li>
+                        <li>Veel ervaring met fashion, modellen en merken</li>
+                        <li>Snelle levering en duidelijke communicatie</li>
+                        <li>Samenwerking met stylisten, visagisten en modellenbureau&apos;s mogelijk</li>
+                    </ul>
+                    <p>Wil je meer weten of direct een fashion shoot boeken? <Link href="/contact">Neem contact op</Link> of bekijk mijn <Link href="/portfolio">portfolio</Link> voor inspiratie!</p>
+                </section>
                 <ImageRow
                     images={[
                         {url:'https://dev1.maxvanwijnen.nl/docs/images/mini-portfolio/Mode-fotoshoot-soluzione-blouses.webp', alt:'Fashion fotograaf blouses'},
