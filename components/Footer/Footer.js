@@ -75,7 +75,7 @@ const Footer = () => {
             </section>
 
             <section className={css['social-media-wrapper']}>
-                <h3>volg maxvanwijnen fotografie op</h3>
+                <h3>volg max van wijnen fotografie op:</h3>
                 <Link
                     href="https://www.instragram.com/maxvanwijnenfotografie"
                     >
@@ -90,13 +90,14 @@ const Footer = () => {
                         <div className={css['label']}>Facebook</div>
                     </div>
                 </Link>
-
-
-
+                <div className={css['social-link']}>
+                    <div className={css['label']}>
+                        <Link href="https://www.top-fotografen.nl/fotograaf/max-van-wijnen-fotografie" target="_blank" rel="noopener noreferrer">
+                            Top-fotografen
+                        </Link>
+                    </div>
+                </div>
             </section>
-
-
-
         </footer>
     )
 }

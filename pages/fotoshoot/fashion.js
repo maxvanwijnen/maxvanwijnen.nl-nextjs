@@ -129,6 +129,20 @@ export default function Fashion() {
                             <span>Ja, naast fashion fotografie bied ik ook lookbook fotografie en campagne fotografie aan voor merken en ondernemers.</span>
                           ),
                         },
+                        {
+                          question: "Wat kost een fashion fotoshoot?",
+                          answer: (
+                            <span>Laat me gerust weten wat het project betreft of wat de plannen zijn. Ik breng graag een vrijblijvende offerte uit!</span>
+                          ),
+                        },
+                        {
+                          question: "Kun je ook een model regelen voor de fashion fotoshoot?",
+                          answer: (
+                            <span>
+                              Afhankelijk van jouw wensen kunnen we samen op zoek gaan naar een geschikt model. Max van Wijnen Fotografie kan een passend model aanbevelen uit een eigen netwerk, maar het is uiteraard ook mogelijk om zelf een model te regelen of samen te werken met een model dat door de opdrachtgever wordt aangedragen.
+                            </span>
+                          ),
+                        },
                       ]}
                     />
                 </section>
