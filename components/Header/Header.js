@@ -196,6 +196,11 @@ export default function Header({page, h1='Professionele portretfotografie',text_
     return (
         <div className={styles.headerOuter}>
           <header className={`${styles[page]} ${styles.header}`}>
+              {/* MOBILE MENU BUTTON */}
+              <button className={styles['mobile-menu-button']} onClick={() => console.log('Menu opened')}>
+                <FiMenu />
+                <span>MENU</span>
+              </button>
               <NavBar />
               <div className={`${styles[text_position]} ${styles.container}`}>
                   <div className={`${styles.textblock}`}>

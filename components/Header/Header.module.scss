@@ -254,10 +254,47 @@
 }
 
 .nav .mobile-menu-button {
-    display: none;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    left: 10px;
+    top: 18px;
+    width: auto;
+    height: 48px;
+    background: transparent;
+    border-radius: 10px;
+    box-shadow: none;
+    color: #3d2b6f;
+    padding: 0 12px;
+    z-index: 100;
+    border: none;
+    gap: 10px;
+    cursor: pointer;
+    transition: background 0.15s;
 }
-
-
+.nav .mobile-menu-button:hover, .nav .mobile-menu-button:focus {
+    background: #f4f1fa;
+}
+.nav .mobile-menu-button span {
+    font-size: 1.13rem;
+    font-family: var(--font-raleway);
+    font-weight: 700;
+    color: #3d2b6f;
+    letter-spacing: 0.01em;
+    margin-left: 0;
+    line-height: 1.1;
+    text-align: center;
+    display: inline-block;
+}
+.nav .mobile-menu-button svg {
+    width: 28px;
+    height: 28px;
+    margin-right: 2px;
+    color: #3d2b6f;
+    display: inline-block;
+}
 
 .nav .nav-items a {
     background-color:unset;
@@ -496,7 +533,6 @@
         left: 10px;
         justify-content: space-between;
         align-items: center;
-        width: 65px;
     }
     .nav .mobile-menu-button svg {
         width:15px;
