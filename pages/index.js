@@ -38,22 +38,22 @@ export default function Home() {
         <div className={homeStyles.serviceCard}>
           <div className={homeStyles.serviceCardTitle}>Fashion & branding</div>
           <div className={homeStyles.serviceCardDesc}>Fashion, lookbook en branding shoots voor merken en ondernemers.</div>
-          <a className={homeStyles.serviceCardLink} href="/fotoshoot/fashion">Meer over fashion fotografie</a>
+          <Link href="/fotoshoot/fashion" className={homeStyles.serviceCardLink}>Meer over fashion fotografie</Link>
         </div>
         <div className={homeStyles.serviceCard}>
           <div className={homeStyles.serviceCardTitle}>Portretfotografie</div>
           <div className={homeStyles.serviceCardDesc}>Professionele portretten voor particulieren en zakelijk gebruik.</div>
-          <a className={homeStyles.serviceCardLink} href="/fotoshoot/portret">Meer over portretfotografie</a>
+          <Link href="/fotoshoot/portret" className={homeStyles.serviceCardLink}>Meer over portretfotografie</Link>
         </div>
         <div className={homeStyles.serviceCard}>
           <div className={homeStyles.serviceCardTitle}>Familie fotoshoots</div>
-          <div className={homeStyles.serviceCardDesc}>Gezinsfoto's met een ontspannen sfeer en veel aandacht voor interactie.</div>
-          <a className={homeStyles.serviceCardLink} href="/fotoshoot/familie">Meer over familieshoots</a>
+          <div className={homeStyles.serviceCardDesc}>Gezinsfoto&apos;s met een ontspannen sfeer en veel aandacht voor interactie.</div>
+          <Link href="/fotoshoot/familie" className={homeStyles.serviceCardLink}>Meer over familieshoots</Link>
         </div>
         <div className={homeStyles.serviceCard}>
           <div className={homeStyles.serviceCardTitle}>Zwangerschapsfotografie</div>
-          <div className={homeStyles.serviceCardDesc}>Prachtige zwangerschapsfoto's op locatie of in de studio, met aandacht voor jouw verhaal.</div>
-          <a className={homeStyles.serviceCardLink} href="/fotoshoot/zwangerschap">Meer over zwangerschapsfotografie</a>
+          <div className={homeStyles.serviceCardDesc}>Prachtige zwangerschapsfoto&apos;s op locatie of in de studio, met aandacht voor jouw verhaal.</div>
+          <Link href="/fotoshoot/zwangerschap" className={homeStyles.serviceCardLink}>Meer over zwangerschapsfotografie</Link>
         </div>
       </section>
 
