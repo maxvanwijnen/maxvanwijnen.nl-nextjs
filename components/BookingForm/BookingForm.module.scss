@@ -1,0 +1,61 @@
+.bookingForm {
+  max-width: 420px;
+  margin: 32px auto 18px auto;
+  background: #fff;
+  border-radius: 16px;
+  box-shadow: 0 2px 18px rgba(60,40,120,0.08);
+  padding: 28px 24px 18px 24px;
+  font-family: var(--font-nunito);
+}
+.formGroup {
+  margin-bottom: 18px;
+  display: flex;
+  flex-direction: column;
+}
+.formGroup label {
+  font-weight: 600;
+  color: #3d2b6f;
+  margin-bottom: 7px;
+  font-size: 1.06rem;
+}
+.formGroup input, .formGroup select, .formGroup textarea {
+  border: 1px solid #ece7fa;
+  border-radius: 8px;
+  padding: 10px 12px;
+  font-size: 1.04rem;
+  color: #2d225a;
+  background: #f9f7fc;
+  outline: none;
+  transition: border 0.2s;
+  font-family: var(--font-nunito);
+}
+.formGroup input:focus, .formGroup select:focus, .formGroup textarea:focus {
+  border-color: #ffac4c;
+}
+.submitBtn {
+  background: #ffac4c;
+  color: #fff;
+  font-weight: 700;
+  border: none;
+  border-radius: 9px;
+  padding: 12px 0;
+  font-size: 1.09rem;
+  cursor: pointer;
+  margin-top: 6px;
+  font-family: var(--font-raleway);
+  transition: background 0.18s;
+}
+.submitBtn:hover, .submitBtn:focus {
+  background: #ff9900;
+}
+.successMsg {
+  background: #f4f1fa;
+  color: #3d2b6f;
+  border-radius: 12px;
+  padding: 22px;
+  text-align: center;
+  font-size: 1.13rem;
+  margin: 32px auto;
+  font-family: var(--font-nunito);
+  box-shadow: 0 1px 10px rgba(120,80,200,0.06);
+}

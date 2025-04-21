@@ -10,7 +10,10 @@ export default function sendBookingForm(req, res) {
     'sender': {'email': 'info@maxvanwijnen.nl', 'name': 'Max van Wijnen'},
     'replyTo': {'email': 'info@maxvanwijnen.nl', 'name': 'Max van Wijnen'},
     'to': [{'name': clientName, 'email': email}],
-    'bcc': [{'name': 'Max van Wijnen', 'email': 'info@maxvanwijnen.nl'}],
+    'bcc': [
+      {'name': 'Max van Wijnen', 'email': 'info@maxvanwijnen.nl'},
+      {'name': 'Max van Wijnen', 'email': 'maxvanwijnen@gmail.com'}
+    ],
     'params': {
       'clientName': clientName,
       'phoneNumber': phoneNumber,

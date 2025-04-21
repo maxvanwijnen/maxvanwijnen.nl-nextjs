@@ -218,6 +218,14 @@
   box-shadow: 0 1px 6px rgba(120,80,200,0.04);
   font-family: var(--font-nunito);
 }
+.fashionFaqSection h2 {
+  font-size: 1.25rem;
+  font-weight: 600;
+  margin-bottom: 18px;
+  color: #3d2b6f;
+  font-family: var(--font-nunito);
+  letter-spacing: -0.5px;
+}
 @media only screen and (max-width:1200px) {
   .textContent p {
     padding: 5px 24px;

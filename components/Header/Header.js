@@ -6,6 +6,7 @@ import { HiArrowSmRight } from 'react-icons/hi';
 import styles from './Header.module.scss';
 import { NavBar } from '../NavBar/NavBar';
 import { PhotoshootTileMenu } from '../PhotoshootTileMenu/PhotoshootTileMenu'
+import BookingFormModal from '../BookingForm/BookingFormModal';
 
 import logoImg from '../../public/img/logo/logo-maxvanwijnen-fotografie-black.png';
 
@@ -94,11 +95,11 @@ export default function Header({page, h1='Professionele portretfotografie',text_
             showPhotoTileMenu = false
             break;
         case 'fotoshootfashion':
-            text_position = 'left'
-            h1 = 'Fashion fotograaf'
-            descr = 'Hogewaardige kwaliteit fashion fotografie voor uw mode bedrijf'
-            showPhotoTileMenu = false
-            break;
+            text_position='left'
+          h1 = 'Fashion fotograaf voor merken, modellen & campagnes'
+          descr = 'Professionele fashion fotograaf voor merken, modellen en campagnes. Unieke fashion shoots op locatie of in de studio.'
+          showPhotoTileMenu = false
+          break;
         case 'fotoshootfamilie':
             text_position='left'
             h1 = 'Familie fotoshoot'
@@ -190,6 +191,8 @@ export default function Header({page, h1='Professionele portretfotografie',text_
 
     page = page.includes('#') ? page.substring(0, page.indexOf('#')) : page;
     
+    const [modalOpen, setModalOpen] = React.useState(false);
+
     return (
         <div className={styles.headerOuter}>
           <header className={`${styles[page]} ${styles.header}`}>
@@ -199,10 +202,10 @@ export default function Header({page, h1='Professionele portretfotografie',text_
                       <h1 className={styles['main-title']}>{h1}</h1>
                       <div className={`${styles.descr} ${styles[darken_bg]}`}>{descr}</div>
                       <div className={styles.bookButtonWrap}>
-                        <Link href="/boek-een-fotoshoot" className={styles.bookButton}>
+                        <button onClick={() => setModalOpen(true)} className={styles.bookButton}>
                           Boek een fotoshoot
                           <HiArrowSmRight style={{marginLeft:8, verticalAlign:'middle'}}/>
-                        </Link>
+                        </button>
                       </div>
                   </div>
                   {/*<Breadcrumbs />*/}
@@ -213,6 +216,7 @@ export default function Header({page, h1='Professionele portretfotografie',text_
                   isPricePage={false}
               />}
           </header>
+          <BookingFormModal open={modalOpen} onClose={() => setModalOpen(false)} />
         </div>
     );
 
