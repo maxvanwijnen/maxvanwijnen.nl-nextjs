@@ -10,7 +10,7 @@ export default function handler(req, res) {
     'contact',
   ];
   res.setHeader('Content-Type', 'application/xml');
-  res.write(`<?xml version="1.0" encoding="UTF-8"?>
+  res.status(200).send(`<?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   ${pages.map((page) => `
   <url>
@@ -19,11 +19,4 @@ export default function handler(req, res) {
   </url>
   `).join('')}
 </urlset>`);
-  res.end();
 }
-
-export const config = {
-  api: {
-    bodyParser: false,
-  },
-};
