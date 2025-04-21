@@ -254,13 +254,16 @@
 }
 
 .nav .mobile-menu-button {
+    display: none;
+}
+
+@media screen and (max-width: 800px) {
+  .nav .mobile-menu-button {
     display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
     position: absolute;
     left: 10px;
-    top: 18px;
+    justify-content: center;
+    align-items: center;
     width: auto;
     height: 48px;
     background: transparent;
@@ -273,12 +276,12 @@
     gap: 10px;
     cursor: pointer;
     transition: background 0.15s;
-}
-.nav .mobile-menu-button:hover, .nav .mobile-menu-button:focus {
+  }
+  .nav .mobile-menu-button:hover, .nav .mobile-menu-button:focus {
     background: #f4f1fa;
-}
-.nav .mobile-menu-button span {
-    font-size: 1.13rem;
+  }
+  .nav .mobile-menu-button span {
+    font-size: 12px;
     font-family: var(--font-raleway);
     font-weight: 700;
     color: #3d2b6f;
@@ -287,13 +290,14 @@
     line-height: 1.1;
     text-align: center;
     display: inline-block;
-}
-.nav .mobile-menu-button svg {
+  }
+  .nav .mobile-menu-button svg {
     width: 28px;
     height: 28px;
     margin-right: 2px;
     color: #3d2b6f;
     display: inline-block;
+  }
 }
 
 .nav .nav-items a {
