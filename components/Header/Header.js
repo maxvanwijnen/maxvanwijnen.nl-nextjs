@@ -199,10 +199,10 @@ export default function Header({page, h1='Professionele portretfotografie',text_
                       <h1 className={styles['main-title']}>{h1}</h1>
                       <div className={`${styles.descr} ${styles[darken_bg]}`}>{descr}</div>
                       <div className={styles.bookButtonWrap}>
-                        <a href="/boek-een-fotoshoot" className={styles.bookButton}>
+                        <Link href="/boek-een-fotoshoot" className={styles.bookButton}>
                           Boek een fotoshoot
                           <HiArrowSmRight style={{marginLeft:8, verticalAlign:'middle'}}/>
-                        </a>
+                        </Link>
                       </div>
                   </div>
                   {/*<Breadcrumbs />*/}

@@ -26,7 +26,9 @@ export default function Home() {
           <div className={homeStyles.homeHeroSubtitle}>
             Fotoshoots voor gezinnen, bedrijven, merken en creatieve ondernemers. Altijd persoonlijk, creatief en met oog voor jouw unieke verhaal.
           </div>
-          <a className={homeStyles.homeHeroBtn} href="#diensten">Bekijk mijn aanbod</a>
+          <div className={homeStyles.homeHeroBtnWrap}>
+            <a className={homeStyles.homeHeroBtn} href="#diensten">Bekijk mijn aanbod</a>
+          </div>
         </div>
         <div className={homeStyles.homeHeroImg}>
           <img src="https://dev1.maxvanwijnen.nl/docs/images/intro-text/Max-van-Wijnen-Profielfoto.webp" alt="Max van Wijnen fotograaf" />
@@ -62,11 +64,11 @@ export default function Home() {
         <div className={homeStyles.testimonialsTitle}>Wat klanten zeggen</div>
         <div className={homeStyles.testimonialGrid}>
           <div className={homeStyles.testimonialCard}>
-            <div className={homeStyles.testimonialText}>“Max weet als geen ander hoe hij mensen op hun gemak stelt. De foto's zijn prachtig en écht een blijvende herinnering!”</div>
+            <div className={homeStyles.testimonialText}>“Max weet als geen ander hoe hij mensen op hun gemak stelt. De foto&apos;s zijn prachtig en écht een blijvende herinnering!”</div>
             <div className={homeStyles.testimonialName}>- Sanne, Noordwijk</div>
           </div>
           <div className={homeStyles.testimonialCard}>
-            <div className={homeStyles.testimonialText}>“Superfijne ervaring, snelle levering en geweldige foto's. Zeker een aanrader voor gezinnen!”</div>
+            <div className={homeStyles.testimonialText}>“Superfijne ervaring, snelle levering en geweldige foto&apos;s. Zeker een aanrader voor gezinnen!”</div>
             <div className={homeStyles.testimonialName}>- Jeroen, Leiden</div>
           </div>
           <div className={homeStyles.testimonialCard}>
