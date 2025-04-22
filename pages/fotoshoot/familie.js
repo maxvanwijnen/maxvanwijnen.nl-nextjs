@@ -1,4 +1,3 @@
-
 import React from "react";
 
 import Quote from "../../components/Quote/Quote";
@@ -71,6 +70,7 @@ export default function Familie (){
             />
 
             <ImageRow
+                title="Portfolio gezinsfotografie"
                 images={[
                     {url:'https://dev1.maxvanwijnen.nl/docs/images/mini-portfolio/Familie-fotograaf-bos.webp', alt:'Familie fotoshoot'},
                     {url:'https://dev1.maxvanwijnen.nl/docs/images/mini-portfolio/Familie-fotograaf-bollenstreek.webp', alt:'Familie fotoshoot'}

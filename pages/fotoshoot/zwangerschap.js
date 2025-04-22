@@ -1,4 +1,3 @@
-
 import React from "react";
 
 import Quote from "../../components/Quote/Quote";
@@ -142,6 +141,7 @@ export default function Zwangerschap (){
             />*/}
 
             <ImageRow
+                title="Portfolio zwangerschapsfotografie"
                 images={[
                     {url:'https://dev1.maxvanwijnen.nl/docs/images/mini-portfolio/zwangerschapsfotoshoot-zwart-wit.webp', alt:'Zwart wit zwangerschapsfoto'},
                     {url:'https://dev1.maxvanwijnen.nl/docs/images/mini-portfolio/zwangerschaps-fotoshoot-studio.webp', alt:'Zwangerschapsfotoshoot in de studio in Leiden'},

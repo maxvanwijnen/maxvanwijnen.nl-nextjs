@@ -2,6 +2,7 @@ import Head from 'next/head';
 import TextContent from "../../components/TextContent/TextContent";
 import TxtImg2Column from "/components/TxtImg2Column/TxtImg2Column";
 import ImageRow from "../../components/ImageRow/ImageRow";
+import Image from 'next/image';
 import Link from "next/link";
 import FaqAccordion from "../../components/FaqAccordion/FaqAccordion";
 import styles from '../../components/TextContent/TextContent.module.scss';
@@ -82,7 +83,14 @@ export default function Fashion() {
                 <section className={styles.fashionGridSection}>
                     <div className={styles.fashionGridRow}>
                         <div className={styles.fashionGridImg}>
-                            <img src="https://dev1.maxvanwijnen.nl/docs/images/mini-portfolio/Mode-fotoshoot-soluzione-blouses.webp" alt="Fashion fotograaf op locatie - kledingfotografie voor merken" width="400" height="270" />
+                            <Image
+                              src="https://dev1.maxvanwijnen.nl/docs/images/mini-portfolio/Mode-fotoshoot-soluzione-blouses.webp"
+                              alt="Fashion fotograaf op locatie - kledingfotografie voor merken"
+                              width={400}
+                              height={270}
+                              sizes="(max-width: 600px) 100vw, 400px"
+                              loading="lazy"
+                            />
                         </div>
                         <div className={styles.fashionGridText}>
                             <h2>Fashion fotografie op locatie</h2>
@@ -95,7 +103,14 @@ export default function Fashion() {
                             <p>In de studio heb ik volledige controle over licht, styling en sfeer. Dit maakt het mogelijk om jouw fashion collectie, branding campagne of lookbook shoot op het hoogste niveau vast te leggen. Ideaal voor modellen, merken en designers die op zoek zijn naar high-end fashion fotografie en modelfotografie.</p>
                         </div>
                         <div className={styles.fashionGridImg}>
-                            <img src="https://dev1.maxvanwijnen.nl/docs/images/mini-portfolio/Fashion-fotograaf-studio-lichte-achtergrond.webp" alt="Professionele modelfotografie in de studio - fashion fotograaf" width="400" height="270" />
+                            <Image
+                              src="https://dev1.maxvanwijnen.nl/docs/images/mini-portfolio/Fashion-fotograaf-studio-lichte-achtergrond.webp"
+                              alt="Professionele modelfotografie in de studio - fashion fotograaf"
+                              width={400}
+                              height={270}
+                              sizes="(max-width: 600px) 100vw, 400px"
+                              loading="lazy"
+                            />
                         </div>
                     </div>
                 </section>
@@ -156,6 +171,7 @@ export default function Fashion() {
                     />
                 </section>
                 <ImageRow
+                    title="Portfolio modefotografie"
                     images={[
                         {url:'https://dev1.maxvanwijnen.nl/docs/images/mini-portfolio/Mode-fotoshoot-soluzione-blouses.webp', alt:'Fashion fotograaf blouses - kledingfotografie voor merken'},
                         {url:'https://dev1.maxvanwijnen.nl/docs/images/mini-portfolio/Fashion-fotoshoot-utrecht.webp', alt:'Model fotograaf Utrecht - fashion fotografie'},

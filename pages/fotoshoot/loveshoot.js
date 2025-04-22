@@ -1,5 +1,3 @@
-
-
 import React from "react";
 
 import Quote from "../../components/Quote/Quote";
@@ -66,9 +64,8 @@ export default function Loveshoot (){
             />
 
             <ImageRow
+                title="Portfolio loveshoot fotografie"
                 images={[
-                    {url:'https://dev1.maxvanwijnen.nl/docs/images/mini-portfolio/duinen-fotoshoot-verloving.webp', alt:'Fotoshoot verloving'},
-                    {url:'https://dev1.maxvanwijnen.nl/docs/images/mini-portfolio/koppel-shoot-noordwijk.webp', alt:'Fotoshoot verloving'},
                     {url:'https://dev1.maxvanwijnen.nl/docs/images/mini-portfolio/romantische-fotoshoot-duinen.webp', alt:'Fotoshoot verloving'},
                     {url:'https://dev1.maxvanwijnen.nl/docs/images/mini-portfolio/verlovingsshoot-strand-duinen.webp', alt:'Fotoshoot verloving'}
                 ]}

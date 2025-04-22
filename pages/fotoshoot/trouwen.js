@@ -1,4 +1,3 @@
-
 import React from "react";
 
 import Quote from "../../components/Quote/Quote";
@@ -66,6 +65,7 @@ export default function Trouwen (){
             />
 
             <ImageRow
+                title="Portfolio trouwfotografie"
                 images={[
                     {url:'https://www.maxvanwijnen.nl/www/images/Fotoshoot-kind-noordwijk-001.jpg', alt:'kinder fotografie'},
                     {url:'https://www.maxvanwijnen.nl/www/images/Fotoshoot-kind-noordwijk-001.jpg', alt:'kinder fotografie'},
