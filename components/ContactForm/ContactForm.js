@@ -1,4 +1,4 @@
-import React, {useEffect} from 'react';
+import React, {useEffect, useState} from 'react';
 import css from './ContactForm.module.scss';
 import axios from "axios";
 import {useState} from "react";
@@ -19,6 +19,7 @@ const ContactForm = () => {
     });
     const [send, setSend] = useState(false);
     const [isVerified, setIsVerified] = useState('');
+    const [loading, setLoading] = useState(false);
 
     const onVerify = () => {
         setIsVerified(true);
@@ -35,32 +36,29 @@ const ContactForm = () => {
     },[clientName, phoneNumber, email, comments])
 
     const sendContactForm = async (e) => {
-
         e.preventDefault();
+        if (loading) return; // voorkom dubbele submits
+        setLoading(true);
 
         if (!isVerified) {
-            setError({...error, general: 'Klik op ik ben geen robot'})
+            setError({...error, general: 'Klik op ik ben geen robot'});
+            setLoading(false);
             return false;
         }
-
 
         // regex voor het controleren van e-mail
         const regex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
-
         if (!regex.test(email)) {
-            setError({...error, email: 'Voer een geldig emailadres in'})
-            console.log('ajsdhakdhj')
+            setError({...error, email: 'Voer een geldig emailadres in'});
+            setLoading(false);
             return false;
         }
-
 
         if (!clientName || !phoneNumber || !email || !comments) {
-
-            setError({...error, general: 'Alle velden zijn verplicht'})
-            console.log('ajsdhakdhj')
+            setError({...error, general: 'Alle velden zijn verplicht'});
+            setLoading(false);
             return false;
         }
-
 
         const data = {
             clientName: clientName,
@@ -69,36 +67,27 @@ const ContactForm = () => {
             comments: comments
         };
 
-
-        console.log('send contactForm');
-        /*axios.post('https://dev1.maxvanwijnen.nl/mail-contactform',JSON.stringify(data),{
-            'Content-Type': 'application/json'
-        })
-            .then(response => {
+        try {
+            const response = await fetch('/api/sendContactForm', {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json'
+                },
+                body: JSON.stringify(data)
+            });
+            if (response.ok) {
                 setEmail(null);
                 setPhoneNumber(null);
                 setClientName(null);
                 setComments(null);
-
                 setSend(true);
-            })
-            .catch(error => {
-                console.log(error);
-
-            });
-
-
-    }*/
-        fetch('/api/sendContactForm', {
-            method: 'POST',
-            headers: {
-                'Content-Type': ' application/json'
-            },
-            body: JSON.stringify(data)
-        })
-            .then(response => response.json())
-            .then(data => console.log(data))
-            .catch(error => console.error(error));
+            } else {
+                setError({...error, general: 'Er ging iets mis. Probeer het later opnieuw.'});
+            }
+        } catch (err) {
+            setError({...error, general: 'Er ging iets mis. Probeer het later opnieuw.'});
+        }
+        setLoading(false);
     }
 
 
@@ -146,7 +135,7 @@ const ContactForm = () => {
                     <textarea name="comment" onChange={(e)=>setComments(e.target.value)}></textarea>
                 </label>
                 <ReCAPTCHA sitekey="6Lf1hi8lAAAAAMSK3961bx-eqnUI3MUlw2INdG09" onChange={onVerify}/>
-                <button type="submit">Versturen</button>
+                <button type="submit" disabled={loading}>{loading ? "Versturen..." : "Versturen"}</button>
 
 
             </form>

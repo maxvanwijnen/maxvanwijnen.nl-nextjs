@@ -70,8 +70,7 @@ export default function BookingForm() {
           <option value="branding">Branding</option>
           <option value="anders">Anders</option>
         </select>
-      </div>
-      <div className={styles.formGroup}>
+      </div>      <div className={styles.formGroup}>
         <label htmlFor="message">Bericht</label>
         <textarea id="message" name="message" value={form.message} onChange={handleChange} rows={4} />
       </div>

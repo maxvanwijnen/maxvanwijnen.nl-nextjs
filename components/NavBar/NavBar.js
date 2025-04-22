@@ -47,8 +47,11 @@ export function NavBar() {
 
             <div className={styles['nav-items']}>
                 <Link href="/" legacyBehavior><a onClick={closeMenu}>Home</a></Link>
-                <Link href="/fotoshoot" legacyBehavior><a onClick={closeMenu} className={styles['fotoshoot']}> Fotoshoots</a></Link>
-                <div className={styles['submenu-fotoshoot']}>
+                <div className={styles['has-submenu']}>
+                  <Link href="/fotoshoot" legacyBehavior>
+                    <a onClick={closeMenu} className={styles['fotoshoot']}>Fotoshoots</a>
+                  </Link>
+                  <div className={styles['submenu-fotoshoot']}>
                     <Link href="/fotoshoot/fashion" legacyBehavior><a onClick={closeMenu}>Fashion</a></Link>
                     <Link href="/fotoshoot/kinderen" legacyBehavior><a onClick={closeMenu}>Kinderen</a></Link>
                     <Link href="/fotoshoot/portret" legacyBehavior><a onClick={closeMenu}>Portret</a></Link>
@@ -56,6 +59,7 @@ export function NavBar() {
                     <Link href="/fotoshoot/familie" legacyBehavior><a onClick={closeMenu}>Familie</a></Link>
                     <Link href="/fotoshoot/zwangerschap" legacyBehavior><a onClick={closeMenu}>Zwangerschap</a></Link>
                     <Link href="/fotoshoot/trouwen" legacyBehavior><a onClick={closeMenu}>Bruidsreportage</a></Link>
+                  </div>
                 </div>
                 <Link href="/fotostudio" legacyBehavior><a onClick={closeMenu}>Studio</a></Link>
                 <Link href="/portfolio" legacyBehavior><a onClick={closeMenu}>Portfolio</a></Link>
