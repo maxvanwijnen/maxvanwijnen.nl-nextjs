@@ -1,8 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Baloo+Tamma+2&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@600;900&display=swap');
-
+/* Google Fonts worden nu via next/script geladen voor betere performance */
 
 
 :root {
@@ -11,7 +7,7 @@
   --color-light-green:#558B6E;
   --color-black-coffee:#433A3F;
   --color-rose:#D90368;
-  --nav-font-size:12px;
+  --nav-font-size:11px;
   --transparant-white:rgba(255, 255, 255, 0.95);
   --max-width:1270px;
 
