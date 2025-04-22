@@ -21,10 +21,7 @@
     margin-bottom: 36px;
     position: relative;
     z-index: 10;
-    background-image:initial;
-    background-size: cover;
-    background-attachment: fixed;
-    background-position: 50% 20%;
+    /* background-image, size, position, attachment verwijderd ivm Next.js Image optimalisatie */
     height: 625px;
     display: flex;
     flex-direction: column;
@@ -92,7 +89,6 @@
 
     &.home {
         height: 90vh;
-        background-image:url("../../public/img/header/Kinderfotografie-header.webp");
         .filter {
             display: none;
         }
@@ -102,75 +98,37 @@
     }
 
     &.portfolio {
-        background-image:url("../../public/img/header/familiefotografie_header.webp");
         height: 600px;
     }
     &.fotoshootfamilie {
-    background-image:url("../../public/img/header/familiefotografie_header.webp");
-    height:600px;
+        height:600px;
     }
     &.fotoshootkinderen {
-        background-image:url("../../public/img/header/Kinderfotografie-header.webp");
         height: 600px;
-    }
-    &.fotoshootloveshoot {
-        background-image:url("https://dev1.maxvanwijnen.nl/docs/images/header/loveshoot-fotoshoot.webp");
-    }
-    &.fotoshoottrouwen {
-        background-image: url("https://dev1.maxvanwijnen.nl/docs/images/header/bruidsreportage.webp");
     }
     &.fotoshootzwangerschap {
-        background-image: url("https://dev1.maxvanwijnen.nl/docs/images/header/zwangerschapsfotografie.webp");
         height: 600px;
-    }
-    &.prijzen {
-        background-image: url("https://dev1.maxvanwijnen.nl/docs/images/header/zwangerschapsfotografie.webp");
     }
     &.fashion-fotograaf {
-        background-image: url("https://dev1.maxvanwijnen.nl/docs/images/mini-portfolio/Mode-fotoshoot-soluzione-blouses.webp");
         height: 600px;
     }
-    &.fotoshootfashion {
-        background-image: url("https://dev1.maxvanwijnen.nl/docs/images/header/fashion-mode-fotografie.webp");
-    }
-    &.over-mij {
-        background-image: url("https://dev1.maxvanwijnen.nl/docs/images/header/fotoshoot-op-het-strand.webp");
-    }
-    &.boek-een-fotoshoot {
-        background-image: url("https://dev1.maxvanwijnen.nl/docs/images/header/fotoshoot-op-het-strand.webp");
-    }
-    &.fotoshoot-noordwijk {
-        background-image:url("../../public/img/header/Kinderfotografie-header.webp");
-    }
-    &.fotoshoot-leiden {
-        background-image:url("https://dev1.maxvanwijnen.nl/docs/images/header/fotograaf-in-leiden.webp");
-    }
-    &.fotoshoot-strand {
-        background-image:url("https://dev1.maxvanwijnen.nl/docs/images/header/fotoshoot-op-het-strand.webp");
-    }
-    &.fotoshoot {
-        background-image:url("../../public/img/header/Kinderfotografie-header.webp");
-        height: 540px;
-    }
-    &.fotostudio {
-        background-image:url("https://dev1.maxvanwijnen.nl/docs/images/header/studio-fotoshoot-leiden.webp");
-        height: 540px;
-    }
-    &.contact {
-        background-image:url("../../public/img/header/contact-header.webp");
-        height: 540px;
-    }
     &.fotoshootportret {
-        background-image: url("https://dev1.maxvanwijnen.nl/docs/images/header/portretfotografie.webp");
         height: 540px;
     }
     &.fotografie-workshop {
-        background-image: url("https://dev1.maxvanwijnen.nl/docs/images/header/portretfotografie.webp");
         height: 540px;
     }
     &.fotoshoot-hillegom {
-        background-image: url("https://dev1.maxvanwijnen.nl/docs/images/gallery/Loveshoot-Noordwijk-002.webp");
         height: 600px;
+    }
+    &.fotoshoot {
+        height: 540px;
+    }
+    &.fotostudio {
+        height: 540px;
+    }
+    &.contact {
+        height: 540px;
     }
 }
 
@@ -341,6 +299,7 @@
 .nav .book-button a svg {
     width:25px;
     height:25px;
+
 }
 
 .nav .book-button a:hover {
@@ -445,8 +404,8 @@
     .header {
         width:100%;
         max-height: 500px;
-        background-size:contain;
-        background-position: top;
+        /* background-size:contain;
+        background-position: top; */
 
 
         .filter {
@@ -502,23 +461,8 @@
     .header  {
         margin-bottom: 40px;
 
-        background-size: 160%;
+        /* background-size: 160%; */
 
-        &.fotoshootfamilie {
-            background-size:160%;
-        }
-        &.fotoshootzwangerschap {
-            background-size:160%;
-        }
-        &.fotoshootportret {
-            background-size:160%;
-        }
-        &.fotoshootloveshoot {
-            background-size:160%;
-        }
-        &.fotoshoottrouwen {
-            background-size:160%;
-        }
 
         .container {
             .textblock {
@@ -566,7 +510,6 @@
 
     }
     .header.fotoshootzwangerschap {
-        background-image: url("https://dev1.maxvanwijnen.nl/docs/images/header/zwangerschapsfotografie.webp");
         height: 590px;
     }
 

@@ -10,7 +10,23 @@ import BookingFormModal from '../BookingForm/BookingFormModal';
 
 import logoImg from '../../public/img/logo/logo-maxvanwijnen-fotografie-black.png';
 
-
+// Mapping van page naar header afbeelding
+const headerImages = {
+  home: '/img/header/Kinderfotografie-header.webp',
+  fotoshootfamilie: '/img/header/familiefotografie_header.webp',
+  fotoshootkinderen: '/img/header/Kinderfotografie-header.webp',
+  fotoshootloveshoot: 'https://dev1.maxvanwijnen.nl/docs/images/header/loveshoot-fotoshoot.webp',
+  fotoshoottrouwen: 'https://dev1.maxvanwijnen.nl/docs/images/header/bruidsreportage.webp',
+  fotoshootzwangerschap: 'https://dev1.maxvanwijnen.nl/docs/images/header/zwangerschapsfotografie.webp',
+  fashionfotograaf: 'https://dev1.maxvanwijnen.nl/docs/images/mini-portfolio/Mode-fotoshoot-soluzione-blouses.webp',
+  fotoshootfashion: 'https://dev1.maxvanwijnen.nl/docs/images/header/fashion-mode-fotografie.webp',
+  overmij: 'https://dev1.maxvanwijnen.nl/docs/images/header/fotoshoot-op-het-strand.webp',
+  boekeenfotoshoot: 'https://dev1.maxvanwijnen.nl/docs/images/header/fotoshoot-op-het-strand.webp',
+  fotoshootportret: 'https://dev1.maxvanwijnen.nl/docs/images/header/portretfotografie.webp',
+  prijzen: 'https://dev1.maxvanwijnen.nl/docs/images/header/zwangerschapsfotografie.webp',
+  // fallback
+  default: '/img/header/Kinderfotografie-header.webp',
+};
 
 function HeaderItems({currentPage}) {
     const breadCrumb = useBreadcrumbs();
@@ -193,33 +209,54 @@ export default function Header({page, h1='Professionele portretfotografie',text_
     
     const [modalOpen, setModalOpen] = React.useState(false);
 
+    // Bepaal de juiste afbeelding
+    const normalizedPage = (page || '').replace(/[-_]/g, '').toLowerCase();
+    const headerImg = headerImages[normalizedPage] || headerImages.default;
+
+    // Optioneel: donkere overlay alleen bij lichte afbeeldingen
+    // Overlay overal uitgeschakeld
+    const showOverlay = false;
+
     return (
         <div className={styles.headerOuter}>
-          <header className={`${styles[page]} ${styles.header}`}>
-              {/* MOBILE MENU BUTTON */}
-              <button className={styles['mobile-menu-button']} onClick={() => console.log('Menu opened')}>
-                <FiMenu />
-                <span>MENU</span>
-              </button>
-              <NavBar />
-              <div className={`${styles[text_position]} ${styles.container}`}>
-                  <div className={`${styles.textblock}`}>
-                      <h1 className={styles['main-title']}>{h1}</h1>
-                      <div className={`${styles.descr} ${styles[darken_bg]}`}>{descr}</div>
-                      <div className={styles.bookButtonWrap}>
-                        <button onClick={() => setModalOpen(true)} className={styles.bookButton}>
-                          Boek een fotoshoot
-                          <HiArrowSmRight style={{marginLeft:8, verticalAlign:'middle'}}/>
-                        </button>
-                      </div>
-                  </div>
-                  {/*<Breadcrumbs />*/}
-              </div>
-              {showPhotoTileMenu &&<PhotoshootTileMenu
-                  isBig={false}
-                  isBookable={false}
-                  isPricePage={false}
-              />}
+          <header className={`${styles[page]} ${styles.header}`} style={{position:'relative', overflow:'hidden'}}>
+            {/* Header achtergrondafbeelding als Next.js Image */}
+            <Image
+              src={headerImg}
+              alt="Header achtergrond foto"
+              fill
+              style={{objectFit:'cover', zIndex:0}}
+              priority
+              sizes="100vw"
+            />
+            {/* Donkere overlay alleen tonen indien nodig */}
+            {showOverlay && (
+              <div style={{position:'absolute', inset:0, background:'rgba(0,0,0,0.35)', zIndex:1}}/>
+            )}
+            {/* MOBILE MENU BUTTON */}
+            <button className={styles['mobile-menu-button']} onClick={() => console.log('Menu opened')}>
+              <FiMenu />
+              <span>MENU</span>
+            </button>
+            <NavBar />
+            <div className={`${styles[text_position]} ${styles.container}`} style={{position:'relative', zIndex:2}}>
+                <div className={`${styles.textblock}`}>
+                    <h1 className={styles['main-title']}>{h1}</h1>
+                    <div className={`${styles.descr} ${styles[darken_bg]}`}>{descr}</div>
+                    <div className={styles.bookButtonWrap}>
+                      <button onClick={() => setModalOpen(true)} className={styles.bookButton}>
+                        Boek een fotoshoot
+                        <HiArrowSmRight style={{marginLeft:8, verticalAlign:'middle'}}/>
+                      </button>
+                    </div>
+                </div>
+                {/*<Breadcrumbs />*/}
+            </div>
+            {showPhotoTileMenu &&<PhotoshootTileMenu
+                isBig={false}
+                isBookable={false}
+                isPricePage={false}
+            />}
           </header>
           <BookingFormModal open={modalOpen} onClose={() => setModalOpen(false)} />
         </div>

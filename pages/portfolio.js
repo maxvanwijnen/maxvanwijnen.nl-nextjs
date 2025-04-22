@@ -1,5 +1,9 @@
 import React, {useEffect, useState} from "react";
-import ReactPhotoGallery from "../components/ReactPhotoGallery/ReactPhotoGallery";
+import dynamic from "next/dynamic";
+const ReactPhotoGallery = dynamic(
+  () => import("../components/ReactPhotoGallery/ReactPhotoGallery"),
+  { ssr: false }
+);
 import TextContent from "../components/TextContent/TextContent";
 import axios from "axios";
 import Head from "next/head";
@@ -56,4 +60,3 @@ export default function Portfolio ({props}){
 
     );
 }
-
