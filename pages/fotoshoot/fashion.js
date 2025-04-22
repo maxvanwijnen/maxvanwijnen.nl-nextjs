@@ -37,7 +37,7 @@ export default function Fashion() {
         <div>
             <Head>
                 <title>Fashion Fotograaf - Max van Wijnen</title>
-                <meta name="description" content="Professionele fashion fotograaf voor merken, modellen & campagnes. Unieke fashion shoots op locatie of in de studio. Bekijk het portfolio!" />
+                <meta name="description" content="Ik ben een ervaren fashion fotograaf gespecialiseerd in modefotografie voor merken, modellen en campagnes. Creatief, professioneel en met oog voor detail. Ontdek mijn unieke stijl en bekijk mijn fashion portfolio!" />
                 <meta name="keywords" content="fashion fotograaf, modefotograaf, fashion shoot, lookbook, campagne, editorial, modellen, merken, studio, locatie, branding fotografie, modelfotografie" />
                 <meta name="author" content="Max van Wijnen" />
                 <meta name="robots" content="index, follow" />
