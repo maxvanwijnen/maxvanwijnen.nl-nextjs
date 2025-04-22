@@ -132,7 +132,7 @@ export default function Fashion() {
                         {
                           question: "Wat doet een fashion fotograaf?",
                           answer: (
-                            <span>Een fashion fotograaf is gespecialiseerd in het fotograferen van kleding, modellen en modecampagnes voor merken, designers en magazines. Dit kan zowel op locatie als in de studio zijn. Het doel is om kleding en accessoires zo aantrekkelijk mogelijk in beeld te brengen, vaak met een creatief concept of styling.</span>
+                            <span>Als fashion fotograaf help ik merken, designers en magazines om kleding, modellen en modecampagnes krachtig en stijlvol vast te leggen. Met oog voor detail, creativiteit en jouw wensen zorg ik ervoor dat kleding en accessoires optimaal tot hun recht komen – op locatie of in de studio, altijd met een uniek en passend concept.</span>
                           ),
                         },
                         {
