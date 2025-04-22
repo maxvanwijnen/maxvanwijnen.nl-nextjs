@@ -110,9 +110,10 @@ const FotoshootNoordwijk = () => {
                 <link rel="canonical" href="https://www.top-fotografen.nl/fotograaf/max-van-wijnen"/>
                 
                 {/* JSON-LD structured data */}
-                <script type="application/ld+json">
-                    {JSON.stringify(schema)}
-                </script>
+                <script
+                  type="application/ld+json"
+                  dangerouslySetInnerHTML={{ __html: JSON.stringify(schema) }}
+                />
             </Head>
             <section>
                 <IntroTextImg
