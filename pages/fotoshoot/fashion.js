@@ -7,7 +7,7 @@ import Link from "next/link";
 import FaqAccordion from "../../components/FaqAccordion/FaqAccordion";
 import styles from '../../components/TextContent/TextContent.module.scss';
 
-const heroImg = "https://dev1.maxvanwijnen.nl/docs/images/mini-portfolio/Fashion-fotoshoot-strand-Noordwijk.webp";
+const heroImg = "/img/shoots/fashion/soluzione/fashion-shoot-strand-zee.jpg";
 
 export default function Fashion() {
     const schema = {
@@ -66,9 +66,45 @@ export default function Fashion() {
                   dangerouslySetInnerHTML={{ __html: JSON.stringify(schema) }}
                 />
             </Head>
+            <div style={{ position: 'relative', width: '100%', height: '48vw', maxHeight: 520, minHeight: 220, marginBottom: '2.5rem', borderRadius: '1.2rem', overflow: 'hidden', boxShadow: '0 4px 32px rgba(0,0,0,0.07)' }}>
+              <Image
+                src={heroImg}
+                alt="Fashion fotoshoot op het strand en bij de zee"
+                fill
+                style={{ objectFit: 'cover' }}
+                priority
+              />
+              <h2 style={{
+                position: 'absolute',
+                left: 0,
+                right: 0,
+                top: 0,
+                bottom: 0,
+                margin: 0,
+                display: 'flex',
+                alignItems: 'center',
+                justifyContent: 'center',
+                color: '#fff',
+                fontSize: 'clamp(2.2rem,6vw,3.2rem)',
+                fontWeight: 800,
+                textShadow: '0 4px 32px rgba(0,0,0,0.35), 0 1px 8px rgba(0,0,0,0.22)',
+                zIndex: 2,
+                textAlign: 'center',
+                padding: '0 1vw',
+                letterSpacing: '0.01em',
+                pointerEvents: 'none',
+              }}>
+                Fashion fotograaf &amp; fashion shoot op het strand
+              </h2>
+              <div style={{
+                position: 'absolute',
+                inset: 0,
+                background: 'linear-gradient(180deg,rgba(0,0,0,0.32) 0%,rgba(0,0,0,0.10) 38%,rgba(0,0,0,0.15) 100%)',
+                zIndex: 1,
+              }} />
+            </div>
             <main className={styles.fashionMain}>
                 <section className={styles.fashionIntroSection}>
-                    <h2 className={styles.fashionHeroTitle} style={{marginTop:0}}>Fashion fotograaf</h2>
                     <p className={styles.fashionIntroText}>
                         Op zoek naar een professionele fashion fotograaf, modefotograaf of modelfotograaf die jouw merk, kledingcollectie of lookbook krachtig in beeld brengt? Met jarenlange ervaring in fashion fotografie, modefotografie en branding shoots help ik merken, modellen en designers aan unieke beelden die opvallen. Of het nu gaat om een editorial shoot, branding campagne, kledingfotografie of creatieve samenwerking: ik zorg voor stijlvolle fotografie die jouw verhaal vertelt en indruk maakt.
                     </p>
@@ -169,6 +205,14 @@ export default function Fashion() {
                         },
                       ]}
                     />
+                </section>
+                <section className={styles.section}>
+                  <h2>Fashion blog: Soluzione op het strand</h2>
+                  <p>Lees het <Link href="/blog/fashion-fotografie-soluzione">blog over de fashion fotoshoot voor Soluzione blouses op het strand van Noordwijk</Link>. Hier vind je meer foto's, inspiratie en het verhaal achter de shoot.</p>
+                </section>
+                <section className={styles.section}>
+                  <h2>Meer over Noordwijk</h2>
+                  <p>Wist je dat <Link href="/fotoshoot/noordwijk">Noordwijk</Link> een van de mooiste locaties is voor een fashion fotoshoot? Ontdek de mogelijkheden!</p>
                 </section>
                 <ImageRow
                     title="Portfolio modefotografie"
