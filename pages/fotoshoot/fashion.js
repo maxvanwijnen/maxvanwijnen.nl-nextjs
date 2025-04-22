@@ -13,17 +13,23 @@ export default function Fashion() {
         "@context": "https://schema.org",
         "@type": "LocalBusiness",
         "name": "Max van Wijnen Fotografie",
-        "url": "https://www.maxvanwijnen.nl",
-        "image": "https://www.maxvanwijnen.nl/logo192.png",
+        "url": "https://www.maxvanwijnen.nl/fotoshoot/fashion",
+        "image": "https://dev1.maxvanwijnen.nl/docs/images/mini-portfolio/Fashion-fotoshoot-blouses.webp",
+        "description": "Professionele fashion fotograaf en modefotograaf voor merken, modellen en campagnes. Gespecialiseerd in fashion shoots, lookbook fotografie en branding fotografie.",
         "address": {
             "@type": "PostalAddress",
             "streetAddress": "Sixlaan 4",
             "addressLocality": "Hillegom",
             "postalCode": "2182 TV",
-            "addressCountry": "NL",
+            "addressCountry": "NL"
         },
         "telephone": "+31612345678",
-        "priceRange": "$$",
+        "priceRange": "€€",
+        "areaServed": ["Hillegom", "Noordwijk", "Leiden", "Randstad", "Nederland"],
+        "sameAs": [
+          "https://www.facebook.com/maxvanwijnenfotografie",
+          "https://www.instagram.com/maxvanwijnenfotografie/"
+        ]
     };
 
     return (
@@ -42,7 +48,7 @@ export default function Fashion() {
                 {/* Open Graph tags */}
                 <meta property="og:title" content="Fashion Fotograaf | Professionele Fashion Shoots & Modelfotografie"/>
                 <meta property="og:description" content="Fashion fotograaf voor high-end fashion shoots, lookbooks en campagnes. Gespecialiseerd in modelfotografie en fashion branding."/>
-                <meta property="og:image" content="https://dev1.maxvanwijnen.nl/docs/images/mini-portfolio/Mode-fotoshoot-soluzione-blouses.webp"/>
+                <meta property="og:image" content="https://dev1.maxvanwijnen.nl/docs/images/mini-portfolio/Fashion-fotoshoot-blouses.webp"/>
                 <meta property="og:url" content="https://www.maxvanwijnen.nl/fotoshoot/fashion"/>
                 <meta property="og:type" content="website"/>
                 <meta property="og:site_name" content="Max van Wijnen Fotografie"/>
@@ -50,11 +56,14 @@ export default function Fashion() {
                 <meta name="twitter:card" content="summary_large_image"/>
                 <meta name="twitter:title" content="Fashion Fotograaf | Professionele Fashion Shoots & Modelfotografie"/>
                 <meta name="twitter:description" content="Fashion fotograaf voor high-end fashion shoots, lookbooks en campagnes. Gespecialiseerd in modelfotografie en fashion branding."/>
-                <meta name="twitter:image" content="https://dev1.maxvanwijnen.nl/docs/images/mini-portfolio/Mode-fotoshoot-soluzione-blouses.webp"/>
+                <meta name="twitter:image" content="https://dev1.maxvanwijnen.nl/docs/images/mini-portfolio/Fashion-fotoshoot-blouses.webp"/>
                 {/* Canonical URL */}
                 <link rel="canonical" href="https://www.maxvanwijnen.nl/fotoshoot/fashion"/>
                 {/* JSON-LD structured data */}
-                <script type="application/ld+json">{JSON.stringify(schema)}</script>
+                <script
+                  type="application/ld+json"
+                  dangerouslySetInnerHTML={{ __html: JSON.stringify(schema) }}
+                />
             </Head>
             <main className={styles.fashionMain}>
                 <section className={styles.fashionIntroSection}>
