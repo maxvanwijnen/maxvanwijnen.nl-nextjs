@@ -11,7 +11,7 @@ export default function FashionFotografieSoluzione() {
         <meta name="description" content="Professionele fashionfotografie voor Soluzione blouses op het strand van Noordwijk. Campagnefotografie, lookbook en creatieve storytelling voor mode merken. Boek jouw fashion fotoshoot bij Max van Wijnen, specialist in fashionfotografie op locatie en in de studio." />
         <meta name="keywords" content="fashionfotografie, modefotografie, lookbookfotografie, campagnefotografie, fashion fotograaf Noordwijk, fotoshoot strand, Soluzione blouses, professionele fotografie, creatief, storytelling, model, natuurlijk licht, flitslicht, kleding fotografie, merk fotografie, fotoshoot boeken" />
         <meta property="og:title" content="Fashionfotografie op het strand Noordwijk | Soluzione Blouses" />
-        <meta property="og:description" content="Bekijk de mooiste fashionfoto's van Soluzione blouses, gemaakt op het strand van Noordwijk. Inspiratie voor campagne, lookbook en creatieve storytelling." />
+        <meta property="og:description" content="Bekijk de mooiste fashionfoto&#39;s van Soluzione blouses, gemaakt op het strand van Noordwijk. Inspiratie voor campagne, lookbook en creatieve storytelling." />
         <meta property="og:image" content="/img/shoots/fashion/soluzione/fashion-soluzione-noordwijk.jpg" />
         <meta property="og:type" content="article" />
         <meta property="og:url" content="https://www.maxvanwijnen.nl/blog/fashion-fotografie-soluzione" />
@@ -38,7 +38,7 @@ export default function FashionFotografieSoluzione() {
         <section className={styles.section}>
           <h2>Campagnefotografie & Lookbook</h2>
           <p>
-            Tijdens deze fashion shoot heb ik zowel campagnefoto's als creatieve storytelling beelden gemaakt. De blouses van Soluzione werden stijlvol gepresenteerd, met oog voor detail en sfeer. Voor het lookbook zijn er ook meer creatieve beelden gemaakt, waarmee het merk zich onderscheidt.
+            Tijdens deze fashion shoot heb ik zowel campagnefoto&#39;s als creatieve storytelling beelden gemaakt. De blouses van Soluzione werden stijlvol gepresenteerd, met oog voor detail en sfeer. Voor het lookbook zijn er ook meer creatieve beelden gemaakt, waarmee het merk zich onderscheidt.
           </p>
           <p>
             De fotoshoot vond plaats twee uur voor zonsondergang, waardoor het licht prachtig en zacht was. In de zomer levert dit het perfecte natuurlijke licht op, maar ik heb ook gebruik gemaakt van een mix van natuurlijk licht en flitslicht voor extra dynamiek.
@@ -51,7 +51,7 @@ export default function FashionFotografieSoluzione() {
           </p>
         </section>
         <section className={styles.gallerySection}>
-          <h2>Impressie: Fashionfoto's Soluzione</h2>
+          <h2>Impressie: Fashionfoto&#39;s Soluzione</h2>
           <div className={styles.gallery}>
             <Image src="/img/shoots/fashion/soluzione/fashion-soluzione-noordwijk-duin.jpg" alt="Fashion fotografie in het duin bij Noordwijk voor Soluzione blouses" width={800} height={534} priority />
             <Image src="/img/shoots/fashion/soluzione/fashion-soluzione-noordwijk-strand.jpg" alt="Fashion fotografie op het strand van Noordwijk voor Soluzione blouses" width={800} height={534} />
@@ -62,7 +62,7 @@ export default function FashionFotografieSoluzione() {
         <section className={styles.section}>
           <h2>Fashionfotografie voor Jouw Merk?</h2>
           <p>
-            Wil je ook professionele <Link href="/fotoshoot/fashion">fashionfotografie</Link> voor jouw merk, lookbook of campagne? Neem vrijblijvend contact op voor meer informatie of om direct een fashion shoot te boeken. Met ervaring in zowel studio- als locatiefotografie help ik jouw merk optimaal te presenteren.
+            Wil je ook professionele fashionfotografie voor jouw merk, lookbook of campagne? Neem vrijblijvend contact op voor meer informatie of om direct een fashion shoot te boeken. Met ervaring in zowel studio- als locatiefotografie help ik jouw merk optimaal te presenteren.
           </p>
         </section>
         <section className={styles.section}>

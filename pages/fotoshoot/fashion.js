@@ -156,7 +156,7 @@ export default function Fashion() {
                         <li>Creatief, professioneel & ervaren fashion fotograaf</li>
                         <li>Veel ervaring met fashion, modelfotografie, kledingfotografie en branding</li>
                         <li>Snelle levering en duidelijke communicatie</li>
-                        <li>Samenwerking met stylisten, visagisten en modellenbureau&apos;s mogelijk</li>
+                        <li>Samenwerking met stylisten, visagisten en modellenbureau&#39;s mogelijk</li>
                         <li>Portfolio met diverse fashion shoots, lookbooks en campagnes</li>
                     </ul>
                     <p>Wil je meer weten of direct een fashion fotoshoot boeken? <Link href="/contact">Neem contact op</Link>, bekijk mijn <Link href="/portfolio">portfolio</Link> of lees meer over <Link href="/fotoshoot/portret">modelfotografie</Link> voor inspiratie!</p>
