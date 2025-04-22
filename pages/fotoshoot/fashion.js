@@ -1,3 +1,4 @@
+import React, { useState } from 'react';
 import Head from 'next/head';
 import TextContent from "../../components/TextContent/TextContent";
 import TxtImg2Column from "/components/TxtImg2Column/TxtImg2Column";
@@ -208,7 +209,7 @@ export default function Fashion() {
                 </section>
                 <section className={styles.section}>
                   <h2>Fashion blog: Soluzione op het strand</h2>
-                  <p>Lees het <Link href="/blog/fashion-fotografie-soluzione">blog over de fashion fotoshoot voor Soluzione blouses op het strand van Noordwijk</Link>. Hier vind je meer foto's, inspiratie en het verhaal achter de shoot.</p>
+                  <p>Lees het <Link href="/blog/fashion-fotografie-soluzione">blog over de fashion fotoshoot voor Soluzione blouses op het strand van Noordwijk</Link>. Hier vind je meer foto&#39;s, inspiratie en het verhaal achter de shoot.</p>
                 </section>
                 <section className={styles.section}>
                   <h2>Meer over Noordwijk</h2>
