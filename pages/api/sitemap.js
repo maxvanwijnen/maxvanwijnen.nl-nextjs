@@ -21,6 +21,7 @@ export default function handler(req, res) {
     'over-mij',
     'portfolio',
     'contact',
+    'blog',
   ];
   res.setHeader('Content-Type', 'application/xml');
   res.status(200).send(`<?xml version="1.0" encoding="UTF-8"?>
