@@ -7,7 +7,7 @@ const TextContent = ({ children, title, multiContent, firstItem }) => {
     if(Array.isArray(multiContent)){
         
         return (
-            <section className={styles['text-content']}>
+            <section className={styles.textContent}>
               {firstItem ? <h1>{title}</h1> : <h2>{title}</h2> }
               
               {Array.isArray(multiContent) && (
@@ -18,7 +18,7 @@ const TextContent = ({ children, title, multiContent, firstItem }) => {
     }
 
     return (
-        <section className={styles['text-content']}>
+        <section className={styles.textContent}>
           {firstItem ? <h1>{title}</h1> : <h2>{title}</h2> }
           <p>{children}</p>
         

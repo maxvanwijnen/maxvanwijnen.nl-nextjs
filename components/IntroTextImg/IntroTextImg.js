@@ -14,7 +14,7 @@ const IntroTextImg = ({title, callToActionTitle = 'Bekijk al mijn fotoshoots', c
                     {children}
                     <Link href="/fotoshoot" className={css['book-a-shoot-button']}>{callToActionTitle}</Link>
                 </div>
-                <Image src="https://dev1.maxvanwijnen.nl/docs/images/intro-text/familie-fotoshoot.webp" width="450" height="300" />
+                <Image src="https://dev1.maxvanwijnen.nl/docs/images/intro-text/familie-fotoshoot.webp" width={450} height={300} alt={title} />
             </div>
         </section>
     )

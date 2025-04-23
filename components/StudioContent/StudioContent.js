@@ -34,7 +34,7 @@ const StudioContent = ({title, children}) => {
                         <p>{children}</p>
                         <Link href="" className={css['book-a-shoot-button']}>Boek nu je portret fotoshoot in de studio</Link>
                     </div>
-                    <Image src="https://dev1.maxvanwijnen.nl/docs/images/intro-text/portret-fotoshoot-studio.webp" imgWidth={1200} width="330" height="450" imgHeight={75}/>
+                    <Image src="https://dev1.maxvanwijnen.nl/docs/images/intro-text/portret-fotoshoot-studio.webp" width="330" height="450"/>
                 </div>
                 <div className={css['studio-content-mini-info-box']}>
                     <nav className={css['mini-menu']}>

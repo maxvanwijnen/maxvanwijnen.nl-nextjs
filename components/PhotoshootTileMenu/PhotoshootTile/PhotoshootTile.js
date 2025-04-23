@@ -1,8 +1,10 @@
 import React, {useState} from 'react';
 import Link from 'next/link';
+import Image from 'next/image';
 import styles from './photoshoottile.module.scss';
 import BookAShoot from "../../BookAShoot/BookAShoot";
 import { prices } from "../../../objects/prices";
+
 export function PhotoshootTile ({page, img, size, isBookable, isPricePage}) {
 
     const [isExpanded, toggleIsExpanded] = useState(false);
@@ -17,12 +19,6 @@ export function PhotoshootTile ({page, img, size, isBookable, isPricePage}) {
     if (isPricePage) {
         gotoId = '#prijzen';
     }
-
-
-
-
-
-
 
     return (
             <>
@@ -44,7 +40,7 @@ export function PhotoshootTile ({page, img, size, isBookable, isPricePage}) {
                                         {isBookable && `${page} fotoshoot boeken`}
                                     </div>
                                     <div className={styles['background-image']}>
-
+                                        <Image src={`https://dev1.maxvanwijnen.nl/docs/images/fotoshoot-tiles/${img}`} alt={page} width={198} height={132} style={{width:'100%',height:'100%',borderRadius:'10px',objectFit:'cover'}} />
                                     </div>
 
                                 </a>
@@ -57,7 +53,7 @@ export function PhotoshootTile ({page, img, size, isBookable, isPricePage}) {
                                         {isBookable && `${page} fotoshoot boeken`}
                                     </div>
                                     <div className={styles['background-image']}>
-
+                                        <Image src={`https://dev1.maxvanwijnen.nl/docs/images/fotoshoot-tiles/${img}`} alt={page} width={198} height={132} style={{width:'100%',height:'100%',borderRadius:'10px',objectFit:'cover'}} />
                                     </div>
 
                                 </a>

@@ -19,6 +19,7 @@ function ReactPhotoGallery({photos}) {
 
     return (
         <div>
+            {/* TODO: Overweeg een eigen Gallery component te maken die Next.js <Image /> gebruikt voor optimale performance. */}
             <Gallery 
                 photos={photos} 
                 onClick={openLightbox}
