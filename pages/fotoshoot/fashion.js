@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React from 'react';
 import Head from 'next/head';
 import TextContent from "../../components/TextContent/TextContent";
 import TxtImg2Column from "/components/TxtImg2Column/TxtImg2Column";
