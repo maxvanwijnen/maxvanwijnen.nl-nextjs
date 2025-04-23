@@ -60,6 +60,8 @@ export default function Fashion() {
                 <meta name="twitter:image" content="https://dev1.maxvanwijnen.nl/docs/images/mini-portfolio/Fashion-fotoshoot-blouses.webp"/>
                 {/* Canonical URL */}
                 <link rel="canonical" href="https://www.maxvanwijnen.nl/fotoshoot/fashion"/>
+                {/* Preload header image for LCP optimization */}
+                <link rel="preload" as="image" href="https://dev1.maxvanwijnen.nl/docs/images/header/fashion-mode-fotografie.webp" />
                 {/* JSON-LD structured data */}
                 <script
                   type="application/ld+json"

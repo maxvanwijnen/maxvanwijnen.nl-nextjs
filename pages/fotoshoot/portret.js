@@ -30,6 +30,7 @@ export default function Portret (){
                     content="Ontvang op maat gemaakte portretfotoshoots in Leiden en Noordwijk. Of het nu zakelijk of persoonlijk is, ervaar professionele fotografie op z'n best."
                     key="desc"
                 />
+                <link rel="preload" as="image" href="https://dev1.maxvanwijnen.nl/docs/images/header/portretfotografie.webp" />
             </Head>
             <TxtImg2Column
                 imgSource="https://dev1.maxvanwijnen.nl/docs/images/intro-text/portret-fotoshoot.webp"

@@ -18,6 +18,7 @@ const FotoshootNoordwijk = () => {
                     content="Wil je graag een fotoshoot op het strand doen? Als ervaren fotograaf biedt ik prachtige fotoshoots op het strand en andere unieke locaties. Lees snel meer!"
                     key="desc"
                 />
+                <link rel="preload" as="image" href="https://dev1.maxvanwijnen.nl/docs/images/header/fotoshoot-op-het-strand.webp" />
             </Head>
         <section>
             <TextContent

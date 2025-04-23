@@ -25,6 +25,7 @@ export default function Loveshoot (){
                     content="Wil je de liefde tussen jou en je partner vastleggen op een unieke manier? Boek dan nu een love fotoshoot op maat bij Max van Wijnen Fotografie"
                     key="desc"
                 />
+                <link rel="preload" as="image" href="https://dev1.maxvanwijnen.nl/docs/images/header/loveshoot-fotoshoot.webp" />
             </Head>
             <TxtImg2Column
                 imgSource="https://dev1.maxvanwijnen.nl/docs/images/intro-text/loveshoot-fotoshoot.webp"

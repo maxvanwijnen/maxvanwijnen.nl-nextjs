@@ -24,6 +24,7 @@ export default function Trouwen (){
                     content="Als professionele fotograaf maak ik prachtige portreftfoto's in de studio of buiten op locatie. Boek nu!"
                     key="desc"
                 />
+                <link rel="preload" as="image" href="https://dev1.maxvanwijnen.nl/docs/images/header/bruidsreportage.webp" />
             </Head>
             <TxtImg2Column
                 imgSource="https://dev1.maxvanwijnen.nl/docs/images/intro-text/trouwreportage-fotoshoot.webp"

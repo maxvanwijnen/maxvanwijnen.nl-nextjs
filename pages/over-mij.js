@@ -23,6 +23,7 @@ export default function OverMij ({props}){
                     content="Hoe ben ik van hobbyist naar professionele fotograaf gegroeid? Lees mijn 'Over Mij'-pagina en ontdek mijn persoonlijke reis in de wereld van fotografie."
                     key="desc"
                 />
+                <link rel="preload" as="image" href="https://dev1.maxvanwijnen.nl/docs/images/header/fotoshoot-op-het-strand.webp" />
             </Head>
             <TxtImg2Column
                 imgSource="https://dev1.maxvanwijnen.nl/docs/images/intro-text/Max-van-Wijnen-Profielfoto.webp"
@@ -42,4 +43,3 @@ export default function OverMij ({props}){
 
     );
 }
-

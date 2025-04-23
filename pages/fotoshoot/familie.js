@@ -37,6 +37,7 @@ export default function Familie (){
                     content="Max van Wijnen Fotografie"
                     key="author"
                 />
+                <link rel="preload" as="image" href="/img/header/familiefotografie_header.webp" />
             </Head>
             <TxtImg2Column
                 imgSource="https://dev1.maxvanwijnen.nl/docs/images/intro-text/familie-fotoshoot.webp"

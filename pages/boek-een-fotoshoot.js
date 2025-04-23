@@ -18,6 +18,7 @@ const BoekEenShoot = () => {
                     content="Wil je graag een mooie fotoshoot boeken in de omgeving Noordwijk, Leiden? Neem vrijblijvend contact op!"
                     key="desc"
                 />
+                <link rel="preload" as="image" href="https://dev1.maxvanwijnen.nl/docs/images/header/fotoshoot-op-het-strand.webp" />
             </Head>
         <section>
             <TextContent

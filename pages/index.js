@@ -18,6 +18,7 @@ export default function Home() {
         />
         <meta name="google-site-verification" content="VRuaMHZTJKhR_HKYhUWEgmSLOvLt_kMQKt0zYVpw_mw" />
         <meta name="msvalidate.01" content="6EEF5CFC8BBEDF2585F23959D9F085A0" />
+        <link rel="preload" as="image" href="/img/header/Kinderfotografie-header.webp" />
       </Head>
       {/* HERO SECTION */}
       <section className={homeStyles.homeHero}>

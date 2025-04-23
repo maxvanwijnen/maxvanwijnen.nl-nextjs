@@ -27,6 +27,7 @@ export default function Kinderen (){
 Boek nu een kinderfotoshoot!"
                     key="desc"
                 />
+                <link rel="preload" as="image" href="/img/header/Kinderfotografie-header.webp" />
             </Head>
             <TxtImg2Column
             imgSource="/img/header/Kinderfotografie-header.webp"

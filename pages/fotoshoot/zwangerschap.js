@@ -64,6 +64,7 @@ export default function Zwangerschap (){
                     content="Leg de mooiste momenten van je zwangerschap vast met een zwangerschapsfotoshoot. Kies voor een prachtige buitenlocatie of voor prachtige studio foto&apos;s"
                     key="desc"
                 />
+                <link rel="preload" as="image" href="https://dev1.maxvanwijnen.nl/docs/images/header/zwangerschapsfotografie.webp" />
             </Head>
             <TxtImg2Column
                 imgSource="https://dev1.maxvanwijnen.nl/docs/images/intro-text/zwangerschap-fotoshoot.webp"

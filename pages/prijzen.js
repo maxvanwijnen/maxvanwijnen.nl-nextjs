@@ -16,6 +16,7 @@ const Prijzen = () => {
                 content="Leer de fotograaf kennen achter de foto's. Ontdek mijn achtergrond en passie voor de fotografie."
                 key="desc"
             />
+            <link rel="preload" as="image" href="https://dev1.maxvanwijnen.nl/docs/images/header/zwangerschapsfotografie.webp" />
         </Head>
         <section>
             <TextContent
