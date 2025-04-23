@@ -1,7 +1,6 @@
 import React, {useEffect, useState} from 'react';
 import css from './ContactForm.module.scss';
 import axios from "axios";
-import {useState} from "react";
 import {FiXCircle} from "react-icons/fi";
 import ReCAPTCHA from 'react-google-recaptcha';
 
