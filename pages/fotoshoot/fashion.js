@@ -182,7 +182,8 @@ export default function Fashion() {
                         {url:'https://dev1.maxvanwijnen.nl/docs/images/mini-portfolio/Fashion-fotograaf-studio-lichte-achtergrond.webp', alt:'Fashion fotografie in de studio - modelfotografie'},
                         {url:'https://dev1.maxvanwijnen.nl/docs/images/mini-portfolio/Fashion-fotoshoot-soluzione.webp', alt:'Model fotografie - fashion fotograaf'},
                         {url:'https://dev1.maxvanwijnen.nl/docs/images/mini-portfolio/Fashion-fotoshoot-utrecht-gracht.webp', alt:'Fashion foto Utrecht - modelfotograaf'},
-                        {url:'https://dev1.maxvanwijnen.nl/docs/images/mini-portfolio/Fashion-fotograaf-studio.webp', alt:'Fashion fotograaf studio - lookbook fotografie'}
+                        {url:'https://dev1.maxvanwijnen.nl/docs/images/mini-portfolio/Fashion-fotograaf-studio.webp', alt:'Fashion fotograaf studio - lookbook fotografie'},
+                        {url:'https://dev1.maxvanwijnen.nl/docs/images/fashion/fashion-fotoshoot-mannelijk-model.webp', alt:'Fashion fotoshoot Leiden Peaky Blinders stijl'}
                     ]}
                 >Bekijk hier enkele voorbeelden van eerdere fashionfotoshoots.</ImageRow>
                 <TextContent
@@ -190,6 +191,8 @@ export default function Fashion() {
                     firstItem={false}
                 >
                     Benieuwd naar een uitgebreid voorbeeld van een fashion shoot op locatie? Lees dan mijn blog over een <Link href="/blog/fashion-fotografie-soluzione">fashion fotoshoot voor Soluzione blouses op het strand van Noordwijk</Link>. In dit artikel vertel ik meer over het creatieve proces en de resultaten van deze modereportage.
+                    <br /><br />
+                    Nieuw: <Link href="/blog/fashion-fotoshoot-leiden-mannelijk-model">Bekijk ook mijn blog over een fashion fotoshoot in Leiden in Peaky Blinders stijl</Link>. Hier vind je inspiratie en beelden van een unieke shoot met vintage sfeer midden in de stad!
                 </TextContent>
             </main>
         </div>
