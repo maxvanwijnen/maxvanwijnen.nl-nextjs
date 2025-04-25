@@ -22,6 +22,8 @@ export default function handler(req, res) {
     'portfolio',
     'contact',
     'blog',
+    'blog/fashion-fotografie-soluzione',
+    'blog/fashion-fotoshoot-leiden-mannelijk-model',
   ];
   res.setHeader('Content-Type', 'application/xml');
   res.status(200).send(`<?xml version="1.0" encoding="UTF-8"?>
