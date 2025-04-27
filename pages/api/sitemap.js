@@ -22,6 +22,7 @@ export default function handler(req, res) {
     'portfolio',
     'contact',
     'blog',
+    'blog/5-tips-voor-effectieve-fashion-fotografie',
     'blog/fashion-fotografie-soluzione',
     'blog/fashion-fotoshoot-leiden-mannelijk-model',
   ];

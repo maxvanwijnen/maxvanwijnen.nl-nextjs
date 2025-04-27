@@ -1,6 +1,35 @@
 /* Google Fonts worden nu via next/script geladen voor betere performance */
 
 
+@font-face {
+  font-family: 'Raleway';
+  src: url('/fonts/raleway-v34-latin-400.woff2') format('woff2');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Raleway';
+  src: url('/fonts/raleway-v34-latin-500.woff2') format('woff2');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Raleway';
+  src: url('/fonts/raleway-v34-latin-600.woff2') format('woff2');
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Raleway';
+  src: url('/fonts/raleway-v34-latin-700.woff2') format('woff2');
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
 :root {
   --color-orange:#FB8B24;
   --color-dark-green:#2F4C3C;
@@ -11,7 +40,7 @@
   --transparant-white:rgba(255, 255, 255, 0.95);
   --max-width:1270px;
 
-  --font-raleway: 'Raleway', sans-serif;
+  --font-raleway: 'Raleway', Arial, sans-serif;
   --font-baloo-tamma: 'Baloo Tamma 2', sans-serif;
   --font-roboto: 'roboto', sans-serif;
   --font-nunito: 'Nunito', sans-serif;
@@ -46,18 +75,6 @@ main {
   flex-direction: column;
   align-items: center;
   flex-grow: 1;
-}
-
-.bread-crumbs {
-  background-color: white;
-  padding:10px;
-
-
-}
-
-.bread-crumbs a {
-  margin-right: 10px;
-  color:var(--color-black-coffee);
 }
 
 .intro-text {

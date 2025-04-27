@@ -5,6 +5,7 @@ import TxtImg2Column from "/components/TxtImg2Column/TxtImg2Column";
 import ImageRow from "../../components/ImageRow/ImageRow";
 import TextContent from "../../components/TextContent/TextContent";
 import PricePackages from "../../components/PricePackages/PricePackages";
+import Breadcrumbs from '../../components/Breadcrumbs/Breadcrumbs';
 
 import TextImg from './../../components/TextImg/TextImg';
 import Head from "next/head";
@@ -29,6 +30,7 @@ Boek nu een kinderfotoshoot!"
                 />
                 <link rel="preload" as="image" href="/img/header/Kinderfotografie-header.webp" />
             </Head>
+            <Breadcrumbs />
             <TxtImg2Column
             imgSource="/img/header/Kinderfotografie-header.webp"
             cssClass="Kinderen"

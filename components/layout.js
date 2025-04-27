@@ -1,7 +1,6 @@
 import Header from "./Header/Header";
 import Footer from "./Footer/Footer";
 import {useRouter} from "next/router";
-import breadCrumbStyles from '../styles/Breadcrumb.module.css';
 import { AiFillHome } from 'react-icons/ai'
 import { PhotoshootTileMenu } from './../components/PhotoshootTileMenu/PhotoshootTileMenu';
 import WhatsAppChat from './WhatsAppChat/WhatsAppChat';

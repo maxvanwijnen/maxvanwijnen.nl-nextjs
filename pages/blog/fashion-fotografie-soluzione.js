@@ -1,6 +1,7 @@
 import Head from 'next/head';
 import Image from 'next/image';
 import Link from 'next/link';
+import Breadcrumbs from '../../components/Breadcrumbs/Breadcrumbs';
 import styles from '../../styles/BlogPost.module.css';
 
 export default function FashionFotografieSoluzione() {
@@ -18,6 +19,7 @@ export default function FashionFotografieSoluzione() {
         <link rel="canonical" href="https://www.maxvanwijnen.nl/blog/fashion-fotografie-soluzione" />
       </Head>
       <article className={styles.blogPost}>
+        <Breadcrumbs />
         <section className={styles.section}>
           <p>
             <Link href="/fotoshoot/fashion">← Terug naar Fashion fotografie overzicht</Link>
@@ -71,6 +73,22 @@ export default function FashionFotografieSoluzione() {
           </p>
         </section>
       </article>
+      <div style={{ marginTop: 32, marginBottom: 32, textAlign: 'center' }}>
+        <Link href="/blog" legacyBehavior>
+          <a style={{ display: 'inline-block', background: '#263159', color: '#fff', padding: '10px 22px', borderRadius: '7px', fontWeight: 600, fontFamily: 'Raleway, Arial, sans-serif', textDecoration: 'none', marginTop: 24 }}>
+            &larr; Terug naar blog overzicht
+          </a>
+        </Link>
+      </div>
+      <div style={{ marginTop: 8, marginBottom: 32, textAlign: 'center' }}>
+        <span style={{ fontSize: 15, color: '#263159', fontFamily: 'Raleway, Arial, sans-serif', background: '#e9eafc', padding: '7px 18px', borderRadius: '6px', display: 'inline-block', fontWeight: 500 }}>
+          <Link href="/fotoshoot/fashion" legacyBehavior>
+            <a style={{ color: '#263159', textDecoration: 'underline', fontWeight: 600 }}>
+              Meer over fashion fotografie
+            </a>
+          </Link>
+        </span>
+      </div>
     </>
   );
 }

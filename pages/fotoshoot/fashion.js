@@ -6,6 +6,7 @@ import Image from 'next/image';
 import Link from "next/link";
 import FaqAccordion from "../../components/FaqAccordion/FaqAccordion";
 import styles from '../../components/TextContent/TextContent.module.scss';
+import Breadcrumbs from '../../components/Breadcrumbs/Breadcrumbs';
 
 const heroImg = "https://dev1.maxvanwijnen.nl/docs/images/mini-portfolio/Fashion-fotoshoot-strand-Noordwijk.webp";
 
@@ -69,6 +70,7 @@ export default function Fashion() {
                 />
             </Head>
             <main className={styles.fashionMain}>
+                <Breadcrumbs />
                 <section className={styles.fashionIntroSection}>
                     <h2 className={styles.fashionHeroTitle} style={{marginTop:0}}>Fashion fotograaf</h2>
                     <p className={styles.fashionIntroText}>

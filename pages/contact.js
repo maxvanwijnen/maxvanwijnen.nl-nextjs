@@ -3,6 +3,7 @@ import React from "react";
 import ContactForm from '/components/ContactForm/ContactForm';
 import Head from 'next/head';
 import { FiPhoneCall, FiMail } from "react-icons/fi";
+import Breadcrumbs from '../components/Breadcrumbs/Breadcrumbs';
 
 export default function Contact (){
     return (
@@ -17,6 +18,7 @@ export default function Contact (){
                     key="desc"
                 />
             </Head>
+            <Breadcrumbs />
         <section>
         <TextContent
                 title="Contact"

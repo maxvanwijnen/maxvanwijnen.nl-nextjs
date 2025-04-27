@@ -5,6 +5,7 @@ import TxtImg2Column from "/components/TxtImg2Column/TxtImg2Column";
 import ImageRow from "../../components/ImageRow/ImageRow";
 import TextContent from "../../components/TextContent/TextContent";
 import PricePackages from "../../components/PricePackages/PricePackages";
+import Breadcrumbs from '../../components/Breadcrumbs/Breadcrumbs';
 
 import TextImg from './../../components/TextImg/TextImg';
 import Head from "next/head";
@@ -27,6 +28,7 @@ export default function Loveshoot (){
                 />
                 <link rel="preload" as="image" href="https://dev1.maxvanwijnen.nl/docs/images/header/loveshoot-fotoshoot.webp" />
             </Head>
+            <Breadcrumbs />
             <TxtImg2Column
                 imgSource="https://dev1.maxvanwijnen.nl/docs/images/intro-text/loveshoot-fotoshoot.webp"
                 cssClass="Kinderen"

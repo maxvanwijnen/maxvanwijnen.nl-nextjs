@@ -12,8 +12,7 @@ import {prices} from "../../objects/prices";
 import StudioContent from "../../components/StudioContent/StudioContent";
 import OnPageSubDiv from "../../components/OnPageSubDiv/OnPageSubDiv";
 import MinishootBooking from "../../components/MinishootBooking/MinishootBooking";
-
-
+import Breadcrumbs from '../../components/Breadcrumbs/Breadcrumbs';
 
 export default function Portret (){
     
@@ -32,6 +31,7 @@ export default function Portret (){
                 />
                 <link rel="preload" as="image" href="https://dev1.maxvanwijnen.nl/docs/images/header/portretfotografie.webp" />
             </Head>
+            <Breadcrumbs />
             <TxtImg2Column
                 imgSource="https://dev1.maxvanwijnen.nl/docs/images/intro-text/portret-fotoshoot.webp"
                 cssClass="Kinderen"

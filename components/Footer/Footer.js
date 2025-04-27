@@ -29,6 +29,9 @@ const Footer = () => {
                         <li>
                             <Link href="/fotoshoot/portret">Portret</Link>
                         </li>
+                        <li>
+                            <Link href="/blog">Blog</Link>
+                        </li>
                       </ul>
                       <ul>
                         <li>

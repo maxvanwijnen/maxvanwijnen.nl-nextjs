@@ -11,7 +11,7 @@ import Head from 'next/head';
 import TextImg from './../../components/TextImg/TextImg';
 import {prices} from "../../objects/prices";
 import TextImageAbove from "../../components/TextImgAbove/TextImageAbove";
-
+import Breadcrumbs from '../../components/Breadcrumbs/Breadcrumbs';
 
 export default function Zwangerschap (){
 
@@ -66,6 +66,7 @@ export default function Zwangerschap (){
                 />
                 <link rel="preload" as="image" href="https://dev1.maxvanwijnen.nl/docs/images/header/zwangerschapsfotografie.webp" />
             </Head>
+            <Breadcrumbs />
             <TxtImg2Column
                 imgSource="https://dev1.maxvanwijnen.nl/docs/images/intro-text/zwangerschap-fotoshoot.webp"
                 cssClass="Kinderen"

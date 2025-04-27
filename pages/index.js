@@ -3,6 +3,7 @@ import Image from 'next/image'
 import homeStyles from '../styles/HomeModern.module.scss';
 import Link from "next/link";
 import Layout from './../components/layout';
+import Breadcrumbs from '../components/Breadcrumbs';
 
 export default function Home() {
   return (
@@ -20,6 +21,7 @@ export default function Home() {
         <meta name="msvalidate.01" content="6EEF5CFC8BBEDF2585F23959D9F085A0" />
         <link rel="preload" as="image" href="/img/header/Kinderfotografie-header.webp" />
       </Head>
+      <Breadcrumbs />
       {/* HERO SECTION */}
       <section className={homeStyles.homeHero}>
         <div className={homeStyles.homeHeroText}>

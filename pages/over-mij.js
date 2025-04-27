@@ -4,7 +4,7 @@ import TextContent from "../components/TextContent/TextContent";
 import axios from "axios";
 import TxtImg2Column from "../components/TxtImg2Column/TxtImg2Column";
 import Head from "next/head";
-
+import Breadcrumbs from '../components/Breadcrumbs';
 
 export default function OverMij ({props}){
 
@@ -25,6 +25,7 @@ export default function OverMij ({props}){
                 />
                 <link rel="preload" as="image" href="https://dev1.maxvanwijnen.nl/docs/images/header/fotoshoot-op-het-strand.webp" />
             </Head>
+            <Breadcrumbs />
             <TxtImg2Column
                 imgSource="https://dev1.maxvanwijnen.nl/docs/images/intro-text/Max-van-Wijnen-Profielfoto.webp"
                 cssClass="Kinderen"

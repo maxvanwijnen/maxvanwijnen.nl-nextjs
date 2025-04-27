@@ -7,6 +7,7 @@ import Head from "next/head";
 import Link from "next/link";
 import TxtImgShort2 from './../components/TxtImgShort2/TxtImgShort2'
 import RelatedPages from '../components/RelatedPages/RelatedPages';
+import Breadcrumbs from '../components/Breadcrumbs/Breadcrumbs';
 
 const relatedPages = [
     {text : "Zwangerschapsfotoshoot in Leiden",link : "/fotoshoot/zwangerschap"},
@@ -57,6 +58,7 @@ const Fotostudio = () => {
                     key="desc"
                 />
             </Head>
+            <Breadcrumbs />
             <TextContent
                 title="Welkom in mijn fotostudio in Leiden"
                 firstItem={false}

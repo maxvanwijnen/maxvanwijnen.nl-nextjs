@@ -5,6 +5,7 @@ import Quote from "../../components/Quote/Quote";
 import TextImg from "../../components/TextImg/TextImg";
 import PhotoshootTileMenu from "../../components/PhotoshootTileMenu/PhotoshootTileMenu";
 import Head from "next/head";
+import Breadcrumbs from '../../components/Breadcrumbs/Breadcrumbs';
 
 const Fotoshoot = () => {
     return (
@@ -20,6 +21,7 @@ const Fotoshoot = () => {
                 />
             </Head>
             <PhotoshootTileMenu  isBig={true}/>
+            <Breadcrumbs />
             <TextContent
                 title="Fotoshoot"
                 firstItem={false}

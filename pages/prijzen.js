@@ -3,6 +3,7 @@ import TextContent from "../components/TextContent/TextContent";
 import TxtImg2Column from "../components/TxtImg2Column/TxtImg2Column";
 import PhotoshootTileMenu from "../components/PhotoshootTileMenu/PhotoshootTileMenu";
 import Head from 'next/head';
+import Breadcrumbs from '../components/Breadcrumbs';
 
 const Prijzen = () => {
     return (
@@ -18,6 +19,7 @@ const Prijzen = () => {
             />
             <link rel="preload" as="image" href="https://dev1.maxvanwijnen.nl/docs/images/header/zwangerschapsfotografie.webp" />
         </Head>
+        <Breadcrumbs />
         <section>
             <TextContent
                 title="Boek nu jouw fotoshoot met keuze uit 3 pakketten!"
