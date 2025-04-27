@@ -28,38 +28,30 @@ export function PhotoshootTile ({page, img, size, isBookable, isPricePage}) {
                     shootType={page}
                     allPackages={allPackages}
                 />}
-            <div className={`${styles['tile-wrapper']} ${styles[size]}`}>
-
-                    {
-                        !isBookable
-                            ?
-                            <Link href={`/fotoshoot/${page}${gotoId}`} legacyBehavior>
-                                <a className={`${styles['photoshoot-tile']} ${styles[page]}`}>
-                                    <div className={styles['hover-text']}>
-                                        {!isBookable && `Naar fotoshoot ${page}`}
-                                        {isBookable && `${page} fotoshoot boeken`}
-                                    </div>
-                                    <div className={styles['background-image']}>
-                                        <Image src={`https://dev1.maxvanwijnen.nl/docs/images/fotoshoot-tiles/${img}`} alt={page} width={198} height={132} style={{width:'100%',height:'100%',borderRadius:'10px',objectFit:'cover'}} />
-                                    </div>
-
-                                </a>
-                            </Link>
-                            :
-                            <div onClick={()=>toggleIsExpanded(!isExpanded)} >
-                                <a className={`${styles['photoshoot-tile']} ${styles[page]}`}>
-                                    <div className={styles['hover-text']}>
-                                        {!isBookable && `Naar fotoshoot ${page}`}
-                                        {isBookable && `${page} fotoshoot boeken`}
-                                    </div>
-                                    <div className={styles['background-image']}>
-                                        <Image src={`https://dev1.maxvanwijnen.nl/docs/images/fotoshoot-tiles/${img}`} alt={page} width={198} height={132} style={{width:'100%',height:'100%',borderRadius:'10px',objectFit:'cover'}} />
-                                    </div>
-
-                                </a>
-                            </div>
-                    }
-
+            <div className={`${styles['tile-wrapper']} ${styles[size]}`}>    
+                {
+                    !isBookable
+                        ?
+                        <Link href={`/fotoshoot/${page}${gotoId}`} legacyBehavior>
+                            <a className={`${styles['photoshoot-tile']} ${styles[page]}`}>
+                                <div className={styles['hover-text']}>
+                                    {!isBookable && `Naar fotoshoot ${page}`}
+                                    {isBookable && `${page} fotoshoot boeken`}
+                                </div>
+                                <Image src={`https://dev1.maxvanwijnen.nl/docs/images/fotoshoot-tiles/${img}`} alt={page} width={198} height={132} style={{width:'100%',height:'100%',borderRadius:'10px',objectFit:'cover'}} />
+                            </a>
+                        </Link>
+                        :
+                        <div onClick={()=>toggleIsExpanded(!isExpanded)} >
+                            <a className={`${styles['photoshoot-tile']} ${styles[page]}`}>
+                                <div className={styles['hover-text']}>
+                                    {!isBookable && `Naar fotoshoot ${page}`}
+                                    {isBookable && `${page} fotoshoot boeken`}
+                                </div>
+                                <Image src={`https://dev1.maxvanwijnen.nl/docs/images/fotoshoot-tiles/${img}`} alt={page} width={198} height={132} style={{width:'100%',height:'100%',borderRadius:'10px',objectFit:'cover'}} />
+                            </a>
+                        </div>
+                }
                 <div className={styles['title']}>
                     <div className={styles['fotoshoot']}>
                         {isBookable && "Nu boeken"}
@@ -68,15 +60,10 @@ export function PhotoshootTile ({page, img, size, isBookable, isPricePage}) {
                     <div className={styles['text']}>
                         {isBookable && `Fotoshoot ${page}`}
                         {!isBookable && page}
-
-                       {/* { size === 'big' && <p>kjfhskdjfhs kjfh skjfh skfhskfjhskfjhs kfjshf kjsh </p>}*/}
                     </div>
                 </div>
-
             </div>
             </>
-
-
     )
 }
 
