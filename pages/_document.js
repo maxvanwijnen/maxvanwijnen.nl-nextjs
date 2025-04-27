@@ -8,6 +8,16 @@ export default function Document() {
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="true" />
         <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;600&display=swap" rel="stylesheet" />
+        {/* Google Analytics zonder Tag Manager */}
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-D580ZJDHNV"></script>
+        <script dangerouslySetInnerHTML={{
+          __html: `
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+            gtag('config', 'G-D580ZJDHNV', { page_path: window.location.pathname });
+          `,
+        }} />
       </Head>
       <body>
         <Main />
