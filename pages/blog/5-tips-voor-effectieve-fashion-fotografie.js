@@ -8,7 +8,7 @@ export default function FashionFotografieVijfTips() {
     <>
       <Head>
         <title>5 Tips voor Effectieve Fashion Fotografie | Blog</title>
-        <meta name="description" content="Ontdek 5 tips voor het maken van de meest effectieve fashion foto's. Leer hoe je met lokale locaties, storytelling en slimme keuzes jouw fashion fotografie naar een hoger niveau tilt!" />
+        <meta name="description" content="Ontdek 5 tips voor het maken van de meest effectieve fashion foto&#39;s. Leer hoe je met lokale locaties, storytelling en slimme keuzes jouw fashion fotografie naar een hoger niveau tilt!" />
       </Head>
       <main className={styles.blogPage} style={{ maxWidth: '700px', margin: '0 auto', padding: '2rem' }}>
         <Breadcrumbs />
@@ -23,7 +23,7 @@ export default function FashionFotografieVijfTips() {
         </section>
         <section>
           <h2 className={styles.tipTitle}>Fotografeer in verschillende weersomstandigheden, zoals in de regen</h2>
-          <p>Durf eens te experimenteren met weersomstandigheden die je normaal misschien zou vermijden, zoals regen of mist. Fotograferen in de regen kan bijvoorbeeld zorgen voor een dramatisch en onverwacht effect, terwijl het ook de veelzijdigheid van je kleding benadrukt. Een regenjas of waterdichte kleding komt in de regen natuurlijk het beste tot zijn recht, maar zelfs een stijlvolle outfit kan er verrassend mooi uitzien met een regenbui op de achtergrond. Het breekt de standaard modefoto's en maakt je merk memorabeler.</p>
+          <p>Durf eens te experimenteren met weersomstandigheden die je normaal misschien zou vermijden, zoals regen of mist. Fotograferen in de regen kan bijvoorbeeld zorgen voor een dramatisch en onverwacht effect, terwijl het ook de veelzijdigheid van je kleding benadrukt. Een regenjas of waterdichte kleding komt in de regen natuurlijk het beste tot zijn recht, maar zelfs een stijlvolle outfit kan er verrassend mooi uitzien met een regenbui op de achtergrond. Het breekt de standaard modefoto&#39;s en maakt je merk memorabeler.</p>
         </section>
         <section>
           <h2 className={styles.tipTitle}>Creëer storytelling met een serieshoot</h2>
@@ -31,7 +31,7 @@ export default function FashionFotografieVijfTips() {
         </section>
         <section>
           <h2 className={styles.tipTitle}>Gebruik minimalistische achtergronden voor focus op de kleding</h2>
-          <p>Als je de nadruk wilt leggen op de kleding zelf, kies dan voor een minimalistische achtergrond die niet afleidt van je product. Denk aan een witte muur, een lege studio of een eenvoudige textuur die de kleding naar voren laat komen. Minimalistische achtergronden werken goed wanneer je de focus wilt leggen op de details van het ontwerp, zoals stoffen, patronen of accessoires. Het geeft je foto's een luxe, verfijnde uitstraling en zorgt ervoor dat je kleding het belangrijkste onderwerp van de foto is.</p>
+          <p>Als je de nadruk wilt leggen op de kleding zelf, kies dan voor een minimalistische achtergrond die niet afleidt van je product. Denk aan een witte muur, een lege studio of een eenvoudige textuur die de kleding naar voren laat komen. Minimalistische achtergronden werken goed wanneer je de focus wilt leggen op de details van het ontwerp, zoals stoffen, patronen of accessoires. Het geeft je foto&#39;s een luxe, verfijnde uitstraling en zorgt ervoor dat je kleding het belangrijkste onderwerp van de foto is.</p>
         </section>
         <div style={{ marginTop: 32 }}>
           <Link href="/blog" legacyBehavior>

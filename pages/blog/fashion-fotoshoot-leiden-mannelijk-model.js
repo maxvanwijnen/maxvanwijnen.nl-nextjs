@@ -36,7 +36,7 @@ export default function FashionFotoshootLeidenMannelijkModel() {
           </p>
         </section>
         <section className={styles.section}>
-          <h2>Outfits & Styling</h2>
+          <h2>Outfits &amp; Styling</h2>
           <p>
             Voor deze shoot koos het model voor een klassieke Peaky Blinders look: een driedelig pak, pet, gilet en bijpassende accessoires. De styling was volledig in lijn met het tijdsbeeld, met veel aandacht voor details zoals stoffen, patronen en kleuren. Dit gaf de foto&apos;s een tijdloze, filmische uitstraling.
           </p>

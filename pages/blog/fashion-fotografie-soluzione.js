@@ -18,8 +18,8 @@ export default function FashionFotografieSoluzione() {
         <meta property="og:url" content="https://www.maxvanwijnen.nl/blog/fashion-fotografie-soluzione" />
         <link rel="canonical" href="https://www.maxvanwijnen.nl/blog/fashion-fotografie-soluzione" />
       </Head>
+      <Breadcrumbs />
       <article className={styles.blogPost}>
-        <Breadcrumbs />
         <section className={styles.section}>
           <p>
             <Link href="/fotoshoot/fashion">← Terug naar Fashion fotografie overzicht</Link>
@@ -38,7 +38,7 @@ export default function FashionFotografieSoluzione() {
           </p>
         </section>
         <section className={styles.section}>
-          <h2>Campagnefotografie & Lookbook</h2>
+          <h2>Campagnefotografie &amp; Lookbook</h2>
           <p>
             Tijdens deze fashion shoot heb ik zowel campagnefoto&#39;s als creatieve storytelling beelden gemaakt. De blouses van Soluzione werden stijlvol gepresenteerd, met oog voor detail en sfeer. Voor het lookbook zijn er ook meer creatieve beelden gemaakt, waarmee het merk zich onderscheidt.
           </p>
