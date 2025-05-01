@@ -5,6 +5,7 @@ import Quote from "../components/Quote/Quote";
 import TextImg from "../components/TextImg/TextImg";
 import Head from 'next/head';
 import FaqAccordion from '../components/FaqAccordion/FaqAccordion';
+import Link from 'next/link';
 
 const FotoshootStrand = () => {
     const schema = {
@@ -110,19 +111,19 @@ const FotoshootStrand = () => {
                         {
                           question: "Wat doet een strand fotograaf?",
                           answer: (
-                            <span>Als strand fotograaf help ik gezinnen, stellen en groepen om spontane en sfeervolle foto's te maken op het strand. Met oog voor detail, creativiteit en jullie wensen zorg ik voor beelden die het echte strandgevoel uitstralen – altijd met een uniek concept en op de mooiste locaties.</span>
+                            <span>Als strand fotograaf help ik gezinnen, stellen en groepen om spontane en sfeervolle foto&#39;s te maken op het strand. Met oog voor detail, creativiteit en jullie wensen zorg ik voor beelden die het echte strandgevoel uitstralen – altijd met een uniek concept en op de mooiste locaties.</span>
                           ),
                         },
                         {
                           question: "Voor wie is een strand fotoshoot geschikt?",
                           answer: (
-                            <span>Een strand fotoshoot is geschikt voor families, kinderen, stellen, vriendengroepen, zwangeren en iedereen die mooie, ongedwongen foto's wil laten maken op het strand.</span>
+                            <span>Een strand fotoshoot is geschikt voor families, kinderen, stellen, vriendengroepen, zwangeren en iedereen die mooie, ongedwongen foto&#39;s wil laten maken op het strand.</span>
                           ),
                         },
                         {
                           question: "Hoe boek ik een strand fotoshoot?",
                           answer: (
-                            <span>Je kunt eenvoudig een strand shoot boeken door het <a href="/contact">contactformulier</a> in te vullen of direct een <a href="/boek-een-fotoshoot">fotoshoot te boeken</a>. We bespreken samen jouw wensen, concept en locatie.</span>
+                            <span>Je kunt eenvoudig een strand shoot boeken door het <Link href="/contact">contactformulier</Link> in te vullen of direct een <Link href="/boek-een-fotoshoot">fotoshoot te boeken</Link>. We bespreken samen jouw wensen, concept en locatie.</span>
                           ),
                         },
                         {
