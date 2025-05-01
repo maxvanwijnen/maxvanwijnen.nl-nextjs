@@ -110,7 +110,7 @@ const FotoshootHaarlem = () => {
                     isFirstArticle={false}
                     isInverted={true}
                 >
-                    Zwanger zijn is een bijzondere en vaak emotionele tijd – een moment om stil te staan bij wat komt. Graag help ik je om die periode vast te leggen met foto's die echt iets zeggen. Rond Haarlem zijn er zoveel mooie plekken in de natuur die perfect zijn voor een zwangerschapsfotoshoot. Denk aan de rustige paadjes in de Haarlemmerhout, de duinen bij Bloemendaal of de prachtige Amsterdamse Waterleidingduinen, waar je echt even weg bent van de drukte. En natuurlijk is je partner of gezin ook van harte welkom om mee te doen – samen maken we er iets moois van.
+                    Zwanger zijn is een bijzondere en vaak emotionele tijd – een moment om stil te staan bij wat komt. Graag help ik je om die periode vast te leggen met foto&#39;s die echt iets zeggen. Rond Haarlem zijn er zoveel mooie plekken in de natuur die perfect zijn voor een zwangerschapsfotoshoot. Denk aan de rustige paadjes in de Haarlemmerhout, de duinen bij Bloemendaal of de prachtige Amsterdamse Waterleidingduinen, waar je echt even weg bent van de drukte. En natuurlijk is je partner of gezin ook van harte welkom om mee te doen – samen maken we er iets moois van.
                 </TxtImg2Column>
                 <TxtImg2Column
                     imgSource="https://dev1.maxvanwijnen.nl/docs/images/intro-text/fotoshoot-in-leiden.webp"
