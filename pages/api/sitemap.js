@@ -16,6 +16,7 @@ export default function handler(req, res) {
     'fotoshoot/portret',
     'fotoshoot/trouwen',
     'fotoshoot/zwangerschap',
+    'fotoshoot-haarlem',
     'boek-een-fotoshoot',
     'prijzen',
     'over-mij',

@@ -137,14 +137,6 @@ const FotoshootStrand = () => {
                             <span>Laat gerust weten wat voor shoot je wilt of wat je plannen zijn. Ik maak graag een vrijblijvende offerte op maat!</span>
                           ),
                         },
-                        {
-                          question: "Kun je ook een visagist of stylist regelen voor de strandshoot?",
-                          answer: (
-                            <span>
-                              Afhankelijk van jouw wensen kan ik een visagist of stylist aanbevelen uit mijn netwerk. Dit is optioneel en altijd in overleg.
-                            </span>
-                          ),
-                        },
                       ]}
                     />
                 </section>
