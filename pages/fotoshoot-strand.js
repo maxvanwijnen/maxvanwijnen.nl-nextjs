@@ -71,7 +71,7 @@ const FotoshootStrand = () => {
                     title="Fotoshoot op het strand"
                     firstItem={false}
                     multiContent={[
-                        "Een strand fotoshoot is de perfecte manier om ongedwongen, spontane en sfeervolle foto's te maken. Of je nu kiest voor een familiefotoshoot, loveshoot, zwangerschapsshoot of portret, het strand biedt altijd een prachtig decor. Het natuurlijke licht, de zee, het zand en de duinen zorgen voor een ontspannen sfeer en unieke beelden.",
+                        "Een strand fotoshoot is de perfecte manier om ongedwongen, spontane en sfeervolle foto&#39;s te maken. Of je nu kiest voor een familiefotoshoot, loveshoot, zwangerschapsshoot of portret, het strand biedt altijd een prachtig decor. Het natuurlijke licht, de zee, het zand en de duinen zorgen voor een ontspannen sfeer en unieke beelden.",
                         "Populaire locaties voor een strand fotoshoot zijn Bloemendaal aan Zee, Noordwijk, Zandvoort en Katwijk. Elk strand heeft zijn eigen karakter: van de brede stranden van Noordwijk tot de ruige duinen van Bloemendaal en de gezellige sfeer van Zandvoort. Samen kiezen we de plek die het beste bij jou past.",
                         "Het gouden uur – het uur na zonsopkomst of voor zonsondergang – zorgt voor magisch licht en de mooiste kleuren. Ik adviseer altijd om de fotoshoot rond dit tijdstip te plannen voor het beste resultaat."
                     ]}
@@ -86,7 +86,7 @@ const FotoshootStrand = () => {
                     isFirstArticle={false}
                     isInverted={false}
                 >
-                    Het strand is een plek waar je je vrij voelt en waar kinderen heerlijk kunnen spelen. Dat levert spontane, vrolijke foto's op. De wind door je haren, blote voeten in het zand, samen lachen en genieten – dat zie je terug op de foto's. Ook voor loveshoots en zwangerschapsfotoshoots is het strand een fantastische locatie. Elk seizoen heeft zijn eigen sfeer: van zomers zonlicht tot het ruige winterstrand.
+                    Het strand is een plek waar je je vrij voelt en waar kinderen heerlijk kunnen spelen. Dat levert spontane, vrolijke foto&#39;s op. De wind door je haren, blote voeten in het zand, samen lachen en genieten – dat zie je terug op de foto&#39;s. Ook voor loveshoots en zwangerschapsfotoshoots is het strand een fantastische locatie. Elk seizoen heeft zijn eigen sfeer: van zomers zonlicht tot het ruige winterstrand.
                 </TxtImg2Column>
                 <TxtImg2Column
                     imgSource="https://dev1.maxvanwijnen.nl/docs/images/gallery/Vrijgezellenshoot-strand-002.webp"
@@ -100,7 +100,7 @@ const FotoshootStrand = () => {
                 >
                     - Kies voor lichte, natuurlijke kleding die comfortabel zit en mooi kleurt bij het strand.<br />
                     - Neem eventueel een extra trui of vest mee voor als het afkoelt.<br />
-                    - Laat kinderen lekker spelen en rennen – dat levert de leukste foto's op!<br />
+                    - Laat kinderen lekker spelen en rennen – dat levert de leukste foto&#39;s op!<br />
                     - Accessoires zoals een hoed, sjaal of picknickkleed geven extra sfeer.<br />
                     - Plan de shoot bij voorkeur rond zonsopkomst of zonsondergang voor het mooiste licht.<br />
                 </TxtImg2Column>
@@ -145,7 +145,7 @@ const FotoshootStrand = () => {
                     title="Boek jouw strand fotoshoot"
                     firstItem={false}
                     multiContent={[
-                        "Wil je ook zulke mooie, spontane foto's op het strand? Neem vrijblijvend contact op voor meer informatie, prijzen en beschikbaarheid. Samen maken we er een onvergetelijke ervaring van!"
+                        "Wil je ook zulke mooie, spontane foto&#39;s op het strand? Neem vrijblijvend contact op voor meer informatie, prijzen en beschikbaarheid. Samen maken we er een onvergetelijke ervaring van!"
                     ]}
                 />
             </section>

@@ -82,8 +82,12 @@ const FotoshootHaarlem = () => {
                 <TextContent
                     title="Fotograaf in Haarlem"
                     firstItem={false}
-                >// Let op: enkele aanhalingstekens escapen in content
-                Ben je op zoek naar een professionele fotograaf in Haarlem? Als ervaren fotograaf in Haarlem ben ik gespecialiseerd in het maken van prachtige <Link href="/fotoshoot/zwangerschap">zwangerschapsfoto&#39;s</Link>, <Link href="/fotoshoot/kinderen">kinderfotografie</Link>, <Link href="/fotoshoot/familie">familiefotoshoots</Link> en <Link href="/fotoshoot/portret">portretfotografie</Link>. Bekijk ook mijn profiel op <a href="https://www.top-fotografen.nl/fotograaf/max-van-wijnen" target="_blank" rel="noopener">top-fotografen.nl</a>.</TextContent>
+                    multiContent={[
+                        "Ben je op zoek naar een professionele fotograaf in Haarlem? Als ervaren fotograaf in Haarlem ben ik gespecialiseerd in het maken van prachtige <Link href=\"/fotoshoot/zwangerschap\">zwangerschapsfoto&#39;s</Link>, <Link href=\"/fotoshoot/kinderen\">kinderfotografie</Link>, <Link href=\"/fotoshoot/familie\">familiefotoshoots</Link> en <Link href=\"/fotoshoot/portret\">portretfotografie</Link>. Bekijk ook mijn profiel op <a href=\"https://www.top-fotografen.nl/fotograaf/max-van-wijnen\" target=\"_blank\" rel=\"noopener\">top-fotografen.nl</a>.",
+                        "Een fotoshoot in Haarlem kan op verschillende locaties, zoals het centrum, de duinen of in het stadspark. Samen kiezen we de plek die het beste bij jou past.",
+                        "Wil je meer weten of een fotoshoot boeken? Neem gerust <Link href=\"/contact\">contact</Link> op voor meer informatie of een vrijblijvende offerte."
+                    ]}
+                />
                 <TxtImg2Column
                     imgSource="https://dev1.maxvanwijnen.nl/docs/images/gallery/Loveshoot-Noordwijk-002.webp"
                     cssClass="Kinderen"
@@ -118,25 +122,25 @@ const FotoshootHaarlem = () => {
                     isFirstArticle={false}
                     isInverted={false}
                 >
-                    Haarlem en omgeving bieden talloze mogelijkheden voor een prachtige fotoshoot. Van de historische binnenstad en de Haarlemmerhout tot het strand van Bloemendaal - elk seizoen heeft zijn eigen charme. Als lokale fotograaf ken ik de mooiste plekjes in en rond Haarlem, waar we samen onvergetelijke foto&#39;s kunnen maken die perfect aansluiten bij jouw wensen.
+                    Haarlem en omgeving bieden talloze mogelijkheden voor een prachtige fotoshoot. Van de historische binnenstad en de Haarlemmerhout tot het strand van Bloemendaal - elk seizoen heeft zijn eigen charme. Als lokale fotograaf ken ik de mooiste plekjes in en rond Haarlem, waar we samen onvergetelijke foto’s kunnen maken die perfect aansluiten bij jouw wensen.
                 </TxtImg2Column>
                 <TextContent
                     title="Bijzondere fotoshoot locaties rond Haarlem">
                     Als fotograaf in Haarlem heb ik keuze uit prachtige locaties in de regio:
                     
-                    De Haarlemmerhout, het oudste stadsbos van Nederland, biedt een unieke setting voor je fotoshoot. De mooie lanen, vijvers en het groen zorgen voor een sfeervol decor voor romantische portretten en familiefoto&#39;s.
+                    De Haarlemmerhout, het oudste stadsbos van Nederland, biedt een unieke setting voor je fotoshoot. De mooie lanen, vijvers en het groen zorgen voor een sfeervol decor voor romantische portretten en familiefoto’s.
 
-                    Het strand van Bloemendaal, op slechts een korte afstand van Haarlem, is een geliefde locatie voor natuurlijke en sfeervolle foto&#39;s. Het prachtige duinlandschap, het brede strand en de ondergaande zon creëren magische momenten voor je fotoshoot.
+                    Het strand van Bloemendaal, op slechts een korte afstand van Haarlem, is een geliefde locatie voor natuurlijke en sfeervolle foto’s. Het prachtige duinlandschap, het brede strand en de ondergaande zon creëren magische momenten voor je fotoshoot.
 
                     De binnenstad van Haarlem met haar karakteristieke straatjes, grachten en monumentale gebouwen biedt volop mogelijkheden voor unieke en persoonlijke fotoshoots.
                 </TextContent>
                 <TextContent
                     title="Portretfotografie in Haarlem">
-                    Zoek je een professionele portretfoto voor je LinkedIn, social media of website? Als portretfotograaf in Haarlem help ik je graag aan foto&#39;s die jou of je bedrijf perfect presenteren. Met oog voor detail en persoonlijke aandacht zorgen we samen voor het gewenste resultaat.
+                    Zoek je een professionele portretfoto voor je LinkedIn, social media of website? Als portretfotograaf in Haarlem help ik je graag aan foto’s die jou of je bedrijf perfect presenteren. Met oog voor detail en persoonlijke aandacht zorgen we samen voor het gewenste resultaat.
                 </TextContent>
                 <TextContent
                     title="Familiefotografie Haarlem">
-                    Een familiefotoshoot in Haarlem is een prachtige manier om dierbare herinneringen vast te leggen. De diverse locaties in en rond Haarlem maken het mogelijk om gevarieerde en persoonlijke familiefoto&#39;s te maken. Van spontane momentopnames tot stijlvolle groepsportretten - samen creëren we foto&#39;s die je nog jaren met plezier terugkijkt.
+                    Een familiefotoshoot in Haarlem is een prachtige manier om dierbare herinneringen vast te leggen. De diverse locaties in en rond Haarlem maken het mogelijk om gevarieerde en persoonlijke familiefoto’s te maken. Van spontane momentopnames tot stijlvolle groepsportretten - samen creëren we foto’s die je nog jaren met plezier terugkijkt.
                 </TextContent>
                 <TxtImg2Column
                     imgSource="https://dev1.maxvanwijnen.nl/docs/images/intro-text/familie-fotoshoot.webp"
