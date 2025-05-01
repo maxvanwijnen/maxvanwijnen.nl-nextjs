@@ -82,12 +82,11 @@ const FotoshootHaarlem = () => {
                 <TextContent
                     title="Fotograaf in Haarlem"
                     firstItem={false}
-                    multiContent={[
-                        "Ben je op zoek naar een professionele fotograaf in Haarlem? Als ervaren fotograaf in Haarlem ben ik gespecialiseerd in het maken van prachtige <Link href=\"/fotoshoot/zwangerschap\">zwangerschapsfoto&#39;s</Link>, <Link href=\"/fotoshoot/kinderen\">kinderfotografie</Link>, <Link href=\"/fotoshoot/familie\">familiefotoshoots</Link> en <Link href=\"/fotoshoot/portret\">portretfotografie</Link>. Bekijk ook mijn profiel op <a href=\"https://www.top-fotografen.nl/fotograaf/max-van-wijnen\" target=\"_blank\" rel=\"noopener\">top-fotografen.nl</a>.",
-                        "Een fotoshoot in Haarlem kan op verschillende locaties, zoals het centrum, de duinen of in het stadspark. Samen kiezen we de plek die het beste bij jou past.",
-                        "Wil je meer weten of een fotoshoot boeken? Neem gerust <Link href=\"/contact\">contact</Link> op voor meer informatie of een vrijblijvende offerte."
-                    ]}
-                />
+                >
+                    Ben je op zoek naar een professionele fotograaf in Haarlem? Als ervaren fotograaf in Haarlem ben ik gespecialiseerd in het maken van prachtige <Link href="/fotoshoot/zwangerschap">zwangerschapsfoto&#39;s</Link>, <Link href="/fotoshoot/kinderen">kinderfotografie</Link>, <Link href="/fotoshoot/familie">familiefotoshoots</Link> en <Link href="/fotoshoot/portret">portretfotografie</Link>. Bekijk ook mijn profiel op <a href="https://www.top-fotografen.nl/fotograaf/max-van-wijnen-fotografie" target="_blank" rel="noopener">top-fotografen.nl</a>.<br /><br />
+                    Een fotoshoot in Haarlem kan op verschillende locaties, zoals het centrum, de duinen of in het stadspark. Samen kiezen we de plek die het beste bij jou past.<br /><br />
+                    Wil je meer weten of een fotoshoot boeken? Neem gerust <Link href="/contact">contact</Link> op voor meer informatie of een vrijblijvende offerte.
+                </TextContent>
                 <TxtImg2Column
                     imgSource="https://dev1.maxvanwijnen.nl/docs/images/gallery/Loveshoot-Noordwijk-002.webp"
                     cssClass="Kinderen"
