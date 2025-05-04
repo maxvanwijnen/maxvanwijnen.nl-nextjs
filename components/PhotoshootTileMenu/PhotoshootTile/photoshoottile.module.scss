@@ -21,7 +21,7 @@
 
     .photoshoot-tile {
 
-        width: 166px;
+        width: 126px;
         height: 132px;
         margin-top:20px;
 
@@ -93,7 +93,7 @@
         background: rgba(255, 255, 255, 0.55);
         border-radius: 10px;
         backdrop-filter: blur(2px);
-        border: 1px solid rgba(0,0,0,0.1);
+        
 
 
         .fotoshoot {
@@ -148,7 +148,7 @@
 }
 
 @media only screen and (max-width:700px) {
-.tile-wrapper {
+  .tile-wrapper {
     width: 80px;
     .photoshoot-tile {
         width: 100%;
@@ -169,8 +169,21 @@
             height: 85px;
         }
     }
-    
-
-    
-}
+  }
+  .photoshoot-tile {
+    width: 90px;
+    height: 94px;
+    margin-top: 8px;
+    font-size: 11px;
+  }
+  .title {
+    font-size: 12px;
+    padding: 0 2px;
+    .fotoshoot {
+      font-size: 12px;
+    }
+    .text {
+      font-size: 10px;
+    }
+  }
 }

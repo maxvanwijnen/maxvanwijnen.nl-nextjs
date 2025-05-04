@@ -6,6 +6,7 @@ import TextImg from "../components/TextImg/TextImg";
 import RelatedPages from '../components/RelatedPages/RelatedPages';
 import Link from "next/link";
 import Head from 'next/head';
+import PhotoshootTileMenu from '../components/PhotoshootTileMenu/PhotoshootTileMenu';
 
 const FotoshootLeiden = () => {
 
@@ -113,6 +114,11 @@ const FotoshootLeiden = () => {
                 </script>
             </Head>
             <section>
+                <PhotoshootTileMenu
+                                isBig={false}
+                                isBookable={false}
+                                isPricePage={false}
+                            />
                 <TextContent
                     title="Fotoshoot Leiden"
                     firstItem={false}

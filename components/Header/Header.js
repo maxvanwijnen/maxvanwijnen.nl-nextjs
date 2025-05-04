@@ -252,11 +252,6 @@ export default function Header({page, h1='Professionele portretfotografie',text_
                 </div>
                 {/*<Breadcrumbs />*/}
             </div>
-            {showPhotoTileMenu &&<PhotoshootTileMenu
-                isBig={false}
-                isBookable={false}
-                isPricePage={false}
-            />}
           </header>
           <BookingFormModal open={modalOpen} onClose={() => setModalOpen(false)} />
         </div>
