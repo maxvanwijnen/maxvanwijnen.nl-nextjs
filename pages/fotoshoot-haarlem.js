@@ -1,3 +1,4 @@
+import styles from './fotoshoot-haarlem.module.scss';
 import React from 'react';
 import TextContent from "../components/TextContent/TextContent";
 import TxtImg2Column from "../components/TxtImg2Column/TxtImg2Column";
@@ -6,6 +7,7 @@ import TextImg from "../components/TextImg/TextImg";
 import RelatedPages from '../components/RelatedPages/RelatedPages';
 import Link from "next/link";
 import Head from 'next/head';
+import HeroLanding from '../components/HeroLanding/HeroLanding';
 
 const FotoshootHaarlem = () => {
     const relatedPages = [
@@ -79,6 +81,14 @@ const FotoshootHaarlem = () => {
                 </script>
             </Head>
             <section>
+                <HeroLanding
+                    title="Fotoshoot Haarlem: unieke momenten vastgelegd in de stad"
+                    description="Laat je mooiste momenten in Haarlem vastleggen! Of het nu gaat om een loveshoot, gezinsshoot of spontane reportage in de stad: ik zorg voor ontspannen, professionele foto&#39;s."
+                    ctaLabel="Bekijk mogelijkheden"
+                    ctaHref="#mogelijkheden"
+                    usps={["Sfeervolle locaties in Haarlem", "Persoonlijke aanpak", "Snelle levering", "Professionele nabewerking"]}
+                    showCarousel={true}
+                />
                 <TextContent
                     title="Fotograaf in Haarlem"
                     firstItem={false}

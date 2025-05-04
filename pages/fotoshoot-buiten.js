@@ -5,6 +5,7 @@ import Quote from "../components/Quote/Quote";
 import TextImg from "../components/TextImg/TextImg";
 import Link from "next/link";
 import Head from 'next/head';
+import HeroLanding from '../components/HeroLanding/HeroLanding';
 
 const FotoshootBuiten = () => {
     return (
@@ -20,6 +21,14 @@ const FotoshootBuiten = () => {
                 />
             </Head>
             <section>
+                <HeroLanding
+                    title="Fotoshoot Buiten: spontane beelden in de natuur"
+                    description="Een buitenfotoshoot zorgt voor natuurlijke, ontspannen foto&#39;s met prachtig licht. Of je nu kiest voor het bos, de duinen of het strand: samen maken we een unieke herinnering!"
+                    ctaLabel="Bekijk mogelijkheden"
+                    ctaHref="#mogelijkheden"
+                    usps={["Sfeervolle buitenlocaties", "Persoonlijke begeleiding", "Snelle levering", "Professionele nabewerking"]}
+                    showCarousel={true}
+                />
                 <TextContent
                     title="Fotoshoot Leiden"
                     firstItem={false}
@@ -81,8 +90,6 @@ const FotoshootBuiten = () => {
                 >
                     Voor portretten zijn natuurlijk alle locaties mogelijk. Een groene, bosrijke omgeving biedt een sfeervolle achtergrond, maar ook het strand en de duinen kunnen een mooie locatie zijn. Heb je zelf wensen? Laat het me weten! Ik fotografeer momenteel in de Bollenstreek. Noordwijk, Noordwijkerhout, Voorhout, Katwijk en Leiden. Locaties buiten de Bollenstreek of de Randstad zijn in overleg uiteraard ook mogelijk.
                 </TxtImg2Column>
-
-
             </section>
         </>
     )

@@ -6,6 +6,7 @@ import TextImg from "../components/TextImg/TextImg";
 import Head from 'next/head';
 import FaqAccordion from '../components/FaqAccordion/FaqAccordion';
 import Link from 'next/link';
+import HeroLanding from '../components/HeroLanding/HeroLanding';
 
 const FotoshootStrand = () => {
     const schema = {
@@ -67,6 +68,14 @@ const FotoshootStrand = () => {
                 <link rel="preload" as="image" href="https://dev1.maxvanwijnen.nl/docs/images/gallery/Trouwreportage-strand-001.webp" />
             </Head>
             <section>
+                <HeroLanding
+                    title="Fotoshoot op het strand: puur, spontaan en ontspannen"
+                    description="Het strand is dé plek voor een relaxte fotoshoot met natuurlijk licht. Samen maken we ongedwongen foto&#39;s vol sfeer en plezier!"
+                    ctaLabel="Bekijk mogelijkheden"
+                    ctaHref="#mogelijkheden"
+                    usps={["Unieke strandlocaties", "Persoonlijke begeleiding", "Snelle levering", "Professionele nabewerking"]}
+                    showCarousel={true}
+                />
                 <TextContent
                     title="Fotoshoot op het strand"
                     firstItem={false}

@@ -6,6 +6,7 @@ import TextImg from "../components/TextImg/TextImg";
 import RelatedPages from '../components/RelatedPages/RelatedPages';
 import Link from "next/link";
 import Head from 'next/head';
+import HeroLanding from '../components/HeroLanding/HeroLanding';
 
 const FotoshootHillegom = () => {
     const relatedPages = [
@@ -83,6 +84,14 @@ const FotoshootHillegom = () => {
                 </script>
             </Head>
             <section>
+                <HeroLanding
+                    title="Fotoshoot Hillegom: kleurrijke herinneringen tussen de bollen"
+                    description="Tussen de bloemenvelden of in het centrum van Hillegom maak ik vrolijke, kleurrijke foto&#39;s waar je nog jaren met plezier op terugkijkt."
+                    ctaLabel="Bekijk mogelijkheden"
+                    ctaHref="#mogelijkheden"
+                    usps={["Bloeiende bollenvelden", "Persoonlijke aanpak", "Snelle levering", "Professionele nabewerking"]}
+                    showCarousel={true}
+                />
                 <TextContent
                     title="Fotograaf in Hillegom"
                     firstItem={false}

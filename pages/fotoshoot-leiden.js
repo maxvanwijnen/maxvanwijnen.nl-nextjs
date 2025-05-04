@@ -7,6 +7,7 @@ import RelatedPages from '../components/RelatedPages/RelatedPages';
 import Link from "next/link";
 import Head from 'next/head';
 import PhotoshootTileMenu from '../components/PhotoshootTileMenu/PhotoshootTileMenu';
+import HeroLanding from '../components/HeroLanding/HeroLanding';
 
 const FotoshootLeiden = () => {
 
@@ -114,6 +115,14 @@ const FotoshootLeiden = () => {
                 </script>
             </Head>
             <section>
+                <HeroLanding
+                    title="Fotoshoot Leiden: leg jullie mooiste momenten vast"
+                    description="Een fotoshoot in Leiden is de perfecte manier om blijvende herinneringen te maken. Of je nu kiest voor een loveshoot, familieportret of spontane reportage in het historische centrum: ik help je ontspannen en stralend op de foto!"
+                    ctaLabel="Bekijk mogelijkheden"
+                    ctaHref="#mogelijkheden"
+                    usps={["Persoonlijke aanpak", "Snelle levering", "Locatie naar keuze", "Professionele nabewerking"]}
+                    showCarousel={true}
+                />
                 <PhotoshootTileMenu
                                 isBig={false}
                                 isBookable={false}

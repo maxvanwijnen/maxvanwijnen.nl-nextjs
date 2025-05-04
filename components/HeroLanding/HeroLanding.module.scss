@@ -1,0 +1,61 @@
+.heroCtaBlock {
+  text-align: center;
+  margin: 16px 0 32px 0;
+  padding: 32px 16px 28px 16px;
+  background: linear-gradient(120deg, #fff6f2 0%, #ffe9e0 100%);
+  border-radius: 18px;
+  position: relative;
+  overflow: hidden;
+  h1, p, a, .usps {
+    font-family: 'Raleway', Arial, sans-serif;
+  }
+  h1 {
+    font-size: 2.1rem;
+    font-weight: 800;
+    color: #2e1d13;
+    margin-bottom: 18px;
+    line-height: 1.12;
+  }
+  p {
+    font-size: 1.13rem;
+    margin: 0 0 18px 0;
+    color: #6d4b3d;
+    line-height: 1.5;
+  }
+  a {
+    display: inline-block;
+    margin-top: 8px;
+    font-size: 1.07rem;
+    font-weight: 600;
+    color: #fff;
+    background: #f7a07b;
+    padding: 11px 30px;
+    border-radius: 7px;
+    text-decoration: none;
+    transition: background 0.2s;
+    &:hover {
+      background: #e88c61;
+    }
+  }
+  .usps {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 14px;
+    margin-top: 22px;
+    color: #b57c5b;
+    font-size: 1rem;
+    font-weight: 500;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .heroCtaBlock {
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+}
+
+.carouselWrapper {
+  margin-top: 30px;
+}
