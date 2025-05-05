@@ -6,6 +6,7 @@ export default function handler(req, res) {
     'fotoshoot-leiden',
     'fotoshoot-noordwijk',
     'fotoshoot-zandvoort',
+    'fotoshoot-lisse',
     'fotoshoot-strand',
     'fotoshoot-buiten',
     'fotoshoot',
