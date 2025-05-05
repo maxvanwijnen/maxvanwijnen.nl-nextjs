@@ -15,7 +15,8 @@ const FotoshootZandvoort = () => {
         {text : "Zwangerschapsfotoshoot in Zandvoort",link : "/fotoshoot/zwangerschap"},
         {text : "Fotostudio in Leiden",link : "/fotostudio"},
         {text : "Fotograaf in Haarlem",link : "/fotoshoot-haarlem"},
-        {text : "Fotoshoot op het strand",link : "/fotoshoot-strand"}
+        {text : "Fotoshoot op het strand",link : "/fotoshoot-strand"},
+        {text : "Fashion shoot op het strand", link: "/blog/fashion-fotografie-soluzione"}
     ];
 
     const schema = {
