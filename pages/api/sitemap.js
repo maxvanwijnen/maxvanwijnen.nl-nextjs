@@ -13,6 +13,7 @@ export default function handler(req, res) {
     'fotostudio',
     'fotoshoot/familie',
     'fotoshoot/fashion',
+    'fotoshoot/model',
     'fotoshoot/kinderen',
     'fotoshoot/loveshoot',
     'fotoshoot/portret',
