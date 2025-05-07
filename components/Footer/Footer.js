@@ -41,6 +41,9 @@ const Footer = () => {
                             <Link href="/fotoshoot/fashion">Fashion</Link>
                         </li>
                         <li>
+                            <Link href="/fotoshoot/model">Model</Link>
+                        </li>
+                        <li>
                             <Link href="/fotoshoot/trouwen">Bruidsraportage</Link>
                         </li>
                       </ul>
