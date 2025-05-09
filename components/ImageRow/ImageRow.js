@@ -1,5 +1,5 @@
 import React from "react"
-import Masonry from "react-responsive-masonry"
+import Masonry from "react-masonry-css"
 import Image from 'next/image';
 import css from './ImageRow.module.scss';
 import TextContent from "../TextContent/TextContent";
@@ -49,7 +49,12 @@ const ImageRow = ({images,children,title}) => {
                 <TextContent
                 title={title || "Portfolio foto's"}
                 >{children}</TextContent>
-            <Masonry columnsCount={3} gutter="4px">
+            <Masonry
+    breakpointCols={{ default: 3, 1100: 2, 700: 1 }}
+    className="my-masonry-grid"
+    columnClassName="my-masonry-grid_column"
+>
+
                 {images.map((image, i) => (
                     <Image
                         key={i}
