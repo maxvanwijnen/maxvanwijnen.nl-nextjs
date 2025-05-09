@@ -28,6 +28,15 @@ const nextConfig = {
       },
     ];
   },
+  async redirects() {
+    return [
+      {
+        source: '/fotoshoot/kinderen',
+        destination: '/fotoshoot',
+        permanent: true,
+      },
+    ];
+  },
 }
 
 module.exports = nextConfig;

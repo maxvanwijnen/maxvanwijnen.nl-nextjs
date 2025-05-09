@@ -95,7 +95,7 @@ const FotoshootHillegom = () => {
                 <TextContent
                     title="Fotograaf in Hillegom"
                     firstItem={false}
-                >Ben je op zoek naar een professionele fotograaf in Hillegom? Als ervaren fotograaf in de Bollenstreek ben ik gespecialiseerd in het maken van prachtige <Link href="/fotoshoot/zwangerschap">zwangerschapsfoto&apos;s</Link>, <Link href="/fotoshoot/kinderen">kinderfotografie</Link>, <Link href="/fotoshoot/familie">familiefotoshoots</Link> en <Link href="/fotoshoot/portret">portretfotografie</Link>. Bekijk ook mijn profiel op <a href="https://www.top-fotografen.nl/fotograaf/max-van-wijnen" target="_blank" rel="noopener">top-fotografen.nl</a>.</TextContent>
+                >Ben je op zoek naar een professionele fotograaf in Hillegom? Als ervaren fotograaf in de Bollenstreek ben ik gespecialiseerd in het maken van prachtige <Link href="/fotoshoot/zwangerschap">zwangerschapsfoto&apos;s</Link>,  <Link href="/fotoshoot/familie">familiefotoshoots</Link> en <Link href="/fotoshoot/portret">portretfotografie</Link>. Bekijk ook mijn profiel op <a href="https://www.top-fotografen.nl/fotograaf/max-van-wijnen" target="_blank" rel="noopener">top-fotografen.nl</a>.</TextContent>
                 <TxtImg2Column
                     imgSource="https://dev1.maxvanwijnen.nl/docs/images/gallery/Loveshoot-Noordwijk-002.webp"
                     cssClass="Kinderen"

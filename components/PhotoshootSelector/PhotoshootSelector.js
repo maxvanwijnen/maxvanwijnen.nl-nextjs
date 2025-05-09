@@ -4,7 +4,7 @@ import styles from './PhotoshootSelector.module.scss';
 
 const shoots = [
   { title: 'Fashion', img: 'https://dev1.maxvanwijnen.nl/docs/images/mini-portfolio/Mode-fotoshoot-soluzione-blouses.webp', external: true, link: '/fotoshoot/fashion' },
-  { title: 'Kinderen', img: '/img/fotoshoot-tiles/Kinderen-fotoshoot-303.webp', link: '/fotoshoot/kinderen' },
+
   { title: 'Loveshoot', img: '/img/fotoshoot-tiles/Koppel-fotoshoot-303.webp', link: '/fotoshoot/loveshoot' },
   { title: 'Portret', img: '/img/fotoshoot-tiles/Portret-fotoshoot-303.webp', link: '/fotoshoot/portret' },
   { title: 'Familie', img: '/img/fotoshoot-tiles/Familie-fotoshoot-303.webp', link: '/fotoshoot/familie' },

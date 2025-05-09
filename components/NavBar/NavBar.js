@@ -54,7 +54,7 @@ export function NavBar() {
                   <div className={styles['submenu-fotoshoot']}>
                     <Link href="/fotoshoot/fashion" legacyBehavior><a onClick={closeMenu}>Fashion</a></Link>
 <Link href="/fotoshoot/model" legacyBehavior><a onClick={closeMenu}>Model</a></Link>
-                    <Link href="/fotoshoot/kinderen" legacyBehavior><a onClick={closeMenu}>Kinderen</a></Link>
+                    
                     <Link href="/fotoshoot/portret" legacyBehavior><a onClick={closeMenu}>Portret</a></Link>
                     <Link href="/fotoshoot/loveshoot" legacyBehavior><a onClick={closeMenu}>Loveshoot</a></Link>
                     <Link href="/fotoshoot/familie" legacyBehavior><a onClick={closeMenu}>Familie</a></Link>
