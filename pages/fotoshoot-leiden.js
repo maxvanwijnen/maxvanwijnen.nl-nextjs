@@ -93,7 +93,13 @@ const FotoshootLeiden = () => {
                 {/* Open Graph tags */}
                 <meta property="og:title" content="Fotograaf Leiden | Professionele Fotoshoot in Leiden"/>
                 <meta property="og:description"
-                      content="Professionele fotograaf in Leiden, gespecialiseerd in zwangerschapsfotografie, kinderfotografie en familiefotografie"/>
+                />
+                {/* OG Image voor Google/socials */}
+                <meta property="og:image" content="https://dev1.maxvanwijnen.nl/docs/images/fashion/mode-fotofrafie-leiden.webp"/>
+                <meta name="twitter:image" content="https://dev1.maxvanwijnen.nl/docs/images/fashion/mode-fotofrafie-leiden.webp"/>
+                <meta name="image" content="https://dev1.maxvanwijnen.nl/docs/images/fashion/mode-fotofrafie-leiden.webp"/>
+                <link rel="image_src" href="https://dev1.maxvanwijnen.nl/docs/images/fashion/mode-fotofrafie-leiden.webp"/>
+                <meta property="og:image:alt" content="Fashion fotoshoot Leiden - Max van Wijnen"/>
                 <meta property="og:image" content="https://dev1.maxvanwijnen.nl/docs/images/gallery/Loveshoot-Noordwijk-002.webp"/>
                 <meta property="og:url" content="https://www.maxvanwijnen.nl/fotoshoot-leiden"/>
                 <meta property="og:type" content="website"/>
@@ -123,28 +129,10 @@ const FotoshootLeiden = () => {
                     usps={["Persoonlijke aanpak", "Snelle levering", "Locatie naar keuze", "Professionele nabewerking"]}
                     showCarousel={true}
                 />
-                <PhotoshootTileMenu
-                                isBig={false}
-                                isBookable={false}
-                                isPricePage={false}
-                            />
                 <TextContent
                     title="Fotoshoot Leiden"
                     firstItem={false}
                 >Ben je op zoek naar een fotograaf voor een mooie fotoshoot in of rondom Leiden? Dan ben je bij mij aan het juiste adres. Je kunt bij mij terecht voor alle type fotoshoots zoals een <Link href="/fotoshoot/zwangerschap">zwangerschapsfotoshoot</Link>,  <Link href="/fotoshoot/familie">familiefotoshoot</Link> of een <Link href="/fotoshoot/portret">portretfotoshoot</Link>. Of heb je zelf een ander goed idee? Laat het me weten! Ik doe al mijn fotoshoots op locatie. Leiden kent vele mooie locaties voor fotoshoots, lees er hier meer over.</TextContent>
-                <TxtImg2Column
-                    imgSource="https://dev1.maxvanwijnen.nl/docs/images/intro-text/zwangerschap-fotoshoot-leiden-met-dochter.webp"
-                    cssClass="Kinderen"
-                    imgAlt = "Familie fotografie"
-                    imgWidth={573}
-                    imgHeight={384}
-                    txtTitle="Mijn fotostudio in Leiden"
-                    isFirstArticle={false}
-                    isInverted={false}
-                >
-                    Buiten fotograferen is natuurlijk prachtig, maar soms gaat de voorkeur uit naar een sessie in de fotostudio. Voordelen van de studio zijn, ook bij slecht weer kunnen we fotograferen, je hebt meer privacy en met de diverse achtergrond kleuren kunnen we eenvoudig de mooiste kleur combinaties maken.
-                    Wil je graag mooie studio foto`s laten maken? In mijn studio in Leiden ben je van harte welkom! Lees er <Link href="/fotostudio">hier</Link> meer over.
-                </TxtImg2Column>
                 <TxtImg2Column
                     imgSource="https://dev1.maxvanwijnen.nl/docs/images/intro-text/zwangerschapsfotografie-leiden-studio.webp"
                     cssClass="Kinderen"
@@ -189,12 +177,30 @@ const FotoshootLeiden = () => {
                 >
                     Voor portretten zijn natuurlijk alle locaties mogelijk. Een groene, bosrijke omgeving biedt een sfeervolle achtergrond, maar ook het strand en de duinen kunnen een mooie locatie zijn. Heb je zelf wensen? Laat het me weten! Ik fotografeer momenteel in de Bollenstreek. Noordwijk, Noordwijkerhout, Voorhout, Katwijk en Leiden. Locaties buiten de Bollenstreek of de Randstad zijn in overleg uiteraard ook mogelijk.
                 </TxtImg2Column>
+                <TxtImg2Column
+                    imgSource="https://dev1.maxvanwijnen.nl/docs/images/intro-text/zwangerschap-fotoshoot-leiden-met-dochter.webp"
+                    cssClass="Kinderen"
+                    imgAlt = "Familie fotografie"
+                    imgWidth={573}
+                    imgHeight={384}
+                    txtTitle="Mijn fotostudio in Leiden"
+                    isFirstArticle={false}
+                    isInverted={false}
+                >
+                    Buiten fotograferen is natuurlijk prachtig, maar soms gaat de voorkeur uit naar een sessie in de fotostudio. Voordelen van de studio zijn, ook bij slecht weer kunnen we fotograferen, je hebt meer privacy en met de diverse achtergrond kleuren kunnen we eenvoudig de mooiste kleur combinaties maken.
+                    Wil je graag mooie studio foto`s laten maken? In mijn studio in Leiden ben je van harte welkom! Lees er <Link href="/fotostudio">hier</Link> meer over.
+                </TxtImg2Column>
                 <RelatedPages  
                     relatedTo = 'Fotoshoot Leiden'
                     relatedPages = {relatedPages}
                 />
 
-
+                {/* Link naar Peaky Blinder shoot in Leiden */}
+                <div style={{marginTop: '2rem', textAlign: 'center'}}>
+                  <Link href="/blog/fashion-fotoshoot-leiden-mannelijk-model" legacyBehavior>
+                    <a style={{fontWeight: 'bold', color: '#2d2d2d', textDecoration: 'underline', fontFamily: 'Raleway, sans-serif'}}>Bekijk ook de Peaky Blinder fotoshoot in Leiden &rarr;</a>
+                  </Link>
+                </div>
 
             </section>
         </>
