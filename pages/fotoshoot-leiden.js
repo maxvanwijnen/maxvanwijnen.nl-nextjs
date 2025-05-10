@@ -6,8 +6,52 @@ import TextImg from "../components/TextImg/TextImg";
 import RelatedPages from '../components/RelatedPages/RelatedPages';
 import Link from "next/link";
 import Head from 'next/head';
+import FaqAccordion from "../components/FaqAccordion/FaqAccordion";
 import PhotoshootTileMenu from '../components/PhotoshootTileMenu/PhotoshootTileMenu';
 import HeroLanding from '../components/HeroLanding/HeroLanding';
+
+// FAQ data (één bron voor zowel frontend als JSON-LD)
+const faqItems = [
+  {
+    question: "Wat zijn de mooiste locaties voor een fotoshoot in Leiden?",
+    answer: (
+      <span>Ik ken veel mooie plekken in en rond Leiden en ik denk graag mee om de perfecte locatie te vinden voor de mooiste fotoshoot. Afhankelijk van het tijdstip en je wensen kan ik een mooie locatie vinden met prachtig licht. In de binnenstad in Leiden heb je prachtige straatjes, bruggetjes en pleintjes. Voor een groepsfotoshoot kom ik graag in Leidsehout, dit bos is mooi compact maar er is altijd wel een plekje met mooi licht te vinden.</span>
+    ),
+  },
+  {
+    question: "Voor wie is een fotoshoot in Leiden geschikt?",
+    answer: (
+      <span>Voor gezinnen, stellen, zwangeren, professionals en iedereen die mooie foto&#39;s wil op een unieke locatie in Leiden.</span>
+    ),
+  },
+  {
+    question: "Hoe boek ik een fotoshoot in Leiden?",
+    answer: (
+      <span>Stuur eenvoudig een bericht via het <Link href="/contact">contactformulier</Link> of <Link href="/boek-een-fotoshoot">boek direct online</Link>. We bespreken samen je wensen en plannen de shoot.</span>
+    ),
+  },
+  {
+    question: "Wat kost een fotoshoot in Leiden?",
+    answer: (
+      <span>Je doet al een fotoshoot vanaf 139 euro. De prijzen variëren per type fotoshoot en het aantal foto&#39;s je wenst af te nemen. Ik heb hier verschillende prijs pakketten voor beschikbaar, kijk op de fotoshoot pagina van de fotoshoot die jij wilt doen voor meer informatie.</span>
+    ),
+  },
+  {
+    question: "Kan ik zelf een locatie kiezen in Leiden?",
+    answer: (
+      <span>Ja, je mag altijd zelf een favoriete locatie aandragen. Ik denk graag mee en ken veel mooie plekken in en rond Leiden!</span>
+    ),
+  },
+];
+
+// Utility om tekst uit JSX te halen voor JSON-LD
+function jsxToText(node) {
+  if (typeof node === 'string') return node;
+  if (Array.isArray(node)) return node.map(jsxToText).join('');
+  if (node && node.props && node.props.children) return jsxToText(node.props.children);
+  return '';
+}
+
 
 const FotoshootLeiden = () => {
 
@@ -76,6 +120,23 @@ const FotoshootLeiden = () => {
     return (
         <>
             <Head>
+                <script
+                  type="application/ld+json"
+                  dangerouslySetInnerHTML={{
+                    __html: JSON.stringify({
+                      "@context": "https://schema.org",
+                      "@type": "FAQPage",
+                      "mainEntity": faqItems.map(item => ({
+                        "@type": "Question",
+                        "name": item.question,
+                        "acceptedAnswer": {
+                          "@type": "Answer",
+                          "text": jsxToText(item.answer)
+                        }
+                      }))
+                    })
+                  }}
+                />
                 <title>Fotograaf Leiden | Professionele Fotoshoot in Leiden | Max van Wijnen</title>
                 <meta name="description"
                       content="Op zoek naar een professionele fotograaf in Leiden? Specialist in zwangerschapsfotografie, kinderfotografie en familiefotografie. Bekijk mijn portfolio en boek direct."/>
@@ -202,6 +263,11 @@ const FotoshootLeiden = () => {
                   </Link>
                 </div>
 
+                {/* FAQ-blok over fotoshoots in Leiden */}
+                <section style={{marginTop: '3rem'}}>
+                  <h2>Veelgestelde vragen over fotoshoots in Leiden</h2>
+                  <FaqAccordion faqs={faqItems.map(item => ({ question: item.question, answer: item.answer }))} />
+                </section>
             </section>
         </>
     )
