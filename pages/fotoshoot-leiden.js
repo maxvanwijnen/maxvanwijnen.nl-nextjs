@@ -120,6 +120,80 @@ const FotoshootLeiden = () => {
     return (
         <>
             <Head>
+                {/* BreadcrumbList structured data */}
+                <script
+                  type="application/ld+json"
+                  dangerouslySetInnerHTML={{
+                    __html: JSON.stringify({
+                      "@context": "https://schema.org",
+                      "@type": "BreadcrumbList",
+                      "itemListElement": [
+                        {
+                          "@type": "ListItem",
+                          "position": 1,
+                          "name": "Home",
+                          "item": "https://www.maxvanwijnen.nl/"
+                        },
+                        {
+                          "@type": "ListItem",
+                          "position": 2,
+                          "name": "Fotoshoot Leiden",
+                          "item": "https://www.maxvanwijnen.nl/fotoshoot-leiden"
+                        }
+                      ]
+                    })
+                  }}
+                />
+                {/* Article structured data */}
+                <script
+                  type="application/ld+json"
+                  dangerouslySetInnerHTML={{
+                    __html: JSON.stringify({
+                      "@context": "https://schema.org",
+                      "@type": "Article",
+                      "headline": "Fotoshoot Leiden: professionele fotografie op unieke locaties",
+                      "description": "Boek een fotoshoot in Leiden bij Max van Wijnen. Ontdek de mooiste locaties, prijzen en veelgestelde vragen. Laat je professioneel vastleggen op de mooiste plekken van Leiden. Je doet al een fotoshoot vanaf 139 euro.",
+                      "image": "https://dev1.maxvanwijnen.nl/docs/images/fashion/mode-fotofrafie-leiden.webp",
+                      "author": {
+                        "@type": "Person",
+                        "name": "Max van Wijnen"
+                      },
+                      "publisher": {
+                        "@type": "Organization",
+                        "name": "Max van Wijnen Fotografie",
+                        "logo": {
+                          "@type": "ImageObject",
+                          "url": "https://www.maxvanwijnen.nl/logo.png"
+                        }
+                      },
+                      "datePublished": "2024-05-10"
+                    })
+                  }}
+                />
+                {/* BreadcrumbList structured data */}
+                <script
+                  type="application/ld+json"
+                  dangerouslySetInnerHTML={{
+                    __html: JSON.stringify({
+                      "@context": "https://schema.org",
+                      "@type": "BreadcrumbList",
+                      "itemListElement": [
+                        {
+                          "@type": "ListItem",
+                          "position": 1,
+                          "name": "Home",
+                          "item": "https://www.maxvanwijnen.nl/"
+                        },
+                        {
+                          "@type": "ListItem",
+                          "position": 2,
+                          "name": "Fotoshoot Leiden",
+                          "item": "https://www.maxvanwijnen.nl/fotoshoot-leiden"
+                        }
+                      ]
+                    })
+                  }}
+                />
                 <script
                   type="application/ld+json"
                   dangerouslySetInnerHTML={{
