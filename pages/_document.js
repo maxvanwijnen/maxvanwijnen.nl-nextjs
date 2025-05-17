@@ -8,6 +8,10 @@ export default function Document() {
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="true" />
         <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;600&display=swap" rel="stylesheet" />
+        
+        {/* Self-hosted Plausible Analytics */}
+        <script defer data-domain="maxvanwijnen.nl" src="https://analytics.maxvanwijnen.nl/js/script.js"></script>
+        
         {/* Google Analytics zonder Tag Manager */}
         <script async src="https://www.googletagmanager.com/gtag/js?id=G-D580ZJDHNV"></script>
         <script dangerouslySetInnerHTML={{

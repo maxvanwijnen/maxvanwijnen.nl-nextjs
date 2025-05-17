@@ -27,7 +27,9 @@ export default function sendEmail(req, res) {
         }
     ).then(function(data) {
         console.log(data);
-    }, function(error) {
+        res.status(200).json({ success: true });
+    }).catch(function(error) {
         console.error(error);
+        res.status(500).json({ success: false });
     });
 }

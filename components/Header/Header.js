@@ -233,11 +233,6 @@ export default function Header({page, h1='Professionele portretfotografie',text_
             {showOverlay && (
               <div style={{position:'absolute', inset:0, background:'rgba(0,0,0,0.35)', zIndex:1}}/>
             )}
-            {/* MOBILE MENU BUTTON */}
-            <button className={styles['mobile-menu-button']} onClick={() => console.log('Menu opened')}>
-              <FiMenu />
-              <span>MENU</span>
-            </button>
             <NavBar />
             <div className={`${styles[text_position]} ${styles.container}`} style={{position:'relative', zIndex:2}}>
                 <div className={`${styles.textblock}`}>

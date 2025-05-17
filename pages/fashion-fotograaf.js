@@ -68,7 +68,7 @@ export default function FashionFotograaf() {
                 <meta name="twitter:description" content="Fashion fotograaf voor high-end fashion shoots, lookbooks en campagnes. Gespecialiseerd in modelfotografie en fashion branding."/>
                 <meta name="twitter:image" content="https://dev1.maxvanwijnen.nl/docs/images/gallery/fashion-shoot-001.webp"/>
                 {/* Canonical URL */}
-                <link rel="canonical" href="https://www.top-fotografen.nl/fotograaf/max-van-wijnen"/>
+                <link rel="canonical" href="https://www.maxvanwijnen.nl/fashion-fotograaf"/>
                 {/* JSON-LD structured data */}
                 <script type="application/ld+json">{JSON.stringify(schema)}</script>
             </Head>
