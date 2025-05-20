@@ -1,0 +1,28 @@
+.step {
+  font-family: var(--font-raleway);
+  width: 220px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  background-color: white;
+  border-radius: 5px;
+  padding: 20px;
+  min-width: 220px;
+}
+.step .icon {
+  font-size: 50px;
+}
+.step .step-id {
+  font-size: 20px;
+  text-align: center;
+  margin-bottom: 5px;
+}
+.step h3 {
+  font-size: 24px;
+  line-height: 24px;
+  text-align: center;
+}
+.step p {
+  text-align: center;
+}

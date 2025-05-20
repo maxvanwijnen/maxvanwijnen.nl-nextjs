@@ -1,0 +1,53 @@
+.txtImg2Column {
+  display: flex;
+  width: 100%;
+  max-width: var(--max-width);
+  justify-content: space-between;
+  margin-top: 30px;
+}
+.txtImg2Column .text {
+  background-color: white;
+  padding: 20px;
+  border-radius: 16px;
+  flex-basis: 670px;
+}
+.txtImg2Column .text h1 {
+  font-size: 48px;
+  line-height: 35px;
+}
+.txtImg2Column .text h2 {
+  font-size: 30px;
+  line-height: 35px;
+  margin-bottom: 10px;
+}
+.txtImg2Column .text div {
+  color: #5E5E5E;
+  font-size: var(--font-size-p);
+  line-height: var(--line-height-p);
+  font-family: var(--font-family-p);
+}
+.txtImg2Column .img-wrapper {
+  display: flex;
+  justify-content: center;
+}
+.txtImg2Column .img-wrapper img {
+  border-radius: 16px;
+  max-width: 90%;
+  height: auto;
+}
+
+@media only screen and (max-width: 1200px) {
+  .txtImg2Column {
+    margin-top: 0px;
+  }
+}
+@media only screen and (max-width: 800px) {
+  .txtImg2Column {
+    flex-direction: column !important;
+    align-items: center;
+  }
+
+  .txtImg2Column .text {
+    flex-basis: fit-content;
+  }
+}

@@ -20,6 +20,11 @@ const blogPosts = [
     title: 'Fashion Fotoshoot Leiden: Mannelijk Model',
     excerpt: 'Lees alles over deze bijzondere fotoshoot met een mannelijk model in Leiden.',
   },
+  {
+    slug: 'modefotografie-voor-webshops',
+    title: 'Modefotografie voor webshops',
+    excerpt: 'Professionele beelden die je kleding laten verkopen. Waarom goede modefotografie essentieel is voor jouw webshop.',
+  },
 ];
 
 export default function BlogOverview() {

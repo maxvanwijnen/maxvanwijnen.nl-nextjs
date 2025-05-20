@@ -48,6 +48,12 @@ export const prices = [
     {
         fotoshoot:'familie',
         packages: [
+            {price:159,
+                type:'basic',
+                usplist:["5 Foto's","Hoge kwaliteit nabewerkt", "Digitale download"],
+                img:'https://dev1.maxvanwijnen.nl/docs/images/price-package/familieshoot-basic-fotoshoot.webp',
+                desc:''
+            },
             {price:229,
                 type:'deluxe',
                 usplist:["10 Foto's","Hoge kwaliteit nabewerkt", "Digitale download"],

@@ -29,6 +29,7 @@ export default function handler(req, res) {
     'blog/5-tips-voor-effectieve-fashion-fotografie',
     'blog/fashion-fotografie-soluzione',
     'blog/fashion-fotoshoot-leiden-mannelijk-model',
+    'blog/modefotografie-voor-webshops',
   ];
   res.setHeader('Content-Type', 'application/xml');
   res.status(200).send(`<?xml version="1.0" encoding="UTF-8"?>

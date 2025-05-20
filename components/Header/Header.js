@@ -4,6 +4,7 @@ import Image from 'next/image';
 import { FiMenu } from 'react-icons/fi';
 import { HiArrowSmRight } from 'react-icons/hi';
 import styles from './Header.module.scss';
+
 import { NavBar } from '../NavBar/NavBar';
 import { PhotoshootTileMenu } from '../PhotoshootTileMenu/PhotoshootTileMenu'
 import BookingFormModal from '../BookingForm/BookingFormModal';
@@ -236,7 +237,7 @@ export default function Header({page, h1='Professionele portretfotografie',text_
             <NavBar />
             <div className={`${styles[text_position]} ${styles.container}`} style={{position:'relative', zIndex:2}}>
                 <div className={`${styles.textblock}`}>
-                    <h1 className={styles['main-title']}>{h1}</h1>
+                    <span className={styles['main-title'] + ' ' + styles['hideOnMobile']}>{h1}</span>
                     <div className={`${styles.descr} ${styles[darken_bg]}`}>{descr}</div>
                     <div className={styles.bookButtonWrap}>
                       <button onClick={() => setModalOpen(true)} className={styles.bookButton}>

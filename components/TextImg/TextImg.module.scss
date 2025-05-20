@@ -4,7 +4,7 @@
   align-items: flex-start;
   gap:20px;
   margin:50px 0px;
-  font-family: var(--font-baloo-tamma);
+  
   flex-wrap: wrap;
   justify-content: center;
 
@@ -47,9 +47,6 @@
 
   p {
     text-align: right;
-    font-size: 20px;
-    font-family: var(--font-raleway);
-    line-height: 30px;
     max-width: 500px;
   }
 }

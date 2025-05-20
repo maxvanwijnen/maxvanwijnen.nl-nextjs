@@ -3,11 +3,11 @@
     flex-direction: column;
     gap:10px;
     width: 100%;
-    font-family:var(--font-baloo-tamma);
+    
     
     h2, h3 {
         text-align: center;
-        font-family:var(--font-baloo-tamma);
+        
     }
 
     .intro {
@@ -19,7 +19,7 @@
             color: #5E5E5E;
             font-size: var(--font-size-p);
             line-height: var(--line-height-p);
-            font-family: var(--font-family-p);
+            
             max-width: 600px;
         }
 
@@ -46,7 +46,7 @@
                 background-color: #fb8b24;
                 color: white;
                 font-size: 15px;
-                font-family: var(--font-raleway);
+                
                 border: 0px;
                 font-weight: bold;
                 border-radius: 5px;

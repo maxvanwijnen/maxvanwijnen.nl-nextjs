@@ -1,4 +1,41 @@
-/* Google Fonts worden nu via next/script geladen voor betere performance */
+/* Comfortaa lokaal gehost (gewichten 300-700, .woff2) */
+@font-face {
+  font-family: 'Comfortaa';
+  src: url('/fonts/comfortaa/comfortaa-v45-latin-300.woff2') format('woff2');
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Comfortaa';
+  src: url('/fonts/comfortaa/comfortaa-v45-latin-regular.woff2') format('woff2');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Comfortaa';
+  src: url('/fonts/comfortaa/comfortaa-v45-latin-500.woff2') format('woff2');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Comfortaa';
+  src: url('/fonts/comfortaa/comfortaa-v45-latin-600.woff2') format('woff2');
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Comfortaa';
+  src: url('/fonts/comfortaa/comfortaa-v45-latin-700.woff2') format('woff2');
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* Google Fonts werden voorheen via next/script geladen voor betere performance */
 
 
 @font-face {
@@ -44,6 +81,7 @@
   --font-baloo-tamma: 'Baloo Tamma 2', sans-serif;
   --font-roboto: 'roboto', sans-serif;
   --font-nunito: 'Nunito', sans-serif;
+  --font-comfortaa: 'Comfortaa', Arial, sans-serif;
 
   --font-family-p:'Raleway', sans-serif;
   --font-size-p:18px;
@@ -62,6 +100,7 @@ a:active {
   text-decoration: none;
 }
 body {
+  font-family: var(--font-family-p);
   background: #fff !important;
   opacity: 1;
   transition: opacity 5s;
@@ -87,13 +126,30 @@ section {
   margin-top:20px;
 }
 
-h1 {
-  font-family: var(--font-nunito);
+h1, h2, h3 {
+  font-family: var(--font-comfortaa);
   font-weight: 600;
+  letter-spacing: 0.02em;
   margin-top:20px;
   margin-bottom: 20px;
+}
+h1 {
   font-size: 32px;
+}
+h2 {
+  font-size: 26px;
+}
+h3 {
+  font-size: 22px;
+}
 
+/* Global paragraph styling */
+p {
+  color: #5E5E5E;
+  font-size: var(--font-size-p);
+  line-height: var(--line-height-p);
+  font-family: var(--font-family-p);
+  margin-bottom: 1em;
 }
 
 /* --- Masonry grid for react-masonry-css --- */
