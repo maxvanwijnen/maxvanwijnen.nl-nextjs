@@ -1,0 +1,21 @@
+# Allow all
+User-agent: *
+Allow: /
+
+# Sitemap
+Sitemap: https://www.maxvanwijnen.nl/api/sitemap.xml
+
+# Disallow admin area
+Disallow: /admin/
+Disallow: /api/
+
+# Crawl-delay: 10  # Uncomment if needed to reduce server load
+
+# Disallow development files
+Disallow: /_next/
+Disallow: /node_modules/
+
+# Allow Googlebot-Image to index all images
+User-agent: Googlebot-Image
+Allow: /*
+Disallow: /admin/

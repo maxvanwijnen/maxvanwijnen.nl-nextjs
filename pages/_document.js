@@ -12,16 +12,7 @@ export default function Document() {
         {/* Self-hosted Plausible Analytics */}
         <script defer data-domain="maxvanwijnen.nl" src="https://analytics.maxvanwijnen.nl/js/script.js"></script>
         
-        {/* Google Analytics zonder Tag Manager */}
-        <script async src="https://www.googletagmanager.com/gtag/js?id=G-D580ZJDHNV"></script>
-        <script dangerouslySetInnerHTML={{
-          __html: `
-            window.dataLayer = window.dataLayer || [];
-            function gtag(){dataLayer.push(arguments);}
-            gtag('js', new Date());
-            gtag('config', 'G-D580ZJDHNV', { page_path: window.location.pathname });
-          `,
-        }} />
+        {/* Google Analytics - Wordt geladen via Script component in _app.js */}
       </Head>
       <body>
         <Main />

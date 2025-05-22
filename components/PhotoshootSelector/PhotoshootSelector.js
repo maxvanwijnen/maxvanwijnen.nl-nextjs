@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import Link from 'next/link';
+import Image from 'next/image';
 import styles from './PhotoshootSelector.module.scss';
 
 const shoots = [
@@ -54,7 +55,19 @@ export default function PhotoshootSelector() {
           return (
             <Link href={shoot.link} key={shoot.title} className={styles.carouselTile} style={style}>
               <div className={styles.imgWrapper}>
-                <img src={shoot.img} alt={shoot.title} loading="lazy" />
+                <Image 
+                  src={shoot.img} 
+                  alt={shoot.title} 
+                  width={300} 
+                  height={200}
+                  loading="lazy"
+                  style={{
+                    width: '100%',
+                    height: '100%',
+                    objectFit: 'cover',
+                    borderRadius: '8px'
+                  }}
+                />
               </div>
               <span className={styles.title}>{shoot.title}</span>
             </Link>

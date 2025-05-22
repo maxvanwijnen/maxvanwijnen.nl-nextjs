@@ -1,0 +1,142 @@
+.portfolioContainer {
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.filterContainer {
+  margin: 40px 0 30px;
+  width: 100%;
+  overflow-x: auto;
+  padding-bottom: 10px;
+  scrollbar-width: thin;
+  scrollbar-color: #0d9bbf #f0f0f0;
+
+  &::-webkit-scrollbar {
+    height: 6px;
+  }
+}
+
+.filterButtons {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  justify-content: center;
+}
+
+.filterButton {
+  padding: 12px 24px;
+  font-size: 15px;
+  font-weight: 500;
+  color: #333;
+  background-color: #f8f8f8;
+  border: 2px solid #e0e0e0;
+  border-radius: 30px;
+  cursor: pointer;
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+
+  &:hover {
+    background-color: #f0f0f0;
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  }
+  
+  &:focus-visible {
+    outline: none;
+    box-shadow: 0 0 0 3px rgba(13, 155, 191, 0.3);
+  }
+
+  &.active {
+    background-color: #0d9bbf;
+    color: white;
+    border-color: #0d9bbf;
+    box-shadow: 0 4px 12px rgba(13, 155, 191, 0.3);
+  }
+}
+
+.loadingContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 300px;
+  text-align: center;
+  color: #666;
+  
+  p {
+    margin-top: 20px;
+    font-size: 1.1rem;
+  }
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
+.loadingSpinner {
+  width: 50px;
+  height: 50px;
+  border: 4px solid #f3f3f3;
+  border-top: 4px solid #0d9bbf;
+  border-radius: 50%;
+  animation: spin 1s linear infinite;
+}
+
+@media (max-width: 480px) {
+  .filterContainer {
+    margin: 20px -15px 15px;
+    padding: 0 15px 10px;
+  }
+  
+  .filterButton {
+    padding: 7px 14px;
+    font-size: 13px;
+  }
+}
+
+/* Foutmelding stijlen */
+.errorMessage {
+  text-align: center;
+  padding: 40px 20px;
+  background-color: #fff5f5;
+  border-radius: 8px;
+  margin: 20px 0;
+  border: 1px solid #ffebee;
+  
+  p {
+    color: #d32f2f;
+    margin-bottom: 15px;
+    font-size: 16px;
+  }
+}
+
+/* Knop stijlen */
+.retryButton {
+  padding: 10px 20px;
+  background-color: #0d9bbf;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  font-size: 15px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  
+  &:hover {
+    background-color: #0a7d99;
+  }
+}
+
+/* Galerij container */
+.galleryContainer {
+  margin: 30px 0 60px;
+  min-height: 300px;
+  
+  p {
+    text-align: center;
+    color: #666;
+    font-size: 16px;
+    margin-top: 40px;
+  }
+}

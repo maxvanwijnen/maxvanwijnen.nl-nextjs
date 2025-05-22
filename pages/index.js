@@ -1,26 +1,44 @@
-import Head from 'next/head'
-import Image from 'next/image'
+import Head from 'next/head';
+import Image from 'next/image';
 import homeStyles from '../styles/HomeModern.module.scss';
 import Link from "next/link";
 import Layout from './../components/layout';
 import Breadcrumbs from '../components/Breadcrumbs';
+import SEO from '../components/SEO/SEO';
+import { websiteSchema, organizationSchema, localBusinessSchema } from '../components/SEO/StructuredData';
 
 export default function Home() {
+  // Maak een breadcrumb lijst voor de huidige pagina
+  const breadcrumbItems = [
+    { name: 'Home', url: 'https://www.maxvanwijnen.nl' },
+  ];
+  
+  // Voeg gestructureerde gegevens samen
+  const structuredData = [
+    websiteSchema,
+    organizationSchema,
+    localBusinessSchema,
+    {
+      "@context": "https://schema.org",
+      "@type": "WebPage",
+      "name": "Fotograaf in Noordwijk | Max van Wijnen Fotografie",
+      "description": "Professionele fotografie voor particulieren en bedrijven. Portretten, fashion, bedrijfsfotografie en meer. Ervaren fotograaf in Noordwijk en omgeving.",
+      "url": "https://www.maxvanwijnen.nl",
+      "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "https://www.maxvanwijnen.nl"
+      }
+    }
+  ];
+
   return (
     <>
-      <Head>
-        <title>
-          Fotograaf in Noordwijk | Unieke fotoshoots op locatie
-        </title>
-        <meta
-          name="description"
-          content="Wil je graag mooie en professionele foto's laten maken? Ik sta voor je klaar als ervaren fotograaf uit Noordwijk. Neem nu contact op voor meer informatie."
-          key="desc"
-        />
-        <meta name="google-site-verification" content="VRuaMHZTJKhR_HKYhUWEgmSLOvLt_kMQKt0zYVpw_mw" />
-        <meta name="msvalidate.01" content="6EEF5CFC8BBEDF2585F23959D9F085A0" />
-        <link rel="preload" as="image" href="/img/header/Kinderfotografie-header.webp" />
-      </Head>
+      <SEO 
+        title="Fotograaf in Noordwijk | Professionele fotoshoots op locatie"
+        description="Ontdek professionele fotografie van Max van Wijnen. Portretten, fashion, bedrijfsfotografie en meer. Ervaren fotograaf in Noordwijk en omgeving."
+        ogImage="https://www.maxvanwijnen.nl/img/og-default.jpg"
+        structuredData={structuredData}
+      />
       <Breadcrumbs />
       {/* HERO SECTION */}
       <section className={homeStyles.homeHero}>
@@ -34,7 +52,19 @@ export default function Home() {
           </div>
         </div>
         <div className={homeStyles.homeHeroImg}>
-          <img src="https://dev1.maxvanwijnen.nl/docs/images/intro-text/Max-van-Wijnen-Profielfoto.webp" alt="Max van Wijnen fotograaf" />
+          <Image 
+            src="https://dev1.maxvanwijnen.nl/docs/images/intro-text/Max-van-Wijnen-Profielfoto.webp" 
+            alt="Max van Wijnen fotograaf"
+            width={500}
+            height={500}
+            priority
+            style={{
+              width: '100%',
+              height: 'auto',
+              maxWidth: '100%',
+              borderRadius: '8px'
+            }}
+          />
         </div>
       </section>
 
