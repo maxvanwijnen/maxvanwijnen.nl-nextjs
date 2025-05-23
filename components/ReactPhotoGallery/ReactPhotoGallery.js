@@ -1,6 +1,7 @@
 import React, { useState, useMemo } from "react";
 import Masonry from "react-masonry-css";
 import Image from "next/image";
+import Link from "next/link";
 import Lightbox from "yet-another-react-lightbox";
 import "yet-another-react-lightbox/styles.css";
 import styles from "./ReactPhotoGallery.module.scss";
@@ -10,7 +11,25 @@ const getImageHeight = (width, imgWidth, imgHeight) => {
   return (width * imgHeight) / imgWidth;
 };
 
+// Helper om photoshoot type te formatteren voor de button
+const formatPhotoshootType = (tag) => {
+  const typeMap = {
+    'familie': 'Familie',
+    'loveshoot': 'Loveshoot',
+    'trouwen': 'Bruiloft',
+    'zwangerschap': 'Zwangerschap',
+    'portret': 'Portret',
+    'fashion': 'Fashion'
+  };
+  
+  const formattedType = typeMap[tag] || tag.charAt(0).toUpperCase() + tag.slice(1);
+  return `${formattedType} Fotoshoot`;
+};
+
 function ReactPhotoGallery({ photos = [] }) {
+    const getAltText = (title, idx) => {
+        return title || "Foto " + (idx + 1);
+    };
     const [currentImage, setCurrentImage] = useState(0);
     const [viewerIsOpen, setViewerIsOpen] = useState(false);
 
@@ -22,7 +41,7 @@ function ReactPhotoGallery({ photos = [] }) {
     // Formatteer de afbeeldingen voor de lightbox
     const lightboxSlides = useMemo(() => {
         return photos.map(photo => ({
-            src: photo.src,
+            src: photo.src, // API geeft nu al volledige URL terug
             width: photo.width,
             height: photo.height,
             alt: photo.title || 'Portfolio afbeelding',
@@ -76,11 +95,12 @@ function ReactPhotoGallery({ photos = [] }) {
                             >
                                 <Image
                                     src={photo.src}
-                                    alt={photo.title || `Foto ${idx + 1}`}
+                                    alt={getAltText(photo.title, idx)}
                                     fill
                                     sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
                                     className={styles.galleryImage}
                                     loading="lazy"
+                                    unoptimized={true}
                                     style={{
                                         objectFit: 'cover',
                                         width: '100%',
@@ -98,9 +118,20 @@ function ReactPhotoGallery({ photos = [] }) {
                                     }}
                                 />
                             </div>
-                            {photo.title && (
+                            {(photo.title || photo.tags) && (
                                 <div className={styles.imageCaption}>
-                                    <p>{photo.title}</p>
+                                    {photo.title && <p>{photo.title}</p>}
+                                    {photo.tags && (
+                                        <Link 
+                                            href={`/fotoshoot/${photo.tags}`} 
+                                            className={styles.viewButton}
+                                            onClick={(e) => {
+                                                e.stopPropagation(); // Prevent opening lightbox when clicking the button
+                                            }}
+                                        >
+                                            {formatPhotoshootType(photo.tags)} →
+                                        </Link>
+                                    )}
                                 </div>
                             )}
                         </div>

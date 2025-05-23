@@ -20,14 +20,12 @@ export default async function handler(req, res) {
     
     const images = await query(sql, params);
     
-    // Voeg de volledige URL toe aan elke afbeelding
-    const baseUrl = process.env.NODE_ENV === 'production' 
-      ? 'https://www.maxvanwijnen.nl' 
-      : 'http://localhost:3000';
+    // Media directory wordt door nginx geserveerd
+    const mediaPath = '/media/portfolio/';
       
     const imagesWithUrls = images.map(image => ({
       ...image,
-      src: `${baseUrl}/media/portfolio/${image.filename}`,
+      src: `${mediaPath}${image.filename}`,
       width: image.width,
       height: image.height,
       title: image.title,

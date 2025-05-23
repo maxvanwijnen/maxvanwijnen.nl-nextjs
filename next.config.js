@@ -3,8 +3,11 @@ const nextConfig = {
   images: {
     domains: [
       process.env.NEXT_PUBLIC_API_DOMAIN || 'dev1.maxvanwijnen.nl',
-      'www.maxvanwijnen.nl'
+      'www.maxvanwijnen.nl',
+      'maxvanwijnen.nl',
+      'localhost'
     ],
+    unoptimized: true, // Gebruik dit om beeldoptimalisatie over te slaan voor alle afbeeldingen
   },
   async rewrites() {
     return [
